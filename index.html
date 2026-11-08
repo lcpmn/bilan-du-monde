@@ -3,237 +3,311 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Bilan du monde</title>
-<meta name="description" content="Chaque matin, l'essentiel de l'actualité mondiale résumé par rubriques : international, France, économie, tech, sciences, climat, sport.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f5f8b'/%3E%3Ccircle cx='16' cy='16' r='8.5' fill='none' stroke='white' stroke-width='2'/%3E%3Cpath d='M7.5 16h17M16 7.5c-3 3-3 14 0 17M16 7.5c3 3 3 14 0 17' fill='none' stroke='white' stroke-width='1.6'/%3E%3C/svg%3E">
+<title>Bilan du monde · L&#x27;actualité mondiale en cinq minutes, chaque matin.</title>
+<meta name="description" content="Semaine noire pour la tech à Wall Street : le Nasdaq a perdu environ 3,4 %, avec une séance de jeudi parmi les pires depuis 2020.">
+<link rel="canonical" href="https://lcpmn.github.io/bilan-du-monde/">
+<meta property="og:site_name" content="Bilan du monde">
+<meta property="og:title" content="Bilan du monde · L&#x27;actualité mondiale en cinq minutes, chaque matin.">
+<meta property="og:description" content="Semaine noire pour la tech à Wall Street : le Nasdaq a perdu environ 3,4 %, avec une séance de jeudi parmi les pires depuis 2020.">
+<meta property="og:url" content="https://lcpmn.github.io/bilan-du-monde/">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="fr_FR">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#f4f6f9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0a0f17" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="Bilan du monde" href="feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<style>
-/* Layout : index des rubriques à gauche (collant sur grand écran), édition du jour à droite ; une colonne sur téléphone. */
-:root {
-  --bg: #f3f5f7; --surface: #ffffff; --ink: #17202a; --muted: #5b6876; --line: #d9dfe5;
-  --accent: #1f5f8b; --accent-soft: #e2edf5;
-  --c-monde: #2f6f9f; --c-france: #3d55b0; --c-eco: #8a6a12; --c-tech: #6b4bb0;
-  --c-sciences: #1d7f6e; --c-climat: #4c7d24; --c-sport: #b5502b;
-  --display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
-  --body: "Source Serif 4", Georgia, "Times New Roman", serif;
-  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
-  color-scheme: light;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #11161c; --surface: #19212a; --ink: #e6ebf0; --muted: #98a5b3; --line: #2a3541;
-    --accent: #7db6dd; --accent-soft: #1e3242;
-    --c-monde: #7fb3db; --c-france: #9aaaf0; --c-eco: #d8b45a; --c-tech: #b9a0ee;
-    --c-sciences: #6fcfbc; --c-climat: #9fcf72; --c-sport: #ee9a77;
-    color-scheme: dark;
-  }
-}
-* { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; }
-body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 17px; line-height: 1.55; }
-.wrap {
-  max-width: 1080px; margin: 0 auto;
-  padding-left: max(16px, env(safe-area-inset-left, 0px));
-  padding-right: max(16px, env(safe-area-inset-right, 0px));
-  padding-block: calc(32px + env(safe-area-inset-top, 0px)) calc(48px + env(safe-area-inset-bottom, 0px));
-}
-header.top { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 16px 24px; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
-.brand { font-family: var(--mono); font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
-h1 { font-family: var(--display); font-weight: 700; font-size: clamp(30px, 5vw, 46px); line-height: 1.05; margin: 6px 0 0; text-wrap: balance; letter-spacing: -.01em; }
-.status { font-family: var(--mono); font-size: 13px; color: var(--muted); text-align: right; }
-
-.days { display: flex; gap: 8px; overflow-x: auto; padding: 16px 0 4px; scrollbar-width: thin; }
-.day { flex: 0 0 auto; font-family: var(--mono); font-size: 13px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); padding: 6px 12px; border-radius: 999px; text-decoration: none; }
-.day[aria-current="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
-a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-
-.grid { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 40px; margin-top: 28px; }
-@media (max-width: 800px) { .grid { grid-template-columns: minmax(0, 1fr); gap: 20px; } }
-nav.toc { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 20px); align-self: start; display: flex; flex-direction: column; gap: 2px; }
-@media (max-width: 800px) { nav.toc { position: static; flex-direction: row; flex-wrap: wrap; gap: 6px; } }
-.toc-label { font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
-@media (max-width: 800px) { .toc-label { width: 100%; margin-bottom: 2px; } }
-.toc a { display: flex; align-items: center; justify-content: space-between; gap: 10px; text-decoration: none; color: var(--ink); font-family: var(--display); font-weight: 500; font-size: 15px; padding: 7px 10px; border-radius: 6px; }
-.toc a:hover { background: var(--accent-soft); }
-@media (max-width: 800px) { .toc a { border: 1px solid var(--line); background: var(--surface); padding: 5px 10px; font-size: 14px; } }
-.toc .n { font-family: var(--mono); font-size: 12px; color: var(--muted); }
-.sw { width: 9px; height: 9px; border-radius: 2px; display: inline-block; margin-right: 8px; }
-
-main { min-width: 0; display: flex; flex-direction: column; gap: 40px; }
-.overview { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 22px 24px; }
-.overview h2 { font-family: var(--mono); font-weight: 500; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin: 0 0 10px; }
-.overview ul { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; }
-.overview li { max-width: 68ch; }
-section.cat { scroll-margin-top: 20px; }
-.cat-head { display: flex; align-items: baseline; gap: 12px; border-bottom: 2px solid var(--cat); padding-bottom: 8px; margin-bottom: 4px; }
-.cat-head h2 { font-family: var(--display); font-weight: 700; font-size: 24px; margin: 0; text-wrap: balance; }
-.cat-head .n { font-family: var(--mono); font-size: 12px; color: var(--muted); margin-left: auto; }
-.item { padding: 16px 0; border-bottom: 1px solid var(--line); display: flex; flex-direction: column; gap: 4px; }
-.item:last-child { border-bottom: 0; }
-.item h3 { font-family: var(--display); font-weight: 500; font-size: 19px; line-height: 1.25; margin: 0; text-wrap: balance; }
-.item p { margin: 0; max-width: 68ch; }
-.item .src { font-family: var(--mono); font-size: 12px; color: var(--muted); }
-.item .src a { color: var(--accent); text-decoration: none; }
-.item .src a:hover { text-decoration: underline; }
-.note { font-family: var(--mono); font-size: 12px; color: var(--muted); max-width: 70ch; margin: 0; }
-.empty { background: var(--surface); border: 1px dashed var(--line); border-radius: 10px; padding: 28px 24px; }
-.empty h2 { font-family: var(--display); margin: 0 0 6px; font-size: 22px; }
-.empty p { margin: 0; color: var(--muted); max-width: 60ch; }
-footer { margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--line); font-family: var(--mono); font-size: 12px; color: var(--muted); }
-</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Schibsted+Grotesk:wght@400;500;600;700;800;900&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<script src="assets/app.js" defer></script>
 </head>
 <body>
-<div class="wrap">
-  <header class="top">
-    <div>
-      <div class="brand">Bilan du monde · édition du matin</div>
-      <h1 id="edition">L'actualité du jour</h1>
-    </div>
-    <div class="status" id="updated"></div>
-  </header>
-
-  <nav class="days" id="days" aria-label="Éditions précédentes"></nav>
-
-  <div class="grid">
-    <nav class="toc" id="toc" aria-label="Rubriques"></nav>
-    <main id="main">
-      <div class="empty">
-        <h2>Chargement de l'édition…</h2>
-        <p>Chaque matin, l'essentiel de l'actualité mondiale résumé par rubriques. Les éditions précédentes restent consultables.</p>
-      </div>
-    </main>
+<a class="skip" href="#contenu">Aller au contenu</a>
+<header class="masthead">
+  <div class="masthead-in">
+    <a class="wordmark" href=""><span class="wm-mark" aria-hidden="true"></span>Bilan du monde</a>
+    <nav class="sitenav" aria-label="Site">
+      <a href="" aria-current="page">Aujourd'hui</a>
+      <a href="archives/">Archives</a>
+      <button class="theme-btn" type="button" id="theme-btn" aria-label="Changer de thème" title="Changer de thème">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 3.5a8.5 8.5 0 0 1 0 17z" class="fill"/></svg>
+      </button>
+    </nav>
   </div>
-
-  <footer>Nouvelle édition chaque matin vers 6 h (heure de Paris). Résumés générés automatiquement à partir de recherches web : chaque sujet renvoie à sa source.</footer>
+</header>
+<main id="contenu">
+<div class="dateline">
+  <div class="dateline-in">
+    <p class="edition-date"><time datetime="2026-11-08">Dimanche 8 novembre 2026</time></p>
+    <p class="edition-meta">
+      <span>Édition n° 1</span>
+      <span>32 sujets</span>
+      <span>6 min de lecture</span>
+      <span>Publiée à 23 h 41</span>
+      <span class="sunrise" title="Lever du soleil à Paris"><svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 17h20" /><path d="M6.5 17a5.5 5.5 0 0 1 11 0" /><path d="M12 6.5v2.5M5.3 9.3l1.7 1.7M18.7 9.3 17 11" /></svg>Paris · lever 7 h 47</span>
+    </p>
+  </div>
 </div>
-
-<script>
-(function () {
-  var CATS = {
-    monde:    { name: "International",          color: "var(--c-monde)" },
-    france:   { name: "France",                 color: "var(--c-france)" },
-    eco:      { name: "Économie & marchés",     color: "var(--c-eco)" },
-    tech:     { name: "Tech & IA",              color: "var(--c-tech)" },
-    sciences: { name: "Sciences & santé",       color: "var(--c-sciences)" },
-    climat:   { name: "Climat & environnement", color: "var(--c-climat)" },
-    sport:    { name: "Sport",                  color: "var(--c-sport)" }
-  };
-  var $ = function (id) { return document.getElementById(id); };
-  var dates = [];
-  var cache = {};
-
-  function el(tag, attrs, text) {
-    var n = document.createElement(tag);
-    if (attrs) Object.keys(attrs).forEach(function (k) {
-      if (k === "class") n.className = attrs[k]; else n.setAttribute(k, attrs[k]);
-    });
-    if (text != null) n.textContent = text;
-    return n;
-  }
-  function safeUrl(u) {
-    try { var x = new URL(u); return (x.protocol === "https:" || x.protocol === "http:") ? x.href : null; } catch (e) { return null; }
-  }
-  function d12(iso) { return new Date(iso + "T12:00:00"); }
-  function dayLabel(iso) { var d = d12(iso); return isNaN(d) ? iso : d.toLocaleDateString("fr-FR", { weekday: "short", day: "numeric", month: "short" }); }
-  function longDate(iso) {
-    var d = d12(iso); if (isNaN(d)) return iso;
-    var s = d.toLocaleDateString("fr-FR", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
-    return s.charAt(0).toUpperCase() + s.slice(1);
-  }
-  function timeLabel(ts) {
-    var d = new Date(ts); if (isNaN(d)) return "";
-    return "Publiée le " + d.toLocaleDateString("fr-FR", { day: "numeric", month: "short" }) + " à " + d.toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" });
-  }
-  function empty(title, text) {
-    var m = $("main"); m.replaceChildren();
-    var e = el("div", { class: "empty" }); e.appendChild(el("h2", null, title)); e.appendChild(el("p", null, text)); m.appendChild(e);
-    $("toc").replaceChildren();
-  }
-
-  function renderDays(sel) {
-    var box = $("days"); box.replaceChildren();
-    dates.forEach(function (d) {
-      box.appendChild(el("a", { class: "day", href: "#jour-" + d, "aria-current": String(d === sel) }, dayLabel(d)));
-    });
-  }
-
-  function render(d) {
-    $("edition").textContent = longDate(d.date);
-    $("updated").textContent = timeLabel(d.updatedAt);
-    document.title = "Bilan du monde · " + dayLabel(d.date);
-    var toc = $("toc"); toc.replaceChildren(el("div", { class: "toc-label" }, "Rubriques"));
-    var main = $("main"); main.replaceChildren();
-
-    if (Array.isArray(d.overview) && d.overview.length) {
-      var ov = el("section", { class: "overview" });
-      ov.appendChild(el("h2", null, "L'essentiel"));
-      var ul = el("ul");
-      d.overview.forEach(function (t) { ul.appendChild(el("li", null, String(t))); });
-      ov.appendChild(ul); main.appendChild(ov);
-    }
-    (Array.isArray(d.categories) ? d.categories : []).forEach(function (c) {
-      var meta = CATS[c.key] || { name: c.name || c.key, color: "var(--accent)" };
-      var items = Array.isArray(c.items) ? c.items : [];
-      if (!items.length) return;
-      var sid = "cat-" + String(c.key).replace(/[^a-z0-9-]/gi, "");
-      var a = el("a", { href: "#" + sid });
-      var left = el("span"); var sw = el("span", { class: "sw" }); sw.style.background = meta.color;
-      left.appendChild(sw); left.appendChild(document.createTextNode(c.name || meta.name));
-      a.appendChild(left); a.appendChild(el("span", { class: "n" }, String(items.length)));
-      a.addEventListener("click", function (ev) {
-        ev.preventDefault();
-        var t = document.getElementById(sid);
-        if (t) t.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
-      });
-      toc.appendChild(a);
-
-      var sec = el("section", { class: "cat", id: sid }); sec.style.setProperty("--cat", meta.color);
-      var head = el("div", { class: "cat-head" });
-      head.appendChild(el("h2", null, c.name || meta.name));
-      head.appendChild(el("span", { class: "n" }, items.length + (items.length > 1 ? " sujets" : " sujet")));
-      sec.appendChild(head);
-      items.forEach(function (it) {
-        var art = el("article", { class: "item" });
-        art.appendChild(el("h3", null, it.title || ""));
-        if (it.summary) art.appendChild(el("p", null, it.summary));
-        if (it.source) {
-          var s = el("div", { class: "src" }); var u = safeUrl(it.url);
-          if (u) { s.appendChild(document.createTextNode("Source : ")); s.appendChild(el("a", { href: u, target: "_blank", rel: "noopener" }, it.source)); }
-          else s.textContent = "Source : " + it.source;
-          art.appendChild(s);
-        }
-        sec.appendChild(art);
-      });
-      main.appendChild(sec);
-    });
-    if (d.note) main.appendChild(el("p", { class: "note" }, d.note));
-  }
-
-  function load(date) {
-    renderDays(date);
-    if (cache[date]) { render(cache[date]); return; }
-    fetch("editions/" + date + ".json", { cache: "no-cache" })
-      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-      .then(function (d) { cache[date] = d; render(d); window.scrollTo(0, 0); })
-      .catch(function () { empty("Édition introuvable", "L'édition du " + longDate(date) + " n'a pas pu être chargée. Réessaie dans un instant."); });
-  }
-  function current() {
-    var m = /^#jour-(\d{4}-\d{2}-\d{2})$/.exec(location.hash);
-    return (m && dates.indexOf(m[1]) >= 0) ? m[1] : dates[0];
-  }
-  window.addEventListener("hashchange", function () { if (/^#jour-/.test(location.hash)) load(current()); });
-
-  fetch("editions/index.json", { cache: "no-cache" })
-    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-    .then(function (idx) {
-      dates = (idx.editions || []).slice().sort().reverse();
-      if (!dates.length) { empty("Pas encore d'édition", "La première édition sera publiée demain matin à 6 h."); return; }
-      load(current());
-    })
-    .catch(function () { empty("Site momentanément indisponible", "La liste des éditions n'a pas pu être chargée. Recharge la page dans un instant."); });
-})();
-</script>
+<section class="top">
+  <article class="une" id="une" style="--rub: var(--r-eco)">
+    <p class="kicker"><span class="kicker-une">À la une</span><a href="#economie">Économie &amp; marchés</a></p>
+    <h1>Wall Street : la tech plombe la semaine</h1>
+    <p class="une-summary">Sur la semaine du 2 au 6 novembre, le S&amp;P 500 a perdu environ 2,7 % et le Nasdaq environ 3,4 %. Jeudi, le Nasdaq 100 a chuté de 6,3 % en une séance. Les bourses très exposées aux puces d&#x27;IA ont décroché : Taïwan et la Corée du Sud ont perdu plus de 10 %.</p>
+    <p class="why"><span class="why-label">Pourquoi c'est important</span> Les géants de l&#x27;IA pèsent très lourd dans les indices mondiaux : quand ils décrochent, toute l&#x27;épargne placée en actions recule, en Europe et en Asie comme aux États-Unis.</p>
+    <div class="story-meta"><a class="src" href="https://babypips.com/analysis/premium-weekly-recap-2026-11-02-06-oil-ai-gold" rel="noopener" target="_blank">Babypips / STL.News<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#une">Copier le lien</button></div>
+  </article>
+  <aside class="essentiel" aria-labelledby="ess-title">
+    <h2 id="ess-title">L'essentiel</h2>
+    <ul><li>Semaine noire pour la tech à Wall Street : le Nasdaq a perdu environ 3,4 %, avec une séance de jeudi parmi les pires depuis 2020.</li><li>Israël : Gadi Eisenkot reçoit le mandat pour former le prochain gouvernement, tandis que Trump presse Netanyahou d&#x27;avancer sur le plan pour Gaza.</li><li>En France, la colère sur les salaires et la vie chère domine avant la conférence sociale de lundi.</li><li>La COP31 sur le climat s&#x27;ouvre lundi 9 novembre à Antalya, en Turquie.</li></ul>
+  </aside>
+</section>
+<section class="chiffres" aria-labelledby="ch-title"><h2 id="ch-title" class="section-label">Les chiffres du jour</h2><div class="chiffres-grid"><div class="chiffre" style="--rub: var(--r-eco)"><p class="val">−6,3 %</p><p class="lab">Chute du Nasdaq 100 jeudi, sa pire séance depuis 2020</p></div><div class="chiffre" style="--rub: var(--r-eco)"><p class="val">165 000</p><p class="lab">Emplois créés aux États-Unis en octobre, contre 65 000 attendus</p></div><div class="chiffre" style="--rub: var(--r-sciences)"><p class="val">5 000+</p><p class="lab">Cas de rougeole aux États-Unis en 2026, du jamais vu depuis 35 ans</p></div><div class="chiffre" style="--rub: var(--r-climat)"><p class="val">12 jours</p><p class="lab">Durée de la COP31, qui s&#x27;ouvre lundi à Antalya</p></div></div></section>
+<nav class="filters" aria-label="Rubriques"><div class="filters-in"><button type="button" class="chip" data-filter="tout" aria-pressed="true">Tout</button><a class="chip" href="#international" data-filter="international" style="--rub: var(--r-monde)"><span class="dot"></span>International<span class="n">7</span></a><a class="chip" href="#france" data-filter="france" style="--rub: var(--r-france)"><span class="dot"></span>France<span class="n">5</span></a><a class="chip" href="#economie" data-filter="economie" style="--rub: var(--r-eco)"><span class="dot"></span>Économie &amp; marchés<span class="n">4</span></a><a class="chip" href="#tech" data-filter="tech" style="--rub: var(--r-tech)"><span class="dot"></span>Tech &amp; IA<span class="n">4</span></a><a class="chip" href="#sciences" data-filter="sciences" style="--rub: var(--r-sciences)"><span class="dot"></span>Sciences &amp; santé<span class="n">3</span></a><a class="chip" href="#climat" data-filter="climat" style="--rub: var(--r-climat)"><span class="dot"></span>Climat &amp; environnement<span class="n">3</span></a><a class="chip" href="#sport" data-filter="sport" style="--rub: var(--r-sport)"><span class="dot"></span>Sport<span class="n">5</span></a></div></nav>
+<div class="rubriques">
+<section class="rubrique" id="international" data-rub="international" style="--rub: var(--r-monde)">
+  <header class="rub-head"><h2>International</h2><p>7 sujets</p></header>
+  <div class="rub-body">
+<article class="story" id="international-1">
+  <h3>Israël : Eisenkot chargé de former le gouvernement</h3>
+  <p class="summary">Gadi Eisenkot a reçu officiellement le mandat de former le prochain gouvernement israélien. Donald Trump presserait Benyamin Netanyahou de faire avancer le plan pour Gaza après les élections.</p>
+  <p class="why"><span class="why-label">Pourquoi c'est important</span> Un changement de gouvernement en Israël peut modifier la conduite des négociations sur Gaza et la relation avec Washington.</p>
+  <div class="story-meta"><a class="src" href="https://www.timesofisrael.com/liveblog-november-08-2026/" rel="noopener" target="_blank">Times of Israel<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#international-1">Copier le lien</button></div>
+</article>
+<article class="story" id="international-2">
+  <h3>Gaza : des dizaines de milliers de tentes inondées</h3>
+  <p class="summary">De fortes pluies ont inondé les tentes de nombreux déplacés dans la bande de Gaza.</p>
+  
+  <div class="story-meta"><a class="src" href="https://ru4people.substack.com/p/morning-news-update-november-8-2026" rel="noopener" target="_blank">Morning News Update (Substack)<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#international-2">Copier le lien</button></div>
+</article>
+<article class="story" id="international-3">
+  <h3>Iran : Trump juge une nouvelle offensive « très improbable »</h3>
+  <p class="summary">Le président américain lie cette position à l&#x27;avancée des négociations. En Irak, la production du champ gazier de Khor Mor est suspendue après une attaque de drone.</p>
+  <p class="why"><span class="why-label">Pourquoi c'est important</span> Une détente avec l&#x27;Iran pèse sur les prix du pétrole, donc sur la facture énergétique en Europe.</p>
+  <div class="story-meta"><a class="src" href="https://ru4people.substack.com/p/morning-news-update-november-8-2026" rel="noopener" target="_blank">Morning News Update (Substack)<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#international-3">Copier le lien</button></div>
+</article>
+<article class="story" id="international-4">
+  <h3>Pologne : fusillade meurtrière à Cracovie</h3>
+  <p class="summary">Au moins six personnes ont été tuées. Selon les premiers éléments de l&#x27;enquête, le tireur était « fasciné par l&#x27;extrême droite ».</p>
+  
+  <div class="story-meta"><a class="src" href="https://www.franceinfo.fr/" rel="noopener" target="_blank">franceinfo<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#international-4">Copier le lien</button></div>
+</article>
+<article class="story" id="international-5">
+  <h3>États-Unis : les démocrates reprennent le Congrès</h3>
+  <p class="summary">Les élections de mi-mandat du 3 novembre ont donné le contrôle du Congrès aux démocrates, un changement important pour la fin du mandat de Donald Trump.</p>
+  <p class="why"><span class="why-label">Pourquoi c'est important</span> Avec un Congrès d&#x27;opposition, Donald Trump aura plus de mal à faire voter ses textes et son budget d&#x27;ici la fin de son mandat.</p>
+  <div class="story-meta"><a class="src" href="https://openoutcrytrade.substack.com/p/weekly-market-wrap-up-and-look-ahead-ecf" rel="noopener" target="_blank">Weekly Market Wrap (Substack)<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#international-5">Copier le lien</button></div>
+</article>
+<article class="story" id="international-6">
+  <h3>Le pape Léon XIV poursuit sa tournée sud-américaine</h3>
+  <p class="summary">Après l&#x27;Uruguay, le pape se rend en Argentine dans le cadre d&#x27;un voyage de douze jours en Amérique du Sud.</p>
+  
+  <div class="story-meta"><a class="src" href="https://ru4people.substack.com/p/morning-news-update-november-8-2026" rel="noopener" target="_blank">Morning News Update (Substack)<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#international-6">Copier le lien</button></div>
+</article>
+<article class="story" id="international-7">
+  <h3>Europe : un mois de sommets</h3>
+  <p class="summary">Réunion informelle des dirigeants de l&#x27;UE à Dublin le 13 novembre, sommet UE–Royaume-Uni le 20, sommet UE–Balkans occidentaux le 25, puis Conseil européen extraordinaire les 26 et 27 novembre.</p>
+  
+  <div class="story-meta"><a class="src" href="https://www.consilium.europa.eu/de/press/press-releases/" rel="noopener" target="_blank">Conseil de l&#x27;UE<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#international-7">Copier le lien</button></div>
+</article>
+  </div>
+</section>
+<section class="rubrique" id="france" data-rub="france" style="--rub: var(--r-france)">
+  <header class="rub-head"><h2>France</h2><p>5 sujets</p></header>
+  <div class="rub-body">
+<article class="story" id="france-1">
+  <h3>Salaires : conférence sociale lundi</h3>
+  <p class="summary">Face à la colère sur les salaires, le ministre du Travail Jean-Pierre Farandou affirme que le gouvernement proposera « des solutions » aux partenaires sociaux.</p>
+  <p class="why"><span class="why-label">Pourquoi c'est important</span> Les annonces de lundi diront si le gouvernement parvient à apaiser la colère sociale avant l&#x27;hiver.</p>
+  <div class="story-meta"><a class="src" href="https://www.franceinfo.fr/" rel="noopener" target="_blank">franceinfo<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#france-1">Copier le lien</button></div>
+</article>
+<article class="story" id="france-2">
+  <h3>Vie chère : la mobilisation continue</h3>
+  <p class="summary">Un cortège contre la vie chère est organisé à Paris, et une grève avec manifestations est annoncée dans l&#x27;éducation à Bordeaux le 10 novembre.</p>
+  
+  <div class="story-meta"><a class="src" href="https://www.manifsendirect.fr/" rel="noopener" target="_blank">Manifs en direct<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#france-2">Copier le lien</button></div>
+</article>
+<article class="story" id="france-3">
+  <h3>Présidentielle 2027 : Mélenchon présente son programme</h3>
+  <p class="summary">Le ministre des Affaires étrangères Jean-Noël Barrot a critiqué au Grand Jury la position de Jean-Luc Mélenchon sur la guerre en Ukraine.</p>
+  
+  <div class="story-meta"><a class="src" href="https://www.franceinfo.fr/" rel="noopener" target="_blank">franceinfo<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#france-3">Copier le lien</button></div>
+</article>
+<article class="story" id="france-4">
+  <h3>Alertes à la bombe contre des avions en Europe</h3>
+  <p class="summary">Le parquet de Paris a ouvert une enquête après une série d&#x27;alertes visant des vols européens.</p>
+  
+  <div class="story-meta"><a class="src" href="https://www.franceinfo.fr/" rel="noopener" target="_blank">franceinfo<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#france-4">Copier le lien</button></div>
+</article>
+<article class="story" id="france-5">
+  <h3>Besançon : huit mises en examen après des braquages de bijouteries</h3>
+  <p class="summary">Le butin a été retrouvé. Dans le Gers, l&#x27;incendie du domicile d&#x27;un policier, sans victime, est considéré comme criminel.</p>
+  
+  <div class="story-meta"><a class="src" href="https://www.presse-evasion.fr/article/revue-presse-08-11-2026" rel="noopener" target="_blank">Presse Évasion<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#france-5">Copier le lien</button></div>
+</article>
+  </div>
+</section>
+<section class="rubrique" id="economie" data-rub="economie" style="--rub: var(--r-eco)">
+  <header class="rub-head"><h2>Économie &amp; marchés</h2><p>4 sujets</p></header>
+  <div class="rub-body">
+<article class="story" id="economie-2">
+  <h3>Emploi américain bien plus fort que prévu</h3>
+  <p class="summary">165 000 emplois créés en octobre contre environ 65 000 attendus ; le chômage recule à 4,1 %. Le dollar et les taux montent.</p>
+  <p class="why"><span class="why-label">Pourquoi c'est important</span> Un marché du travail aussi solide pousse la Fed à garder des taux élevés, voire à les relever, ce qui renchérit le crédit.</p>
+  <div class="story-meta"><a class="src" href="https://www.riotimesonline.com/global-economy-briefing-november-7-2026/" rel="noopener" target="_blank">Rio Times<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#economie-2">Copier le lien</button></div>
+</article>
+<article class="story" id="economie-3">
+  <h3>Taux : la Fed pourrait remonter en décembre</h3>
+  <p class="summary">Les marchés estiment à environ trois chances sur quatre une hausse des taux de la Fed en décembre. La Banque d&#x27;Angleterre a déjà relevé son taux à 4,00 %.</p>
+  <p class="why"><span class="why-label">Pourquoi c'est important</span> Une hausse des taux américains fait monter le dollar et se répercute sur les conditions de crédit dans le reste du monde.</p>
+  <div class="story-meta"><a class="src" href="https://openoutcrytrade.substack.com/p/weekly-market-wrap-up-and-look-ahead-ecf" rel="noopener" target="_blank">Weekly Market Wrap (Substack)<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#economie-3">Copier le lien</button></div>
+</article>
+<article class="story" id="economie-4">
+  <h3>Pétrole en baisse, essence au plus haut aux États-Unis</h3>
+  <p class="summary">L&#x27;espoir d&#x27;une fin de la guerre avec l&#x27;Iran fait reculer le baril, mais le prix moyen de l&#x27;essence aux États-Unis a atteint un record le 3 novembre.</p>
+  
+  <div class="story-meta"><a class="src" href="https://openoutcrytrade.substack.com/p/weekly-market-wrap-up-and-look-ahead-ecf" rel="noopener" target="_blank">Weekly Market Wrap (Substack)<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#economie-4">Copier le lien</button></div>
+</article>
+<article class="story" id="economie-5">
+  <h3>À suivre : l&#x27;inflation américaine mardi</h3>
+  <p class="summary">Les chiffres de l&#x27;inflation (CPI) d&#x27;octobre tombent le mardi 10 novembre, un test clé avant la décision de la Fed.</p>
+  
+  <div class="story-meta"><a class="src" href="https://openoutcrytrade.substack.com/p/weekly-market-wrap-up-and-look-ahead-ecf" rel="noopener" target="_blank">Weekly Market Wrap (Substack)<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#economie-5">Copier le lien</button></div>
+</article>
+  </div>
+</section>
+<section class="rubrique" id="tech" data-rub="tech" style="--rub: var(--r-tech)">
+  <header class="rub-head"><h2>Tech &amp; IA</h2><p>4 sujets</p></header>
+  <div class="rub-body">
+<article class="story" id="tech-1">
+  <h3>Anthropic prépare une possible entrée en bourse</h3>
+  <p class="summary">L&#x27;entreprise a déposé des documents en vue d&#x27;une éventuelle introduction en bourse.</p>
+  <p class="why"><span class="why-label">Pourquoi c'est important</span> Une cotation en bourse serait un test grandeur nature de la valeur que les investisseurs accordent aux entreprises d&#x27;IA.</p>
+  <div class="story-meta"><a class="src" href="https://abcnews.com/technology" rel="noopener" target="_blank">ABC News<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#tech-1">Copier le lien</button></div>
+</article>
+<article class="story" id="tech-2">
+  <h3>FlashProve : vérifier quel modèle d&#x27;IA a produit un texte</h3>
+  <p class="summary">Anthropic publie en open source un système de vérification cryptographique de l&#x27;origine des réponses d&#x27;un modèle.</p>
+  
+  <div class="story-meta"><a class="src" href="https://rupakganguly.substack.com/p/latest-in-ai-news-rsi-capability" rel="noopener" target="_blank">Latest in AI News (Substack)<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#tech-2">Copier le lien</button></div>
+</article>
+<article class="story" id="tech-3">
+  <h3>Une IA de sécurité d&#x27;OpenAI trouve de vraies failles</h3>
+  <p class="summary">Testé sur le noyau Linux et Firefox, le nouveau modèle de sécurité d&#x27;OpenAI a découvert des vulnérabilités réelles.</p>
+  
+  <div class="story-meta"><a class="src" href="https://rupakganguly.substack.com/p/latest-in-ai-news-rsi-capability" rel="noopener" target="_blank">Latest in AI News (Substack)<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#tech-3">Copier le lien</button></div>
+</article>
+<article class="story" id="tech-4">
+  <h3>Dropbox s&#x27;offre Tigris Data pour 350 millions de dollars</h3>
+  <p class="summary">C&#x27;est le plus gros rachat de l&#x27;histoire de Dropbox, qui se positionne sur le stockage pour l&#x27;IA.</p>
+  
+  <div class="story-meta"><a class="src" href="https://rupakganguly.substack.com/p/latest-in-ai-news-rsi-capability" rel="noopener" target="_blank">Latest in AI News (Substack)<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#tech-4">Copier le lien</button></div>
+</article>
+  </div>
+</section>
+<section class="rubrique" id="sciences" data-rub="sciences" style="--rub: var(--r-sciences)">
+  <header class="rub-head"><h2>Sciences &amp; santé</h2><p>3 sujets</p></header>
+  <div class="rub-body">
+<article class="story" id="sciences-1">
+  <h3>Un riz qui résiste à une maladie dévastatrice</h3>
+  <p class="summary">Des chercheurs ont utilisé un outil d&#x27;édition génétique conçu avec l&#x27;aide de l&#x27;IA pour protéger le riz contre une maladie majeure des cultures.</p>
+  
+  <div class="story-meta"><a class="src" href="https://scitechdaily.com/" rel="noopener" target="_blank">SciTechDaily<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#sciences-1">Copier le lien</button></div>
+</article>
+<article class="story" id="sciences-2">
+  <h3>Rougeole : plus de 5 000 cas aux États-Unis en 2026</h3>
+  <p class="summary">Du jamais vu depuis environ 35 ans, avec des foyers concentrés en Pennsylvanie.</p>
+  <p class="why"><span class="why-label">Pourquoi c'est important</span> La rougeole est extrêmement contagieuse : sa résurgence est un signal d&#x27;alerte sur la baisse de la vaccination.</p>
+  <div class="story-meta"><a class="src" href="https://ru4people.substack.com/p/morning-news-update-november-8-2026" rel="noopener" target="_blank">Morning News Update (Substack)<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#sciences-2">Copier le lien</button></div>
+</article>
+<article class="story" id="sciences-3">
+  <h3>Une IA pourrait détecter le cancer du pancréas bien plus tôt</h3>
+  <p class="summary">Le système REDMOD repérerait la maladie en moyenne 475 jours avant le diagnostic. Une autre étude de Stanford a identifié par IA une molécule naturelle coupe-faim, testée chez l&#x27;animal.</p>
+  
+  <div class="story-meta"><a class="src" href="https://www.sciencedaily.com/news/computers_math/artificial_intelligence/" rel="noopener" target="_blank">ScienceDaily<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#sciences-3">Copier le lien</button></div>
+</article>
+  </div>
+</section>
+<section class="rubrique" id="climat" data-rub="climat" style="--rub: var(--r-climat)">
+  <header class="rub-head"><h2>Climat &amp; environnement</h2><p>3 sujets</p></header>
+  <div class="rub-body">
+<article class="story" id="climat-1">
+  <h3>La COP31 s&#x27;ouvre lundi à Antalya</h3>
+  <p class="summary">La conférence de l&#x27;ONU sur le climat se tient du 9 au 20 novembre en Turquie. Murat Kurum la préside, et l&#x27;Australien Chris Bowen dirige les négociations.</p>
+  <p class="why"><span class="why-label">Pourquoi c'est important</span> C&#x27;est le grand rendez-vous annuel où les pays négocient leurs engagements de réduction des émissions.</p>
+  <div class="story-meta"><a class="src" href="https://unfccc.int/node/661206" rel="noopener" target="_blank">ONU Climat (UNFCCC)<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#climat-1">Copier le lien</button></div>
+</article>
+<article class="story" id="climat-2">
+  <h3>Le désert d&#x27;Atacama en fleurs</h3>
+  <p class="summary">Les pluies liées à El Niño ont couvert de fleurs le désert le plus aride du monde, au Chili.</p>
+  
+  <div class="story-meta"><a class="src" href="https://ru4people.substack.com/p/morning-news-update-november-8-2026" rel="noopener" target="_blank">Morning News Update (Substack)<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#climat-2">Copier le lien</button></div>
+</article>
+<article class="story" id="climat-3">
+  <h3>États-Unis : routes et coupes de bois autorisées en forêt nationale ?</h3>
+  <p class="summary">L&#x27;administration Trump veut lever les interdictions de construction de routes et d&#x27;exploitation forestière dans les forêts nationales.</p>
+  
+  <div class="story-meta"><a class="src" href="https://ru4people.substack.com/p/morning-news-update-november-8-2026" rel="noopener" target="_blank">Morning News Update (Substack)<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#climat-3">Copier le lien</button></div>
+</article>
+  </div>
+</section>
+<section class="rubrique" id="sport" data-rub="sport" style="--rub: var(--r-sport)">
+  <header class="rub-head"><h2>Sport</h2><p>5 sujets</p></header>
+  <div class="rub-body">
+<article class="story" id="sport-1">
+  <h3>Route du Rhum : Louis Burton sur le podium</h3>
+  <p class="summary">Le skipper a pris la troisième place à l&#x27;arrivée en Guadeloupe.</p>
+  
+  <div class="story-meta"><a class="src" href="https://www.franceinfo.fr/" rel="noopener" target="_blank">franceinfo<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#sport-1">Copier le lien</button></div>
+</article>
+<article class="story" id="sport-2">
+  <h3>Lens écrasé 9-1 par Côme</h3>
+  <p class="summary">Une défaite qualifiée d&#x27;« humiliation » pour le football français.</p>
+  
+  <div class="story-meta"><a class="src" href="https://actu.orange.fr/france/les-trois-infos-a-retenir-du-dimanche-8-novembre-l-express-via-6medias-CNT000002tCspZ.html" rel="noopener" target="_blank">Orange Actu / L&#x27;Express<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#sport-2">Copier le lien</button></div>
+</article>
+<article class="story" id="sport-3">
+  <h3>Premier League : Arsenal reste leader</h3>
+  <p class="summary">Victoire 1-0 contre Hull grâce à Martin Ødegaard. Bournemouth enchaîne une huitième victoire de suite.</p>
+  
+  <div class="story-meta"><a class="src" href="https://www.espn.com/soccer/scoreboard/_/date/20261107" rel="noopener" target="_blank">ESPN<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#sport-3">Copier le lien</button></div>
+</article>
+<article class="story" id="sport-4">
+  <h3>Real Madrid et Bayern s&#x27;imposent</h3>
+  <p class="summary">Le Real a battu Valence 3-0, le Bayern a gagné 2-1 à Mayence.</p>
+  
+  <div class="story-meta"><a class="src" href="https://www.espn.com/soccer/scoreboard/_/date/20261107" rel="noopener" target="_blank">ESPN<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#sport-4">Copier le lien</button></div>
+</article>
+<article class="story" id="sport-5">
+  <h3>NBA : les Nuggets gagnent à Mexico</h3>
+  <p class="summary">Denver bat Indiana 114-102, avec 19 points de Nikola Jokic.</p>
+  
+  <div class="story-meta"><a class="src" href="https://www.espn.com/nba/scoreboard/_/date/20261107" rel="noopener" target="_blank">ESPN<span aria-hidden="true"> ↗</span></a><button class="copy" type="button" data-copy="https://lcpmn.github.io/bilan-du-monde/edition/2026-11-08/#sport-5">Copier le lien</button></div>
+</article>
+  </div>
+</section>
+</div>
+<p class="note">Résumé généré automatiquement à partir de recherches web. Une partie des sources sont des agrégateurs : vérifie les points importants sur le site d&#x27;origine.</p>
+<nav class="pager" aria-label="Éditions"><span></span><p class="pager-next pager-soon"><span>Prochaine édition</span>Demain vers 6 h</p></nav>
+</main>
+<footer class="site-footer">
+  <div class="footer-in">
+    <div class="footer-about">
+      <a class="wordmark small" href=""><span class="wm-mark" aria-hidden="true"></span>Bilan du monde</a>
+      <p>L'actualité mondiale en cinq minutes, chaque matin. Une nouvelle édition paraît vers 6 h, heure de Paris.</p>
+    </div>
+    <div class="footer-method">
+      <h2>Méthode</h2>
+      <p>Les éditions sont rédigées automatiquement par une IA (Claude) à partir de recherches web sur les dernières 24 heures. Chaque sujet renvoie à sa source : vérifiez-y les informations importantes.</p>
+    </div>
+    <nav class="footer-links" aria-label="Liens">
+      <a href="archives/">Toutes les éditions</a>
+      <a href="feed.xml">Flux RSS</a>
+      <a href="https://github.com/lcpmn/bilan-du-monde">Code source</a>
+    </nav>
+  </div>
+</footer>
 </body>
 </html>

@@ -1,13 +1,19 @@
 #!/bin/zsh
 # Publie une édition du Bilan du monde.
 # Usage : scripts/publier.sh chemin/vers/AAAA-MM-JJ.json
-# Vérifie le fichier, le copie dans editions/, régénère editions/index.json,
-# puis fait un commit et un push (si un dépôt distant est configuré).
+# Vérifie le fichier, le copie dans editions/,
+# régénère les pages du site (scripts/build.py), puis fait un commit et un push.
 set -euo pipefail
 
 SITE_DIR="${0:A:h:h}"
 SRC="${1:?Indique le fichier JSON de l'édition}"
 cd "$SITE_DIR"
+
+BRANCH=$(git branch --show-current)
+if [[ "$BRANCH" != "main" ]]; then
+  echo "Erreur : le dépôt est sur la branche $BRANCH au lieu de main. Publication annulée." >&2
+  exit 1
+fi
 
 DATE=$(python3 -I - "$SRC" <<'PY'
 import json, re, sys
@@ -26,15 +32,9 @@ if [[ "${SRC:A}" != "${SITE_DIR}/editions/${DATE}.json" ]]; then
   cp "$SRC" "editions/${DATE}.json"
 fi
 
-python3 -I - <<'PY'
-import json, os, re
-dates = sorted((f[:-5] for f in os.listdir("editions") if re.fullmatch(r"\d{4}-\d{2}-\d{2}\.json", f)), reverse=True)
-with open("editions/index.json", "w", encoding="utf-8") as fh:
-    json.dump({"editions": dates}, fh, ensure_ascii=False, indent=1)
-print(f"{len(dates)} édition(s) dans l'index")
-PY
+python3 -I "$SITE_DIR/scripts/build.py"
 
-git add editions
+git add -A
 if git diff --cached --quiet; then
   echo "Rien de nouveau à publier."
   exit 0
