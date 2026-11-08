@@ -24,6 +24,10 @@ for c in d["categories"]:
     for it in c.get("items", []):
         assert it.get("title") and it.get("summary"), "sujet incomplet dans " + c.get("key", "?")
         assert str(it.get("url", "")).startswith("https://"), "URL invalide : " + it.get("title", "")
+        lieu = it.get("lieu")
+        if lieu is not None:
+            assert isinstance(lieu, dict) and lieu.get("nom"), "lieu sans nom : " + it.get("title", "")
+            assert -90 <= float(lieu["lat"]) <= 90 and -180 <= float(lieu["lon"]) <= 180, "coordonnées invalides : " + it.get("title", "")
 print(d["date"])
 PY
 )
@@ -32,7 +36,7 @@ if [[ "${SRC:A}" != "${SITE_DIR}/editions/${DATE}.json" ]]; then
   cp "$SRC" "editions/${DATE}.json"
 fi
 
-python3 -I "$SITE_DIR/scripts/build.py"
+python3 "$SITE_DIR/scripts/build.py"
 
 git add -A
 if git diff --cached --quiet; then

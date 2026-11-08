@@ -17,45 +17,80 @@
           "summary": "Gadi Eisenkot a reçu officiellement le mandat de former le prochain gouvernement israélien. Donald Trump presserait Benyamin Netanyahou de faire avancer le plan pour Gaza après les élections.",
           "source": "Times of Israel",
           "url": "https://www.timesofisrael.com/liveblog-november-08-2026/",
-          "why": "Un changement de gouvernement en Israël peut modifier la conduite des négociations sur Gaza et la relation avec Washington."
+          "why": "Un changement de gouvernement en Israël peut modifier la conduite des négociations sur Gaza et la relation avec Washington.",
+          "lieu": {
+            "nom": "Jérusalem, Israël",
+            "lat": 31.78,
+            "lon": 35.22
+          }
         },
         {
           "title": "Gaza : des dizaines de milliers de tentes inondées",
           "summary": "De fortes pluies ont inondé les tentes de nombreux déplacés dans la bande de Gaza.",
           "source": "Morning News Update (Substack)",
-          "url": "https://ru4people.substack.com/p/morning-news-update-november-8-2026"
+          "url": "https://ru4people.substack.com/p/morning-news-update-november-8-2026",
+          "lieu": {
+            "nom": "Bande de Gaza",
+            "lat": 31.42,
+            "lon": 34.38
+          }
         },
         {
           "title": "Iran : Trump juge une nouvelle offensive « très improbable »",
           "summary": "Le président américain lie cette position à l'avancée des négociations. En Irak, la production du champ gazier de Khor Mor est suspendue après une attaque de drone.",
           "source": "Morning News Update (Substack)",
           "url": "https://ru4people.substack.com/p/morning-news-update-november-8-2026",
-          "why": "Une détente avec l'Iran pèse sur les prix du pétrole, donc sur la facture énergétique en Europe."
+          "why": "Une détente avec l'Iran pèse sur les prix du pétrole, donc sur la facture énergétique en Europe.",
+          "lieu": {
+            "nom": "Téhéran, Iran",
+            "lat": 35.69,
+            "lon": 51.39
+          }
         },
         {
           "title": "Pologne : fusillade meurtrière à Cracovie",
           "summary": "Au moins six personnes ont été tuées. Selon les premiers éléments de l'enquête, le tireur était « fasciné par l'extrême droite ».",
           "source": "franceinfo",
-          "url": "https://www.franceinfo.fr/"
+          "url": "https://www.franceinfo.fr/",
+          "lieu": {
+            "nom": "Cracovie, Pologne",
+            "lat": 50.06,
+            "lon": 19.94
+          }
         },
         {
           "title": "États-Unis : les démocrates reprennent le Congrès",
           "summary": "Les élections de mi-mandat du 3 novembre ont donné le contrôle du Congrès aux démocrates, un changement important pour la fin du mandat de Donald Trump.",
           "source": "Weekly Market Wrap (Substack)",
           "url": "https://openoutcrytrade.substack.com/p/weekly-market-wrap-up-and-look-ahead-ecf",
-          "why": "Avec un Congrès d'opposition, Donald Trump aura plus de mal à faire voter ses textes et son budget d'ici la fin de son mandat."
+          "why": "Avec un Congrès d'opposition, Donald Trump aura plus de mal à faire voter ses textes et son budget d'ici la fin de son mandat.",
+          "lieu": {
+            "nom": "Washington, États-Unis",
+            "lat": 38.9,
+            "lon": -77.04
+          }
         },
         {
           "title": "Le pape Léon XIV poursuit sa tournée sud-américaine",
           "summary": "Après l'Uruguay, le pape se rend en Argentine dans le cadre d'un voyage de douze jours en Amérique du Sud.",
           "source": "Morning News Update (Substack)",
-          "url": "https://ru4people.substack.com/p/morning-news-update-november-8-2026"
+          "url": "https://ru4people.substack.com/p/morning-news-update-november-8-2026",
+          "lieu": {
+            "nom": "Buenos Aires, Argentine",
+            "lat": -34.6,
+            "lon": -58.38
+          }
         },
         {
           "title": "Europe : un mois de sommets",
           "summary": "Réunion informelle des dirigeants de l'UE à Dublin le 13 novembre, sommet UE–Royaume-Uni le 20, sommet UE–Balkans occidentaux le 25, puis Conseil européen extraordinaire les 26 et 27 novembre.",
           "source": "Conseil de l'UE",
-          "url": "https://www.consilium.europa.eu/de/press/press-releases/"
+          "url": "https://www.consilium.europa.eu/de/press/press-releases/",
+          "lieu": {
+            "nom": "Bruxelles, Belgique",
+            "lat": 50.85,
+            "lon": 4.35
+          }
         }
       ]
     },
@@ -74,7 +109,12 @@
           "title": "Vie chère : la mobilisation continue",
           "summary": "Un cortège contre la vie chère est organisé à Paris, et une grève avec manifestations est annoncée dans l'éducation à Bordeaux le 10 novembre.",
           "source": "Manifs en direct",
-          "url": "https://www.manifsendirect.fr/"
+          "url": "https://www.manifsendirect.fr/",
+          "lieu": {
+            "nom": "Paris",
+            "lat": 48.857,
+            "lon": 2.352
+          }
         },
         {
           "title": "Présidentielle 2027 : Mélenchon présente son programme",
@@ -92,7 +132,12 @@
           "title": "Besançon : huit mises en examen après des braquages de bijouteries",
           "summary": "Le butin a été retrouvé. Dans le Gers, l'incendie du domicile d'un policier, sans victime, est considéré comme criminel.",
           "source": "Presse Évasion",
-          "url": "https://www.presse-evasion.fr/article/revue-presse-08-11-2026"
+          "url": "https://www.presse-evasion.fr/article/revue-presse-08-11-2026",
+          "lieu": {
+            "nom": "Besançon, Doubs",
+            "lat": 47.24,
+            "lon": 6.02
+          }
         }
       ]
     },
@@ -105,7 +150,12 @@
           "summary": "Sur la semaine du 2 au 6 novembre, le S&P 500 a perdu environ 2,7 % et le Nasdaq environ 3,4 %. Jeudi, le Nasdaq 100 a chuté de 6,3 % en une séance. Les bourses très exposées aux puces d'IA ont décroché : Taïwan et la Corée du Sud ont perdu plus de 10 %.",
           "source": "Babypips / STL.News",
           "url": "https://babypips.com/analysis/premium-weekly-recap-2026-11-02-06-oil-ai-gold",
-          "why": "Les géants de l'IA pèsent très lourd dans les indices mondiaux : quand ils décrochent, toute l'épargne placée en actions recule, en Europe et en Asie comme aux États-Unis."
+          "why": "Les géants de l'IA pèsent très lourd dans les indices mondiaux : quand ils décrochent, toute l'épargne placée en actions recule, en Europe et en Asie comme aux États-Unis.",
+          "lieu": {
+            "nom": "New York, États-Unis",
+            "lat": 40.71,
+            "lon": -74.01
+          }
         },
         {
           "title": "Emploi américain bien plus fort que prévu",
@@ -181,7 +231,12 @@
           "summary": "Du jamais vu depuis environ 35 ans, avec des foyers concentrés en Pennsylvanie.",
           "source": "Morning News Update (Substack)",
           "url": "https://ru4people.substack.com/p/morning-news-update-november-8-2026",
-          "why": "La rougeole est extrêmement contagieuse : sa résurgence est un signal d'alerte sur la baisse de la vaccination."
+          "why": "La rougeole est extrêmement contagieuse : sa résurgence est un signal d'alerte sur la baisse de la vaccination.",
+          "lieu": {
+            "nom": "Pennsylvanie, États-Unis",
+            "lat": 40.9,
+            "lon": -77.8
+          }
         },
         {
           "title": "Une IA pourrait détecter le cancer du pancréas bien plus tôt",
@@ -200,13 +255,23 @@
           "summary": "La conférence de l'ONU sur le climat se tient du 9 au 20 novembre en Turquie. Murat Kurum la préside, et l'Australien Chris Bowen dirige les négociations.",
           "source": "ONU Climat (UNFCCC)",
           "url": "https://unfccc.int/node/661206",
-          "why": "C'est le grand rendez-vous annuel où les pays négocient leurs engagements de réduction des émissions."
+          "why": "C'est le grand rendez-vous annuel où les pays négocient leurs engagements de réduction des émissions.",
+          "lieu": {
+            "nom": "Antalya, Turquie",
+            "lat": 36.9,
+            "lon": 30.7
+          }
         },
         {
           "title": "Le désert d'Atacama en fleurs",
           "summary": "Les pluies liées à El Niño ont couvert de fleurs le désert le plus aride du monde, au Chili.",
           "source": "Morning News Update (Substack)",
-          "url": "https://ru4people.substack.com/p/morning-news-update-november-8-2026"
+          "url": "https://ru4people.substack.com/p/morning-news-update-november-8-2026",
+          "lieu": {
+            "nom": "Désert d'Atacama, Chili",
+            "lat": -24.5,
+            "lon": -69.25
+          }
         },
         {
           "title": "États-Unis : routes et coupes de bois autorisées en forêt nationale ?",
@@ -224,7 +289,12 @@
           "title": "Route du Rhum : Louis Burton sur le podium",
           "summary": "Le skipper a pris la troisième place à l'arrivée en Guadeloupe.",
           "source": "franceinfo",
-          "url": "https://www.franceinfo.fr/"
+          "url": "https://www.franceinfo.fr/",
+          "lieu": {
+            "nom": "Pointe-à-Pitre, Guadeloupe",
+            "lat": 16.24,
+            "lon": -61.53
+          }
         },
         {
           "title": "Lens écrasé 9-1 par Côme",
@@ -248,7 +318,12 @@
           "title": "NBA : les Nuggets gagnent à Mexico",
           "summary": "Denver bat Indiana 114-102, avec 19 points de Nikola Jokic.",
           "source": "ESPN",
-          "url": "https://www.espn.com/nba/scoreboard/_/date/20261107"
+          "url": "https://www.espn.com/nba/scoreboard/_/date/20261107",
+          "lieu": {
+            "nom": "Mexico, Mexique",
+            "lat": 19.43,
+            "lon": -99.13
+          }
         }
       ]
     }

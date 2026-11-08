@@ -21,6 +21,9 @@ from datetime import date, datetime, timedelta, timezone
 from email.utils import format_datetime
 from zoneinfo import ZoneInfo
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import visuals  # noqa: E402
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE_URL = "https://lcpmn.github.io/bilan-du-monde/"
 REPO_URL = "https://github.com/lcpmn/bilan-du-monde"
@@ -146,7 +149,7 @@ def safe_url(u):
 SUN_SVG = ('<svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 17h20" />'
            '<path d="M6.5 17a5.5 5.5 0 0 1 11 0" /><path d="M12 6.5v2.5M5.3 9.3l1.7 1.7M18.7 9.3 17 11" /></svg>')
 
-def head(title, desc, canonical, root, og_type="website"):
+def head(title, desc, canonical, root, og_type="website", og_image="assets/og/site.png", og_alt=SITE_NAME):
     return f"""<!doctype html>
 <html lang="fr">
 <head>
@@ -161,7 +164,12 @@ def head(title, desc, canonical, root, og_type="website"):
 <meta property="og:url" content="{e(canonical)}">
 <meta property="og:type" content="{og_type}">
 <meta property="og:locale" content="fr_FR">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="{e(SITE_URL + og_image)}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{e(og_alt)}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{e(SITE_URL + og_image)}">
 <meta name="theme-color" content="#f4f6f9" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0a0f17" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="{root}assets/icon.svg" type="image/svg+xml">
@@ -204,7 +212,7 @@ def footer(root):
     </div>
     <div class="footer-method">
       <h2>Méthode</h2>
-      <p>Les éditions sont rédigées automatiquement par une IA (Claude) à partir de recherches web sur les dernières 24 heures. Chaque sujet renvoie à sa source : vérifiez-y les informations importantes.</p>
+      <p>Les éditions sont rédigées automatiquement par une IA (Claude) à partir de recherches web sur les dernières 24 heures. Chaque sujet renvoie à sa source : vérifiez-y les informations importantes. Fonds de carte : Natural Earth.</p>
     </div>
     <nav class="footer-links" aria-label="Liens">
       <a href="{root}archives/">Toutes les éditions</a>
@@ -217,16 +225,38 @@ def footer(root):
 </html>
 """
 
+ECHELLES = {"ville": 6, "proche": 10, "pays": 16, "region": 30, "continent": 60}
+
+def map_figure(it, key, une=False):
+    """Carte de localisation d'un sujet, si son lieu est connu."""
+    lieu = it.get("lieu") or {}
+    try:
+        lat, lon = float(lieu["lat"]), float(lieu["lon"])
+    except (KeyError, TypeError, ValueError):
+        return ""
+    span = ECHELLES.get(lieu.get("echelle"), 12 if key == "france" else 30)
+    svg = (visuals.map_svg(lat, lon, 520, 190, span * 1.8) if une
+           else visuals.map_svg(lat, lon, 240, 160, span))
+    if not svg:
+        return ""
+    cls = "une-map" if une else "story-map"
+    return (f'<figure class="{cls}">{svg}<figcaption><svg class="pin" viewBox="0 0 12 12" aria-hidden="true">'
+            f'<circle cx="6" cy="6" r="3.2"/></svg>{e(lieu.get("nom") or "")}</figcaption></figure>')
+
 def item_html(it, c, root, edition_href):
     url = safe_url(it.get("url"))
     src = e(it.get("source") or "")
     src_html = f'<a class="src" href="{e(url)}" rel="noopener" target="_blank">{src}<span aria-hidden="true"> ↗</span></a>' if url else f'<span class="src">{src}</span>'
     why = f'<p class="why"><span class="why-label">Pourquoi c\'est important</span> {e(it["why"])}</p>' if it.get("why") else ""
-    return f"""<article class="story" id="{it['_id']}">
+    fig = map_figure(it, c["key"])
+    return f"""<article class="story{' has-map' if fig else ''}" id="{it['_id']}">
+  <div class="story-text">
   <h3>{e(it['title'])}</h3>
   <p class="summary">{e(it.get('summary'))}</p>
   {why}
   <div class="story-meta">{src_html}<button class="copy" type="button" data-copy="{e(edition_href)}#{it['_id']}">Copier le lien</button></div>
+  </div>
+  {fig}
 </article>"""
 
 def edition_page(d, eds, root, is_home):
@@ -242,7 +272,9 @@ def edition_page(d, eds, root, is_home):
     sun = sunrise_paris(day)
     upd = d["_updated"]
     upd_html = f'<span>Publiée à {hhmm(upd)}</span>' if upd else ""
-    out = [head(title, desc, canonical, root, "article"), masthead(root, "home" if is_home else "")]
+    une_title = d["_une"][1]["title"] if d["_une"] else long_date(day)
+    out = [head(title, desc, canonical, root, "article", f"assets/og/{d['date']}.png", une_title),
+           masthead(root, "home" if is_home else "")]
     out.append(f"""<main id="contenu">
 <div class="dateline">
   <div class="dateline-in">
@@ -270,6 +302,7 @@ def edition_page(d, eds, root, is_home):
     <p class="une-summary">{e(it.get('summary'))}</p>
     {why}
     <div class="story-meta">{src}<button class="copy" type="button" data-copy="{e(canonical if not is_home else SITE_URL + 'edition/' + d['date'] + '/')}#une">Copier le lien</button></div>
+    {map_figure(it, c['key'], une=True)}
   </article>"""
     ess = ""
     if overview:
@@ -413,6 +446,16 @@ def main():
     eds = load_editions()
     if not eds:
         sys.exit("Aucune édition dans editions/")
+    host = SITE_URL.split("://", 1)[1].rstrip("/")
+    for d in eds:
+        une = d["_une"]
+        visuals.og_image(os.path.join(ROOT, "assets", "og", f"{d['date']}.png"),
+                         une[1]["title"] if une else TAGLINE,
+                         f"{long_date(d['_day'])} · Édition n° {d['_num']}",
+                         f"À la une · {une[0]['name']}" if une else "",
+                         f"{host} · {d['_minutes']} min de lecture")
+    visuals.og_image(os.path.join(ROOT, "assets", "og", "site.png"), TAGLINE,
+                     "Chaque matin vers 6 h, heure de Paris", "La matinale de l'actualité mondiale", host)
     for d in eds:
         write(f"edition/{d['date']}/index.html", edition_page(d, eds, "../../", False))
     write("index.html", edition_page(eds[-1], eds, "", True))
