@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bilan du monde</title>
+<meta name="description" content="Chaque matin, l'essentiel de l'actualité mondiale résumé par rubriques : international, France, économie, tech, sciences, climat, sport.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f5f8b'/%3E%3Ccircle cx='16' cy='16' r='8.5' fill='none' stroke='white' stroke-width='2'/%3E%3Cpath d='M7.5 16h17M16 7.5c-3 3-3 14 0 17M16 7.5c3 3 3 14 0 17' fill='none' stroke='white' stroke-width='1.6'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout : index des rubriques à gauche (collant sur grand écran), édition du jour à droite ; une colonne sur téléphone. */
+:root {
+  --bg: #f3f5f7; --surface: #ffffff; --ink: #17202a; --muted: #5b6876; --line: #d9dfe5;
+  --accent: #1f5f8b; --accent-soft: #e2edf5;
+  --c-monde: #2f6f9f; --c-france: #3d55b0; --c-eco: #8a6a12; --c-tech: #6b4bb0;
+  --c-sciences: #1d7f6e; --c-climat: #4c7d24; --c-sport: #b5502b;
+  --display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --body: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #11161c; --surface: #19212a; --ink: #e6ebf0; --muted: #98a5b3; --line: #2a3541;
+    --accent: #7db6dd; --accent-soft: #1e3242;
+    --c-monde: #7fb3db; --c-france: #9aaaf0; --c-eco: #d8b45a; --c-tech: #b9a0ee;
+    --c-sciences: #6fcfbc; --c-climat: #9fcf72; --c-sport: #ee9a77;
+    color-scheme: dark;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 17px; line-height: 1.55; }
+.wrap {
+  max-width: 1080px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: calc(32px + env(safe-area-inset-top, 0px)) calc(48px + env(safe-area-inset-bottom, 0px));
+}
+header.top { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 16px 24px; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
+.brand { font-family: var(--mono); font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+h1 { font-family: var(--display); font-weight: 700; font-size: clamp(30px, 5vw, 46px); line-height: 1.05; margin: 6px 0 0; text-wrap: balance; letter-spacing: -.01em; }
+.status { font-family: var(--mono); font-size: 13px; color: var(--muted); text-align: right; }
+
+.days { display: flex; gap: 8px; overflow-x: auto; padding: 16px 0 4px; scrollbar-width: thin; }
+.day { flex: 0 0 auto; font-family: var(--mono); font-size: 13px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); padding: 6px 12px; border-radius: 999px; text-decoration: none; }
+.day[aria-current="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.grid { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 40px; margin-top: 28px; }
+@media (max-width: 800px) { .grid { grid-template-columns: minmax(0, 1fr); gap: 20px; } }
+nav.toc { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 20px); align-self: start; display: flex; flex-direction: column; gap: 2px; }
+@media (max-width: 800px) { nav.toc { position: static; flex-direction: row; flex-wrap: wrap; gap: 6px; } }
+.toc-label { font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+@media (max-width: 800px) { .toc-label { width: 100%; margin-bottom: 2px; } }
+.toc a { display: flex; align-items: center; justify-content: space-between; gap: 10px; text-decoration: none; color: var(--ink); font-family: var(--display); font-weight: 500; font-size: 15px; padding: 7px 10px; border-radius: 6px; }
+.toc a:hover { background: var(--accent-soft); }
+@media (max-width: 800px) { .toc a { border: 1px solid var(--line); background: var(--surface); padding: 5px 10px; font-size: 14px; } }
+.toc .n { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.sw { width: 9px; height: 9px; border-radius: 2px; display: inline-block; margin-right: 8px; }
+
+main { min-width: 0; display: flex; flex-direction: column; gap: 40px; }
+.overview { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 22px 24px; }
+.overview h2 { font-family: var(--mono); font-weight: 500; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin: 0 0 10px; }
+.overview ul { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; }
+.overview li { max-width: 68ch; }
+section.cat { scroll-margin-top: 20px; }
+.cat-head { display: flex; align-items: baseline; gap: 12px; border-bottom: 2px solid var(--cat); padding-bottom: 8px; margin-bottom: 4px; }
+.cat-head h2 { font-family: var(--display); font-weight: 700; font-size: 24px; margin: 0; text-wrap: balance; }
+.cat-head .n { font-family: var(--mono); font-size: 12px; color: var(--muted); margin-left: auto; }
+.item { padding: 16px 0; border-bottom: 1px solid var(--line); display: flex; flex-direction: column; gap: 4px; }
+.item:last-child { border-bottom: 0; }
+.item h3 { font-family: var(--display); font-weight: 500; font-size: 19px; line-height: 1.25; margin: 0; text-wrap: balance; }
+.item p { margin: 0; max-width: 68ch; }
+.item .src { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.item .src a { color: var(--accent); text-decoration: none; }
+.item .src a:hover { text-decoration: underline; }
+.note { font-family: var(--mono); font-size: 12px; color: var(--muted); max-width: 70ch; margin: 0; }
+.empty { background: var(--surface); border: 1px dashed var(--line); border-radius: 10px; padding: 28px 24px; }
+.empty h2 { font-family: var(--display); margin: 0 0 6px; font-size: 22px; }
+.empty p { margin: 0; color: var(--muted); max-width: 60ch; }
+footer { margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--line); font-family: var(--mono); font-size: 12px; color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <div class="brand">Bilan du monde · édition du matin</div>
+      <h1 id="edition">L'actualité du jour</h1>
+    </div>
+    <div class="status" id="updated"></div>
+  </header>
+
+  <nav class="days" id="days" aria-label="Éditions précédentes"></nav>
+
+  <div class="grid">
+    <nav class="toc" id="toc" aria-label="Rubriques"></nav>
+    <main id="main">
+      <div class="empty">
+        <h2>Chargement de l'édition…</h2>
+        <p>Chaque matin, l'essentiel de l'actualité mondiale résumé par rubriques. Les éditions précédentes restent consultables.</p>
+      </div>
+    </main>
+  </div>
+
+  <footer>Nouvelle édition chaque matin à 6 h (heure de Paris). Résumés générés automatiquement à partir de recherches web : chaque sujet renvoie à sa source.</footer>
+</div>
+
+<script>
+(function () {
+  var CATS = {
+    monde:    { name: "International",          color: "var(--c-monde)" },
+    france:   { name: "France",                 color: "var(--c-france)" },
+    eco:      { name: "Économie & marchés",     color: "var(--c-eco)" },
+    tech:     { name: "Tech & IA",              color: "var(--c-tech)" },
+    sciences: { name: "Sciences & santé",       color: "var(--c-sciences)" },
+    climat:   { name: "Climat & environnement", color: "var(--c-climat)" },
+    sport:    { name: "Sport",                  color: "var(--c-sport)" }
+  };
+  var $ = function (id) { return document.getElementById(id); };
+  var dates = [];
+  var cache = {};
+
+  function el(tag, attrs, text) {
+    var n = document.createElement(tag);
+    if (attrs) Object.keys(attrs).forEach(function (k) {
+      if (k === "class") n.className = attrs[k]; else n.setAttribute(k, attrs[k]);
+    });
+    if (text != null) n.textContent = text;
+    return n;
+  }
+  function safeUrl(u) {
+    try { var x = new URL(u); return (x.protocol === "https:" || x.protocol === "http:") ? x.href : null; } catch (e) { return null; }
+  }
+  function d12(iso) { return new Date(iso + "T12:00:00"); }
+  function dayLabel(iso) { var d = d12(iso); return isNaN(d) ? iso : d.toLocaleDateString("fr-FR", { weekday: "short", day: "numeric", month: "short" }); }
+  function longDate(iso) {
+    var d = d12(iso); if (isNaN(d)) return iso;
+    var s = d.toLocaleDateString("fr-FR", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
+    return s.charAt(0).toUpperCase() + s.slice(1);
+  }
+  function timeLabel(ts) {
+    var d = new Date(ts); if (isNaN(d)) return "";
+    return "Publiée le " + d.toLocaleDateString("fr-FR", { day: "numeric", month: "short" }) + " à " + d.toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" });
+  }
+  function empty(title, text) {
+    var m = $("main"); m.replaceChildren();
+    var e = el("div", { class: "empty" }); e.appendChild(el("h2", null, title)); e.appendChild(el("p", null, text)); m.appendChild(e);
+    $("toc").replaceChildren();
+  }
+
+  function renderDays(sel) {
+    var box = $("days"); box.replaceChildren();
+    dates.forEach(function (d) {
+      box.appendChild(el("a", { class: "day", href: "#jour-" + d, "aria-current": String(d === sel) }, dayLabel(d)));
+    });
+  }
+
+  function render(d) {
+    $("edition").textContent = longDate(d.date);
+    $("updated").textContent = timeLabel(d.updatedAt);
+    document.title = "Bilan du monde · " + dayLabel(d.date);
+    var toc = $("toc"); toc.replaceChildren(el("div", { class: "toc-label" }, "Rubriques"));
+    var main = $("main"); main.replaceChildren();
+
+    if (Array.isArray(d.overview) && d.overview.length) {
+      var ov = el("section", { class: "overview" });
+      ov.appendChild(el("h2", null, "L'essentiel"));
+      var ul = el("ul");
+      d.overview.forEach(function (t) { ul.appendChild(el("li", null, String(t))); });
+      ov.appendChild(ul); main.appendChild(ov);
+    }
+    (Array.isArray(d.categories) ? d.categories : []).forEach(function (c) {
+      var meta = CATS[c.key] || { name: c.name || c.key, color: "var(--accent)" };
+      var items = Array.isArray(c.items) ? c.items : [];
+      if (!items.length) return;
+      var sid = "cat-" + String(c.key).replace(/[^a-z0-9-]/gi, "");
+      var a = el("a", { href: "#" + sid });
+      var left = el("span"); var sw = el("span", { class: "sw" }); sw.style.background = meta.color;
+      left.appendChild(sw); left.appendChild(document.createTextNode(c.name || meta.name));
+      a.appendChild(left); a.appendChild(el("span", { class: "n" }, String(items.length)));
+      a.addEventListener("click", function (ev) {
+        ev.preventDefault();
+        var t = document.getElementById(sid);
+        if (t) t.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+      });
+      toc.appendChild(a);
+
+      var sec = el("section", { class: "cat", id: sid }); sec.style.setProperty("--cat", meta.color);
+      var head = el("div", { class: "cat-head" });
+      head.appendChild(el("h2", null, c.name || meta.name));
+      head.appendChild(el("span", { class: "n" }, items.length + (items.length > 1 ? " sujets" : " sujet")));
+      sec.appendChild(head);
+      items.forEach(function (it) {
+        var art = el("article", { class: "item" });
+        art.appendChild(el("h3", null, it.title || ""));
+        if (it.summary) art.appendChild(el("p", null, it.summary));
+        if (it.source) {
+          var s = el("div", { class: "src" }); var u = safeUrl(it.url);
+          if (u) { s.appendChild(document.createTextNode("Source : ")); s.appendChild(el("a", { href: u, target: "_blank", rel: "noopener" }, it.source)); }
+          else s.textContent = "Source : " + it.source;
+          art.appendChild(s);
+        }
+        sec.appendChild(art);
+      });
+      main.appendChild(sec);
+    });
+    if (d.note) main.appendChild(el("p", { class: "note" }, d.note));
+  }
+
+  function load(date) {
+    renderDays(date);
+    if (cache[date]) { render(cache[date]); return; }
+    fetch("editions/" + date + ".json", { cache: "no-cache" })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (d) { cache[date] = d; render(d); window.scrollTo(0, 0); })
+      .catch(function () { empty("Édition introuvable", "L'édition du " + longDate(date) + " n'a pas pu être chargée. Réessaie dans un instant."); });
+  }
+  function current() {
+    var m = /^#jour-(\d{4}-\d{2}-\d{2})$/.exec(location.hash);
+    return (m && dates.indexOf(m[1]) >= 0) ? m[1] : dates[0];
+  }
+  window.addEventListener("hashchange", function () { if (/^#jour-/.test(location.hash)) load(current()); });
+
+  fetch("editions/index.json", { cache: "no-cache" })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (idx) {
+      dates = (idx.editions || []).slice().sort().reverse();
+      if (!dates.length) { empty("Pas encore d'édition", "La première édition sera publiée demain matin à 6 h."); return; }
+      load(current());
+    })
+    .catch(function () { empty("Site momentanément indisponible", "La liste des éditions n'a pas pu être chargée. Recharge la page dans un instant."); });
+})();
+</script>
+</body>
+</html>

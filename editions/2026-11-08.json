@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-08",
+  "updatedAt": "2026-11-08T23:41:00+01:00",
+  "overview": [
+    "Semaine noire pour la tech à Wall Street : le Nasdaq a perdu environ 3,4 %, avec une séance de jeudi parmi les pires depuis 2020.",
+    "Israël : Gadi Eisenkot reçoit le mandat pour former le prochain gouvernement, tandis que Trump presse Netanyahou d'avancer sur le plan pour Gaza.",
+    "En France, la colère sur les salaires et la vie chère domine avant la conférence sociale de lundi.",
+    "La COP31 sur le climat s'ouvre lundi 9 novembre à Antalya, en Turquie."
+  ],
+  "categories": [
+    {
+      "key": "monde",
+      "name": "International",
+      "items": [
+        { "title": "Israël : Eisenkot chargé de former le gouvernement", "summary": "Gadi Eisenkot a reçu officiellement le mandat de former le prochain gouvernement israélien. Donald Trump presserait Benyamin Netanyahou de faire avancer le plan pour Gaza après les élections.", "source": "Times of Israel", "url": "https://www.timesofisrael.com/liveblog-november-08-2026/" },
+        { "title": "Gaza : des dizaines de milliers de tentes inondées", "summary": "De fortes pluies ont inondé les tentes de nombreux déplacés dans la bande de Gaza.", "source": "Morning News Update (Substack)", "url": "https://ru4people.substack.com/p/morning-news-update-november-8-2026" },
+        { "title": "Iran : Trump juge une nouvelle offensive « très improbable »", "summary": "Le président américain lie cette position à l'avancée des négociations. En Irak, la production du champ gazier de Khor Mor est suspendue après une attaque de drone.", "source": "Morning News Update (Substack)", "url": "https://ru4people.substack.com/p/morning-news-update-november-8-2026" },
+        { "title": "Pologne : fusillade meurtrière à Cracovie", "summary": "Au moins six personnes ont été tuées. Selon les premiers éléments de l'enquête, le tireur était « fasciné par l'extrême droite ».", "source": "franceinfo", "url": "https://www.franceinfo.fr/" },
+        { "title": "États-Unis : les démocrates reprennent le Congrès", "summary": "Les élections de mi-mandat du 3 novembre ont donné le contrôle du Congrès aux démocrates, un changement important pour la fin du mandat de Donald Trump.", "source": "Weekly Market Wrap (Substack)", "url": "https://openoutcrytrade.substack.com/p/weekly-market-wrap-up-and-look-ahead-ecf" },
+        { "title": "Le pape Léon XIV poursuit sa tournée sud-américaine", "summary": "Après l'Uruguay, le pape se rend en Argentine dans le cadre d'un voyage de douze jours en Amérique du Sud.", "source": "Morning News Update (Substack)", "url": "https://ru4people.substack.com/p/morning-news-update-november-8-2026" },
+        { "title": "Europe : un mois de sommets", "summary": "Réunion informelle des dirigeants de l'UE à Dublin le 13 novembre, sommet UE–Royaume-Uni le 20, sommet UE–Balkans occidentaux le 25, puis Conseil européen extraordinaire les 26 et 27 novembre.", "source": "Conseil de l'UE", "url": "https://www.consilium.europa.eu/de/press/press-releases/" }
+      ]
+    },
+    {
+      "key": "france",
+      "name": "France",
+      "items": [
+        { "title": "Salaires : conférence sociale lundi", "summary": "Face à la colère sur les salaires, le ministre du Travail Jean-Pierre Farandou affirme que le gouvernement proposera « des solutions » aux partenaires sociaux.", "source": "franceinfo", "url": "https://www.franceinfo.fr/" },
+        { "title": "Vie chère : la mobilisation continue", "summary": "Un cortège contre la vie chère est organisé à Paris, et une grève avec manifestations est annoncée dans l'éducation à Bordeaux le 10 novembre.", "source": "Manifs en direct", "url": "https://www.manifsendirect.fr/" },
+        { "title": "Présidentielle 2027 : Mélenchon présente son programme", "summary": "Le ministre des Affaires étrangères Jean-Noël Barrot a critiqué au Grand Jury la position de Jean-Luc Mélenchon sur la guerre en Ukraine.", "source": "franceinfo", "url": "https://www.franceinfo.fr/" },
+        { "title": "Alertes à la bombe contre des avions en Europe", "summary": "Le parquet de Paris a ouvert une enquête après une série d'alertes visant des vols européens.", "source": "franceinfo", "url": "https://www.franceinfo.fr/" },
+        { "title": "Besançon : huit mises en examen après des braquages de bijouteries", "summary": "Le butin a été retrouvé. Dans le Gers, l'incendie du domicile d'un policier, sans victime, est considéré comme criminel.", "source": "Presse Évasion", "url": "https://www.presse-evasion.fr/article/revue-presse-08-11-2026" }
+      ]
+    },
+    {
+      "key": "eco",
+      "name": "Économie & marchés",
+      "items": [
+        { "title": "Wall Street : la tech plombe la semaine", "summary": "Sur la semaine du 2 au 6 novembre, le S&P 500 a perdu environ 2,7 % et le Nasdaq environ 3,4 %. Jeudi, le Nasdaq 100 a chuté de 6,3 % en une séance. Les bourses très exposées aux puces d'IA ont décroché : Taïwan et la Corée du Sud ont perdu plus de 10 %.", "source": "Babypips / STL.News", "url": "https://babypips.com/analysis/premium-weekly-recap-2026-11-02-06-oil-ai-gold" },
+        { "title": "Emploi américain bien plus fort que prévu", "summary": "165 000 emplois créés en octobre contre environ 65 000 attendus ; le chômage recule à 4,1 %. Le dollar et les taux montent.", "source": "Rio Times", "url": "https://www.riotimesonline.com/global-economy-briefing-november-7-2026/" },
+        { "title": "Taux : la Fed pourrait remonter en décembre", "summary": "Les marchés estiment à environ trois chances sur quatre une hausse des taux de la Fed en décembre. La Banque d'Angleterre a déjà relevé son taux à 4,00 %.", "source": "Weekly Market Wrap (Substack)", "url": "https://openoutcrytrade.substack.com/p/weekly-market-wrap-up-and-look-ahead-ecf" },
+        { "title": "Pétrole en baisse, essence au plus haut aux États-Unis", "summary": "L'espoir d'une fin de la guerre avec l'Iran fait reculer le baril, mais le prix moyen de l'essence aux États-Unis a atteint un record le 3 novembre.", "source": "Weekly Market Wrap (Substack)", "url": "https://openoutcrytrade.substack.com/p/weekly-market-wrap-up-and-look-ahead-ecf" },
+        { "title": "À suivre : l'inflation américaine mardi", "summary": "Les chiffres de l'inflation (CPI) d'octobre tombent le mardi 10 novembre, un test clé avant la décision de la Fed.", "source": "Weekly Market Wrap (Substack)", "url": "https://openoutcrytrade.substack.com/p/weekly-market-wrap-up-and-look-ahead-ecf" }
+      ]
+    },
+    {
+      "key": "tech",
+      "name": "Tech & IA",
+      "items": [
+        { "title": "Anthropic prépare une possible entrée en bourse", "summary": "L'entreprise a déposé des documents en vue d'une éventuelle introduction en bourse.", "source": "ABC News", "url": "https://abcnews.com/technology" },
+        { "title": "FlashProve : vérifier quel modèle d'IA a produit un texte", "summary": "Anthropic publie en open source un système de vérification cryptographique de l'origine des réponses d'un modèle.", "source": "Latest in AI News (Substack)", "url": "https://rupakganguly.substack.com/p/latest-in-ai-news-rsi-capability" },
+        { "title": "Une IA de sécurité d'OpenAI trouve de vraies failles", "summary": "Testé sur le noyau Linux et Firefox, le nouveau modèle de sécurité d'OpenAI a découvert des vulnérabilités réelles.", "source": "Latest in AI News (Substack)", "url": "https://rupakganguly.substack.com/p/latest-in-ai-news-rsi-capability" },
+        { "title": "Dropbox s'offre Tigris Data pour 350 millions de dollars", "summary": "C'est le plus gros rachat de l'histoire de Dropbox, qui se positionne sur le stockage pour l'IA.", "source": "Latest in AI News (Substack)", "url": "https://rupakganguly.substack.com/p/latest-in-ai-news-rsi-capability" }
+      ]
+    },
+    {
+      "key": "sciences",
+      "name": "Sciences & santé",
+      "items": [
+        { "title": "Un riz qui résiste à une maladie dévastatrice", "summary": "Des chercheurs ont utilisé un outil d'édition génétique conçu avec l'aide de l'IA pour protéger le riz contre une maladie majeure des cultures.", "source": "SciTechDaily", "url": "https://scitechdaily.com/" },
+        { "title": "Rougeole : plus de 5 000 cas aux États-Unis en 2026", "summary": "Du jamais vu depuis environ 35 ans, avec des foyers concentrés en Pennsylvanie.", "source": "Morning News Update (Substack)", "url": "https://ru4people.substack.com/p/morning-news-update-november-8-2026" },
+        { "title": "Une IA pourrait détecter le cancer du pancréas bien plus tôt", "summary": "Le système REDMOD repérerait la maladie en moyenne 475 jours avant le diagnostic. Une autre étude de Stanford a identifié par IA une molécule naturelle coupe-faim, testée chez l'animal.", "source": "ScienceDaily", "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/" }
+      ]
+    },
+    {
+      "key": "climat",
+      "name": "Climat & environnement",
+      "items": [
+        { "title": "La COP31 s'ouvre lundi à Antalya", "summary": "La conférence de l'ONU sur le climat se tient du 9 au 20 novembre en Turquie. Murat Kurum la préside, et l'Australien Chris Bowen dirige les négociations.", "source": "ONU Climat (UNFCCC)", "url": "https://unfccc.int/node/661206" },
+        { "title": "Le désert d'Atacama en fleurs", "summary": "Les pluies liées à El Niño ont couvert de fleurs le désert le plus aride du monde, au Chili.", "source": "Morning News Update (Substack)", "url": "https://ru4people.substack.com/p/morning-news-update-november-8-2026" },
+        { "title": "États-Unis : routes et coupes de bois autorisées en forêt nationale ?", "summary": "L'administration Trump veut lever les interdictions de construction de routes et d'exploitation forestière dans les forêts nationales.", "source": "Morning News Update (Substack)", "url": "https://ru4people.substack.com/p/morning-news-update-november-8-2026" }
+      ]
+    },
+    {
+      "key": "sport",
+      "name": "Sport",
+      "items": [
+        { "title": "Route du Rhum : Louis Burton sur le podium", "summary": "Le skipper a pris la troisième place à l'arrivée en Guadeloupe.", "source": "franceinfo", "url": "https://www.franceinfo.fr/" },
+        { "title": "Lens écrasé 9-1 par Côme", "summary": "Une défaite qualifiée d'« humiliation » pour le football français.", "source": "Orange Actu / L'Express", "url": "https://actu.orange.fr/france/les-trois-infos-a-retenir-du-dimanche-8-novembre-l-express-via-6medias-CNT000002tCspZ.html" },
+        { "title": "Premier League : Arsenal reste leader", "summary": "Victoire 1-0 contre Hull grâce à Martin Ødegaard. Bournemouth enchaîne une huitième victoire de suite.", "source": "ESPN", "url": "https://www.espn.com/soccer/scoreboard/_/date/20261107" },
+        { "title": "Real Madrid et Bayern s'imposent", "summary": "Le Real a battu Valence 3-0, le Bayern a gagné 2-1 à Mayence.", "source": "ESPN", "url": "https://www.espn.com/soccer/scoreboard/_/date/20261107" },
+        { "title": "NBA : les Nuggets gagnent à Mexico", "summary": "Denver bat Indiana 114-102, avec 19 points de Nikola Jokic.", "source": "ESPN", "url": "https://www.espn.com/nba/scoreboard/_/date/20261107" }
+      ]
+    }
+  ],
+  "note": "Résumé généré automatiquement à partir de recherches web. Une partie des sources sont des agrégateurs : vérifie les points importants sur le site d'origine."
+}
