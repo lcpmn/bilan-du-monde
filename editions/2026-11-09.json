@@ -1,0 +1,199 @@
+{
+  "date": "2026-11-09",
+  "updatedAt": "2026-11-09T07:50:51+01:00",
+  "une": {
+    "key": "monde",
+    "index": 0
+  },
+  "overview": [
+    "Israël : Gadi Eisenkot a reçu dimanche le mandat pour former le prochain gouvernement, à la place de Benyamin Netanyahou.",
+    "Ukraine : la Russie intensifie ses frappes à l'approche des pourparlers d'Abu Dhabi, prévus mardi.",
+    "En France, syndicats et patronat sont reçus ce lundi à Matignon pour une conférence sociale sur les salaires.",
+    "La COP31 s'ouvre ce lundi à Antalya ; en voile, Tom Laperche remporte la Route du Rhum en temps record."
+  ],
+  "chiffres": [
+    {
+      "value": "28 jours",
+      "label": "Délai de Gadi Eisenkot pour former un gouvernement, prolongeable de 14 jours",
+      "key": "monde"
+    },
+    {
+      "value": "−5,96 %",
+      "label": "Chute du Nikkei à la Bourse de Tokyo vendredi",
+      "key": "eco"
+    },
+    {
+      "value": "11 Md$",
+      "label": "Première tranche de la levée de fonds d'OpenAI, selon Bloomberg",
+      "key": "tech"
+    },
+    {
+      "value": "6 j 13 h 27",
+      "label": "Nouveau record de la Route du Rhum, signé Tom Laperche",
+      "key": "sport"
+    }
+  ],
+  "categories": [
+    {
+      "key": "monde",
+      "name": "International",
+      "items": [
+        {
+          "title": "Israël : Eisenkot chargé de former le gouvernement",
+          "summary": "Le président Isaac Herzog a confié dimanche à Gadi Eisenkot le mandat de former le prochain gouvernement, après les législatives du 27 octobre. Il dispose de 28 jours, prolongeables de 14, et promet un « gouvernement d'urgence nationale ».",
+          "why": "Un gouvernement sans Benyamin Netanyahou pourrait changer la politique israélienne à Gaza et la relation avec Washington.",
+          "source": "The Jerusalem Post",
+          "sourceTitle": "'Unconventional steps required': Eisenkot vows to form emergency gov't as Herzog bestows mandate",
+          "url": "https://www.jpost.com/israel-election-2026/article-914236",
+          "lieu": {
+            "nom": "Jérusalem, Israël",
+            "lat": 31.78,
+            "lon": 35.22
+          }
+        },
+        {
+          "title": "Ukraine : frappes russes massives avant les pourparlers d'Abu Dhabi",
+          "summary": "Volodymyr Zelensky accuse la Russie d'intensifier ses frappes contre le réseau énergétique pour peser sur les négociations organisées par les États-Unis à Abu Dhabi mardi. Moscou a lancé 172 drones et 36 missiles balistiques, dont des KN-23 fournis par la Corée du Nord.",
+          "why": "L'issue de ces discussions pèsera sur la sécurité de l'Europe et sur l'approvisionnement énergétique de l'Ukraine cet hiver.",
+          "source": "Al Jazeera",
+          "sourceTitle": "Zelenskyy accuses Russia of escalating strikes ahead of peace talks",
+          "sourceDate": "2026-11-07",
+          "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents",
+          "lieu": {
+            "nom": "Kiev, Ukraine",
+            "lat": 50.45,
+            "lon": 30.52
+          }
+        },
+        {
+          "title": "Le pape Léon XIV reçu en Argentine par Javier Milei",
+          "summary": "Arrivé dimanche à Buenos Aires, le pape a appelé à protéger la démocratie et affirmé que l'économie doit servir les personnes, et non l'inverse, une critique voilée de la politique d'austérité de Javier Milei selon l'agence AP. Il rejoindra ensuite le Pérou.",
+          "source": "PBS NewsHour",
+          "sourceTitle": "Pope Leo arrives in Argentina and tells Milei that people, not the economy, should come first",
+          "url": "https://www.pbs.org/newshour/world/pope-arrives-in-argentina-and-tells-milei-that-people-not-the-economy-should-come-first",
+          "lieu": {
+            "nom": "Buenos Aires, Argentine",
+            "lat": -34.6,
+            "lon": -58.38
+          }
+        }
+      ]
+    },
+    {
+      "key": "france",
+      "name": "France",
+      "items": [
+        {
+          "title": "Salaires : conférence sociale ce lundi à Matignon",
+          "summary": "Sébastien Lecornu réunit ce lundi les dirigeants des principales organisations syndicales et patronales sur le pouvoir d'achat et les salaires, après la mobilisation du 5 novembre. Le Smic est au cœur des discussions : la CFDT réclame 100 euros nets de plus.",
+          "why": "Les annonces diront si le gouvernement parvient à apaiser la colère sociale à six mois de la présidentielle.",
+          "source": "CNews",
+          "sourceTitle": "Sébastien Lecornu convoque ce lundi une «conférence sociale» sur le pouvoir d'achat et les salaires",
+          "sourceDate": "2026-11-09",
+          "url": "https://www.cnews.fr/france/2026-11-09/sebastien-lecornu-convoque-ce-lundi-une-conference-sociale-sur-le-pouvoir-dachat",
+          "lieu": {
+            "nom": "Paris",
+            "lat": 48.857,
+            "lon": 2.352
+          }
+        }
+      ]
+    },
+    {
+      "key": "eco",
+      "name": "Économie & marchés",
+      "items": [
+        {
+          "title": "Tokyo : le Nikkei chute de près de 6 % vendredi",
+          "summary": "La Bourse de Tokyo a clôturé vendredi en baisse de 5,96 %, à 57 434,77 points, pénalisée par les valeurs technologiques. Le Topix a cédé 5,9 %.",
+          "why": "Après Wall Street jeudi, la correction des valeurs liées à l'IA gagne l'Asie : la semaine s'ouvre sous tension sur les marchés mondiaux.",
+          "source": "Boursorama (Reuters)",
+          "url": "https://www.boursorama.com/bourse/actualites/le-nikkei-finit-en-baisse-de-5-96-14395860968df61b113da52987a4e983",
+          "lieu": {
+            "nom": "Tokyo, Japon",
+            "lat": 35.68,
+            "lon": 139.69
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "name": "Tech & IA",
+      "items": [
+        {
+          "title": "OpenAI lève 11 milliards de dollars, valorisée 1 250 milliards",
+          "summary": "OpenAI a bouclé une première tranche d'environ 11 milliards de dollars d'une levée qui pourrait atteindre 20 milliards, sur la base d'une valorisation de 1 250 milliards de dollars, selon Bloomberg. L'entreprise ne l'a pas annoncé officiellement.",
+          "why": "Malgré la chute des valeurs technologiques cette semaine, les investisseurs continuent de financer massivement l'IA.",
+          "source": "GV Wire (Bloomberg)",
+          "sourceTitle": "OpenAI Secures $11 Billion Funding at $1.25 Trillion Valuation, Bloomberg News Reports",
+          "sourceDate": "2026-11-06",
+          "url": "https://gvwire.com/2026/11/06/openai-secures-11-billion-funding-at-1-25-trillion-valuation-bloomberg-news-reports/"
+        }
+      ]
+    },
+    {
+      "key": "climat",
+      "name": "Climat & environnement",
+      "items": [
+        {
+          "title": "La COP31 s'ouvre à Antalya avec des ambitions en baisse",
+          "summary": "La conférence de l'ONU sur le climat s'ouvre ce lundi à Antalya, en Turquie, jusqu'au 20 novembre. Selon Bloomberg, son ordre du jour est plus resserré que lors des précédentes COP et les ambitions sont revues à la baisse.",
+          "why": "C'est le grand rendez-vous annuel où les pays négocient leurs engagements de réduction des émissions.",
+          "source": "Bloomberg",
+          "sourceTitle": "COP31 Opens in Turkey With Narrower Agenda and Lower Climate Ambitions",
+          "sourceDate": "2026-11-08",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-08/global-climate-talks-open-with-big-questions-and-shrinking-goals",
+          "lieu": {
+            "nom": "Antalya, Turquie",
+            "lat": 36.9,
+            "lon": 30.7
+          }
+        }
+      ]
+    },
+    {
+      "key": "sport",
+      "name": "Sport",
+      "items": [
+        {
+          "title": "Route du Rhum : Tom Laperche gagne en temps record",
+          "summary": "Tom Laperche (SVR-Lazartigue) a remporté la Route du Rhum en Ultim dans la nuit de samedi à dimanche, en 6 jours 13 heures et 27 minutes. Il bat de plus de six heures le record établi par Charles Caudrelier en 2022.",
+          "source": "France 3 Bretagne",
+          "sourceTitle": "REPLAY. Route du Rhum 2026. Victoire et record pour Tom Laperche sur SVR-Lazartigue, revivez l'arrivée du vainqueur",
+          "url": "https://france3-regions.franceinfo.fr/bretagne/ille-et-vilaine/saint-malo/direct-video-route-du-rhum-2026-victoire-et-record-en-vue-pour-tom-laperche-sur-svr-lazartigue-suivez-l-arrivee-en-direct-3445473.html",
+          "lieu": {
+            "nom": "Pointe-à-Pitre, Guadeloupe",
+            "lat": 16.24,
+            "lon": -61.53
+          }
+        },
+        {
+          "title": "F1 : Lando Norris s'impose au Grand Prix de São Paulo",
+          "summary": "Le pilote McLaren a remporté dimanche la course d'Interlagos, devant Max Verstappen, remonté depuis la 21e place, et Isack Hadjar.",
+          "source": "Total Motorsport",
+          "sourceTitle": "Sao Paulo GP Results 2026: Full Race Classification as Norris wins at Interlagos",
+          "url": "https://www.total-motorsport.com/sao-paulo-gp-results-2026-full-race-classification/",
+          "lieu": {
+            "nom": "São Paulo, Brésil",
+            "lat": -23.7,
+            "lon": -46.7
+          }
+        },
+        {
+          "title": "Ligue 1 : l'OM s'impose 2-1 à Lens",
+          "summary": "Marseille a gagné dimanche à Bollaert, quatre jours après la déroute de Lens face à Côme. Amine Gouiri a ouvert le score dès la 2e minute, Florian Thauvin a égalisé, puis Keyliane Abdallah a donné la victoire à l'OM à la 82e.",
+          "source": "Foot Mercato",
+          "sourceTitle": "Résultat Lens - Marseille (1-2) la 10e journée de Ligue 1 McDonald's 2026/2027 08/11",
+          "url": "https://www.footmercato.net/live/2320001620100876839-lens-vs-marseille",
+          "lieu": {
+            "nom": "Lens, Pas-de-Calais",
+            "lat": 50.43,
+            "lon": 2.82
+          }
+        }
+      ]
+    }
+  ],
+  "note": "Édition du lundi : elle couvre l'actualité depuis vendredi soir. Publiée en fin de matinée à la suite d'un incident technique. Chaque sujet renvoie à l'article d'origine : vérifiez-y les points importants."
+}
