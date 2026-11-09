@@ -19,6 +19,7 @@ import re
 import sys
 from datetime import date, datetime, timedelta, timezone
 from email.utils import format_datetime
+from urllib.parse import urlparse
 from zoneinfo import ZoneInfo
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -49,7 +50,14 @@ MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août
 MOIS_COURT = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août",
               "sept.", "oct.", "nov.", "déc."]
 
-e = lambda s: html.escape(str(s if s is not None else ""), quote=True)
+def typo(s):
+    """Espaces insécables à la française : milliers, %, ponctuation double, guillemets."""
+    s = re.sub(r"(?<=\d) (?=\d{3}\b)", "\u202f", s)
+    s = re.sub(r" (?=[%:;!?»])", "\u202f", s)
+    return s.replace("« ", "«\u202f")
+
+def e(s):
+    return html.escape(typo(str(s if s is not None else "")), quote=True)
 
 
 # ---------- dates ----------
@@ -144,6 +152,27 @@ def safe_url(u):
     u = str(u or "")
     return u if re.match(r"^https?://", u) else None
 
+def source_html(it):
+    """Citation explicite : média, titre de l'article d'origine, site et date de publication."""
+    url = safe_url(it.get("url"))
+    name = e(it.get("source") or "Source")
+    link = (lambda inner, cls: f'<a class="{cls}" href="{e(url)}" rel="noopener" target="_blank">{inner}</a>') if url \
+        else (lambda inner, cls: f'<span class="{cls}">{inner}</span>')
+    parts = ['<span class="src-label">Source</span>', link(name + '<span aria-hidden="true"> ↗</span>', "src-name")]
+    if it.get("sourceTitle"):
+        parts.append(f'<cite class="src-title">{link("« " + e(it["sourceTitle"]) + " »", "src-title-link")}</cite>')
+    meta = []
+    if url:
+        meta.append(e(urlparse(url).netloc.removeprefix("www.")))
+    try:
+        sd = date.fromisoformat(str(it.get("sourceDate")))
+        meta.append(f'<time datetime="{sd.isoformat()}">{sd.day} {MOIS_COURT[sd.month - 1]} {sd.year}</time>')
+    except ValueError:
+        pass
+    if meta:
+        parts.append(f'<span class="src-meta">{" · ".join(meta)}</span>')
+    return f'<p class="src">{"".join(parts)}</p>'
+
 
 # ---------- gabarits ----------
 SUN_SVG = ('<svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 17h20" />'
@@ -212,7 +241,7 @@ def footer(root):
     </div>
     <div class="footer-method">
       <h2>Méthode</h2>
-      <p>Les éditions sont rédigées automatiquement par une IA (Claude) à partir de recherches web sur les dernières 24 heures. Chaque sujet renvoie à sa source : vérifiez-y les informations importantes. Fonds de carte : Natural Earth.</p>
+      <p>Les éditions sont rédigées automatiquement par une IA (Claude) à partir de recherches web sur les dernières 24 heures. Chaque sujet renvoie à l'article d'origine qui le rapporte (média, titre, date) : vérifiez-y les informations importantes. Fonds de carte : Natural Earth.</p>
     </div>
     <nav class="footer-links" aria-label="Liens">
       <a href="{root}archives/">Toutes les éditions</a>
@@ -244,9 +273,7 @@ def map_figure(it, key, une=False):
             f'<circle cx="6" cy="6" r="3.2"/></svg>{e(lieu.get("nom") or "")}</figcaption></figure>')
 
 def item_html(it, c, root, edition_href):
-    url = safe_url(it.get("url"))
-    src = e(it.get("source") or "")
-    src_html = f'<a class="src" href="{e(url)}" rel="noopener" target="_blank">{src}<span aria-hidden="true"> ↗</span></a>' if url else f'<span class="src">{src}</span>'
+    src_html = source_html(it)
     why = f'<p class="why"><span class="why-label">Pourquoi c\'est important</span> {e(it["why"])}</p>' if it.get("why") else ""
     fig = map_figure(it, c["key"])
     return f"""<article class="story{' has-map' if fig else ''}" id="{it['_id']}">
@@ -293,8 +320,7 @@ def edition_page(d, eds, root, is_home):
     une_html = ""
     if d["_une"]:
         c, it = d["_une"]
-        url = safe_url(it.get("url"))
-        src = f'<a class="src" href="{e(url)}" rel="noopener" target="_blank">{e(it.get("source"))}<span aria-hidden="true"> ↗</span></a>' if url else f'<span class="src">{e(it.get("source"))}</span>'
+        src = source_html(it)
         why = f'<p class="why"><span class="why-label">Pourquoi c\'est important</span> {e(it["why"])}</p>' if it.get("why") else ""
         une_html = f"""<article class="une" id="une" style="--rub: var(--r-{c['key']})">
     <p class="kicker"><span class="kicker-une">À la une</span><a href="#{c['slug']}">{e(c['name'])}</a></p>

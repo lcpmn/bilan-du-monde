@@ -17,13 +17,35 @@ fi
 
 DATE=$(python3 -I - "$SRC" <<'PY'
 import json, re, sys
+from urllib.parse import urlparse
+
+# Sites qui ne sont pas des sources d'origine (newsletters, agrégateurs, revues de presse).
+AGREGATEURS = ("substack.com", "ground.news", "biztoc.com", "newswav.com", "presse-evasion.fr",
+               "titrespresse.com", "digg.com", "feedbagel.com", "news.google.com")
+
+def lien_article(u):
+    """Vrai si l'URL pointe vers un article précis, pas vers une page d'accueil ou de rubrique."""
+    p = urlparse(u)
+    segs = [x for x in p.path.split("/") if x]
+    if re.search(r"\d{4,}", p.path + "?" + p.query):
+        return True
+    return bool(segs) and segs[-1].count("-") >= 3
+
 d = json.load(open(sys.argv[1], encoding="utf-8"))
 assert re.fullmatch(r"\d{4}-\d{2}-\d{2}", d.get("date", "")), "champ date invalide"
 assert isinstance(d.get("categories"), list) and d["categories"], "aucune rubrique"
 for c in d["categories"]:
     for it in c.get("items", []):
         assert it.get("title") and it.get("summary"), "sujet incomplet dans " + c.get("key", "?")
-        assert str(it.get("url", "")).startswith("https://"), "URL invalide : " + it.get("title", "")
+        url = str(it.get("url", ""))
+        titre = it.get("title", "")
+        assert url.startswith("https://"), "URL invalide : " + titre
+        assert lien_article(url), "le lien doit mener à l'article précis, pas à une page d'accueil ou de rubrique : " + titre + " → " + url
+        hote = urlparse(url).netloc.lower()
+        assert not any(hote == a or hote.endswith("." + a) for a in AGREGATEURS), "source non originale (agrégateur ou newsletter) : " + titre + " → " + hote
+        assert it.get("source"), "nom du média manquant : " + titre
+        if it.get("sourceDate"):
+            assert re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(it["sourceDate"])), "sourceDate doit être au format AAAA-MM-JJ : " + titre
         lieu = it.get("lieu")
         if lieu is not None:
             assert isinstance(lieu, dict) and lieu.get("nom"), "lieu sans nom : " + it.get("title", "")
