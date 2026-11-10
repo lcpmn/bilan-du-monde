@@ -1,0 +1,152 @@
+{
+  "date": "2026-11-10",
+  "updatedAt": "2026-11-10T06:05:06+01:00",
+  "une": { "key": "france", "index": 0 },
+  "overview": [
+    "Sébastien Lecornu a annoncé lundi 9 novembre une hausse anticipée de 1,6 % du Smic au 1er décembre, à 1 502 euros net par mois ; la CGT appelle à la grève le 17 novembre.",
+    "En Pologne, l'auteur de la fusillade de Cracovie, qui a tué six personnes samedi, est mort à l'hôpital ; les autorités évoquent une attaque d'inspiration d'extrême droite.",
+    "Les Européens doivent rejoindre les pourparlers entre la Russie et l'Ukraine organisés par les États-Unis à Abou Dhabi, malgré les objections du Kremlin.",
+    "La COP31 s'est ouverte à Antalya sur un désaccord autour du financement climatique, tandis que l'OMM confirme que 2015-2026 sera la période de douze ans la plus chaude jamais mesurée.",
+    "À Paris, le CAC 40 a gagné 1,16 % lundi grâce au repli du pétrole ; à Wall Street, Nvidia a reculé d'environ 4 % après l'ouverture d'une enquête interne visant son PDG."
+  ],
+  "chiffres": [
+    { "value": "1 502 €", "label": "Montant net mensuel du Smic au 1er décembre, après une hausse anticipée de 1,6 %", "key": "france" },
+    { "value": "6", "label": "Personnes tuées dans la fusillade de la grand-place de Cracovie, samedi 7 novembre", "key": "monde" },
+    { "value": "+1,16 %", "label": "Hausse du CAC 40 lundi, à 8 233,30 points", "key": "eco" },
+    { "value": "12 ans", "label": "La période 2015-2026 sera la plus chaude jamais mesurée sur douze ans, selon l'OMM", "key": "climat" }
+  ],
+  "categories": [
+    {
+      "key": "monde",
+      "name": "International",
+      "items": [
+        {
+          "title": "Cracovie : l'auteur de la fusillade meurt à l'hôpital",
+          "summary": "Le tireur qui a tué six personnes et en a blessé quinze samedi 7 novembre sur la grand-place de Cracovie est mort lundi à l'hôpital, selon la police. Il avait été blessé par les policiers pendant l'attaque. Les autorités évoquent un attentat d'inspiration d'extrême droite.",
+          "why": "Il s'agit de l'une des attaques les plus meurtrières en Pologne depuis des années, en plein cœur d'un site très fréquenté par les touristes européens.",
+          "source": "CNN",
+          "sourceTitle": "Gunman who killed at least 6 in Kraków mass shooting dies in hospital",
+          "sourceDate": "2026-11-09",
+          "url": "https://www.cnn.com/2026/11/09/europe/krakow-shooting-poland-gunman-dead-intl-hnk",
+          "lieu": { "nom": "Cracovie, Pologne", "lat": 50.06, "lon": 19.94, "echelle": "ville" }
+        },
+        {
+          "title": "Ukraine : les Européens rejoignent les pourparlers d'Abou Dhabi",
+          "summary": "Des responsables européens doivent participer cette semaine aux discussions entre la Russie et l'Ukraine organisées par les États-Unis à Abou Dhabi. Le Kremlin s'y est opposé, estimant que ces négociations sont strictement trilatérales.",
+          "why": "La présence de l'Europe, et de la France, à la table des négociations pèsera sur les garanties de sécurité du continent.",
+          "source": "NPR",
+          "sourceTitle": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections",
+          "sourceDate": "2026-11-08",
+          "url": "https://www.npr.org/2026/11/08/nx-s1-6034014/europe-join-us-brokered-ukraine-talks-abu-dhabi-russia",
+          "lieu": { "nom": "Abou Dhabi, Émirats arabes unis", "lat": 24.45, "lon": 54.38, "echelle": "ville" }
+        },
+        {
+          "title": "Trump juge ses expulsions « trop dures » après les midterms",
+          "summary": "Dans un entretien diffusé dimanche 8 novembre, Donald Trump a estimé que sa politique d'expulsions avait été trop dure et l'avait pénalisé aux élections de mi-mandat. Il s'est dit ouvert à un accord avec les démocrates sur l'immigration.",
+          "source": "NBC News",
+          "sourceTitle": "Trump says deportations were ‘too tough’ and hurt him during the midterms",
+          "sourceDate": "2026-11-08",
+          "url": "https://www.nbcnews.com/politics/trump-administration/trump-says-deportations-tough-hurt-midterms-rcna608208"
+        }
+      ]
+    },
+    {
+      "key": "france",
+      "name": "France",
+      "items": [
+        {
+          "title": "Le Smic augmentera de 1,6 % dès le 1er décembre",
+          "summary": "À l'issue de la conférence sociale de Matignon, lundi 9 novembre, Sébastien Lecornu a annoncé une revalorisation anticipée du Smic, porté à 1 502 euros net par mois au 1er décembre. Les syndicats jugent la hausse insuffisante et la CGT appelle à la grève le 17 novembre.",
+          "why": "La hausse touche directement le pouvoir d'achat des salariés au salaire minimum, un mois avant la revalorisation habituelle de janvier.",
+          "source": "Public Sénat",
+          "sourceTitle": "Pouvoir d’achat : Sébastien Lecornu annonce une hausse anticipée du Smic à 1 502 euros par mois dès le 1er décembre",
+          "sourceDate": "2026-11-09",
+          "url": "https://www.publicsenat.fr/actualites/politique/pouvoir-dachat-sebastien-lecornu-annonce-une-hausse-anticipee-du-smic-a-1-502-euros-des-le-1er-decembre"
+        }
+      ]
+    },
+    {
+      "key": "eco",
+      "name": "Économie & marchés",
+      "items": [
+        {
+          "title": "La Bourse de Paris rebondit avec la baisse du pétrole",
+          "summary": "Le CAC 40 a gagné 1,16 % lundi 9 novembre, à 8 233,30 points, soutenu par le repli des cours du brut. STMicroelectronics a mené l'indice avec une hausse de 5,30 %.",
+          "source": "Boursorama",
+          "sourceTitle": "La Bourse de Paris termine en hausse avec la baisse des prix du brut",
+          "sourceDate": "2026-11-09",
+          "url": "https://www.boursorama.com/bourse/actualites/la-bourse-de-paris-termine-en-hausse-avec-la-baisse-des-prix-du-brut-23611a6b7793fc822f18e2d6449e06c3",
+          "lieu": { "nom": "Paris", "lat": 48.86, "lon": 2.35, "echelle": "ville" }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "name": "Tech & IA",
+      "items": [
+        {
+          "title": "Nvidia chute après une enquête visant son PDG Jensen Huang",
+          "summary": "L'action Nvidia a reculé d'environ 4 % lundi 9 novembre. Le conseil d'administration a ouvert dimanche une enquête indépendante sur la liaison de Jensen Huang avec une dirigeante soupçonnée par le renseignement américain d'espionner pour la Chine. Le groupe dit n'avoir aucune raison de penser que ses secrets ont été compromis.",
+          "why": "Nvidia, premier fournisseur mondial de puces pour l'IA, pèse lourd sur les marchés et sur la rivalité technologique entre les États-Unis et la Chine.",
+          "source": "CNBC",
+          "sourceTitle": "Nvidia stock falls 4% as scrutiny turns to Jensen Huang’s affair with alleged Chinese spy",
+          "sourceDate": "2026-11-09",
+          "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html"
+        }
+      ]
+    },
+    {
+      "key": "sciences",
+      "name": "Sciences & santé",
+      "items": []
+    },
+    {
+      "key": "climat",
+      "name": "Climat & environnement",
+      "items": [
+        {
+          "title": "COP31 : ouverture à Antalya sur fond de désaccord financier",
+          "summary": "La conférence de l'ONU sur le climat s'est ouverte lundi 9 novembre à Antalya. Pays riches et pays en développement se sont opposés d'emblée sur le financement climatique, retardant l'adoption de l'ordre du jour.",
+          "why": "La question de l'argent conditionne les nouveaux engagements de réduction des émissions attendus d'ici la fin de la conférence, le 20 novembre.",
+          "source": "Turkish Minute",
+          "sourceTitle": "COP31 opens in Antalya with early dispute over climate finance",
+          "sourceDate": "2026-11-09",
+          "url": "https://www.turkishminute.com/2026/11/09/cop31-opens-in-antalya-with-early-dispute-over-climate-finance/",
+          "lieu": { "nom": "Antalya, Turquie", "lat": 36.9, "lon": 30.7, "echelle": "ville" }
+        },
+        {
+          "title": "OMM : 2015-2026, les douze années les plus chaudes jamais mesurées",
+          "summary": "Dans son point publié pour la COP31, l'Organisation météorologique mondiale indique que la période 2015-2026 sera la plus chaude jamais mesurée sur douze ans. Les années 2023 à 2026 sont les quatre plus chaudes de l'histoire des relevés.",
+          "source": "Organisation météorologique mondiale",
+          "sourceTitle": "State of the climate in 2026 gives new meaning to phrase “off the charts”",
+          "sourceDate": "2026-11-09",
+          "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts"
+        }
+      ]
+    },
+    {
+      "key": "sport",
+      "name": "Sport",
+      "items": [
+        {
+          "title": "Ligue 1 : Lille s'impose 2-1 à Rennes et grimpe à la 2e place",
+          "summary": "Le LOSC s'est imposé 2-1 sur la pelouse du Stade Rennais dimanche 8 novembre, lors de la 10e journée, et remonte à la deuxième place du classement.",
+          "source": "Le Phocéen",
+          "sourceTitle": "L1/J10 - Lille réalise une belle opération à Rennes et grimpe à la deuxième place",
+          "url": "https://www.lephoceen.fr/infos-om/vdm/l1-j10-lille-realise-une-belle-operation-a-rennes-et-grimpe-a-la-deuxieme-place-239424",
+          "lieu": { "nom": "Rennes", "lat": 48.11, "lon": -1.68, "echelle": "ville" }
+        },
+        {
+          "title": "Ligue 1 : Brest bat Lyon 2-0",
+          "summary": "Le Stade Brestois a battu l'Olympique lyonnais 2-0 dimanche 8 novembre, lors de la 10e journée. C'était le premier match de Lyon depuis le départ de Paulo Fonseca.",
+          "source": "beIN Sports",
+          "sourceTitle": "Brest vs Lyon Highlights: Hosts Win 2-0 as Life After Paulo Fonseca Begins with Defeat",
+          "sourceDate": "2026-11-08",
+          "url": "https://www.beinsports.com/en-us/soccer/ligue-1/articles-video/brest-vs-olympique-lyon-highlights-ligue-1-2026-11-08",
+          "lieu": { "nom": "Brest, Finistère", "lat": 48.39, "lon": -4.49, "echelle": "ville" }
+        }
+      ]
+    }
+  ],
+  "note": "Résumé rédigé automatiquement à partir d'articles de presse publiés dans les dernières 24 à 48 heures. Chaque sujet renvoie à l'article d'origine : vérifiez-y les points importants."
+}
