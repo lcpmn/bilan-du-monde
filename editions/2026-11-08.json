@@ -15,22 +15,30 @@
     {
       "value": "−6,36 %",
       "label": "Chute du Nasdaq 100 jeudi 5 novembre, sa pire séance depuis 2020",
-      "key": "eco"
+      "key": "eco",
+      "value_en": "−6.36%",
+      "label_en": "Fall of the Nasdaq 100 on Thursday, November 5, its worst day since 2020"
     },
     {
       "value": "165 000",
       "label": "Emplois créés aux États-Unis en octobre, bien au-delà des prévisions",
-      "key": "eco"
+      "key": "eco",
+      "value_en": "165,000",
+      "label_en": "US jobs added in October, well above forecasts"
     },
     {
       "value": "4 852",
       "label": "Cas de rougeole recensés aux États-Unis au 29 octobre",
-      "key": "sciences"
+      "key": "sciences",
+      "value_en": "4,852",
+      "label_en": "Measles cases recorded in the US as of October 29"
     },
     {
       "value": "1-9",
       "label": "Lens–Côme, la plus lourde défaite d'un club français en Coupe d'Europe",
-      "key": "sport"
+      "key": "sport",
+      "value_en": "1-9",
+      "label_en": "Lens vs Como, the heaviest defeat ever for a French club in European competition"
     }
   ],
   "categories": [
@@ -47,7 +55,13 @@
           "lieu": {
             "nom": "Jérusalem, Israël",
             "lat": 31.78,
-            "lon": 35.22
+            "lon": 35.22,
+            "nom_en": "Jerusalem, Israel"
+          },
+          "en": {
+            "title": "Israel: Eisenkot poised to form the next government",
+            "summary": "Parties representing 67 lawmakers recommended Gadi Eisenkot to form the next government, against 46 for Benjamin Netanyahu. President Isaac Herzog was due to assign the mandate on Sunday, November 8.",
+            "why": "A change of government in Israel could reshape negotiations over Gaza and the relationship with Washington."
           }
         },
         {
@@ -59,7 +73,12 @@
           "lieu": {
             "nom": "Cracovie, Pologne",
             "lat": 50.06,
-            "lon": 19.94
+            "lon": 19.94,
+            "nom_en": "Kraków, Poland"
+          },
+          "en": {
+            "title": "Poland: six killed in a shooting in Kraków",
+            "summary": "A gunman opened fire on Saturday, November 7, in Kraków's main square, killing six people and wounding about fifteen before being shot and wounded by police. Authorities say he acted alone and held ultranationalist views."
           }
         },
         {
@@ -72,7 +91,13 @@
           "lieu": {
             "nom": "Washington, États-Unis",
             "lat": 38.9,
-            "lon": -77.04
+            "lon": -77.04,
+            "nom_en": "Washington, United States"
+          },
+          "en": {
+            "title": "United States: Democrats retake Congress",
+            "summary": "Democrats won control of both the House of Representatives and the Senate in the November 3 midterm elections, according to projections. Several seats were still to be called.",
+            "why": "With an opposition Congress, Donald Trump will find it harder to pass legislation and his budget before the end of his term."
           }
         },
         {
@@ -85,7 +110,12 @@
           "lieu": {
             "nom": "Buenos Aires, Argentine",
             "lat": -34.6,
-            "lon": -58.38
+            "lon": -58.38,
+            "nom_en": "Buenos Aires, Argentina"
+          },
+          "en": {
+            "title": "Pope Leo XIV arrives in Argentina",
+            "summary": "According to the schedule released by the Vatican, the pope leaves Uruguay for Argentina on November 8 (Buenos Aires, Córdoba, Luján) before ending his tour in Peru from November 11 to 17. No pope had visited Argentina since 1987."
           }
         },
         {
@@ -97,7 +127,12 @@
           "lieu": {
             "nom": "Dublin, Irlande",
             "lat": 53.35,
-            "lon": -6.26
+            "lon": -6.26,
+            "nom_en": "Dublin, Ireland"
+          },
+          "en": {
+            "title": "EU leaders to meet in Dublin on November 13",
+            "summary": "An informal meeting of EU heads of state and government takes place in Dublin on November 13, the day after the European Political Community summit, held in the same city on November 12."
           }
         }
       ]
@@ -115,20 +150,34 @@
           "lieu": {
             "nom": "Paris",
             "lat": 48.857,
-            "lon": 2.352
+            "lon": 2.352,
+            "nom_en": "Paris, France"
+          },
+          "en": {
+            "title": "Wages: social conference on Monday at Matignon",
+            "summary": "Following the November 5 protests, Prime Minister Sébastien Lecornu is meeting unions and employers on Monday, November 9. Labour Minister Jean-Pierre Farandou wants to lift the net minimum wage above €1,500 a month; the CFDT union is asking for an extra €100 net, the CGT for a 10% raise.",
+            "why": "Monday's announcements will show whether the government can ease social anger six months before the presidential election."
           }
         },
         {
           "title": "Fausses alertes à la bombe en série dans le ciel européen",
           "summary": "Au moins une vingtaine de vols ont été visés jeudi 5 novembre, tous posés sans incident. En France, le parquet d'Évreux a ouvert une enquête sur le pilote d'un vol Aer Lingus qui aurait refusé d'atterrir sur la base militaire d'Évreux.",
           "source": "Sud Radio",
-          "url": "https://www.sudradio.fr/sud-radio/trafic-aerien-alertes-a-la-bombe-en-serie-en-europe-une-enquete-ouverte-en-france"
+          "url": "https://www.sudradio.fr/sud-radio/trafic-aerien-alertes-a-la-bombe-en-serie-en-europe-une-enquete-ouverte-en-france",
+          "en": {
+            "title": "A wave of hoax bomb threats in European skies",
+            "summary": "At least twenty flights were targeted on Thursday, November 5, and all landed safely. In France, the Évreux prosecutor opened an investigation into the pilot of an Aer Lingus flight who allegedly refused to land at the Évreux military air base."
+          }
         },
         {
           "title": "Présidentielle 2027 : LFI dévoile le programme de Mélenchon",
           "summary": "La France insoumise a présenté les 6 et 7 novembre la nouvelle version du programme de Jean-Luc Mélenchon, avec une convention au Bourget. L'écologie en devient la clé de voûte.",
           "source": "Public Sénat",
-          "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-avec-la-nouvelle-france-jean-luc-melenchon-fait-de-lecologie-la-cle-de-voute-de-son-programme"
+          "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-avec-la-nouvelle-france-jean-luc-melenchon-fait-de-lecologie-la-cle-de-voute-de-son-programme",
+          "en": {
+            "title": "2027 presidential race: LFI unveils Mélenchon's platform",
+            "summary": "La France insoumise presented the new version of Jean-Luc Mélenchon's platform on November 6 and 7, with a rally in Le Bourget. Ecology becomes its cornerstone."
+          }
         },
         {
           "title": "Besançon : 13 interpellations après le braquage d'une usine de joaillerie",
@@ -139,7 +188,12 @@
           "lieu": {
             "nom": "Besançon, Doubs",
             "lat": 47.24,
-            "lon": 6.02
+            "lon": 6.02,
+            "nom_en": "Besançon, France"
+          },
+          "en": {
+            "title": "Besançon: 13 arrests after a jewellery factory heist",
+            "summary": "Thirteen suspects were arrested after the armed robbery of a jewellery factory in Besançon, France's national anti-organised-crime prosecutor said on November 4."
           }
         }
       ]
@@ -158,7 +212,13 @@
           "lieu": {
             "nom": "New York, États-Unis",
             "lat": 40.71,
-            "lon": -74.01
+            "lon": -74.01,
+            "nom_en": "New York, United States"
+          },
+          "en": {
+            "title": "Wall Street: the Nasdaq 100 has its worst day since 2020",
+            "summary": "On Thursday, November 5, the Nasdaq 100 fell 6.36%, the S&P 500 lost 4.35% and the Dow Jones dropped 1,833 points. Investors sold memory-chip, storage, chip-equipment and data-centre stocks.",
+            "why": "AI giants weigh heavily in global indices: when they fall, all savings invested in equities fall too, in Europe as in the United States."
           }
         },
         {
@@ -168,7 +228,12 @@
           "source": "Bureau of Labor Statistics",
           "sourceTitle": "The Employment Situation — October 2026",
           "sourceDate": "2026-11-06",
-          "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm"
+          "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm",
+          "en": {
+            "title": "US jobs: 165,000 added in October",
+            "summary": "The US economy added 165,000 jobs in October, far more than expected, and the unemployment rate stands at 4.1%, according to the Bureau of Labor Statistics.",
+            "why": "Such a strong labour market pushes the Fed to keep rates high, or even raise them, making credit more expensive."
+          }
         },
         {
           "title": "Fed : une hausse des taux en décembre de plus en plus probable",
@@ -177,7 +242,12 @@
           "source": "InvestmentNews",
           "sourceTitle": "October jobs report beats forecasts, lifting December Fed hike odds",
           "sourceDate": "2026-11-06",
-          "url": "https://www.investmentnews.com/fixed-income/october-jobs-report-beats-forecasts-lifting-december-fed-hike-odds/268915"
+          "url": "https://www.investmentnews.com/fixed-income/october-jobs-report-beats-forecasts-lifting-december-fed-hike-odds/268915",
+          "en": {
+            "title": "Fed: a December rate hike looks increasingly likely",
+            "summary": "After the jobs report, CME's FedWatch tool put the probability of a quarter-point Federal Reserve rate hike in December at 76.8%.",
+            "why": "Higher US rates push up the dollar and tighten credit conditions around the world."
+          }
         }
       ]
     },
@@ -192,19 +262,32 @@
           "source": "Axios",
           "sourceTitle": "OpenAI unveils cyber model with unprecedented hacking skills",
           "sourceDate": "2026-11-05",
-          "url": "https://www.axios.com/2026/11/05/openai-linux-cyber-model"
+          "url": "https://www.axios.com/2026/11/05/openai-linux-cyber-model",
+          "en": {
+            "title": "OpenAI unveils GPT-6 Cyber, a vulnerability-hunting model",
+            "summary": "Restricted to vetted security teams, the model found 81 serious flaws in Firefox and produced 948 exploits for Linux kernel flaws, which were reported to maintainers, according to figures released by OpenAI.",
+            "why": "Such tools can speed up bug fixing but could also be used for attacks, hence the restricted access."
+          }
         },
         {
           "title": "FlashProve : prouver quel modèle d'IA a produit une réponse",
           "summary": "Anthropic a publié en open source FlashProve, un prototype de recherche qui prouve cryptographiquement qu'une réponse vient d'un modèle donné, sans révéler ses paramètres. Le système reste coûteux et n'est déployé dans aucun produit.",
           "source": "Interesting Engineering",
-          "url": "https://interestingengineering.com/ai-robotics/anthropic-flashprove-cryptographic-model-verification"
+          "url": "https://interestingengineering.com/ai-robotics/anthropic-flashprove-cryptographic-model-verification",
+          "en": {
+            "title": "FlashProve: proving which AI model produced an answer",
+            "summary": "Anthropic open-sourced FlashProve, a research prototype that cryptographically proves a response came from a given model without revealing its weights. The system remains costly and is not deployed in any product."
+          }
         },
         {
           "title": "Dropbox rachète Tigris Data pour 350 millions de dollars",
           "summary": "Dropbox va acquérir la start-up Tigris Data, spécialisée dans le stockage pour les applications d'IA, pour environ 350 millions de dollars en numéraire. L'opération doit être finalisée au quatrième trimestre.",
           "source": "IT Brief UK",
-          "url": "https://itbrief.co.uk/story/dropbox-to-buy-tigris-data-in-usd-350-million-deal"
+          "url": "https://itbrief.co.uk/story/dropbox-to-buy-tigris-data-in-usd-350-million-deal",
+          "en": {
+            "title": "Dropbox buys Tigris Data for $350 million",
+            "summary": "Dropbox will acquire Tigris Data, a start-up specialising in storage for AI applications, for about $350 million in cash. The deal is expected to close in the fourth quarter."
+          }
         }
       ]
     },
@@ -217,14 +300,23 @@
           "summary": "Des chercheurs de l'université du Missouri ont rendu des plants de riz résistants à la bactériose, une maladie qui menace les récoltes en Asie et en Afrique, avec OpenCRISPR-1, un outil d'édition génétique conçu par IA et libre d'utilisation. Publiés dans la revue aBIOTECH, les travaux en sont au stade du laboratoire : il faudra plusieurs années avant des variétés commerciales.",
           "source": "Université du Missouri",
           "sourceTitle": "Mizzou researchers create rice plants that fight off devastating disease",
-          "url": "https://showme.missouri.edu/2026/mizzou-researchers-create-rice-plants-that-fight-off-devastating-disease/"
+          "url": "https://showme.missouri.edu/2026/mizzou-researchers-create-rice-plants-that-fight-off-devastating-disease/",
+          "en": {
+            "title": "Blight-resistant rice thanks to an AI-designed tool",
+            "summary": "University of Missouri researchers made rice plants resistant to bacterial blight, a disease that threatens harvests in Asia and Africa, using OpenCRISPR-1, an AI-designed, freely usable gene-editing tool. Published in the journal aBIOTECH, the work is at the lab stage: commercial varieties are several years away."
+          }
         },
         {
           "title": "Rougeole : près de 4 900 cas aux États-Unis cette année",
           "summary": "Les CDC recensaient 4 852 cas de rougeole au 29 octobre, 264 de plus qu'à la mise à jour précédente. 96 % des malades n'étaient pas vaccinés ou avaient un statut vaccinal inconnu.",
           "why": "La rougeole est extrêmement contagieuse : sa résurgence est un signal d'alerte sur la baisse de la vaccination.",
           "source": "Arab News Pakistan",
-          "url": "https://www.arabnews.pk/world/us-measles-surge-continues-with-96-of-cases-among-unvaccinated-or-unknown-status-patients-3005694"
+          "url": "https://www.arabnews.pk/world/us-measles-surge-continues-with-96-of-cases-among-unvaccinated-or-unknown-status-patients-3005694",
+          "en": {
+            "title": "Measles: nearly 4,900 US cases this year",
+            "summary": "The CDC counted 4,852 measles cases as of October 29, 264 more than in its previous update. 96% of patients were unvaccinated or had an unknown vaccination status.",
+            "why": "Measles is extremely contagious: its resurgence is a warning sign about falling vaccination rates."
+          }
         }
       ]
     },
@@ -241,7 +333,13 @@
           "lieu": {
             "nom": "Antalya, Turquie",
             "lat": 36.9,
-            "lon": 30.7
+            "lon": 30.7,
+            "nom_en": "Antalya, Türkiye"
+          },
+          "en": {
+            "title": "COP31 opens on Monday in Antalya",
+            "summary": "The UN climate conference runs from November 9 to 20 in Türkiye. Murat Kurum presides, and Australia's Chris Bowen leads the negotiations.",
+            "why": "It is the main annual meeting where countries negotiate their emission-reduction commitments."
           }
         }
       ]
@@ -258,11 +356,23 @@
           "lieu": {
             "nom": "Lens, Pas-de-Calais",
             "lat": 50.43,
-            "lon": 2.82
+            "lon": 2.82,
+            "nom_en": "Lens, France"
+          },
+          "en": {
+            "title": "Champions League: Lens thrashed 9-1 by Como",
+            "summary": "On Wednesday, November 4 at Bollaert, Lens suffered the heaviest defeat ever for a French club in European competition. No team had ever conceded nine goals at home in the Champions League."
           }
         }
       ]
     }
   ],
-  "note": "Édition corrigée le 9 novembre : les sujets impossibles à rattacher à un article d'origine ont été retirés (dont des inondations à Gaza datant de 2025 et plusieurs résultats sportifs), et chaque sujet renvoie désormais à l'article précis. Correction du 10 novembre : la fusillade de Cracovie, retirée par erreur le 9 novembre, a été rétablie avec sa source."
+  "note": "Édition corrigée le 9 novembre : les sujets impossibles à rattacher à un article d'origine ont été retirés (dont des inondations à Gaza datant de 2025 et plusieurs résultats sportifs), et chaque sujet renvoie désormais à l'article précis. Correction du 10 novembre : la fusillade de Cracovie, retirée par erreur le 9 novembre, a été rétablie avec sa source.",
+  "overview_en": [
+    "The Nasdaq 100 had its worst session since 2020 on Thursday (−6.36%), despite a much stronger-than-expected US jobs report.",
+    "Israel: Gadi Eisenkot, recommended by 67 lawmakers, was due to receive the mandate to form the next government on Sunday.",
+    "In France, unions and employers meet at Matignon on Monday for a social conference on wages.",
+    "The COP31 climate conference opens on Monday, November 9, in Antalya, Türkiye."
+  ],
+  "note_en": "Corrected on November 9: stories that could not be traced to an original article were removed (including 2025 floods in Gaza and several sports results), and every story now links to the specific article. Correction of November 10: the Kraków shooting, removed in error on November 9, has been restored with its source."
 }

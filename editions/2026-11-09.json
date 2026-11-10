@@ -15,22 +15,30 @@
     {
       "value": "28 jours",
       "label": "Délai de Gadi Eisenkot pour former un gouvernement, prolongeable de 14 jours",
-      "key": "monde"
+      "key": "monde",
+      "value_en": "28 days",
+      "label_en": "Time Gadi Eisenkot has to form a government, extendable by 14 days"
     },
     {
       "value": "−5,96 %",
       "label": "Chute du Nikkei à la Bourse de Tokyo vendredi",
-      "key": "eco"
+      "key": "eco",
+      "value_en": "−5.96%",
+      "label_en": "Fall of the Nikkei on the Tokyo Stock Exchange on Friday"
     },
     {
       "value": "11 Md$",
       "label": "Première tranche de la levée de fonds d'OpenAI, selon Bloomberg",
-      "key": "tech"
+      "key": "tech",
+      "value_en": "$11bn",
+      "label_en": "First tranche of OpenAI's funding round, according to Bloomberg"
     },
     {
       "value": "6 j 13 h 27",
       "label": "Nouveau record de la Route du Rhum, signé Tom Laperche",
-      "key": "sport"
+      "key": "sport",
+      "value_en": "6d 13h 27m",
+      "label_en": "New Route du Rhum record, set by Tom Laperche"
     }
   ],
   "categories": [
@@ -48,7 +56,13 @@
           "lieu": {
             "nom": "Jérusalem, Israël",
             "lat": 31.78,
-            "lon": 35.22
+            "lon": 35.22,
+            "nom_en": "Jerusalem, Israel"
+          },
+          "en": {
+            "title": "Israel: Eisenkot tasked with forming the government",
+            "summary": "President Isaac Herzog on Sunday gave Gadi Eisenkot the mandate to form the next government, after the October 27 election. He has 28 days, extendable by 14, and promises a “national emergency government”.",
+            "why": "A government without Benjamin Netanyahu could change Israel's policy in Gaza and its relationship with Washington."
           }
         },
         {
@@ -62,7 +76,13 @@
           "lieu": {
             "nom": "Kiev, Ukraine",
             "lat": 50.45,
-            "lon": 30.52
+            "lon": 30.52,
+            "nom_en": "Kyiv, Ukraine"
+          },
+          "en": {
+            "title": "Ukraine: massive Russian strikes ahead of the Abu Dhabi talks",
+            "summary": "Volodymyr Zelensky accuses Russia of stepping up strikes on the power grid to gain leverage before the US-brokered negotiations in Abu Dhabi on Tuesday. Moscow launched 172 drones and 36 ballistic missiles, including North Korean-supplied KN-23s.",
+            "why": "The outcome of these talks will weigh on Europe's security and on Ukraine's energy supply this winter."
           }
         },
         {
@@ -74,7 +94,12 @@
           "lieu": {
             "nom": "Buenos Aires, Argentine",
             "lat": -34.6,
-            "lon": -58.38
+            "lon": -58.38,
+            "nom_en": "Buenos Aires, Argentina"
+          },
+          "en": {
+            "title": "Pope Leo XIV welcomed to Argentina by Javier Milei",
+            "summary": "Arriving in Buenos Aires on Sunday, the pope called for democracy to be protected and said the economy must serve people, not the other way around, a veiled critique of Javier Milei's austerity policy according to the AP. He will then travel on to Peru."
           }
         }
       ]
@@ -94,7 +119,13 @@
           "lieu": {
             "nom": "Paris",
             "lat": 48.857,
-            "lon": 2.352
+            "lon": 2.352,
+            "nom_en": "Paris, France"
+          },
+          "en": {
+            "title": "Wages: social conference at Matignon today",
+            "summary": "Sébastien Lecornu is meeting the leaders of the main unions and employer organisations today on purchasing power and wages, following the November 5 protests. The minimum wage is at the heart of the talks: the CFDT union wants an extra €100 net.",
+            "why": "The announcements will show whether the government can ease social anger six months before the presidential election."
           }
         }
       ]
@@ -112,7 +143,13 @@
           "lieu": {
             "nom": "Tokyo, Japon",
             "lat": 35.68,
-            "lon": 139.69
+            "lon": 139.69,
+            "nom_en": "Tokyo, Japan"
+          },
+          "en": {
+            "title": "Tokyo: the Nikkei drops almost 6% on Friday",
+            "summary": "The Tokyo Stock Exchange closed down 5.96% on Friday at 57,434.77 points, dragged down by technology stocks. The Topix lost 5.9%.",
+            "why": "After Wall Street on Thursday, the sell-off in AI-related stocks is spreading to Asia: the week opens under pressure on global markets."
           }
         }
       ]
@@ -128,7 +165,12 @@
           "source": "GV Wire (Bloomberg)",
           "sourceTitle": "OpenAI Secures $11 Billion Funding at $1.25 Trillion Valuation, Bloomberg News Reports",
           "sourceDate": "2026-11-06",
-          "url": "https://gvwire.com/2026/11/06/openai-secures-11-billion-funding-at-1-25-trillion-valuation-bloomberg-news-reports/"
+          "url": "https://gvwire.com/2026/11/06/openai-secures-11-billion-funding-at-1-25-trillion-valuation-bloomberg-news-reports/",
+          "en": {
+            "title": "OpenAI raises $11 billion at a $1.25 trillion valuation",
+            "summary": "OpenAI has closed a first tranche of about $11 billion in a round that could reach $20 billion, at a $1.25 trillion valuation, according to Bloomberg. The company has not announced it officially.",
+            "why": "Despite this week's tech sell-off, investors keep pouring money into AI."
+          }
         }
       ]
     },
@@ -147,7 +189,13 @@
           "lieu": {
             "nom": "Antalya, Turquie",
             "lat": 36.9,
-            "lon": 30.7
+            "lon": 30.7,
+            "nom_en": "Antalya, Türkiye"
+          },
+          "en": {
+            "title": "COP31 opens in Antalya with lowered ambitions",
+            "summary": "The UN climate conference opens today in Antalya, Türkiye, and runs until November 20. According to Bloomberg, its agenda is narrower than at previous COPs and ambitions have been scaled back.",
+            "why": "It is the main annual meeting where countries negotiate their emission-reduction commitments."
           }
         }
       ]
@@ -165,7 +213,12 @@
           "lieu": {
             "nom": "Pointe-à-Pitre, Guadeloupe",
             "lat": 16.24,
-            "lon": -61.53
+            "lon": -61.53,
+            "nom_en": "Pointe-à-Pitre, Guadeloupe"
+          },
+          "en": {
+            "title": "Route du Rhum: Tom Laperche wins in record time",
+            "summary": "Tom Laperche (SVR-Lazartigue) won the Route du Rhum in the Ultim class overnight from Saturday to Sunday, in 6 days, 13 hours and 27 minutes. He beat the record set by Charles Caudrelier in 2022 by more than six hours."
           }
         },
         {
@@ -177,7 +230,12 @@
           "lieu": {
             "nom": "São Paulo, Brésil",
             "lat": -23.7,
-            "lon": -46.7
+            "lon": -46.7,
+            "nom_en": "São Paulo, Brazil"
+          },
+          "en": {
+            "title": "F1: Lando Norris wins the São Paulo Grand Prix",
+            "summary": "The McLaren driver won Sunday's race at Interlagos, ahead of Max Verstappen, who climbed from 21st place, and Isack Hadjar."
           }
         },
         {
@@ -189,11 +247,23 @@
           "lieu": {
             "nom": "Lens, Pas-de-Calais",
             "lat": 50.43,
-            "lon": 2.82
+            "lon": 2.82,
+            "nom_en": "Lens, France"
+          },
+          "en": {
+            "title": "Ligue 1: Marseille win 2-1 at Lens",
+            "summary": "Marseille won on Sunday at Bollaert, four days after Lens's rout against Como. Amine Gouiri opened the scoring in the 2nd minute, Florian Thauvin equalised, and Keyliane Abdallah gave OM the win in the 82nd."
           }
         }
       ]
     }
   ],
-  "note": "Édition du lundi : elle couvre l'actualité depuis vendredi soir. Publiée avec un peu de retard à la suite d'un incident technique. Chaque sujet renvoie à l'article d'origine : vérifiez-y les points importants."
+  "note": "Édition du lundi : elle couvre l'actualité depuis vendredi soir. Publiée avec un peu de retard à la suite d'un incident technique. Chaque sujet renvoie à l'article d'origine : vérifiez-y les points importants.",
+  "overview_en": [
+    "Israel: Gadi Eisenkot received the mandate on Sunday to form the next government, instead of Benjamin Netanyahu.",
+    "Ukraine: Russia steps up its strikes ahead of the Abu Dhabi talks on Tuesday.",
+    "In France, unions and employers meet at Matignon today for a social conference on wages.",
+    "COP31 opens today in Antalya; in sailing, Tom Laperche wins the Route du Rhum in record time."
+  ],
+  "note_en": "Monday edition: it covers news since Friday evening. Published slightly late due to a technical issue. Every story links to the original article: check the key points there."
 }

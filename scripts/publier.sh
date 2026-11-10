@@ -50,6 +50,13 @@ for c in d["categories"]:
         if lieu is not None:
             assert isinstance(lieu, dict) and lieu.get("nom"), "lieu sans nom : " + it.get("title", "")
             assert -90 <= float(lieu["lat"]) <= 90 and -180 <= float(lieu["lon"]) <= 180, "coordonnées invalides : " + it.get("title", "")
+# Traduction anglaise : facultative pour publier, mais signalée si elle manque.
+manque = [it.get("title", "?") for c in d["categories"] for it in c.get("items", [])
+          if not ((it.get("en") or {}).get("title") and (it.get("en") or {}).get("summary"))]
+if not d.get("overview_en"):
+    manque.insert(0, "overview_en")
+if manque:
+    print("Attention : traduction anglaise manquante (le texte français sera repris) : " + " | ".join(manque), file=sys.stderr)
 print(d["date"])
 PY
 )

@@ -72,7 +72,7 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
 .masthead-in { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 14px; }
 .wordmark {
   display: inline-flex; align-items: center; gap: 10px; text-decoration: none;
-  font-family: var(--f-display); font-weight: 800; font-size: 20px; letter-spacing: -0.02em;
+  font-family: var(--f-display); font-weight: 800; font-size: 20px; letter-spacing: -0.02em; white-space: nowrap;
 }
 .wordmark.small { font-size: 17px; }
 .wm-mark {
@@ -83,6 +83,10 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
 .sitenav a { text-decoration: none; padding: 6px 10px; border-radius: 6px; color: var(--ink-2); }
 .sitenav a:hover { color: var(--ink); background: var(--chip-bg); }
 .sitenav a[aria-current="page"] { color: var(--ink); font-weight: 700; }
+.lang-switch { display: inline-flex; align-items: center; margin-left: 6px; padding: 2px; border: 1px solid var(--rule); border-radius: 999px; font-size: 12px; font-weight: 700; letter-spacing: 0.04em; }
+.sitenav .lang-switch a, .lang-switch span { padding: 5px 9px; border-radius: 999px; line-height: 1; text-decoration: none; color: var(--muted); }
+.sitenav .lang-switch a:hover { color: var(--ink); background: var(--chip-bg); }
+.lang-switch .lang-cur { background: var(--ink); color: var(--paper); }
 .theme-btn { margin-left: 4px; width: 34px; height: 34px; display: grid; place-items: center; border: 1px solid var(--rule); border-radius: 50%; background: transparent; color: var(--ink); cursor: pointer; }
 .theme-btn svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.6; }
 .theme-btn svg .fill { fill: currentColor; stroke: none; }
@@ -90,7 +94,7 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
 /* ---------- ligne de date ---------- */
 .dateline-in { padding-block: 26px 18px; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 24px; }
 .edition-date { margin: 0; font-family: var(--f-display); font-weight: 700; font-size: 17px; letter-spacing: -0.01em; }
-.edition-meta { margin: 0; display: flex; flex-wrap: wrap; gap: 4px 18px; font-family: var(--f-display); font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.edition-meta { margin: 0; display: flex; flex-wrap: wrap; gap: 4px 18px; font-family: var(--f-display); font-size: 14px; color: var(--muted); }
 .sunrise { display: inline-flex; align-items: center; }
 .sun { width: 18px; height: 18px; margin-right: 6px; fill: none; stroke: var(--sun); stroke-width: 1.8; stroke-linecap: round; }
 
@@ -280,8 +284,12 @@ figcaption { margin-top: 8px; display: flex; align-items: center; gap: 6px; font
   html { scroll-padding-top: 64px; }
 }
 @media (max-width: 420px) {
-  .wordmark { font-size: 18px; }
-  .sitenav a:first-child { display: none; }
+  .wordmark { font-size: 17px; }
+  .masthead-in { flex-wrap: wrap; row-gap: 8px; }
+  .theme-btn { display: none; }
+  .sitenav > a:first-child { display: none; }
+  .sitenav { gap: 2px; }
+  .lang-switch { margin-left: 2px; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }

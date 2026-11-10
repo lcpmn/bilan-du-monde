@@ -3,6 +3,18 @@
 (function () {
   "use strict";
   var root = document.documentElement;
+  var EN = root.lang === "en";
+  var T = EN
+    ? { copied: "Link copied", none: "No story matches this search.", one: " story found", many: " stories found",
+        months: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"] }
+    : { copied: "Lien copié", none: "Aucun sujet ne correspond à cette recherche.", one: " sujet trouvé", many: " sujets trouvés",
+        months: ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."] };
+
+  /* ---- langue : le choix du lecteur est mémorisé ---- */
+  document.addEventListener("click", function (ev) {
+    var a = ev.target.closest && ev.target.closest("a[data-lang]");
+    if (a) { try { localStorage.setItem("lang", a.dataset.lang); } catch (e) {} }
+  });
 
   /* ---- thème clair / sombre ---- */
   var themeBtn = document.getElementById("theme-btn");
@@ -46,7 +58,7 @@
     var url = b.dataset.copy;
     function done(ok) {
       var old = b.textContent;
-      b.textContent = ok ? "Lien copié" : url;
+      b.textContent = ok ? T.copied : url;
       b.classList.toggle("done", ok);
       setTimeout(function () { b.textContent = old; b.classList.remove("done"); }, 1800);
     }
@@ -62,7 +74,6 @@
   var listing = document.getElementById("ed-index");
   var base = q.dataset.root || "../";
   var data = null, loading = null;
-  var MOIS = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."];
   function norm(s) { return String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase(); }
   function load() {
     if (!loading) {
@@ -88,7 +99,10 @@
     node.appendChild(document.createTextNode(text.slice(pos)));
     return node;
   }
-  function fmt(d) { var p = d.split("-"); return (+p[2]) + " " + MOIS[+p[1] - 1] + " " + p[0]; }
+  function fmt(d) {
+    var p = d.split("-");
+    return EN ? T.months[+p[1] - 1] + " " + (+p[2]) + ", " + p[0] : (+p[2]) + " " + T.months[+p[1] - 1] + " " + p[0];
+  }
   function run() {
     var terms = norm(q.value).split(/\s+/).filter(Boolean);
     if (!terms.length) { results.hidden = true; listing.hidden = false; return; }
@@ -96,7 +110,7 @@
       var hits = data.filter(function (r) { return terms.every(function (t) { return r._n.indexOf(t) >= 0; }); })
         .sort(function (a, b) { return a.d < b.d ? 1 : -1; });
       results.replaceChildren();
-      results.appendChild(el("p", "count", hits.length ? hits.length + " sujet" + (hits.length > 1 ? "s" : "") + " trouvé" + (hits.length > 1 ? "s" : "") : "Aucun sujet ne correspond à cette recherche."));
+      results.appendChild(el("p", "count", hits.length ? hits.length + (hits.length > 1 ? T.many : T.one) : T.none));
       hits.slice(0, 60).forEach(function (r) {
         var a = el("a", "hit"); a.href = base + "edition/" + r.d + "/#" + r.a;
         a.style.setProperty("--rub", "var(--r-" + r.k + ")");
