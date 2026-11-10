@@ -51,6 +51,18 @@
           }
         },
         {
+          "title": "Pologne : six morts dans une fusillade à Cracovie",
+          "summary": "Un homme a ouvert le feu samedi 7 novembre sur la grand-place de Cracovie, tuant six personnes et en blessant une quinzaine, avant d'être blessé par la police. Selon les autorités, il a agi seul et avait des opinions ultranationalistes.",
+          "source": "NPR (KUOW)",
+          "sourceDate": "2026-11-07",
+          "url": "https://www.kuow.org/npr-news/2026-11-07/polish-gunman-who-killed-6-people-in-krakow-has-ultranationalistic-views-authorities-say",
+          "lieu": {
+            "nom": "Cracovie, Pologne",
+            "lat": 50.06,
+            "lon": 19.94
+          }
+        },
+        {
           "title": "États-Unis : les démocrates reprennent le Congrès",
           "summary": "Les démocrates ont remporté le contrôle de la Chambre des représentants et du Sénat lors des élections de mi-mandat du 3 novembre, selon les projections. Plusieurs sièges restaient à attribuer.",
           "why": "Avec un Congrès d'opposition, Donald Trump aura plus de mal à faire voter ses textes et son budget d'ici la fin de son mandat.",
@@ -252,5 +264,5 @@
       ]
     }
   ],
-  "note": "Édition corrigée le 9 novembre : les sujets impossibles à rattacher à un article d'origine ont été retirés (dont une fusillade à Cracovie, des inondations à Gaza datant de 2025 et plusieurs résultats sportifs), et chaque sujet renvoie désormais à l'article précis."
+  "note": "Édition corrigée le 9 novembre : les sujets impossibles à rattacher à un article d'origine ont été retirés (dont des inondations à Gaza datant de 2025 et plusieurs résultats sportifs), et chaque sujet renvoie désormais à l'article précis. Correction du 10 novembre : la fusillade de Cracovie, retirée par erreur le 9 novembre, a été rétablie avec sa source."
 }
