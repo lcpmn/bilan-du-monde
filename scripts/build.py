@@ -28,6 +28,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE_URL = "https://lcpmn.github.io/bilan-du-monde/"
 REPO_URL = "https://github.com/lcpmn/bilan-du-monde"
 SITE_NAME = "Bilan du monde"
+# Preuve de propriété pour Google Search Console (publique par nature, ce n'est pas un secret).
+GOOGLE_VERIFICATION = "cUCzmjX2mB9QhqoviMd8fNPRZPCvZ6I0MRR_UIoaKqo"
 PARIS = ZoneInfo("Europe/Paris")
 PARIS_LAT, PARIS_LON = 48.8566, 2.3522
 FONTS = ("https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;"
@@ -287,6 +289,7 @@ def head(L, title, desc, path, og_type="website", og_image=None, og_alt=SITE_NAM
 <title>{e(title)}</title>
 <meta name="description" content="{e(desc)}">
 <meta name="robots" content="max-image-preview:large">
+<meta name="google-site-verification" content="{GOOGLE_VERIFICATION}">
 <link rel="canonical" href="{e(canonical)}">
 {alts}<meta property="og:site_name" content="{SITE_NAME}">
 <meta property="og:title" content="{e(title)}">
