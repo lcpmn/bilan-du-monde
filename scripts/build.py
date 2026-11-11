@@ -73,7 +73,7 @@ FR = Lang(
         lang_label="Langue", edition_no="Édition n° {n}", topics="{n} sujets", topic1="{n} sujet",
         minutes="{n} min de lecture", published="Publiée à {t}", sunrise_title="Lever du soleil à Paris",
         sunrise="Paris · lever {t}", une="À la une", essentials="L'essentiel", numbers="Les chiffres du jour",
-        why="Pourquoi c'est important", source="Source", copy="Copier le lien", all="Tout",
+        why="Pourquoi c'est important", source="Source", share="Partager", share_ed="Partager l'édition", all="Tout",
         sections="Rubriques", prev="Édition précédente", next="Édition suivante", soon="Prochaine édition",
         tomorrow="Demain vers 6 h", editions_nav="Éditions",
         about="Une nouvelle édition paraît vers 6 h, heure de Paris.", method="Méthode",
@@ -84,6 +84,8 @@ FR = Lang(
         search_label="Rechercher dans toutes les éditions",
         search_ph="Rechercher un sujet, un pays, une personne…",
         og_tag="La matinale de l'actualité mondiale", og_when="Chaque matin vers 6 h, heure de Paris",
+        home_title="Bilan du monde · L'actualité du jour résumée en 5 minutes",
+        site_desc="Chaque matin vers 6 h, l'essentiel de l'actualité mondiale résumé en cinq minutes : international, France, économie, tech, sciences, climat et sport, avec la source de chaque information.",
     ),
 )
 
@@ -101,7 +103,7 @@ EN = Lang(
         lang_label="Language", edition_no="Edition no. {n}", topics="{n} stories", topic1="{n} story",
         minutes="{n} min read", published="Published at {t}", sunrise_title="Sunrise in Paris",
         sunrise="Paris · sunrise {t}", une="Top story", essentials="The essentials", numbers="Numbers of the day",
-        why="Why it matters", source="Source", copy="Copy link", all="All",
+        why="Why it matters", source="Source", share="Share", share_ed="Share this edition", all="All",
         sections="Sections", prev="Previous edition", next="Next edition", soon="Next edition",
         tomorrow="Tomorrow around 6 am (Paris time)", editions_nav="Editions",
         about="A new edition comes out around 6 am, Paris time.", method="Method",
@@ -112,6 +114,8 @@ EN = Lang(
         search_label="Search all editions",
         search_ph="Search for a story, a country, a person…",
         og_tag="Your morning world news briefing", og_when="Every morning around 6 am, Paris time",
+        home_title="Bilan du monde · Today's world news in 5 minutes",
+        site_desc="Every morning around 6 am (Paris time), the world's news summarised in five minutes: world, France, economy, tech, science, climate and sport, with the source of every story.",
     ),
 )
 LANGS = (FR, EN)
@@ -136,6 +140,11 @@ def long_date(d, L):
     if L.code == "en":
         return f"{L.days[d.weekday()]}, {L.months[d.month - 1]} {d.day}, {d.year}"
     return f"{L.days[d.weekday()].capitalize()} {d.day}{'er' if d.day == 1 else ''} {L.months[d.month - 1]} {d.year}"
+
+def day_date(d, L):
+    if L.code == "en":
+        return f"{L.months[d.month - 1]} {d.day}, {d.year}"
+    return f"{d.day}{'er' if d.day == 1 else ''} {L.months[d.month - 1]} {d.year}"
 
 def short_src_date(d, L):
     if L.code == "en":
@@ -251,7 +260,12 @@ def depth_root(path):
     """Chemin relatif vers la racine du site depuis une page."""
     return "../" * path.count("/")
 
-def head(L, title, desc, path, og_type="website", og_image=None, og_alt=SITE_NAME, alt_paths=None, extra=""):
+def ld_json(obj):
+    """Bloc de données structurées schema.org (JSON-LD)."""
+    txt = json.dumps(obj, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    return f'\n<script type="application/ld+json">{txt}</script>'
+
+def head(L, title, desc, path, og_type="website", og_image=None, og_alt=SITE_NAME, alt_paths=None, extra="", ld=None):
     root = depth_root(path)
     canonical = SITE_URL + path
     og_image = og_image or ("assets/og/site.png" if L.code == "fr" else "assets/og/en/site.png")
@@ -266,6 +280,7 @@ def head(L, title, desc, path, og_type="website", og_image=None, og_alt=SITE_NAM
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{e(title)}</title>
 <meta name="description" content="{e(desc)}">
+<meta name="robots" content="max-image-preview:large">
 <link rel="canonical" href="{e(canonical)}">
 {alts}<meta property="og:site_name" content="{SITE_NAME}">
 <meta property="og:title" content="{e(title)}">
@@ -282,12 +297,14 @@ def head(L, title, desc, path, og_type="website", og_image=None, og_alt=SITE_NAM
 <meta name="theme-color" content="#f4f6f9" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0a0f17" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="{root}assets/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{root}assets/app-180.png">
+<link rel="manifest" href="{root}{L.prefix}manifest.webmanifest">
 <link rel="alternate" type="application/rss+xml" title="{SITE_NAME}" href="{root}{L.prefix}feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="{FONTS}">
 <link rel="stylesheet" href="{root}assets/style.css">
-<script>try{{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}}catch(e){{}}</script>{extra}
+<script>try{{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}}catch(e){{}}</script>{extra}{"".join(ld_json(x) for x in ld or [])}
 <script src="{root}assets/app.js" defer></script>
 </head>
 <body>
@@ -391,6 +408,10 @@ def why_html(it, L):
     w = L.tx(it, "why")
     return f'<p class="why"><span class="why-label">{e(L.s["why"])}</span> {e(w)}</p>' if w else ""
 
+def share_btn(url, title, L, label=None, cls="share"):
+    return (f'<button class="{cls}" type="button" data-share="{e(url)}" data-title="{e(title)}">'
+            f'{label or L.s["share"]}</button>')
+
 def item_html(it, c, L, edition_url):
     fig = map_figure(it, c["key"], L)
     return f"""<article class="story{' has-map' if fig else ''}" id="{it['_id']}">
@@ -398,7 +419,7 @@ def item_html(it, c, L, edition_url):
   <h3>{e(L.tx(it, 'title'))}</h3>
   <p class="summary">{e(L.tx(it, 'summary'))}</p>
   {why_html(it, L)}
-  <div class="story-meta">{source_html(it, L)}<button class="copy" type="button" data-copy="{e(edition_url)}#{it['_id']}">{L.s['copy']}</button></div>
+  <div class="story-meta">{source_html(it, L)}{share_btn(edition_url + "#" + it["_id"], L.tx(it, "title"), L)}</div>
   </div>
   {fig}
 </article>"""
@@ -416,18 +437,22 @@ def edition_page(d, eds, L, is_home):
     next_ed = eds[idx + 1] if idx + 1 < len(eds) else None
     edition_url = SITE_URL + page_path("edition", L, d["date"])
     overview = L.top(d, "overview") or []
-    desc = overview[0] if overview else L.tagline
-    title = f"{SITE_NAME} · {L.tagline}" if is_home else f"{SITE_NAME} · {long_date(day, L)}"
+    une_title = L.tx(d["_une"][1], "title") if d["_une"] else long_date(day, L)
+    heading = f"{day_date(day, L)} — {une_title}" if d["_une"] else long_date(day, L)
+    if is_home:
+        title, desc = L.s["home_title"], L.s["site_desc"]
+    else:
+        title, desc = f"{heading} · {SITE_NAME}", (overview[0] if overview else L.tagline)
     upd = d["_updated"]
     upd_html = f'<span>{L.s["published"].format(t=hhmm(upd, L))}</span>' if upd else ""
-    une_title = L.tx(d["_une"][1], "title") if d["_une"] else long_date(day, L)
     og = f"assets/og/{d['date']}.png" if L.code == "fr" else f"assets/og/en/{d['date']}.png"
+    ld = [ld_website(L)] if is_home else [ld_edition(d, L, edition_url, og, heading)]
     extra = ""
     if is_home and L.code == "fr":
         # Préférence mémorisée : un lecteur qui a choisi l'anglais arrive directement sur la version anglaise.
         extra = '\n<script>try{if(localStorage.getItem("lang")==="en")location.replace("en/"+location.hash)}catch(e){}</script>'
     topics = (L.s["topic1"] if d["_topics"] == 1 else L.s["topics"]).format(n=d["_topics"])
-    out = [head(L, title, desc, path, "article", og, une_title, alt_paths, extra),
+    out = [head(L, title, desc, path, "website" if is_home else "article", og, une_title, alt_paths, extra, ld),
            masthead(L, path, "home" if is_home else "", alt_paths)]
     out.append(f"""<main id="contenu">
 <div class="dateline">
@@ -451,7 +476,7 @@ def edition_page(d, eds, L, is_home):
     <h1>{e(L.tx(it, 'title'))}</h1>
     <p class="une-summary">{e(L.tx(it, 'summary'))}</p>
     {why_html(it, L)}
-    <div class="story-meta">{source_html(it, L)}<button class="copy" type="button" data-copy="{e(edition_url)}#une">{L.s['copy']}</button></div>
+    <div class="story-meta">{source_html(it, L)}{share_btn(edition_url + "#une", L.tx(it, "title"), L)}</div>
     {map_figure(it, c['key'], L, une=True)}
   </article>"""
     ess = ""
@@ -460,6 +485,7 @@ def edition_page(d, eds, L, is_home):
         ess = f"""<aside class="essentiel" aria-labelledby="ess-title">
     <h2 id="ess-title">{L.s['essentials']}</h2>
     <ul>{lis}</ul>
+    {share_btn(edition_url, title if not is_home else f"{heading} · {SITE_NAME}", L, L.s['share_ed'], "share share-ed")}
   </aside>"""
     out.append(f'<section class="top">\n  {une_html}\n  {ess}\n</section>\n')
 
@@ -506,6 +532,63 @@ def edition_page(d, eds, L, is_home):
     out.append(f'<nav class="pager" aria-label="{L.s["editions_nav"]}">{pv}{nx}</nav>\n</main>\n')
     out.append(footer(L, path))
     return "".join(out)
+
+def org(L):
+    return {"@type": "Organization", "name": SITE_NAME, "url": SITE_URL + L.prefix,
+            "logo": {"@type": "ImageObject", "url": SITE_URL + "assets/app-512.png", "width": 512, "height": 512}}
+
+def ld_website(L):
+    return {"@context": "https://schema.org", "@type": "WebSite", "name": SITE_NAME, "url": SITE_URL + L.prefix,
+            "inLanguage": L.code, "description": L.s["site_desc"], "publisher": org(L)}
+
+def published(d):
+    day = d["_day"]
+    return d["_updated"] or datetime(day.year, day.month, day.day, 6, tzinfo=PARIS)
+
+def ld_edition(d, L, url, og, heading):
+    """L'édition comme article d'actualité (NewsArticle), avec ses rubriques et les articles cités."""
+    overview = L.top(d, "overview") or []
+    when = published(d).isoformat(timespec="seconds")
+    sources = []
+    for c in d["_cats"]:
+        for it in c["items"]:
+            u = safe_url(it.get("url"))
+            if u and u not in sources:
+                sources.append(u)
+    return {"@context": "https://schema.org", "@type": "NewsArticle",
+            "headline": heading if len(heading) <= 110 else heading[:109].rstrip() + "…",
+            "description": " ".join(overview[:2]) or L.tagline,
+            "datePublished": when, "dateModified": when, "inLanguage": L.code,
+            "url": url, "mainEntityOfPage": url, "image": [SITE_URL + og],
+            "isAccessibleForFree": True, "articleSection": [rub_name(c, L) for c in d["_cats"]],
+            "author": org(L), "publisher": org(L), "isBasedOn": sources}
+
+def sitemap(eds):
+    """Plan du site pour les moteurs de recherche, avec les équivalences français / anglais."""
+    def entry(kind, day, lastmod):
+        alts = "".join(f'<xhtml:link rel="alternate" hreflang="{X.code}" href="{SITE_URL}{page_path(kind, X, day)}"/>'
+                       for X in LANGS)
+        alts += f'<xhtml:link rel="alternate" hreflang="x-default" href="{SITE_URL}{page_path(kind, FR, day)}"/>'
+        return "".join(f"<url><loc>{SITE_URL}{page_path(kind, L, day)}</loc><lastmod>{lastmod}</lastmod>{alts}</url>\n"
+                       for L in LANGS)
+    last = published(eds[-1]).isoformat(timespec="seconds")
+    rows = [entry("home", None, last), entry("archives", None, last)]
+    rows += [entry("edition", d["date"], published(d).isoformat(timespec="seconds")) for d in reversed(eds)]
+    return ('<?xml version="1.0" encoding="UTF-8"?>\n'
+            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'
+            + "".join(rows) + "</urlset>\n")
+
+def manifest(L):
+    """Manifeste d'application : « Ajouter à l'écran d'accueil » sur téléphone."""
+    up = "../" if L.prefix else ""
+    return json.dumps({
+        "name": SITE_NAME, "short_name": SITE_NAME, "description": L.tagline, "lang": L.code,
+        "start_url": "./", "scope": "./", "display": "standalone",
+        "background_color": "#0c1422", "theme_color": "#0c1422",
+        "icons": [{"src": f"{up}assets/app-192.png", "sizes": "192x192", "type": "image/png"},
+                  {"src": f"{up}assets/app-512.png", "sizes": "512x512", "type": "image/png"},
+                  {"src": f"{up}assets/app-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}],
+    }, ensure_ascii=False, indent=1)
 
 def archives_page(eds, L):
     global CUR
@@ -629,6 +712,8 @@ def main():
     if not eds:
         sys.exit("Aucune édition dans editions/")
     host = SITE_URL.split("://", 1)[1].rstrip("/")
+    for size in (180, 192, 512):
+        visuals.app_icon(os.path.join(ROOT, "assets", f"app-{size}.png"), size)
     for L in LANGS:
         og_dir = os.path.join(ROOT, "assets", "og", *(["en"] if L.code == "en" else []))
         for d in eds:
@@ -645,6 +730,8 @@ def main():
         write(page_path("archives", L) + "index.html", archives_page(eds, L))
         write(L.prefix + "feed.xml", feed(eds, L))
         write(L.prefix + "search.json", json.dumps(search_index(eds, L), ensure_ascii=False, separators=(",", ":")))
+        write(L.prefix + "manifest.webmanifest", manifest(L))
+    write("sitemap.xml", sitemap(eds))
     write("404.html", page_404())
     missing = [d["date"] for d in eds if not d.get("overview_en")]
     print(f"Site généré : {len(eds)} édition(s), dernière du {eds[-1]['date']}."

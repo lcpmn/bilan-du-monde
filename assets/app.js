@@ -51,16 +51,23 @@
     });
   });
 
-  /* ---- copier le lien d'un sujet ---- */
+  /* ---- partager un sujet ou l'édition : menu de partage du téléphone, sinon copie du lien ---- */
+  var touch = window.matchMedia && matchMedia("(pointer: coarse)").matches;
   document.addEventListener("click", function (ev) {
-    var b = ev.target.closest && ev.target.closest(".copy[data-copy]");
+    var b = ev.target.closest && ev.target.closest(".share[data-share]");
     if (!b) return;
-    var url = b.dataset.copy;
+    var url = b.dataset.share, title = b.dataset.title || document.title;
+    if (touch && navigator.share) {
+      navigator.share({ title: title, text: title, url: url }).catch(function () {});
+      return;
+    }
     function done(ok) {
+      if (b.dataset.busy) return;
+      b.dataset.busy = "1";
       var old = b.textContent;
       b.textContent = ok ? T.copied : url;
       b.classList.toggle("done", ok);
-      setTimeout(function () { b.textContent = old; b.classList.remove("done"); }, 1800);
+      setTimeout(function () { b.textContent = old; b.classList.remove("done"); delete b.dataset.busy; }, 1800);
     }
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(url).then(function () { done(true); }, function () { done(false); });

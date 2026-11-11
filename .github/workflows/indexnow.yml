@@ -1,0 +1,51 @@
+# Après chaque nouvelle édition, prévient les moteurs de recherche compatibles IndexNow
+# (Bing, et à travers lui DuckDuckGo, Ecosia, Qwant… ; Yandex, Seznam, Naver) que les pages du jour ont changé.
+# La clé n'est pas un secret : elle est publiée dans le fichier a336659c7951c1e5165fb6a4259514ed.txt à la racine du site.
+name: IndexNow
+
+on:
+  push:
+    branches: [main]
+    paths: ["editions/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: read
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: editions
+
+      - name: Attendre la mise en ligne de cette version du site
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for i in $(seq 1 40); do
+            build=$(gh api "repos/$GITHUB_REPOSITORY/pages/builds/latest" --jq '.status + " " + .commit' 2>/dev/null || true)
+            echo "GitHub Pages : $build"
+            if [ "$build" = "built $GITHUB_SHA" ]; then exit 0; fi
+            sleep 15
+          done
+          echo "::warning::Cette version n'a pas été vue en ligne au bout de 10 minutes ; envoi quand même."
+
+      - name: Envoyer les pages du jour à IndexNow
+        env:
+          KEY: a336659c7951c1e5165fb6a4259514ed
+          SITE: https://lcpmn.github.io/bilan-du-monde
+        run: |
+          DAY=$(ls editions | grep -E '^[0-9]{4}-[0-9]{2}-[0-9]{2}\.json$' | sort | tail -n 1 | cut -c1-10)
+          BODY=$(jq -n --arg key "$KEY" --arg site "$SITE" --arg day "$DAY" '{
+            host: "lcpmn.github.io", key: $key, keyLocation: "\($site)/\($key).txt",
+            urlList: ["\($site)/", "\($site)/en/", "\($site)/edition/\($day)/", "\($site)/en/edition/\($day)/",
+                      "\($site)/archives/", "\($site)/en/archives/"] }')
+          echo "$BODY"
+          code=$(curl -sS -o resp.txt -w '%{http_code}' -X POST "https://api.indexnow.org/indexnow" \
+                 -H "Content-Type: application/json; charset=utf-8" --data "$BODY")
+          echo "IndexNow : HTTP $code"; cat resp.txt 2>/dev/null || true
+          case "$code" in 200|202) ;; *) echo "::warning::IndexNow a répondu HTTP $code" ;; esac

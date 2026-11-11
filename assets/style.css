@@ -178,9 +178,16 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
 .src-name:hover, .src-title-link:hover { text-decoration: underline; text-underline-offset: 3px; }
 .src-title-link:hover { color: var(--link); }
 .src-meta { font-size: 13px; color: var(--muted); }
-.copy { font: inherit; font-weight: 500; color: var(--muted); background: none; border: 0; padding: 0; cursor: pointer; }
-.copy:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
-.copy.done { color: var(--r-sciences); }
+.share { font: inherit; font-weight: 500; color: var(--muted); background: none; border: 0; padding: 0; cursor: pointer; }
+.share:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
+.share.done { color: var(--r-sciences); }
+.share-ed {
+  margin-top: 18px; width: 100%; padding: 10px 14px; border-radius: 999px;
+  font-family: var(--f-display); font-size: 15px; font-weight: 700;
+  color: var(--paper); background: var(--ink); overflow-wrap: anywhere;
+}
+.share-ed:hover { color: var(--paper); text-decoration: none; opacity: .88; }
+.share-ed.done { color: var(--paper); background: var(--r-sciences); }
 .story:target, .une:target { animation: flash 1.6s ease-out; }
 @keyframes flash { from { background: color-mix(in srgb, var(--sun) 22%, transparent); } to { background: transparent; } }
 .rubrique[hidden] { display: none; }
@@ -296,5 +303,5 @@ figcaption { margin-top: 8px; display: flex; align-items: center; gap: 6px; font
   .story:target, .une:target { animation: none; }
 }
 @media print {
-  .masthead nav, .filters, .copy, .pager, .theme-btn { display: none !important; }
+  .masthead nav, .filters, .share, .pager, .theme-btn { display: none !important; }
 }

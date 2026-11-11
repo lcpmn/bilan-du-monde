@@ -271,3 +271,24 @@ def og_image(path, headline, dateline="", kicker="", footer=""):
     img = img.resize((OG_W, OG_H), Image.LANCZOS)
     os.makedirs(os.path.dirname(path), exist_ok=True)
     img.save(path, "PNG", optimize=True)
+
+
+# ======================================================================
+# Icône d'application (écran d'accueil, résultats de recherche)
+# ======================================================================
+def app_icon(path, size):
+    """Icône carrée pleine : le soleil qui se lève de la marque, sur fond nuit.
+    Le motif reste dans la zone sûre des icônes « maskable » (cercle central de 80 %)."""
+    from PIL import Image, ImageDraw
+    S = size * 4
+    img = Image.new("RGB", (S, S), INK)
+    d = ImageDraw.Draw(img)
+    cx, cy, r = S / 2, S * 1.0, S * 0.40
+    for i, a in enumerate((0.07, 0.12, 0.18)):
+        rr = r + S * (0.13 - i * 0.045)
+        col = tuple(int(INK[j] + (SUN[j] - INK[j]) * a) for j in range(3))
+        d.ellipse((cx - rr, cy - rr, cx + rr, cy + rr), fill=col)
+    d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=SUN)
+    img = img.resize((size, size), Image.LANCZOS)
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    img.save(path, "PNG", optimize=True)
