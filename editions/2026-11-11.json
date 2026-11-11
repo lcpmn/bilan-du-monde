@@ -1,0 +1,162 @@
+{
+  "date": "2026-11-11",
+  "updatedAt": "2026-11-11T06:06:54+01:00",
+  "une": { "key": "monde", "index": 0 },
+  "overview": [
+    "Russes, Ukrainiens et Américains ont ouvert mardi à Abou Dhabi un nouveau cycle de pourparlers de paix, sous l'égide de Steve Witkoff et Jared Kushner.",
+    "En France, enseignants, lycéens et étudiants étaient de nouveau appelés à la grève mardi pour réclamer davantage de moyens.",
+    "La Bourse de Paris a gagné 0,55 % grâce au repli du pétrole, tandis que le fabricant de puces Nexperia dit ne plus pouvoir suivre la demande.",
+    "En Ligue des champions féminine, soirée difficile pour les clubs parisiens : le PSG a perdu 1-2 contre le Bayern et le Paris FC 3-0 à Madrid."
+  ],
+  "overview_en": [
+    "Russian, Ukrainian and US delegations opened a new round of peace talks in Abu Dhabi on Tuesday, mediated by Steve Witkoff and Jared Kushner.",
+    "In France, teachers, high-school pupils and university students were again called out on strike on Tuesday to demand more resources.",
+    "The Paris stock exchange gained 0.55% as oil prices fell, while chipmaker Nexperia says it can no longer keep up with demand.",
+    "In the Women's Champions League, it was a tough night for the Paris clubs: PSG lost 1-2 to Bayern and Paris FC lost 3-0 in Madrid."
+  ],
+  "chiffres": [
+    { "value": "+0,55 %", "label": "Hausse du CAC 40 mardi, à 8 278,59 points", "value_en": "+0.55%", "label_en": "Rise in the CAC 40 on Tuesday, to 8,278.59 points", "key": "eco" },
+    { "value": "2", "label": "Nouvelles déclinaisons de la puce d'IA TPU de 8e génération présentées par Google", "value_en": "2", "label_en": "New versions of its eighth-generation TPU AI chip unveiled by Google", "key": "tech" },
+    { "value": "1-2", "label": "Défaite du PSG face au Bayern Munich au Parc des Princes", "value_en": "1-2", "label_en": "PSG's defeat to Bayern Munich at the Parc des Princes", "key": "sport" },
+    { "value": "3-0", "label": "Défaite du Paris FC sur la pelouse du Real Madrid", "value_en": "3-0", "label_en": "Paris FC's defeat away to Real Madrid", "key": "sport" }
+  ],
+  "categories": [
+    {
+      "key": "monde",
+      "name": "International",
+      "items": [
+        {
+          "title": "Ukraine : Russes, Ukrainiens et Américains réunis à Abou Dhabi",
+          "summary": "Des délégations russe, ukrainienne et américaine ont ouvert mardi 10 novembre à Abou Dhabi un nouveau cycle de pourparlers de paix sous l'égide des États-Unis, représentés par Steve Witkoff et Jared Kushner. Selon le Washington Post, la sécurité européenne figure à l'ordre du jour, Jared Kushner ayant proposé une nouvelle architecture de sécurité associant la Russie et des pays européens.",
+          "why": "L'issue de ces discussions conditionne la sécurité du continent européen, et donc celle de la France.",
+          "en": {
+            "title": "Ukraine: Russians, Ukrainians and Americans meet in Abu Dhabi",
+            "summary": "Russian, Ukrainian and US delegations opened a new round of US-brokered peace talks in Abu Dhabi on Tuesday, November 10, with the United States represented by Steve Witkoff and Jared Kushner. According to The Washington Post, European security is on the agenda, after Jared Kushner proposed a new security architecture involving Russia and European countries.",
+            "why": "The outcome of these talks will shape security across Europe, and therefore France's own security."
+          },
+          "source": "The Washington Post",
+          "sourceTitle": "Russia and Ukraine begin U.S.-backed peace talks in Abu Dhabi",
+          "sourceDate": "2026-11-10",
+          "url": "https://www.washingtonpost.com/world/2026/11/10/russia-ukraine-begin-us-backed-peace-talks-abu-dhabi/",
+          "lieu": { "nom": "Abou Dhabi, Émirats arabes unis", "nom_en": "Abu Dhabi, United Arab Emirates", "lat": 24.45, "lon": 54.38, "echelle": "ville" }
+        }
+      ]
+    },
+    {
+      "key": "france",
+      "name": "France",
+      "items": [
+        {
+          "title": "Éducation : enseignants, lycéens et étudiants de nouveau en grève",
+          "summary": "L'intersyndicale de l'Éducation nationale et de l'enseignement supérieur, rejointe par des organisations lycéennes et étudiantes, appelait mardi 10 novembre à une nouvelle journée de grève et de manifestations, après celle du 5 novembre. Elle réclame davantage de moyens pour l'école et l'université ; une nouvelle journée de mobilisation est annoncée le 17 novembre.",
+          "why": "Le mouvement s'installe dans la durée, au moment où le gouvernement tente d'apaiser le front social.",
+          "en": {
+            "title": "Education: teachers, pupils and students strike again",
+            "summary": "The joint union front for state schools and higher education, joined by high-school and student organisations, called a new day of strikes and demonstrations on Tuesday, November 10, following one on November 5. It is demanding more resources for schools and universities; a further day of action has been announced for November 17.",
+            "why": "The protest movement is settling in for the long haul just as the government tries to calm social tensions."
+          },
+          "source": "VousNousIls",
+          "sourceTitle": "Grève du 10 novembre : enseignants, lycéens et étudiants maintiennent la pression sur le gouvernement",
+          "sourceDate": "2026-11-10",
+          "url": "https://www.vousnousils.fr/2026/11/10/greve-du-10-novembre-enseignants-lyceens-et-etudiants-maintiennent-la-pression-sur-le-gouvernement-706042"
+        }
+      ]
+    },
+    {
+      "key": "eco",
+      "name": "Économie & marchés",
+      "items": [
+        {
+          "title": "Le CAC 40 progresse de 0,55 % avec le repli du pétrole",
+          "summary": "La Bourse de Paris a clôturé mardi 10 novembre en hausse de 0,55 %, à 8 278,59 points, soutenue par la baisse des prix du pétrole. L'indice a toutefois réduit ses gains après la publication de l'inflation américaine d'octobre.",
+          "en": {
+            "title": "CAC 40 gains 0.55% as oil prices fall",
+            "summary": "The Paris stock exchange closed up 0.55% at 8,278.59 points on Tuesday, November 10, supported by lower oil prices. The index did, however, pare its gains after the release of US inflation figures for October."
+          },
+          "source": "Quartz (AFP)",
+          "sourceTitle": "Le CAC 40 termine en hausse de 0,55 % avec la baisse du pétrole",
+          "sourceDate": "2026-11-10",
+          "url": "https://fr.qz.com/cac-40-hausse-petrole-inflation-americaine-bourse-111026",
+          "lieu": { "nom": "Paris", "nom_en": "Paris, France", "lat": 48.87, "lon": 2.34, "echelle": "ville" }
+        },
+        {
+          "title": "Nexperia débordé : l'IA accapare les capacités de production de puces",
+          "summary": "Le fabricant néerlandais de semi-conducteurs Nexperia se dit « totalement sursouscrit », a déclaré mardi son PDG par intérim à Reuters, au salon Electronica de Munich. Les fournisseurs réorientent leurs capacités vers les centres de données d'IA, au détriment des puces classiques utilisées dans l'automobile et l'industrie.",
+          "why": "Ces goulets d'étranglement menacent l'industrie automobile européenne, grande consommatrice de ces composants.",
+          "en": {
+            "title": "Nexperia swamped as AI soaks up chipmaking capacity",
+            "summary": "Dutch semiconductor maker Nexperia is \"totally oversubscribed\", its interim CEO told Reuters on Tuesday at the Electronica trade fair in Munich. Suppliers are shifting capacity towards AI data centres, at the expense of the mature chips used in cars and industrial equipment.",
+            "why": "These bottlenecks threaten Europe's car industry, a major buyer of such components."
+          },
+          "source": "The Star (Reuters)",
+          "sourceTitle": "Chipmakers warn AI demand is creating bottlenecks in automotive supply chain",
+          "sourceDate": "2026-11-10",
+          "url": "https://thestar.com.my/tech/tech-news/2026/11/10/chipmakers-warn-ai-demand-is-creating-bottlenecks-in-automotive-supply-chain",
+          "lieu": { "nom": "Munich, Allemagne", "nom_en": "Munich, Germany", "lat": 48.14, "lon": 11.58, "echelle": "ville" }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "name": "Tech & IA",
+      "items": [
+        {
+          "title": "Google ajoute deux puces d'IA à sa gamme TPU de 8e génération",
+          "summary": "Google a présenté mardi 10 novembre deux nouvelles déclinaisons de ses puces d'IA maison, les TPU 8tx et TPU 8i Max, qui complètent la huitième génération lancée en avril. La TPU 8i Max réunit deux puces TPU 8i dans un même boîtier.",
+          "en": {
+            "title": "Google adds two AI chips to its eighth-generation TPU line",
+            "summary": "Google unveiled two new versions of its in-house AI chips on Tuesday, November 10, the TPU 8tx and the TPU 8i Max, adding to the eighth generation launched in April. The TPU 8i Max combines two TPU 8i chips in a single package."
+          },
+          "source": "TechCrunch",
+          "sourceTitle": "Google broadens its AI hardware portfolio with two new specialized chips",
+          "sourceDate": "2026-11-10",
+          "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips"
+        }
+      ]
+    },
+    {
+      "key": "sciences",
+      "name": "Sciences & santé",
+      "items": []
+    },
+    {
+      "key": "climat",
+      "name": "Climat & environnement",
+      "items": []
+    },
+    {
+      "key": "sport",
+      "name": "Sport",
+      "items": [
+        {
+          "title": "Ligue des champions féminine : le PSG battu 1-2 par le Bayern",
+          "summary": "Le PSG s'est incliné 1-2 face au Bayern Munich mardi 10 novembre au Parc des Princes, lors de la 4e journée de la phase de ligue. Menées 2-0 à la pause, les Parisiennes ont réduit l'écart sur un penalty de Paulina Dudek.",
+          "why": "Cette défaite complique la course du PSG vers la phase à élimination directe.",
+          "en": {
+            "title": "Women's Champions League: PSG beaten 1-2 by Bayern",
+            "summary": "PSG lost 1-2 to Bayern Munich at the Parc des Princes on Tuesday, November 10, on matchday four of the league phase. Trailing 2-0 at half-time, the Paris side pulled one back through a Paulina Dudek penalty.",
+            "why": "The defeat complicates PSG's path to the knockout stage."
+          },
+          "source": "Paris Saint-Germain",
+          "sourceTitle": "Les Parisiennes s'inclinent face au Bayern",
+          "url": "https://www.psg.fr/content/les-parisiennes-sinclinent-face-au-bayern-cr-paris-saint-germain-bayern-munich-uefa-womens-champions-league-phase-de-ligue-parc-des-princes-2026-2027",
+          "lieu": { "nom": "Paris", "nom_en": "Paris, France", "lat": 48.84, "lon": 2.25, "echelle": "ville" }
+        },
+        {
+          "title": "Ligue des champions féminine : le Paris FC surclassé à Madrid (3-0)",
+          "summary": "Le Paris FC s'est incliné 3-0 mardi 10 novembre sur la pelouse du Real Madrid, lors de la 4e journée de la phase de ligue. Après une première période sans but, les Madrilènes ont marqué à trois reprises en seconde période.",
+          "en": {
+            "title": "Women's Champions League: Paris FC outclassed in Madrid (3-0)",
+            "summary": "Paris FC lost 3-0 away to Real Madrid on Tuesday, November 10, on matchday four of the league phase. After a goalless first half, the Madrid side scored three times after the break."
+          },
+          "source": "Ouest-France",
+          "sourceTitle": "Football. Ligue des champions féminine : le Paris FC surclassé sur la pelouse du Real Madrid",
+          "url": "https://www.ouest-france.fr/sport/football/ligue-des-champions-feminine/football-ligue-des-champions-feminine-le-paris-fc-surclasse-sur-la-pelouse-du-real-madrid-f8bee468-dd3e-11f1-86b6-0a2fbb1d8ed9",
+          "lieu": { "nom": "Madrid, Espagne", "nom_en": "Madrid, Spain", "lat": 40.42, "lon": -3.70, "echelle": "ville" }
+        }
+      ]
+    }
+  ],
+  "note": "Résumé rédigé automatiquement à partir d'articles de presse publiés dans les dernières 24 à 48 heures. Chaque sujet renvoie à l'article d'origine : vérifiez-y les points importants.",
+  "note_en": "Summary written automatically from press articles published in the last 24 to 48 hours. Every story links to the original article: check the key points there."
+}
