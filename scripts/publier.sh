@@ -34,7 +34,11 @@ def lien_article(u):
 d = json.load(open(sys.argv[1], encoding="utf-8"))
 assert re.fullmatch(r"\d{4}-\d{2}-\d{2}", d.get("date", "")), "champ date invalide"
 assert isinstance(d.get("categories"), list) and d["categories"], "aucune rubrique"
+RUBRIQUES = {"monde", "france", "eco", "tech", "sciences", "climat", "sport"}
+for x in d.get("chiffres") or []:
+    assert x.get("key") in RUBRIQUES, "rubrique inconnue dans les chiffres : " + str(x.get("key"))
 for c in d["categories"]:
+    assert c.get("key") in RUBRIQUES, "rubrique inconnue : " + str(c.get("key"))
     for it in c.get("items", []):
         assert it.get("title") and it.get("summary"), "sujet incomplet dans " + c.get("key", "?")
         url = str(it.get("url", ""))

@@ -193,10 +193,16 @@ def load_editions():
         prepare(d)
     return out
 
+def clean_key(k):
+    """Clé de rubrique réduite à [a-z0-9-] : elle est insérée telle quelle dans les attributs HTML et le CSS."""
+    return re.sub(r"[^a-z0-9-]", "", str(k or "monde").lower()) or "monde"
+
 def prepare(d):
     cats = []
+    for x in d.get("chiffres") or []:
+        x["key"] = clean_key(x.get("key"))
     for c in d.get("categories") or []:
-        key = c.get("key")
+        key = clean_key(c.get("key"))
         slug = SLUGS.get(key) or re.sub(r"[^a-z0-9-]", "", str(key).lower())
         items = []
         for i, it in enumerate(c.get("items") or []):
