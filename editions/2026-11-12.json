@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-12",
+  "updatedAt": "2026-11-12T06:07:48+01:00",
+  "une": { "key": "monde", "index": 0 },
+  "overview": [
+    "Les pourparlers entre Russes et Ukrainiens à Abou Dhabi se sont achevés mercredi sur un accord pour un vaste échange de prisonniers, sans avancée sur la paix.",
+    "Emmanuel Macron a présidé son dernier 11-Novembre comme chef de l'État, sur fond de polémique autour des commémorations à l'école.",
+    "À la COP31 d'Antalya, António Guterres a appelé à un pacte pour la justice climatique.",
+    "Les émissions mondiales de CO2 d'origine fossile devraient reculer de 0,41 % en 2026, selon le Global Carbon Budget.",
+    "À Paris, le CAC 40 a gagné 0,66 % lors d'une séance calme, le 11 novembre étant férié."
+  ],
+  "overview_en": [
+    "Russia-Ukraine talks in Abu Dhabi ended on Wednesday with a deal on a large prisoner exchange, but no progress towards peace.",
+    "Emmanuel Macron led his last Armistice Day ceremony as head of state, amid a row over commemorations in schools.",
+    "At the COP31 summit in Antalya, António Guterres called for a climate justice pact.",
+    "Global fossil CO2 emissions are set to fall by 0.41% in 2026, according to the Global Carbon Budget.",
+    "In Paris, the CAC 40 rose 0.66% in a quiet session, with 11 November a public holiday."
+  ],
+  "chiffres": [
+    { "value": "−0,41 %", "label": "Baisse attendue des émissions mondiales de CO2 fossile en 2026", "value_en": "−0.41%", "label_en": "Expected fall in global fossil CO2 emissions in 2026", "key": "climat" },
+    { "value": "+0,66 %", "label": "Hausse du CAC 40 mercredi, un jour férié en France", "value_en": "+0.66%", "label_en": "Rise of the CAC 40 on Wednesday, a public holiday in France", "key": "eco" },
+    { "value": "8 332,87", "label": "Niveau de clôture du CAC 40, en points", "value_en": "8,332.87", "label_en": "Closing level of the CAC 40, in points", "key": "eco" },
+    { "value": "108e", "label": "Anniversaire de l'Armistice de 1918, le dernier présidé par Emmanuel Macron", "value_en": "108th", "label_en": "Anniversary of the 1918 Armistice, the last one led by Emmanuel Macron", "key": "france" }
+  ],
+  "categories": [
+    { "key": "monde", "name": "International", "items": [
+      {
+        "title": "Ukraine : Moscou et Kiev s'accordent sur un vaste échange de prisonniers",
+        "summary": "Les pourparlers à trois avec les États-Unis se sont terminés mercredi 11 novembre à Abou Dhabi. Russes et Ukrainiens ont convenu d'un important échange de prisonniers de guerre, sans chiffre précis à ce stade. L'envoyé américain Jared Kushner a salué une avancée humanitaire, mais aucun progrès n'a été annoncé sur un accord de paix.",
+        "why": "C'est le premier résultat concret de ces négociations, alors que les positions restent très éloignées sur le fond du conflit, qui touche directement la sécurité européenne.",
+        "en": {
+          "title": "Ukraine: Moscow and Kyiv agree on a large prisoner exchange",
+          "summary": "Three-way talks with the United States ended in Abu Dhabi on Wednesday 11 November. Russia and Ukraine agreed on a major exchange of prisoners of war, with no exact figure yet. US envoy Jared Kushner hailed a humanitarian breakthrough, but no progress was announced towards a peace deal.",
+          "why": "It is the first concrete outcome of these talks, while the two sides remain far apart on the substance of a conflict that directly affects European security."
+        },
+        "source": "ABC News (Australie)",
+        "sourceTitle": "Ukraine and Russia agree to large prisoner swap after two days of talks in Abu Dhabi",
+        "sourceDate": "2026-11-12",
+        "url": "https://www.abc.net.au/news/2026-11-12/ukraine-russia-agree-prisoner-swap-abu-dhabi-talks/107375462",
+        "lieu": { "nom": "Abou Dhabi, Émirats arabes unis", "nom_en": "Abu Dhabi, United Arab Emirates", "lat": 24.45, "lon": 54.38 }
+      }
+    ] },
+    { "key": "france", "name": "France", "items": [
+      {
+        "title": "Emmanuel Macron préside son dernier 11-Novembre",
+        "summary": "Mercredi 11 novembre, Emmanuel Macron a présidé à Paris, pour la dernière fois comme chef de l'État, la cérémonie du 108e anniversaire de l'Armistice de 1918. Il a déposé une gerbe au pied de la statue de Clemenceau, puis ravivé la flamme du Soldat inconnu sous l'Arc de Triomphe. Dans son discours, il a affirmé que la mémoire du 11-Novembre a sa place dans toutes les écoles, sur fond de débat chez les enseignants.",
+        "why": "À moins de six mois de la présidentielle, la commémoration a pris une tonalité politique et relancé le débat sur le rôle de l'école dans la mémoire nationale.",
+        "en": {
+          "title": "Emmanuel Macron leads his last Armistice Day ceremony",
+          "summary": "On Wednesday 11 November, Emmanuel Macron led the ceremony for the 108th anniversary of the 1918 Armistice in Paris, for the last time as head of state. He laid a wreath at the statue of Clemenceau, then rekindled the flame of the Unknown Soldier under the Arc de Triomphe. In his speech, he said the memory of 11 November belongs in every school, amid a debate among teachers.",
+          "why": "With the presidential election less than six months away, the commemoration took on a political tone and revived the debate on the role of schools in national memory."
+        },
+        "source": "France 24",
+        "sourceTitle": "Emmanuel Macron préside un dernier 11-Novembre marqué par une polémique",
+        "sourceDate": "2026-11-11",
+        "url": "https://www.france24.com/fr/france/20261111-ceremonies-du-11-novembre-une-polemique-hommage-national-education-histoire",
+        "lieu": { "nom": "Paris", "nom_en": "Paris, France", "lat": 48.87, "lon": 2.30, "echelle": "ville" }
+      }
+    ] },
+    { "key": "eco", "name": "Économie & marchés", "items": [
+      {
+        "title": "Le CAC 40 gagne 0,66 % dans une séance de jour férié",
+        "summary": "Mercredi 11 novembre, le CAC 40 a pris 0,66 % à 8 332,87 points, soit 54,28 points de plus que la veille. Les volumes sont restés faibles à Paris, le 11 novembre étant férié.",
+        "en": {
+          "title": "The CAC 40 gains 0.66% in a public-holiday session",
+          "summary": "On Wednesday 11 November, the CAC 40 rose 0.66% to 8,332.87 points, up 54.28 points on the previous day. Volumes were thin in Paris, with 11 November a public holiday."
+        },
+        "source": "Moneyvox",
+        "sourceTitle": "Le CAC 40 nage dans le vert, TotalEnergies carbure : les infos bourse du 11 novembre",
+        "sourceDate": "2026-11-11",
+        "url": "https://www.moneyvox.fr/bourse/actualites/111198/le-cac-40-nage-dans-le-vert-totalenergies-carbure-les-infos-bourse-du-11-novembre"
+      }
+    ] },
+    { "key": "tech", "name": "Tech & IA", "items": [] },
+    { "key": "sciences", "name": "Sciences & santé", "items": [] },
+    { "key": "climat", "name": "Climat & environnement", "items": [
+      {
+        "title": "COP31 : Guterres réclame un pacte pour la justice climatique",
+        "summary": "Devant les dirigeants réunis à Antalya pour la COP31, le secrétaire général de l'ONU, António Guterres, a proposé un « pacte pour la justice climatique ». Il vise à aider les pays en développement à sortir des énergies fossiles et à protéger ceux qui subissent déjà le dérèglement. Il a aussi suggéré de taxer les compagnies fossiles pour aider les pays les plus touchés.",
+        "why": "Ce discours fixe le cap des négociations de la COP31, où la question du financement des pays les plus vulnérables reste au cœur des tensions.",
+        "en": {
+          "title": "COP31: Guterres calls for a climate justice pact",
+          "summary": "Addressing leaders gathered in Antalya for COP31, UN Secretary-General António Guterres proposed a \"climate justice compact\". It aims to help developing countries move away from fossil fuels and protect those already suffering from climate change. He also suggested taxing fossil fuel companies to help the hardest-hit countries.",
+          "why": "The speech sets the tone for the COP31 negotiations, where funding for the most vulnerable countries remains at the heart of the tensions."
+        },
+        "source": "ONU Info (UN News)",
+        "sourceTitle": "‘Make or bake time’: Guterres urges climate justice pact as leaders gather at COP31",
+        "url": "https://news.un.org/en/story/2026/11/1168783",
+        "lieu": { "nom": "Antalya, Turquie", "nom_en": "Antalya, Türkiye", "lat": 36.9, "lon": 30.7 }
+      },
+      {
+        "title": "Les émissions mondiales de CO2 fossile devraient reculer en 2026",
+        "summary": "Selon les données du Global Carbon Budget 2026, les émissions mondiales de CO2 d'origine fossile devraient baisser de 0,41 % cette année. Le recul viendrait du pétrole (−1,89 %), alors que les émissions liées au charbon progresseraient (+0,57 %). Cette baisse ne signifie pas forcément que le pic des émissions est atteint.",
+        "why": "Une baisse, même faible, est rare : elle sera scrutée à la COP31 pour savoir si la tendance peut durer.",
+        "en": {
+          "title": "Global fossil CO2 emissions set to fall in 2026",
+          "summary": "According to Global Carbon Budget 2026 data, global fossil CO2 emissions are expected to fall by 0.41% this year. The decline would come from oil (−1.89%), while coal-related emissions would rise (+0.57%). The fall does not necessarily mean that emissions have peaked.",
+          "why": "Even a small fall is rare: it will be closely watched at COP31 to see whether the trend can last."
+        },
+        "source": "Business Today",
+        "sourceDate": "2026-11-10",
+        "url": "https://www.businesstoday.in/world/story/global-fossil-co2-emissions-to-fall-in-2026-has-the-world-finally-reached-peak-carbon-pollution-566565-2026-11-10"
+      }
+    ] },
+    { "key": "sport", "name": "Sport", "items": [] }
+  ],
+  "note": "Résumé rédigé automatiquement à partir d'articles de presse publiés dans les dernières 24 à 48 heures. Chaque sujet renvoie à l'article d'origine : vérifiez-y les points importants.",
+  "note_en": "Summary written automatically from press articles published in the last 24 to 48 hours. Every story links to the original article: check the key points there."
+}
