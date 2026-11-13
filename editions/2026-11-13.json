@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-13",
+  "updatedAt": "2026-11-13T06:07:10+01:00",
+  "une": { "key": "tech", "index": 0 },
+  "overview": [
+    "Jensen Huang, cofondateur de Nvidia, a quitté jeudi la direction du géant des puces, avec effet immédiat ; la directrice financière Colette Kress assure l'intérim.",
+    "L'action Nvidia a plongé d'environ 13 % à l'ouverture de Wall Street après l'annonce.",
+    "Les émissaires américains Steve Witkoff et Jared Kushner ont rencontré Vladimir Poutine au Kremlin, avant de rejoindre Volodymyr Zelensky à Dublin.",
+    "En football, l'équipe de France a concédé à Milan face à l'Italie (3-1) sa première défaite de l'ère Zidane."
+  ],
+  "overview_en": [
+    "Nvidia co-founder Jensen Huang stepped down as head of the chip giant on Thursday, effective immediately; chief financial officer Colette Kress is serving as interim CEO.",
+    "Nvidia shares plunged about 13% at the open on Wall Street after the announcement.",
+    "US envoys Steve Witkoff and Jared Kushner met Vladimir Putin at the Kremlin before joining Volodymyr Zelensky in Dublin.",
+    "In football, France suffered their first defeat of the Zidane era, losing 3-1 to Italy in Milan."
+  ],
+  "chiffres": [
+    { "value": "−13 %", "label": "Chute de l'action Nvidia à l'ouverture après la démission de Jensen Huang", "value_en": "−13%", "label_en": "Drop in Nvidia shares at the open after Jensen Huang's resignation", "key": "eco" },
+    { "value": "2 heures", "label": "Durée de l'entretien des émissaires américains avec Vladimir Poutine", "value_en": "2 hours", "label_en": "Length of the US envoys' meeting with Vladimir Putin", "key": "monde" },
+    { "value": "500 jours", "label": "Détention du journaliste Christophe Gleizes en Algérie", "value_en": "500 days", "label_en": "Time journalist Christophe Gleizes has spent detained in Algeria", "key": "france" },
+    { "value": "3-1", "label": "Victoire de l'Italie sur la France en Ligue des nations à Milan", "value_en": "3-1", "label_en": "Italy's Nations League win over France in Milan", "key": "sport" }
+  ],
+  "categories": [
+    { "key": "monde", "name": "International", "items": [
+      {
+        "title": "Ukraine : les émissaires de Trump reçus par Poutine, puis à Dublin",
+        "summary": "Steve Witkoff et Jared Kushner ont rencontré Vladimir Poutine au Kremlin jeudi 12 novembre, pendant environ deux heures. Cette visite suivait deux jours de pourparlers entre Russes, Ukrainiens et Américains à Abou Dhabi, achevés sans percée. Les émissaires se sont ensuite rendus à Dublin pour informer Volodymyr Zelensky.",
+        "why": "Ces navettes diplomatiques conditionnent les chances d'un cessez-le-feu en Ukraine, enjeu central pour la sécurité européenne.",
+        "en": {
+          "title": "Ukraine: Trump's envoys meet Putin, then head to Dublin",
+          "summary": "Steve Witkoff and Jared Kushner met Vladimir Putin at the Kremlin on Thursday, November 12, for about two hours. The visit followed two days of talks between Russian, Ukrainian and US negotiators in Abu Dhabi that ended without a breakthrough. The envoys then travelled to Dublin to brief Volodymyr Zelensky.",
+          "why": "This shuttle diplomacy shapes the chances of a ceasefire in Ukraine, a central issue for European security."
+        },
+        "source": "CNN",
+        "sourceTitle": "Witkoff and Kushner meet Zelensky after talks with Putin, as Ukraine says Starshield restricted again",
+        "sourceDate": "2026-11-12",
+        "url": "https://www.cnn.com/2026/11/12/politics/ukraine-witkoff-kushner-putin-peace-talks-intl",
+        "lieu": { "nom": "Moscou, Russie", "nom_en": "Moscow, Russia", "lat": 55.75, "lon": 37.62, "echelle": "ville" }
+      }
+    ] },
+    { "key": "france", "name": "France", "items": [
+      {
+        "title": "Christophe Gleizes, 500 jours de détention en Algérie",
+        "summary": "Le journaliste sportif français Christophe Gleizes a passé 500 jours en détention en Algérie, où il a été condamné à sept ans de prison pour « apologie du terrorisme ». Sa mère a jugé que « 500 jours, c'est trop », et ses soutiens réclament sa libération.",
+        "en": {
+          "title": "Christophe Gleizes marks 500 days in detention in Algeria",
+          "summary": "French sports journalist Christophe Gleizes has spent 500 days in detention in Algeria, where he was sentenced to seven years in prison for \"glorifying terrorism\". His mother said \"500 days is too much\", and his supporters are calling for his release."
+        },
+        "source": "Sud Radio",
+        "sourceTitle": "500 jours sans Christophe Gleizes, c'est trop, clame sa mère",
+        "url": "https://www.sudradio.fr/societe/500-jours-sans-christophe-gleizes-cest-trop-clame-sa-mere",
+        "lieu": { "nom": "Algérie", "nom_en": "Algeria", "lat": 28.0, "lon": 2.6, "echelle": "pays" }
+      }
+    ] },
+    { "key": "eco", "name": "Économie & marchés", "items": [
+      {
+        "title": "L'action Nvidia plonge à l'ouverture après le départ de son patron",
+        "summary": "Le titre Nvidia a chuté d'environ 13 % à l'ouverture de Wall Street jeudi 12 novembre, après l'annonce de la démission de Jensen Huang.",
+        "why": "Nvidia est l'une des premières capitalisations mondiales : ses secousses pèsent sur l'ensemble des valeurs technologiques et de l'IA.",
+        "en": {
+          "title": "Nvidia shares plunge at the open after its CEO's exit",
+          "summary": "Nvidia shares fell about 13% at the open on Wall Street on Thursday, November 12, after the announcement of Jensen Huang's resignation.",
+          "why": "Nvidia is one of the world's most valuable companies: its swings weigh on tech and AI stocks as a whole."
+        },
+        "source": "BNN Bloomberg",
+        "sourceTitle": "Markets today: Wall Street shakes swings for Nvidia and oil prices",
+        "sourceDate": "2026-11-12",
+        "url": "https://www.bnnbloomberg.ca/markets/2026/11/12/nvidia-shares-plunge-13-at-open-after-ceo-jensen-huang-resigns/"
+      }
+    ] },
+    { "key": "tech", "name": "Tech & IA", "items": [
+      {
+        "title": "Jensen Huang quitte la direction de Nvidia, Colette Kress assure l'intérim",
+        "summary": "Le conseil d'administration de Nvidia a accepté jeudi 12 novembre la démission de Jensen Huang, cofondateur et PDG, avec effet immédiat. La directrice financière Colette Kress devient PDG par intérim tout en gardant ses fonctions, le temps de trouver un successeur. Ce départ intervient après des révélations sur la vie privée du dirigeant, qui avaient conduit à une enquête interne.",
+        "why": "Nvidia fournit l'essentiel des puces de l'IA : le départ de son fondateur crée une incertitude pour tout le secteur, y compris en Europe.",
+        "en": {
+          "title": "Jensen Huang steps down at Nvidia, Colette Kress takes over on an interim basis",
+          "summary": "Nvidia's board accepted on Thursday, November 12, the resignation of co-founder and CEO Jensen Huang, effective immediately. Chief financial officer Colette Kress becomes interim CEO while keeping her role, until a successor is found. The departure follows revelations about Huang's private life that had led to an internal investigation.",
+          "why": "Nvidia supplies most of the chips behind AI: its founder's departure creates uncertainty for the whole sector, Europe included."
+        },
+        "source": "CNBC",
+        "sourceTitle": "Who is Colette Kress, Nvidia's interim CEO after Huang steps down",
+        "sourceDate": "2026-11-12",
+        "url": "https://www.cnbc.com/2026/11/12/colette-kress-nvidia-cfo-interim-ceo-candidate.html",
+        "lieu": { "nom": "Santa Clara, Californie, États-Unis", "nom_en": "Santa Clara, California, United States", "lat": 37.35, "lon": -121.95, "echelle": "ville" }
+      }
+    ] },
+    { "key": "sciences", "name": "Sciences & santé", "items": [] },
+    { "key": "climat", "name": "Climat & environnement", "items": [
+      {
+        "title": "COP31 : les villes s'invitent dans le sommet des dirigeants",
+        "summary": "Jeudi 12 novembre, le sommet des dirigeants de la COP31 à Antalya a accordé une place inédite aux villes, avec un dialogue de haut niveau sur la résilience urbaine et l'adaptation. Les élus locaux pressent les États de traduire leurs engagements climatiques en actions concrètes.",
+        "en": {
+          "title": "COP31: cities take a seat at the leaders' summit",
+          "summary": "On Thursday, November 12, the COP31 leaders' summit in Antalya gave cities an unprecedented role, with a high-level dialogue on urban resilience and adaptation. Local leaders are pressing governments to turn their climate commitments into concrete action."
+        },
+        "source": "ONU Info",
+        "sourceTitle": "COP31: Cities rise up the climate agenda as leaders face demands for action",
+        "url": "https://news.un.org/en/story/2026/11/1168792",
+        "lieu": { "nom": "Antalya, Turquie", "nom_en": "Antalya, Türkiye", "lat": 36.9, "lon": 30.7, "echelle": "ville" }
+      }
+    ] },
+    { "key": "sport", "name": "Sport", "items": [
+      {
+        "title": "Ligue des nations : battus 3-1 par l'Italie, les Bleus chutent pour la première fois sous Zidane",
+        "summary": "L'équipe de France s'est inclinée 3-1 face à l'Italie jeudi 12 novembre à San Siro, à Milan, lors de la 5e journée de la Ligue des nations. C'est la première défaite de l'ère Zinédine Zidane.",
+        "en": {
+          "title": "Nations League: beaten 3-1 by Italy, France lose for the first time under Zidane",
+          "summary": "France lost 3-1 to Italy on Thursday, November 12, at San Siro in Milan, on matchday 5 of the Nations League. It is the first defeat of the Zinédine Zidane era."
+        },
+        "source": "franceinfo",
+        "sourceTitle": "L'équipe de France battue par l'Italie en Ligue des nations, la première défaite de l'ère Zinédine Zidane",
+        "sourceDate": "2026-11-12",
+        "url": "https://www.franceinfo.fr/sports/foot/ligue-des-nations/l-equipe-de-france-battue-par-l-italie-en-ligue-des-nations-la-premiere-defaite-de-l-ere-zinedine-zidane_8280092.html",
+        "lieu": { "nom": "Milan, Italie", "nom_en": "Milan, Italy", "lat": 45.48, "lon": 9.12, "echelle": "ville" }
+      }
+    ] }
+  ],
+  "note": "Résumé rédigé automatiquement à partir d'articles de presse publiés dans les dernières 24 à 48 heures. Chaque sujet renvoie à l'article d'origine : vérifiez-y les points importants.",
+  "note_en": "Summary written automatically from press articles published in the last 24 to 48 hours. Every story links to the original article: check the key points there."
+}
