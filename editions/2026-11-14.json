@@ -1,0 +1,272 @@
+{
+ "date": "2026-11-14",
+ "updatedAt": "2026-11-14T14:19:57+01:00",
+ "une": {
+  "key": "monde",
+  "index": 0
+ },
+ "overview": [
+  "Selon les émissaires américains, les Européens participeront au prochain cycle de négociations sur l'Ukraine, mais Moscou ne l'a pas confirmé.",
+  "Sébastien Lecornu a ouvert vendredi un mois de discussions avec les syndicats de fonctionnaires, qui maintiennent la grève du 17 novembre, désormais rejointe par la CFDT.",
+  "En Guinée, des heurts entre forces de l'ordre et orpailleurs ont fait dix morts près de Siguiri.",
+  "À la COP31, trois institutions financières publiques visent 10 milliards de dollars pour le climat d'ici 2030.",
+  "Le XV de France a battu l'Afrique du Sud 21-19 au Stade de France."
+ ],
+ "overview_en": [
+  "According to US envoys, Europeans will take part in the next round of talks on Ukraine, but Moscow has not confirmed it.",
+  "Sébastien Lecornu opened a month of talks with civil service unions on Friday; they are keeping their November 17 strike, which the CFDT union has now joined.",
+  "In Guinea, clashes between security forces and gold miners left ten dead near Siguiri.",
+  "At COP31, three public finance institutions aim to raise $10 billion for climate projects by 2030.",
+  "France's rugby team beat South Africa 21-19 at the Stade de France."
+ ],
+ "chiffres": [
+  {
+   "value": "21-19",
+   "label": "La victoire du XV de France sur l'Afrique du Sud, vendredi au Stade de France",
+   "value_en": "21-19",
+   "label_en": "France's rugby win over South Africa on Friday at the Stade de France",
+   "key": "sport"
+  },
+  {
+   "value": "10",
+   "label": "Morts dans des heurts autour de l'orpaillage près de Siguiri, en Guinée",
+   "value_en": "10",
+   "label_en": "Deaths in clashes over gold mining near Siguiri, Guinea",
+   "key": "monde"
+  },
+  {
+   "value": "+0,3 %",
+   "label": "Hausse des prix à la production américains en octobre, contre 0,4 % attendu",
+   "value_en": "+0.3%",
+   "label_en": "Rise in US producer prices in October, against 0.4% expected",
+   "key": "eco"
+  },
+  {
+   "value": "10 Md$",
+   "label": "Financements climat visés d'ici 2030 par des institutions britannique, norvégienne et canadienne",
+   "value_en": "$10bn",
+   "label_en": "Climate finance targeted by 2030 by British, Norwegian and Canadian institutions",
+   "key": "climat"
+  }
+ ],
+ "categories": [
+  {
+   "key": "monde",
+   "name": "International",
+   "items": [
+    {
+     "title": "Ukraine : les Européens annoncés au prochain cycle de négociations",
+     "summary": "Les émissaires américains affirment que Russes et Ukrainiens ont accepté d'élargir le prochain cycle de pourparlers aux Européens. Le Kremlin ne l'a pas confirmé et dit qu'aucune discussion concrète n'a eu lieu à ce sujet. Le cycle d'Abou Dhabi, les 10 et 11 novembre, était le premier en neuf mois.",
+     "why": "La France réclame depuis des mois une place pour l'Europe à la table, où se jouera aussi la sécurité du continent.",
+     "en": {
+      "title": "Ukraine: Europeans set to join next round of talks",
+      "summary": "US envoys say Russia and Ukraine have agreed to widen the next round of talks to include Europeans. The Kremlin has not confirmed this and says no concrete discussions on the matter have taken place. The Abu Dhabi round on November 10 and 11 was the first in nine months.",
+      "why": "France has been demanding a seat for Europe at the table for months, as the continent's own security is also at stake."
+     },
+     "source": "Euronews",
+     "sourceTitle": "US pushes for European presence at Ukraine-Russia talks, which Moscow refuses to confirm",
+     "sourceDate": "2026-11-13",
+     "url": "https://www.euronews.com/2026/11/13/european-negotiators-could-be-set-to-join-ukraine-peace-talks"
+    },
+    {
+     "title": "Guinée : dix morts dans des heurts autour de l'orpaillage",
+     "summary": "Des affrontements entre forces de l'ordre et orpailleurs ont fait dix morts, dont cinq étrangers, et treize blessés mercredi 11 novembre près de Siguiri, selon le gouvernement. Les autorités ont interdit début novembre l'orpaillage jugé anarchique dans la région, et la justice a été saisie.",
+     "en": {
+      "title": "Guinea: ten dead in clashes over gold mining",
+      "summary": "Clashes between security forces and gold miners left ten dead, including five foreigners, and thirteen injured on Wednesday, November 11, near Siguiri, according to the government. Authorities banned what they call unregulated gold mining in the region in early November, and a judicial inquiry has been opened."
+     },
+     "source": "Africa Radio",
+     "sourceTitle": "Guinée. Dix personnes tuées lors de heurts entre forces de l'ordre et orpailleurs à Siguiri",
+     "url": "https://www.africaradio.com/actualite-117356-guinee-dix-personnes-tuees-lors-de-heurts-entre-forces-de-l-ordre-et-orpailleurs-a-siguiri",
+     "lieu": {
+      "nom": "Siguiri, Guinée",
+      "nom_en": "Siguiri, Guinea",
+      "lat": 11.42,
+      "lon": -9.17
+     }
+    },
+    {
+     "title": "Gaza : un bébé de neuf mois meurt de froid à Khan Younès",
+     "summary": "Un nourrisson de neuf mois est mort d'hypothermie dans la tente de sa famille à Khan Younès, selon l'AFP citée par Al Jazeera. Plus de 50 pays demandent à Israël de laisser entrer abris, carburant et soins.",
+     "en": {
+      "title": "Gaza: nine-month-old baby dies of cold in Khan Younis",
+      "summary": "A nine-month-old baby died of hypothermia in his family's tent in Khan Younis, according to AFP as cited by Al Jazeera. More than 50 countries are calling on Israel to let in shelter, fuel and medical care."
+     },
+     "source": "Al Jazeera",
+     "sourceTitle": "Palestinian baby dies from cold in Gaza amid Israeli restrictions on aid",
+     "sourceDate": "2026-11-12",
+     "url": "https://www.aljazeera.com/news/2026/11/12/palestinian-baby-dies-from-cold-in-gaza-amid-israeli-restrictions-on-aid",
+     "lieu": {
+      "nom": "Khan Younès, Gaza",
+      "nom_en": "Khan Younis, Gaza",
+      "lat": 31.35,
+      "lon": 34.31,
+      "echelle": "proche"
+     }
+    }
+   ]
+  },
+  {
+   "key": "france",
+   "name": "France",
+   "items": [
+    {
+     "title": "Fonctionnaires : Lecornu ouvre un mois de discussions, la CFDT rejoint la grève",
+     "summary": "Sébastien Lecornu a ouvert vendredi 13 novembre une concertation d'un mois avec les syndicats de la fonction publique, sur cinq chantiers dont les bas salaires. Il doit les revoir le 11 décembre. Jugeant ces propositions insuffisantes, l'intersyndicale maintient la grève du 17 novembre, que la CFDT rejoint.",
+     "why": "La grève de mardi s'annonce désormais unitaire, avec des perturbations possibles dans les écoles, les hôpitaux et les administrations.",
+     "en": {
+      "title": "Civil servants: Lecornu opens a month of talks, CFDT joins the strike",
+      "summary": "On Friday, November 13, Prime Minister Sébastien Lecornu opened a month of talks with civil service unions on five topics, including low pay. He is due to meet them again on December 11. Judging the proposals insufficient, the unions are keeping their November 17 strike, which the CFDT union is now joining.",
+      "why": "Tuesday's strike now has the backing of all unions, with possible disruption in schools, hospitals and public offices."
+     },
+     "source": "France 24",
+     "sourceTitle": "Fonction publique : l'intersyndicale sort remontée de Matignon, la CFDT rejoint l'appel à la grève",
+     "sourceDate": "2026-11-13",
+     "url": "https://www.france24.com/fr/france/20261113-fonction-publique-lecornu-ouvre-mois-discussions-cinq-chantiers-bas-salaires"
+    }
+   ]
+  },
+  {
+   "key": "eco",
+   "name": "Économie & marchés",
+   "items": [
+    {
+     "title": "Le CAC 40 finit stable et signe une troisième semaine de hausse",
+     "summary": "La Bourse de Paris a terminé vendredi en hausse de 0,09 %, à 8 369 points, partagée entre de bonnes nouvelles venues des États-Unis et la remontée du pétrole. Sur la semaine, le CAC 40 gagne 2,8 %.",
+     "en": {
+      "title": "CAC 40 ends flat, posting a third weekly gain",
+      "summary": "The Paris stock exchange closed up 0.09% on Friday at 8,369 points, torn between good news from the United States and rising oil prices. Over the week, the CAC 40 gained 2.8%."
+     },
+     "source": "MoneyVox",
+     "sourceTitle": "Le CAC 40, TotalEnergies en forme : le journal de la bourse du vendredi 13 novembre 2026",
+     "sourceDate": "2026-11-13",
+     "url": "https://www.moneyvox.fr/bourse/actualites/111240/le-cac-40-totalenergies-en-forme-le-journal-de-la-bourse-du-vendredi-13-novembre-2026",
+     "lieu": {
+      "nom": "Paris",
+      "nom_en": "Paris, France",
+      "lat": 48.86,
+      "lon": 2.35,
+      "echelle": "pays"
+     }
+    },
+    {
+     "title": "États-Unis : les prix à la production ralentissent en octobre",
+     "summary": "Les prix à la production américains ont augmenté de 0,3 % en octobre, moins que les 0,4 % attendus, selon les chiffres publiés vendredi. Sur un an, la hausse atteint 6,5 %, plus du triple de l'objectif de la Réserve fédérale.",
+     "why": "Ces prix annoncent l'inflation à venir et pèsent sur la décision de taux de la Fed en décembre, qui influence aussi les marchés européens.",
+     "en": {
+      "title": "US producer prices slow in October",
+      "summary": "US producer prices rose 0.3% in October, less than the 0.4% expected, according to figures released on Friday. Year on year, they are up 6.5%, more than triple the Federal Reserve's target.",
+      "why": "These prices foreshadow consumer inflation and weigh on the Fed's rate decision in December, which also moves European markets."
+     },
+     "source": "UPI",
+     "sourceTitle": "Annual inflation hit 6.5% in October, over triple the Fed target",
+     "sourceDate": "2026-11-13",
+     "url": "https://www.upi.com/Top_News/US/2026/11/13/producer-price-index-october-2026-federal-inflation/2091794581625/"
+    }
+   ]
+  },
+  {
+   "key": "tech",
+   "name": "Tech & IA",
+   "items": [
+    {
+     "title": "Implants cérébraux : Synchron suspend ses essais cliniques",
+     "summary": "La start-up américaine Synchron a suspendu les inclusions dans les essais de son implant cérébral de deuxième génération, après un problème de performance du câble qui relie l'électrode à l'électronique implantée. L'entreprise assure qu'il ne s'agit pas d'un problème de sécurité.",
+     "en": {
+      "title": "Brain implants: Synchron pauses its clinical trials",
+      "summary": "US start-up Synchron has paused enrolment in trials of its second-generation brain implant, after a performance problem with the lead connecting the electrode to the implanted electronics. The company says it is not a safety issue."
+     },
+     "source": "MassDevice",
+     "sourceTitle": "Synchron halts BCI trials after device fails to perform as expected",
+     "url": "https://www.massdevice.com/synchron-halts-brain-computer-interface-trials-after-stentrode-device-fails-to-perform/"
+    }
+   ]
+  },
+  {
+   "key": "sciences",
+   "name": "Sciences & santé",
+   "items": [
+    {
+     "title": "Une carte inédite des noyaux gris centraux du cerveau",
+     "summary": "Un vaste consortium de chercheurs a publié une cartographie cellulaire des noyaux gris centraux, une région du cerveau impliquée dans de nombreuses maladies. Ces travaux révèlent un type de neurone jusqu'ici inconnu, lié au risque de schizophrénie.",
+     "why": "Mieux connaître ces cellules ouvre des pistes de traitement pour Parkinson, la schizophrénie ou la dépression.",
+     "en": {
+      "title": "A new map of the brain's basal ganglia",
+      "summary": "A large research consortium has published a cell-by-cell map of the basal ganglia, a brain region involved in many diseases. The work reveals a previously unknown type of neuron linked to schizophrenia risk.",
+      "why": "Knowing these cells better opens up treatment avenues for Parkinson's, schizophrenia and depression."
+     },
+     "source": "STAT",
+     "sourceTitle": "Scientists debut map of basal ganglia, a key brain region involved in an array of diseases",
+     "sourceDate": "2026-11-12",
+     "url": "https://www.statnews.com/2026/11/12/brain-map-basal-ganglia-offers-treatment-clues-parkinsons-schizophrenia/"
+    }
+   ]
+  },
+  {
+   "key": "climat",
+   "name": "Climat & environnement",
+   "items": [
+    {
+     "title": "COP31 : 10 milliards de dollars visés, loin des besoins",
+     "summary": "À la COP31 d'Antalya, des institutions de financement du développement britannique, norvégienne et canadienne veulent mobiliser 10 milliards de dollars pour le climat dans les pays émergents d'ici 2030. António Guterres a appelé à réformer un système financier qui, selon lui, abandonne les pays vulnérables.",
+     "why": "Le financement reste le principal point de blocage du sommet, qui entre dans sa deuxième semaine.",
+     "en": {
+      "title": "COP31: $10 billion targeted, far short of needs",
+      "summary": "At COP31 in Antalya, British, Norwegian and Canadian development finance institutions aim to mobilise $10 billion for climate projects in emerging markets by 2030. António Guterres called for reform of a financial system that he says is failing vulnerable countries.",
+      "why": "Finance remains the main sticking point of the summit, which is entering its second week."
+     },
+     "source": "ONU Info (UN News)",
+     "sourceTitle": "COP31: Climate finance falls short as calls grow for polluters to pay",
+     "sourceDate": "2026-11-13",
+     "url": "https://news.un.org/en/story/2026/11/1168802",
+     "lieu": {
+      "nom": "Antalya, Turquie",
+      "nom_en": "Antalya, Türkiye",
+      "lat": 36.9,
+      "lon": 30.7
+     }
+    },
+    {
+     "title": "COP31 : Gavin Newsom annonce 81 millions de dollars pour l'agriculture",
+     "summary": "Le gouverneur de Californie a pris la parole au sommet de l'ONU sur le climat, affirmant que le combat climatique américain est « loin d'être terminé ». Il a annoncé 81 millions de dollars pour une agriculture adaptée au climat.",
+     "en": {
+      "title": "COP31: Gavin Newsom announces $81 million for agriculture",
+      "summary": "California's governor spoke at the UN climate summit, saying America's climate fight is \"far from over\". He announced $81 million for climate-smart agriculture."
+     },
+     "source": "Gouverneur de Californie",
+     "sourceTitle": "From the United Nations climate summit, Governor Newsom declares to the world that America’s climate fight is far from over",
+     "sourceDate": "2026-11-13",
+     "url": "https://gov.ca.gov/2026/11/13/from-the-united-nations-climate-summit-governor-newsom-declares-to-the-world-that-americas-climate-fight-is-far-from-over"
+    }
+   ]
+  },
+  {
+   "key": "sport",
+   "name": "Sport",
+   "items": [
+    {
+     "title": "Rugby : les Bleus font tomber l'Afrique du Sud 21-19",
+     "summary": "Le XV de France a battu les Springboks 21-19 vendredi 13 novembre au Stade de France, pour la 5e journée du Championnat des nations. Les Bleus ont marqué trois essais avant la pause, puis résisté au retour des doubles champions du monde.",
+     "why": "Cette victoire place la France en tête de sa poule face à l'une des meilleures équipes du monde.",
+     "en": {
+      "title": "Rugby: France topple South Africa 21-19",
+      "summary": "France beat the Springboks 21-19 on Friday, November 13, at the Stade de France, in round 5 of the Nations Championship. They scored three tries before half-time, then held off a comeback from the two-time world champions.",
+      "why": "The win puts France top of their pool against one of the best teams in the world."
+     },
+     "source": "Équipe de France",
+     "sourceTitle": "Rugby, Championnat des nations 2026, Les Bleus font tomber l'Afrique du Sud (21-19)",
+     "url": "https://www.equipe-france.fr/rugby/masculin/championnat-des-nations-2026-les-bleus-font-tomber-l-afrique-du-sud-21-19",
+     "lieu": {
+      "nom": "Saint-Denis, Seine-Saint-Denis",
+      "nom_en": "Saint-Denis, France",
+      "lat": 48.92,
+      "lon": 2.36,
+      "echelle": "proche"
+     }
+    }
+   ]
+  }
+ ],
+ "note": "Résumé rédigé automatiquement à partir d'articles de presse publiés dans les dernières 24 à 48 heures. Édition publiée en fin de matinée : la tâche de 6 h a échoué, l'ordinateur s'étant mis en veille. Chaque sujet renvoie à l'article d'origine : vérifiez-y les points importants.",
+ "note_en": "Summary written automatically from press articles published in the last 24 to 48 hours. Published late: the 6 am run failed because the computer went to sleep. Every story links to the original article: check the key points there."
+}
