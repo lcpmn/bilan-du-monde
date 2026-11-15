@@ -1,0 +1,271 @@
+{
+  "date": "2026-11-15",
+  "updatedAt": "2026-11-15T06:45:00+01:00",
+  "une": { "key": "monde", "index": 0 },
+  "overview": [
+    "La Maison-Blanche annonce une première rencontre à trois entre Donald Trump, Xi Jinping et Vladimir Poutine, jeudi 19 novembre à Shenzhen, en marge du sommet de l'Apec.",
+    "Volodymyr Zelensky affirme que les négociateurs américains ont évoqué une adhésion de l'Ukraine à l'Otan en échange d'un retrait du Donbass, ce qu'il refuse.",
+    "En France, le cinquième samedi de mobilisation contre la vie chère a réuni 106 000 personnes selon le ministère de l'Intérieur, une participation en baisse.",
+    "Aux États-Unis, le trafic aérien reste très perturbé après l'arrêt national des décollages ordonné vendredi par l'aviation civile.",
+    "En rugby, le pays de Galles a battu la Nouvelle-Zélande 35-28 à Cardiff, une première depuis 73 ans."
+  ],
+  "overview_en": [
+    "The White House has announced a first three-way meeting between Donald Trump, Xi Jinping and Vladimir Putin, on Thursday 19 November in Shenzhen, on the sidelines of the APEC summit.",
+    "Volodymyr Zelensky says US negotiators raised the idea of NATO membership for Ukraine in exchange for a withdrawal from Donbas, which he rejects.",
+    "In France, the fifth Saturday of protests over the cost of living drew 106,000 people according to the interior ministry, a lower turnout.",
+    "In the United States, air traffic remains heavily disrupted after the nationwide ground stop ordered on Friday by the aviation authority.",
+    "In rugby, Wales beat New Zealand 35-28 in Cardiff, a first in 73 years."
+  ],
+  "chiffres": [
+    {
+      "value": "106 000",
+      "label": "manifestants en France samedi 14 novembre, selon le ministère de l'Intérieur.",
+      "value_en": "106,000",
+      "label_en": "protesters in France on Saturday 14 November, according to the interior ministry.",
+      "key": "france"
+    },
+    {
+      "value": "≈ 6 500",
+      "label": "vols annulés samedi aux États-Unis après la panne de l'aviation civile, selon FlightAware.",
+      "value_en": "≈ 6,500",
+      "label_en": "flights cancelled in the US on Saturday after the aviation authority outage, according to FlightAware.",
+      "key": "monde"
+    },
+    {
+      "value": "−0,91 %",
+      "label": "le recul du Nasdaq vendredi 13 novembre, sur fond d'incertitude autour de Nvidia.",
+      "value_en": "−0.91%",
+      "label_en": "the Nasdaq's fall on Friday 13 November, amid uncertainty over Nvidia.",
+      "key": "eco"
+    },
+    {
+      "value": "73 ans",
+      "label": "l'attente du pays de Galles avant de battre de nouveau les All Blacks.",
+      "value_en": "73 years",
+      "label_en": "how long Wales had waited to beat the All Blacks again.",
+      "key": "sport"
+    }
+  ],
+  "categories": [
+    {
+      "key": "monde",
+      "name": "International",
+      "items": [
+        {
+          "title": "Trump, Xi et Poutine se réuniront à trois jeudi à Shenzhen",
+          "summary": "La Maison-Blanche a annoncé samedi 14 novembre une première rencontre trilatérale entre Donald Trump, Xi Jinping et Vladimir Poutine, jeudi 19 novembre, en marge du sommet de l'Apec à Shenzhen. Selon des responsables américains, les armes nucléaires et la guerre en Iran seront abordées, mais sans doute pas l'Ukraine.",
+          "why": "Un format inédit entre les trois grandes puissances nucléaires, dont les Européens et l'Ukraine sont absents.",
+          "en": {
+            "title": "Trump, Xi and Putin to hold three-way meeting in Shenzhen on Thursday",
+            "summary": "The White House announced on Saturday 14 November a first trilateral meeting between Donald Trump, Xi Jinping and Vladimir Putin, on Thursday 19 November, on the sidelines of the APEC summit in Shenzhen. According to US officials, nuclear weapons and the war in Iran will be discussed, but probably not Ukraine.",
+            "why": "An unprecedented format bringing together the three major nuclear powers, with Europeans and Ukraine absent."
+          },
+          "source": "France 24",
+          "sourceTitle": "China to host first-ever trilateral meeting between Trump, Xi and Putin next week",
+          "sourceDate": "2026-11-14",
+          "url": "https://www.france24.com/en/asia-pacific/20261114-china-to-host-first-ever-trilateral-meeting-between-trump-xi-and-putin-next-week-us-says",
+          "lieu": { "nom": "Shenzhen, Chine", "nom_en": "Shenzhen, China", "lat": 22.5, "lon": 114.1 }
+        },
+        {
+          "title": "Ukraine : Washington évoque l'Otan contre un retrait du Donbass",
+          "summary": "Volodymyr Zelensky a déclaré que les négociateurs américains avaient demandé si l'Ukraine retirerait ses troupes du Donbass en échange d'une adhésion à l'Otan. Le président ukrainien dit refuser tout retrait. Les discussions d'Abou Dhabi, les 10 et 11 novembre, se sont achevées sans percée.",
+          "why": "C'est la première fois que l'adhésion à l'Otan est liée à une concession territoriale, un point central pour la sécurité européenne.",
+          "en": {
+            "title": "Ukraine: Washington raises NATO membership in exchange for Donbas withdrawal",
+            "summary": "Volodymyr Zelensky said US negotiators had asked whether Ukraine would withdraw its troops from Donbas in exchange for NATO membership. The Ukrainian president says he refuses any withdrawal. The Abu Dhabi talks, on 10 and 11 November, ended without a breakthrough.",
+            "why": "It is the first time NATO membership has been tied to a territorial concession, a central issue for European security."
+          },
+          "source": "The Kyiv Independent",
+          "sourceTitle": "US floats NATO membership for Ukraine in exchange for Donbas withdrawal, Zelensky says",
+          "url": "https://kyivindependent.com/us-floats-nato-membership-for-ukraine-in-exchange-for-donbas-withdrawal-zelensky-says/"
+        },
+        {
+          "title": "Ukraine : au moins 7 morts et 80 blessés dans des attaques russes",
+          "summary": "Les attaques russes ont tué au moins sept civils et en ont blessé 80 en une journée, selon les autorités régionales citées samedi 14 novembre. La région de Zaporijjia est la plus touchée, avec trois morts, dont un enfant, et 62 blessés.",
+          "en": {
+            "title": "Ukraine: at least 7 killed and 80 injured in Russian attacks",
+            "summary": "Russian attacks killed at least seven civilians and injured 80 in one day, according to regional authorities cited on Saturday 14 November. The Zaporizhzhia region was the hardest hit, with three dead, including a child, and 62 injured."
+          },
+          "source": "The Kyiv Independent",
+          "sourceTitle": "At least 7 killed, 80 injured in Russian attacks across Ukraine; Zaporizhzhia among worst hit",
+          "sourceDate": "2026-11-14",
+          "url": "https://kyivindependent.com/at-least-7-killed-80-injured-in-russian-attacks-across-ukraine-zaporizhzhia-among-worst-hit/",
+          "lieu": { "nom": "Zaporijjia, Ukraine", "nom_en": "Zaporizhzhia, Ukraine", "lat": 47.8, "lon": 35.2 }
+        },
+        {
+          "title": "États-Unis : des milliers de vols annulés après une panne de la FAA",
+          "summary": "Le trafic aérien américain restait très perturbé samedi 14 novembre, au lendemain d'un arrêt national des décollages ordonné par la FAA, l'aviation civile. Près de 6 500 vols ont été annulés samedi et plus de 8 000 retardés, selon FlightAware. Le secrétaire aux Transports, Sean Duffy, évoque une intervention d'un sous-traitant sur un système de télécommunications géré par L3Harris.",
+          "en": {
+            "title": "United States: thousands of flights cancelled after FAA outage",
+            "summary": "US air traffic remained heavily disrupted on Saturday 14 November, the day after a nationwide ground stop ordered by the FAA, the aviation authority. Nearly 6,500 flights were cancelled on Saturday and more than 8,000 delayed, according to FlightAware. Transportation Secretary Sean Duffy pointed to work by a contractor on a telecommunications system managed by L3Harris."
+          },
+          "source": "CNBC",
+          "sourceTitle": "Nationwide ground stop followed contractor upgrade to L3Harris telecommunication system: DOT’s Duffy",
+          "sourceDate": "2026-11-14",
+          "url": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html",
+          "lieu": { "nom": "États-Unis", "nom_en": "United States", "lat": 39.8, "lon": -98.6, "echelle": "pays" }
+        },
+        {
+          "title": "Au Pérou, le pape Léon XIV appelle à la fin des violences",
+          "summary": "En visite samedi 14 novembre dans une localité reculée des Andes péruviennes, le pape Léon XIV a appelé à mettre fin aux violences qui touchent le pays et à ne pas répondre à l'injustice par la brutalité. Le Pérou est la dernière étape de son voyage en Amérique du Sud.",
+          "en": {
+            "title": "In Peru, Pope Leo XIV calls for an end to violence",
+            "summary": "Visiting a remote town in the Peruvian Andes on Saturday 14 November, Pope Leo XIV called for an end to the violence gripping the country and urged people not to respond to injustice with brutality. Peru is the final leg of his South American trip."
+          },
+          "source": "Al Jazeera",
+          "sourceTitle": "Pope Leo urges end to violence in Peru during visit to remote Andes town",
+          "sourceDate": "2026-11-14",
+          "url": "https://www.aljazeera.com/news/2026/11/14/pope-leo-urges-end-to-violence-in-peru-during-visit-to-remote-andes-town",
+          "lieu": { "nom": "Pérou", "nom_en": "Peru", "lat": -9.2, "lon": -75.0, "echelle": "pays" }
+        }
+      ]
+    },
+    {
+      "key": "france",
+      "name": "France",
+      "items": [
+        {
+          "title": "Vie chère : 106 000 manifestants pour le cinquième samedi de mobilisation",
+          "summary": "Le ministère de l'Intérieur a compté environ 106 000 manifestants samedi 14 novembre, dont 24 000 à Paris ; les organisateurs en revendiquent 200 000. Gilets jaunes, étudiants et syndicats de l'éducation ont défilé contre la vie chère, pour des moyens pour l'école et contre un projet de loi sur la police.",
+          "why": "La participation recule, mais le mouvement s'installe dans la durée et continue de peser sur le gouvernement.",
+          "en": {
+            "title": "Cost of living: 106,000 protesters on fifth Saturday of demonstrations",
+            "summary": "The interior ministry counted around 106,000 protesters on Saturday 14 November, including 24,000 in Paris; organisers claim 200,000. Yellow Vests, students and education unions marched over the cost of living, for school funding and against a police bill.",
+            "why": "Turnout is falling, but the movement is settling in for the long run and keeps pressure on the government."
+          },
+          "source": "Euronews",
+          "sourceTitle": "France sees fifth consecutive Saturday of nationwide protests",
+          "sourceDate": "2026-11-14",
+          "url": "https://www.euronews.com/2026/11/14/france-sees-fifth-consecutive-saturday-of-nationwide-protests",
+          "lieu": { "nom": "Paris", "nom_en": "Paris, France", "lat": 48.9, "lon": 2.3 }
+        }
+      ]
+    },
+    {
+      "key": "eco",
+      "name": "Économie & marchés",
+      "items": [
+        {
+          "title": "Wall Street : le S&P 500 et le Nasdaq reculent, plombés par Nvidia",
+          "summary": "Vendredi 13 novembre, le S&P 500 a perdu 0,40 % à 7 561,67 points et le Nasdaq 0,91 % à 25 136,27 points, tandis que le Dow Jones a gagné 0,10 % à 52 347,55 points. L'incertitude autour de Nvidia a pesé sur les valeurs technologiques. Sur la semaine, les trois indices progressent de plus de 2 %.",
+          "why": "Nvidia pèse lourd dans les indices américains, que suivent de nombreux placements des épargnants français.",
+          "en": {
+            "title": "Wall Street: S&P 500 and Nasdaq fall, dragged down by Nvidia",
+            "summary": "On Friday 13 November, the S&P 500 lost 0.40% to 7,561.67 points and the Nasdaq 0.91% to 25,136.27 points, while the Dow Jones gained 0.10% to 52,347.55 points. Uncertainty over Nvidia weighed on technology stocks. Over the week, all three indexes rose by more than 2%.",
+            "why": "Nvidia carries heavy weight in US indexes, which many French savers' investments track."
+          },
+          "source": "Reuters (via Yahoo Finance)",
+          "sourceTitle": "S&P 500, Nasdaq end lower as Nvidia uncertainty weighs on tech shares",
+          "sourceDate": "2026-11-13",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-dip-nvidia-tumult-103901600.html",
+          "lieu": { "nom": "New York, États-Unis", "nom_en": "New York, United States", "lat": 40.7, "lon": -74.0 }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "name": "Tech & IA",
+      "items": [
+        {
+          "title": "IA : la start-up LangChain valorisée 3 milliards de dollars",
+          "summary": "LangChain, spécialiste des outils de gestion d'agents d'intelligence artificielle, a levé 300 millions de dollars lors d'un tour de série C mené par CapitalG, a rapporté TechCrunch vendredi 13 novembre. L'opération valorise l'entreprise 3 milliards de dollars.",
+          "en": {
+            "title": "AI: start-up LangChain valued at $3 billion",
+            "summary": "LangChain, which makes tools for managing artificial intelligence agents, has raised $300 million in a Series C round led by CapitalG, TechCrunch reported on Friday 13 November. The deal values the company at $3 billion."
+          },
+          "source": "TechCrunch",
+          "sourceTitle": "AI agent startup LangChain hits $3B valuation",
+          "sourceDate": "2026-11-13",
+          "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
+        }
+      ]
+    },
+    {
+      "key": "sciences",
+      "name": "Sciences & santé",
+      "items": [
+        {
+          "title": "SpaceX rattrape pour la première fois l'étage supérieur de Starship",
+          "summary": "Samedi 14 novembre, l'étage supérieur de la fusée Starship est revenu d'orbite et a été saisi par les bras mécaniques de sa tour de lancement, à Starbase, au Texas. C'est une première. Le rattrapage du premier étage, lui, avait été annulé après le décollage.",
+          "why": "Récupérer l'étage supérieur est une étape clé vers une fusée entièrement réutilisable, dont dépend aussi le programme lunaire de la Nasa.",
+          "en": {
+            "title": "SpaceX catches Starship's upper stage for the first time",
+            "summary": "On Saturday 14 November, the upper stage of the Starship rocket returned from orbit and was caught by the mechanical arms of its launch tower at Starbase, Texas. It is a first. The catch of the first stage, however, had been called off after lift-off.",
+            "why": "Recovering the upper stage is a key step towards a fully reusable rocket, on which NASA's lunar programme also depends."
+          },
+          "source": "Space.com",
+          "sourceTitle": "'Now everything changes': SpaceX catches Starship upper stage for 1st time ever",
+          "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14",
+          "lieu": { "nom": "Starbase, Texas, États-Unis", "nom_en": "Starbase, Texas, United States", "lat": 26.0, "lon": -97.2 }
+        },
+        {
+          "title": "Sommeil : le « lavage » du cerveau s'affaiblit avec l'âge",
+          "summary": "Une étude publiée vendredi 13 novembre dans Nature Aging montre que les vagues de liquide céphalorachidien qui parcourent le cerveau pendant le sommeil profond sont réduites chez les personnes âgées. Les auteurs relient ce recul à la diminution des ondes lentes du cerveau et à des changements vasculaires.",
+          "en": {
+            "title": "Sleep: the brain's \"rinse cycle\" weakens with age",
+            "summary": "A study published on Friday 13 November in Nature Aging shows that the waves of cerebrospinal fluid that flow through the brain during deep sleep are reduced in older adults. The authors link this decline to the loss of the brain's slow waves and to vascular changes."
+          },
+          "source": "Nature Aging",
+          "sourceTitle": "The aging human brain exhibits reduced hemodynamic and cerebrospinal fluid flow waves during sleep",
+          "sourceDate": "2026-11-13",
+          "url": "https://www.nature.com/articles/s43587-026-01270-4"
+        }
+      ]
+    },
+    {
+      "key": "climat",
+      "name": "Climat & environnement",
+      "items": [
+        {
+          "title": "COP31 : des milliers de manifestants, des négociations au ralenti",
+          "summary": "Des milliers de militants ont défilé samedi 14 novembre à Antalya pour réclamer des financements et une transition juste. Les négociations avancent peu : le texte de décision finale reste une liste de propositions, et un premier projet est attendu en début de semaine, à l'arrivée des ministres.",
+          "why": "La seconde semaine, celle des ministres, dira si la conférence débouche sur des engagements concrets.",
+          "en": {
+            "title": "COP31: thousands march as negotiations make slow progress",
+            "summary": "Thousands of campaigners marched in Antalya on Saturday 14 November to demand finance and a just transition. The talks are making little progress: the final decision text remains a list of proposals, and a first draft is expected early in the week, as ministers arrive.",
+            "why": "The second week, when ministers take over, will show whether the conference delivers concrete commitments."
+          },
+          "source": "Climate Home News",
+          "sourceTitle": "COP31 Bulletin Day 6: Climate marchers call for justice as talks make limited progress",
+          "sourceDate": "2026-11-14",
+          "url": "https://www.climatechangenews.com/2026/11/14/cop31-bulletin-day-6-limited-progress-as-ministers-arrive-in-antalya/",
+          "lieu": { "nom": "Antalya, Turquie", "nom_en": "Antalya, Türkiye", "lat": 36.9, "lon": 30.7 }
+        }
+      ]
+    },
+    {
+      "key": "sport",
+      "name": "Sport",
+      "items": [
+        {
+          "title": "Rugby : le pays de Galles bat les All Blacks, une première en 73 ans",
+          "summary": "Le pays de Galles a battu la Nouvelle-Zélande 35-28 samedi 14 novembre à Cardiff, dans le Championnat des nations. Les Gallois n'avaient plus gagné contre les All Blacks depuis 73 ans.",
+          "why": "Un exploit historique qui rebat les cartes d'une compétition où le XV de France est aussi engagé.",
+          "en": {
+            "title": "Rugby: Wales beat the All Blacks for the first time in 73 years",
+            "summary": "Wales beat New Zealand 35-28 on Saturday 14 November in Cardiff, in the Nations Championship. The Welsh had not won against the All Blacks for 73 years.",
+            "why": "A historic upset that reshuffles a competition in which France are also playing."
+          },
+          "source": "RugbyPass",
+          "sourceTitle": "Wales cling on to end 73-year wait to beat the All Blacks",
+          "url": "https://www.rugbypass.com/news/wales-hold-on-to-secure-historic-win-over-new-zealand-in-nations-championship/",
+          "lieu": { "nom": "Cardiff, pays de Galles", "nom_en": "Cardiff, Wales", "lat": 51.5, "lon": -3.2 }
+        },
+        {
+          "title": "Coupe de France : Guingamp éliminé aux tirs au but par Lannion",
+          "summary": "L'En Avant Guingamp, club de Ligue 2, a été éliminé dès son entrée en lice au 7e tour de la Coupe de France, samedi 14 novembre. Après un match nul 0-0, Lannion, club de National 2, s'est imposé aux tirs au but.",
+          "en": {
+            "title": "Coupe de France: Guingamp knocked out on penalties by Lannion",
+            "summary": "En Avant Guingamp, a Ligue 2 club, were knocked out on their first appearance in the seventh round of the Coupe de France (French Cup) on Saturday 14 November. After a 0-0 draw, Lannion, a fourth-tier National 2 club, won on penalties."
+          },
+          "source": "Ouest-France",
+          "sourceTitle": "Coupe de France. « Une terrible désillusion » : un petit Guingamp piégé à Lannion au 7e tour",
+          "url": "https://www.ouest-france.fr/sport/football/ea-guingamp/coupe-de-france-une-terrible-desillusion-un-petit-guingamp-piege-a-lannion-au-7e-tour-9f324176-e04d-11f1-9a29-f4bab172af08",
+          "lieu": { "nom": "Lannion, Côtes-d'Armor", "nom_en": "Lannion, France", "lat": 48.7, "lon": -3.5 }
+        }
+      ]
+    }
+  ],
+  "note": "Résumé rédigé automatiquement à partir d'articles de presse publiés dans les dernières 24 à 48 heures. Chaque sujet renvoie à l'article d'origine : vérifiez-y les points importants.",
+  "note_en": "Summary written automatically from press articles published in the last 24 to 48 hours. Every story links to the original article: check the key points there."
+}
