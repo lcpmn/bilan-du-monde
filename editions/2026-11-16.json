@@ -1,0 +1,248 @@
+{
+  "date": "2026-11-16",
+  "updatedAt": "2026-11-16T06:07:36+01:00",
+  "une": { "key": "monde", "index": 0 },
+  "overview": [
+    "L'Iran affirme avoir abattu samedi un nouveau drone américain et rapporte que deux pétroliers ont pris feu sur des mines dans le détroit d'Ormuz.",
+    "En France, le ministère de l'Intérieur fait état de 404 interpellations en marge des manifestations de samedi contre la vie chère.",
+    "Au Cap-Vert, le président José Maria Neves est donné réélu dès le premier tour, avec près de 64 % des voix selon des résultats provisoires.",
+    "Sur les marchés, la semaine s'ouvre avec un Brent autour de 95 dollars et l'introduction en Bourse d'Anthropic attendue jeudi.",
+    "En football, les Bleus ont battu la Turquie 2-1 à Bordeaux et se qualifient pour les quarts de finale de la Ligue des nations."
+  ],
+  "overview_en": [
+    "Iran says it shot down another US drone on Saturday and reports that two oil tankers caught fire after hitting mines in the Strait of Hormuz.",
+    "In France, the Interior Ministry reports 404 arrests on the sidelines of Saturday's cost-of-living protests.",
+    "In Cape Verde, President José Maria Neves is reported re-elected in the first round, with nearly 64% of the vote according to provisional results.",
+    "On the markets, the week opens with Brent at around 95 dollars and Anthropic's stock market debut expected on Thursday.",
+    "In football, France beat Turkey 2-1 in Bordeaux and qualify for the Nations League quarter-finals."
+  ],
+  "chiffres": [
+    {
+      "value": "404",
+      "label": "interpellations en France en marge des manifestations du 14 novembre, selon le ministère de l'Intérieur.",
+      "value_en": "404",
+      "label_en": "arrests in France on the sidelines of the 14 November protests, according to the Interior Ministry.",
+      "key": "france"
+    },
+    {
+      "value": "près de 64 %",
+      "label": "des voix pour le président cap-verdien José Maria Neves, selon des résultats provisoires.",
+      "value_en": "nearly 64%",
+      "label_en": "of the vote for Cape Verde's President José Maria Neves, according to provisional results.",
+      "key": "monde"
+    },
+    {
+      "value": "95 $",
+      "label": "le baril de Brent lundi matin en Asie, en baisse de 0,9 %.",
+      "value_en": "$95",
+      "label_en": "per barrel of Brent on Monday morning in Asia, down 0.9%.",
+      "key": "eco"
+    },
+    {
+      "value": "78-15",
+      "label": "la victoire de l'Angleterre sur le Japon en rugby, avec treize essais dont cinq de Will Joseph.",
+      "value_en": "78-15",
+      "label_en": "England's win over Japan in rugby, with thirteen tries including five by Will Joseph.",
+      "key": "sport"
+    }
+  ],
+  "categories": [
+    {
+      "key": "monde",
+      "name": "International",
+      "items": [
+        {
+          "title": "Ormuz : l'Iran dit avoir abattu un drone américain, deux pétroliers en feu",
+          "summary": "Samedi 14 novembre, les Gardiens de la révolution iraniens ont affirmé avoir abattu un drone américain MQ-1 au-dessus de l'île de Qeshm, le 17e selon eux. La marine iranienne a aussi déclaré que deux pétroliers avaient pris feu dans le détroit d'Ormuz après avoir heurté des mines. Ces déclarations émanent de la seule partie iranienne.",
+          "why": "Le détroit d'Ormuz est un passage clé pour le pétrole mondial : toute tension y pèse sur les prix de l'énergie en Europe.",
+          "en": {
+            "title": "Hormuz: Iran says it downed a US drone, two tankers on fire",
+            "summary": "On Saturday 14 November, Iran's Revolutionary Guards said they had shot down a US MQ-1 drone over Qeshm Island, the 17th by their count. The Iranian navy also said two oil tankers had caught fire in the Strait of Hormuz after hitting mines. These statements come from the Iranian side alone.",
+            "why": "The Strait of Hormuz is a key route for the world's oil: any tension there weighs on energy prices in Europe."
+          },
+          "source": "ANI",
+          "sourceTitle": "Iran claims 17th US MQ-1 drone \"destroyed\"; 2 tankers \"catch fire\" in Strait of Hormuz",
+          "sourceDate": "2026-11-14",
+          "url": "https://aninews.in/news/world/middle-east/iran-claims-17th-us-mq-1-drone-destroyed-2-tankers-catch-fire-in-strait-of-hormuz20261114191143/",
+          "lieu": { "nom": "Détroit d'Ormuz", "nom_en": "Strait of Hormuz", "lat": 26.6, "lon": 56.3, "echelle": "region" }
+        },
+        {
+          "title": "Cap-Vert : le président Neves en passe d'être réélu au premier tour",
+          "summary": "Le président sortant José Maria Neves recueille près de 64 % des voix à la présidentielle du dimanche 15 novembre, selon des résultats provisoires portant sur la quasi-totalité des bureaux. Sa principale rivale, l'ancienne ministre de la Justice Joana Rosa, obtient 31,6 %.",
+          "en": {
+            "title": "Cape Verde: President Neves set for first-round re-election",
+            "summary": "Incumbent President José Maria Neves has nearly 64% of the vote in the presidential election held on Sunday 15 November, according to provisional results covering almost all polling stations. His main rival, former Justice Minister Joana Rosa, has 31.6%."
+          },
+          "source": "Anadolu Agency",
+          "sourceTitle": "Cape Verde's president leads reelection bid with nearly 64% of vote",
+          "url": "https://aa.com.tr/en/africa/cape-verdes-president-leads-reelection-bid-with-nearly-64-of-vote/4126078",
+          "lieu": { "nom": "Praia, Cap-Vert", "nom_en": "Praia, Cape Verde", "lat": 14.9, "lon": -23.5, "echelle": "pays" }
+        }
+      ]
+    },
+    {
+      "key": "france",
+      "name": "France",
+      "items": [
+        {
+          "title": "Vie chère : 404 interpellations en marge des manifestations de samedi",
+          "summary": "Le ministère de l'Intérieur a annoncé dimanche 404 interpellations en France en marge des manifestations du samedi 14 novembre, dont 126 à Paris. Dix policiers ont été légèrement blessés. À Paris, 108 personnes ont été placées en garde à vue, dont 38 mineurs, selon la préfecture de police.",
+          "why": "C'était le cinquième samedi consécutif de mobilisation : le bilan judiciaire montre que les tensions persistent malgré une participation en baisse.",
+          "en": {
+            "title": "Cost of living: 404 arrests on the sidelines of Saturday's protests",
+            "summary": "The Interior Ministry announced on Sunday that 404 people were arrested in France on the sidelines of the protests on Saturday 14 November, including 126 in Paris. Ten police officers were slightly injured. In Paris, 108 people were taken into custody, 38 of them minors, according to the police prefecture.",
+            "why": "It was the fifth consecutive Saturday of protests: the arrest figures show tensions persist despite falling turnout."
+          },
+          "source": "ICI",
+          "sourceTitle": "Manifestation du 14 novembre : plus de 400 interpellations en France, dont 126 à Paris",
+          "url": "https://www.ici.fr/ile-de-france/paris-75/paris/manifestation-du-14-novembre-a-paris-108-gardes-a-vue-dont-38-mineurs-en-marge-du-cortege-contre-la-vie-chere-9184649?at_locale=22"
+        }
+      ]
+    },
+    {
+      "key": "eco",
+      "name": "Économie & marchés",
+      "items": [
+        {
+          "title": "Bourse : Anthropic attendu jeudi au Nasdaq, Nvidia publie ses résultats",
+          "summary": "La société d'intelligence artificielle Anthropic doit fixer le prix de son introduction en Bourse mercredi 18 novembre, pour une première cotation jeudi 19 au Nasdaq sous le symbole « ANT ». Nvidia publie aussi ses résultats trimestriels cette semaine.",
+          "why": "Ces deux rendez-vous serviront de test pour l'appétit des investisseurs envers l'IA, après le récent recul des valeurs technologiques.",
+          "en": {
+            "title": "Markets: Anthropic due on Nasdaq Thursday, Nvidia reports earnings",
+            "summary": "Artificial intelligence company Anthropic is due to price its initial public offering on Wednesday 18 November, with trading to begin on Thursday 19 on the Nasdaq under the ticker \"ANT\". Nvidia also reports its quarterly earnings this week.",
+            "why": "Both events will test investors' appetite for AI after the recent pullback in technology stocks."
+          },
+          "source": "Yahoo Finance",
+          "sourceTitle": "Nvidia's first post-Jensen earnings and Anthropic's IPO: What to watch this week",
+          "url": "https://finance.yahoo.com/markets/article/nvidias-first-post-jensen-earnings-and-anthropics-ipo-what-to-watch-this-week-110000732.html"
+        },
+        {
+          "title": "Pétrole : le Brent recule autour de 95 dollars",
+          "summary": "Lundi matin en Asie, le Brent pour livraison en janvier cédait 0,9 %, à 95,00 dollars le baril. Les marchés anticipent un retour à l'excédent d'offre au quatrième trimestre, tout en surveillant les tensions au Moyen-Orient.",
+          "en": {
+            "title": "Oil: Brent slips to around 95 dollars",
+            "summary": "On Monday morning in Asia, Brent for January delivery was down 0.9% at 95.00 dollars a barrel. Markets expect a return to a supply surplus in the fourth quarter, while keeping an eye on tensions in the Middle East."
+          },
+          "source": "Investing.com",
+          "sourceTitle": "Oil prices dip as markets look to recovering supplies, M.East tensions",
+          "url": "https://investing.com/news/commodities-news/oil-prices-dip-as-markets-look-to-recovering-supplies-meast-tensions-5028198"
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "name": "Tech & IA",
+      "items": [
+        {
+          "title": "IA : des manifestants réclament un traité sino-américain à San Francisco",
+          "summary": "Des militants du mouvement « Stop the AI Race » se sont rassemblés devant le siège d'OpenAI à San Francisco. Ils demandent un traité entre les États-Unis et la Chine pour ralentir le développement de l'intelligence artificielle.",
+          "en": {
+            "title": "AI: protesters in San Francisco call for a US-China treaty",
+            "summary": "Activists from the \"Stop the AI Race\" movement gathered outside OpenAI's headquarters in San Francisco. They are calling for a treaty between the United States and China to slow the development of artificial intelligence."
+          },
+          "source": "20 minutes (Suisse)",
+          "sourceTitle": "Manifestation à San Francisco : un traité sino-américain pour freiner l'IA réclamé",
+          "url": "https://20min.ch/fr/story/intelligence-artificielle-arretez-la-course-a-l-ia-des-manifestants-reclament-un-traite-103668038",
+          "lieu": { "nom": "San Francisco, États-Unis", "nom_en": "San Francisco, United States", "lat": 37.8, "lon": -122.4 }
+        }
+      ]
+    },
+    {
+      "key": "sciences",
+      "name": "Sciences & santé",
+      "items": []
+    },
+    {
+      "key": "climat",
+      "name": "Climat & environnement",
+      "items": [
+        {
+          "title": "COP31 : la coalition pour sortir des fossiles avance sans la Colombie",
+          "summary": "La coalition d'États lancée en avril à Santa Marta pour sortir des énergies fossiles poursuit ses travaux à la COP31 malgré le retrait de la Colombie, son pays fondateur, confirmé par le ministère irlandais du Climat. Elle doit publier cette semaine un rapport d'étape sur les mesures prises par ses membres.",
+          "why": "Ce retrait fragilise l'une des rares initiatives qui poussent à une sortie organisée du charbon, du pétrole et du gaz, à quelques jours de la fin du sommet.",
+          "en": {
+            "title": "COP31: fossil fuel exit coalition presses on without Colombia",
+            "summary": "The coalition of states launched in April in Santa Marta to move away from fossil fuels is continuing its work at COP31 despite the withdrawal of Colombia, its founding country, confirmed by Ireland's climate department. It is due to publish a progress report this week on the steps taken by its members.",
+            "why": "The withdrawal weakens one of the few initiatives pushing for an organised exit from coal, oil and gas, days before the summit ends."
+          },
+          "source": "Associated Press (via ClickOnDetroit)",
+          "sourceTitle": "Coalition to move away from fossil fuels presses ahead without Colombia, its original champion",
+          "sourceDate": "2026-11-15",
+          "url": "https://www.clickondetroit.com/news/world/2026/11/15/coalition-to-move-away-from-fossil-fuels-presses-ahead-without-colombia-its-original-champion/",
+          "lieu": { "nom": "Antalya, Turquie", "nom_en": "Antalya, Turkey", "lat": 36.9, "lon": 30.7 }
+        },
+        {
+          "title": "Sud-Est : fin de la vigilance orange après de fortes pluies",
+          "summary": "La vigilance orange pluie-inondation a été levée dimanche 15 novembre à 4 heures dans l'Hérault et le Gard, puis à 6 heures dans les Bouches-du-Rhône. De fortes pluies sont tombées dans la nuit autour de Montpellier.",
+          "en": {
+            "title": "South-east France: orange alert lifted after heavy rain",
+            "summary": "The orange rain and flood alert was lifted on Sunday 15 November at 4 a.m. in the Hérault and Gard departments, then at 6 a.m. in Bouches-du-Rhône. Heavy rain fell overnight around Montpellier."
+          },
+          "source": "Ouest-France",
+          "sourceTitle": "Fin de la vigilance orange dans le Sud-Est après de fortes pluies autour de Montpellier",
+          "url": "https://www.ouest-france.fr/meteo/fin-de-la-vigilance-orange-dans-le-sud-est-apres-de-fortes-pluies-autour-de-montpellier-1b25e14e-e0b6-11f1-9a29-f4bab172af08",
+          "lieu": { "nom": "Montpellier, Hérault", "nom_en": "Montpellier, France", "lat": 43.6, "lon": 3.9, "echelle": "region" }
+        }
+      ]
+    },
+    {
+      "key": "sport",
+      "name": "Sport",
+      "items": [
+        {
+          "title": "Football : les Bleus battent la Turquie et filent en quarts",
+          "summary": "L'équipe de France s'est imposée 2-1 face à la Turquie, dimanche 15 novembre à Bordeaux, lors de la dernière journée de la phase de groupes de la Ligue des nations. Les Turcs ont réduit l'écart en fin de match par Bardakci. Les Bleus se qualifient pour les quarts de finale.",
+          "why": "Trois jours après leur défaite en Italie, la première sous Zinédine Zidane, les Bleus assurent l'essentiel : la suite de la compétition.",
+          "en": {
+            "title": "Football: France beat Turkey and reach the quarter-finals",
+            "summary": "France won 2-1 against Turkey on Sunday 15 November in Bordeaux, on the final matchday of the Nations League group stage. Turkey pulled a goal back late on through Bardakci. France qualify for the quarter-finals.",
+            "why": "Three days after losing in Italy, their first defeat under Zinédine Zidane, France secured what mattered: a place in the next round."
+          },
+          "source": "France 24",
+          "sourceTitle": "Ligue des nations : la France souffre contre la Turquie mais arrache sa qualification en quarts",
+          "sourceDate": "2026-11-15",
+          "url": "https://www.france24.com/fr/sports/20261115-ligue-des-nations-la-france-se-qualifie-dans-la-douleur-contre-la-turquie",
+          "lieu": { "nom": "Bordeaux", "nom_en": "Bordeaux, France", "lat": 44.8, "lon": -0.6 }
+        },
+        {
+          "title": "Rugby : l'Angleterre écrase le Japon 78-15, cinq essais pour Joseph",
+          "summary": "L'Angleterre a battu le Japon 78-15, samedi 14 novembre à Twickenham, en Championnat des nations. Les Anglais ont inscrit treize essais, dont cinq pour l'ailier Will Joseph, qui égale le record national sur un match.",
+          "en": {
+            "title": "Rugby: England crush Japan 78-15, five tries for Joseph",
+            "summary": "England beat Japan 78-15 on Saturday 14 November at Twickenham in the Nations Championship. England scored thirteen tries, five of them by winger Will Joseph, who equals the national record for a single match."
+          },
+          "source": "ESPN",
+          "sourceTitle": "England 78-15 Japan: Will Joseph equals record with five tries as Steve Borthwick's men run in 13 at Twickenham",
+          "url": "https://www.espn.com/rugby/story/_/id/50480089/england-japan-nations-championship-rugby",
+          "lieu": { "nom": "Londres, Royaume-Uni", "nom_en": "London, United Kingdom", "lat": 51.5, "lon": -0.3 }
+        },
+        {
+          "title": "Rugby : l'Irlande domine les Fidji 43-15 avant l'Afrique du Sud",
+          "summary": "L'Irlande s'est imposée 43-15 face aux Fidji, samedi 14 novembre à Dublin, en Championnat des nations. Les Irlandais ont marqué 26 points sans réponse en seconde période. Ils affrontent l'Afrique du Sud samedi prochain.",
+          "en": {
+            "title": "Rugby: Ireland beat Fiji 43-15 ahead of South Africa",
+            "summary": "Ireland won 43-15 against Fiji on Saturday 14 November in Dublin in the Nations Championship. Ireland scored 26 unanswered points in the second half. They face South Africa next Saturday."
+          },
+          "source": "Sky Sports",
+          "sourceTitle": "Nations Championship: Ireland overcome Fiji 43-15 ahead of showdown with world champions South Africa next Saturday",
+          "url": "https://www.skysports.com/rugby-union/news/13612363/nations-championship-ireland-overcome-fiji-43-15-ahead-of-showdown-with-world-champions-south-africa-next-saturday",
+          "lieu": { "nom": "Dublin, Irlande", "nom_en": "Dublin, Ireland", "lat": 53.3, "lon": -6.3 }
+        },
+        {
+          "title": "Tennis : Zverev lance son Masters par une victoire sur Jodar",
+          "summary": "Alexander Zverev a battu Rafael Jodar 6-4, 6-4, dimanche 15 novembre à Turin, pour son premier match de poule des ATP Finals.",
+          "en": {
+            "title": "Tennis: Zverev opens his ATP Finals with a win over Jodar",
+            "summary": "Alexander Zverev beat Rafael Jodar 6-4, 6-4 on Sunday 15 November in Turin in his first round-robin match at the ATP Finals."
+          },
+          "source": "The Tribune (Inde)",
+          "sourceTitle": "ATP Finals 2026: Zverev opens campaign with straight-sets win over Jodar in Turin",
+          "url": "https://www.tribuneindia.com/news/sports/atp-finals-2026-zverev-opens-campaign-with-straight-sets-win-over-jodar-in-turin",
+          "lieu": { "nom": "Turin, Italie", "nom_en": "Turin, Italy", "lat": 45.1, "lon": 7.7 }
+        }
+      ]
+    }
+  ],
+  "note": "Résumé rédigé automatiquement à partir d'articles de presse publiés dans les dernières 24 à 48 heures. Chaque sujet renvoie à l'article d'origine : vérifiez-y les points importants.",
+  "note_en": "Summary written automatically from press articles published in the last 24 to 48 hours. Every story links to the original article: check the key points there."
+}
