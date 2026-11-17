@@ -1,0 +1,333 @@
+{
+  "date": "2026-11-17",
+  "updatedAt": "2026-11-17T06:11:41+01:00",
+  "une": { "key": "monde", "index": 0 },
+  "overview": [
+    "La Russie affirme avoir intercepté 1 336 drones ukrainiens dans la nuit de dimanche à lundi, ce qui serait la plus vaste attaque de ce type depuis le début de la guerre.",
+    "Cinq pays de l'Union européenne ont présenté lundi un accord pour ouvrir au Rwanda un centre destiné aux migrants déboutés de l'asile.",
+    "En France, une journée de grève et de manifestations est prévue ce mardi 17 novembre dans la fonction publique, au lendemain d'un débat entre cinq candidats à la présidentielle sur la précarité.",
+    "Wall Street a nettement reculé lundi, le Nasdaq perdant 2,5 % avant les résultats de Nvidia.",
+    "À Antalya, un premier projet d'accord de la COP31 a été publié ; il laisse ouverte la question des énergies fossiles."
+  ],
+  "overview_en": [
+    "Russia says it intercepted 1,336 Ukrainian drones overnight from Sunday to Monday, which would be the largest attack of its kind since the war began.",
+    "Five European Union countries on Monday unveiled a deal to open a centre in Rwanda for rejected asylum seekers.",
+    "In France, a day of strikes and demonstrations is planned this Tuesday 17 November in the civil service, the day after a debate on poverty between five presidential candidates.",
+    "Wall Street fell sharply on Monday, with the Nasdaq losing 2.5% ahead of Nvidia's results.",
+    "In Antalya, a first draft of the COP31 deal has been published; it leaves the question of fossil fuels open."
+  ],
+  "chiffres": [
+    {
+      "value": "1 336",
+      "label": "drones ukrainiens que la Russie dit avoir interceptés en une nuit.",
+      "value_en": "1,336",
+      "label_en": "Ukrainian drones Russia says it intercepted in a single night.",
+      "key": "monde"
+    },
+    {
+      "value": "−2,5 %",
+      "label": "Le recul du Nasdaq lundi à Wall Street, avant les résultats de Nvidia.",
+      "value_en": "−2.5%",
+      "label_en": "The Nasdaq's fall on Wall Street on Monday, ahead of Nvidia's results.",
+      "key": "eco"
+    },
+    {
+      "value": "200 000",
+      "label": "participants au maximum pour l'étude d'Apple sur l'usage de l'IA en santé.",
+      "value_en": "200,000",
+      "label_en": "participants at most for Apple's study on the use of AI for health.",
+      "key": "sciences"
+    },
+    {
+      "value": "43",
+      "label": "matches sans défaite pour l'Espagne avant sa chute face à l'Angleterre.",
+      "value_en": "43",
+      "label_en": "matches unbeaten for Spain before their defeat by England.",
+      "key": "sport"
+    }
+  ],
+  "categories": [
+    {
+      "key": "monde",
+      "name": "International",
+      "items": [
+        {
+          "title": "Ukraine : Moscou dit avoir intercepté un nombre record de 1 336 drones",
+          "summary": "Le ministère russe de la Défense affirme avoir intercepté 1 336 drones ukrainiens dans la nuit du 15 au 16 novembre, au-dessus de quinze régions, de la Crimée occupée et de deux mers. Selon le maire de Moscou, environ 600 drones se dirigeaient vers la région de la capitale et 191 ont été interceptés à son approche. Kiev n'a pas commenté et ces chiffres n'ont pas pu être vérifiés de source indépendante.",
+          "why": "Si ces chiffres sont exacts, il s'agit de la plus vaste attaque de drones ukrainienne contre la Russie depuis le début de la guerre.",
+          "en": {
+            "title": "Ukraine: Moscow says it intercepted a record 1,336 drones",
+            "summary": "Russia's Defence Ministry says it intercepted 1,336 Ukrainian drones overnight from 15 to 16 November, over fifteen regions, occupied Crimea and two seas. According to Moscow's mayor, about 600 drones were heading for the capital's region and 191 were intercepted on their approach. Kyiv has not commented and the figures could not be independently verified.",
+            "why": "If the figures are accurate, this is the largest Ukrainian drone attack on Russia since the war began."
+          },
+          "source": "The Kyiv Independent",
+          "sourceTitle": "Record number of Ukrainian drones launched at Russia, Moscow Oblast among main targets",
+          "sourceDate": "2026-11-16",
+          "url": "https://kyivindependent.com/record-number-of-ukrainian-drones-launched-at-russia-moscow-oblast-among-main-targets/",
+          "lieu": { "nom": "Moscou, Russie", "nom_en": "Moscow, Russia", "lat": 55.8, "lon": 37.6, "echelle": "region" }
+        },
+        {
+          "title": "Migrations : cinq pays de l'UE annoncent un centre de renvoi au Rwanda",
+          "summary": "Cinq pays de l'Union européenne, dont l'Allemagne et le Danemark, ont présenté lundi 16 novembre un accord pour créer au Rwanda un centre destiné aux migrants expulsés. Ce serait la première structure de ce type hors de l'Union.",
+          "why": "Ce projet marque une nouvelle étape dans l'externalisation de la politique migratoire européenne, un débat qui concerne aussi la France.",
+          "en": {
+            "title": "Migration: five EU countries announce a deportation centre in Rwanda",
+            "summary": "Five European Union countries, including Germany and Denmark, on Monday 16 November unveiled a deal to set up a centre in Rwanda for deported migrants. It would be the first facility of its kind outside the bloc.",
+            "why": "The plan marks a new step in the outsourcing of European migration policy, a debate that also concerns France."
+          },
+          "source": "France 24",
+          "sourceTitle": "Five EU nations unveil migrant deportation centre deal with Rwanda",
+          "sourceDate": "2026-11-16",
+          "url": "https://www.france24.com/en/africa/20261116-eu-nations-to-unveil-rwanda-deal-for-migrant-return-hub",
+          "lieu": { "nom": "Kigali, Rwanda", "nom_en": "Kigali, Rwanda", "lat": -1.9, "lon": 30.1, "echelle": "pays" }
+        },
+        {
+          "title": "Golfe : l'Iran dit avoir visé un radar américain à Bahreïn",
+          "summary": "Les Gardiens de la révolution iraniens affirment avoir lancé dimanche 15 novembre six drones contre un radar de défense aérienne américain sur la base aérienne de Riffa, à Bahreïn. Bahreïn indique que sa défense aérienne a intercepté les projectiles.",
+          "en": {
+            "title": "Gulf: Iran says it targeted a US radar in Bahrain",
+            "summary": "Iran's Revolutionary Guards say they launched six drones on Sunday 15 November at a US air defence radar at Riffa Air Base in Bahrain. Bahrain says its air defences intercepted the projectiles."
+          },
+          "source": "Al Jazeera",
+          "sourceTitle": "Iran says it targets US radar in Bahrain. What do we know?",
+          "sourceDate": "2026-11-15",
+          "url": "https://www.aljazeera.com/news/2026/11/15/iran-says-it-targets-us-radar-in-bahrain-what-do-we-know",
+          "lieu": { "nom": "Riffa, Bahreïn", "nom_en": "Riffa, Bahrain", "lat": 26.1, "lon": 50.6, "echelle": "region" }
+        },
+        {
+          "title": "Francophonie : l'élection du secrétaire général reportée",
+          "summary": "Réunis en sommet à Phnom Penh, les dirigeants de l'Organisation internationale de la Francophonie ont reporté, lundi 16 novembre, l'élection de leur secrétaire général. Emmanuel Macron a salué un « compromis ».",
+          "en": {
+            "title": "Francophonie: election of the secretary-general postponed",
+            "summary": "Meeting at a summit in Phnom Penh, the leaders of the Organisation internationale de la Francophonie (OIF, the body of French-speaking countries) on Monday 16 November postponed the election of their secretary-general. Emmanuel Macron welcomed a \"compromise\"."
+          },
+          "source": "France 24",
+          "sourceTitle": "Francophonie : l'élection du secrétaire général reportée, Macron salue un \"compromis\"",
+          "sourceDate": "2026-11-16",
+          "url": "https://www.france24.com/fr/france/20261116-francophonie-oif-vote-%C3%A9lection-secr%C3%A9taire-g%C3%A9n%C3%A9ral-louise-mushikiwabo-rwanda-rd-congo-juliana-lumumba-dacian-ciolos-coumba-ba",
+          "lieu": { "nom": "Phnom Penh, Cambodge", "nom_en": "Phnom Penh, Cambodia", "lat": 11.6, "lon": 104.9, "echelle": "pays" }
+        }
+      ]
+    },
+    {
+      "key": "france",
+      "name": "France",
+      "items": [
+        {
+          "title": "Fonction publique : journée de grève et de manifestations ce mardi",
+          "summary": "Une journée de mobilisation est prévue ce mardi 17 novembre, avec des grèves dans la fonction publique et des cortèges dans plusieurs villes. Côté transports, quelques lignes de Transilien pourraient être perturbées ; le trafic devrait être normal sur les TGV et les RER, selon franceinfo.",
+          "why": "La mobilisation peut toucher les services publics et les déplacements du jour, surtout en Île-de-France.",
+          "en": {
+            "title": "Civil service: a day of strikes and demonstrations this Tuesday",
+            "summary": "A day of action is planned this Tuesday 17 November, with strikes in the civil service and marches in several cities. On transport, a few Transilien suburban lines around Paris could be disrupted; traffic should be normal on TGV high-speed trains and RER lines, according to franceinfo.",
+            "why": "The action may affect public services and travel today, especially in the Paris region."
+          },
+          "source": "franceinfo",
+          "sourceTitle": "Transports, cortèges… Quelles perturbations pour la mobilisation du 17 novembre ?",
+          "sourceDate": "2026-11-16",
+          "url": "https://www.franceinfo.fr/societe/manifestations/transports-corteges-quelles-perturbations-pour-la-mobilisation-du-17-novembre_8284916.html"
+        },
+        {
+          "title": "Présidentielle : cinq candidats débattent de la précarité",
+          "summary": "Gabriel Attal, Raphaël Glucksmann, Marine Le Pen, Jean-Luc Mélenchon et Bruno Retailleau ont débattu lundi 16 novembre sur LCI, lors d'une émission organisée avec les Restos du Cœur. Le logement, les associations et la jeunesse ont été au centre des échanges.",
+          "why": "C'est l'un des premiers face-à-face télévisés entre candidats déclarés à l'élection présidentielle de 2027.",
+          "en": {
+            "title": "Presidential race: five candidates debate poverty",
+            "summary": "Gabriel Attal, Raphaël Glucksmann, Marine Le Pen, Jean-Luc Mélenchon and Bruno Retailleau debated on Monday 16 November on the news channel LCI, in a programme organised with the food charity Restos du Cœur. Housing, charities and young people were at the centre of the exchanges.",
+            "why": "It is one of the first televised confrontations between declared candidates for the 2027 presidential election."
+          },
+          "source": "LCP",
+          "sourceTitle": "Logement, associations, jeunesse... : ce qu'il faut retenir du débat présidentiel sur LCI",
+          "url": "https://lcp.fr/actualites/logement-associations-jeunesse-ce-qu-il-faut-retenir-du-debat-presidentiel-sur-lci"
+        },
+        {
+          "title": "Gérard Depardieu renonce à son procès en appel et présente ses excuses",
+          "summary": "L'acteur a renoncé à son procès en appel pour agressions sexuelles, qui devait s'ouvrir lundi 16 novembre à Paris, et a adressé ses excuses dans un communiqué.",
+          "en": {
+            "title": "Gérard Depardieu drops his appeal trial and apologises",
+            "summary": "The actor has dropped his appeal trial for sexual assault, which was due to open on Monday 16 November in Paris, and offered his apologies in a statement."
+          },
+          "source": "franceinfo",
+          "sourceTitle": "\"Je me suis longtemps caché derrière la provocation et la grivoiserie\" : Gérard Depardieu \"adresse ses excuses\" après avoir renoncé à son procès en appel pour agressions sexuelles",
+          "sourceDate": "2026-11-16",
+          "url": "https://www.franceinfo.fr/culture/cinema/depardieu/je-me-suis-longtemps-cache-derriere-la-provocation-et-la-grivoiserie-gerard-depardieu-adresse-ses-excuses-apres-avoir-renonce-a-son-proces-en-appel-pour-agressions-sexuelles_8284445.html",
+          "lieu": { "nom": "Paris", "nom_en": "Paris, France", "lat": 48.9, "lon": 2.3 }
+        }
+      ]
+    },
+    {
+      "key": "eco",
+      "name": "Économie & marchés",
+      "items": [
+        {
+          "title": "Wall Street décroche avant les résultats de Nvidia",
+          "summary": "Lundi 16 novembre, le S&P 500 a perdu 1,9 %, le Nasdaq 2,5 % et le Dow Jones 1,4 %, soit 739 points. L'action Nvidia a cédé 4,1 %, sa troisième baisse d'affilée depuis la démission de Jensen Huang de son poste de directeur général. Le groupe publie ses résultats trimestriels ce mardi après la clôture.",
+          "why": "Nvidia est au cœur de l'essor de l'IA en Bourse : ses résultats peuvent orienter les marchés mondiaux, y compris l'épargne placée en actions.",
+          "en": {
+            "title": "Wall Street slides ahead of Nvidia's results",
+            "summary": "On Monday 16 November, the S&P 500 lost 1.9%, the Nasdaq 2.5% and the Dow Jones 1.4%, or 739 points. Nvidia shares fell 4.1%, their third straight decline since Jensen Huang resigned as chief executive. The group reports its quarterly results this Tuesday after the close.",
+            "why": "Nvidia is at the heart of the AI boom on the stock market: its results can steer global markets, including savings invested in shares."
+          },
+          "source": "CNN",
+          "sourceTitle": "Stocks slide to kick off major week for Wall Street",
+          "sourceDate": "2026-11-16",
+          "url": "https://www.cnn.com/2026/11/16/business/stocks-nvidia-ai-anthropic",
+          "lieu": { "nom": "New York, États-Unis", "nom_en": "New York, United States", "lat": 40.7, "lon": -74.0 }
+        },
+        {
+          "title": "Bourse de Paris : le CAC 40 interrompt sa série de hausses",
+          "summary": "Après cinq séances de hausse d'affilée, le CAC 40 a cédé 0,2 % lundi 16 novembre et clôturé à 8 352 points.",
+          "en": {
+            "title": "Paris stock market: the CAC 40 ends its winning streak",
+            "summary": "After five straight sessions of gains, the CAC 40 slipped 0.2% on Monday 16 November and closed at 8,352 points."
+          },
+          "source": "MoneyVox",
+          "sourceTitle": "CAC 40 en baisse, Nvidia... Le Journal de la bourse du lundi 16 novembre 2026",
+          "sourceDate": "2026-11-16",
+          "url": "https://www.moneyvox.fr/bourse/actualites/111256/cac-40-en-baisse-nvidia-le-journal-de-la-bourse-du-lundi-16-novembre-2026",
+          "lieu": { "nom": "Paris", "nom_en": "Paris, France", "lat": 48.9, "lon": 2.3 }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "name": "Tech & IA",
+      "items": [
+        {
+          "title": "IA : Alibaba lance son nouveau modèle phare, Qwen4-Max",
+          "summary": "Le groupe chinois Alibaba a présenté Qwen4-Max, son nouveau modèle d'intelligence artificielle phare. Selon l'entreprise, il réduit d'environ 60 % le coût par tâche et renforce ses garde-fous en matière de cybersécurité.",
+          "en": {
+            "title": "AI: Alibaba launches its new flagship model, Qwen4-Max",
+            "summary": "Chinese group Alibaba has unveiled Qwen4-Max, its new flagship artificial intelligence model. According to the company, it cuts the cost per task by about 60% and tightens its cybersecurity guardrails."
+          },
+          "source": "South China Morning Post",
+          "sourceTitle": "Alibaba says new flagship AI model cuts task costs by 60% while tightening cyber guardrails",
+          "url": "https://www.scmp.com/tech/big-tech/article/3374540/alibaba-says-new-flagship-ai-model-cuts-task-costs-60-while-tightening-cyber-guardrails"
+        },
+        {
+          "title": "Fed : un gouverneur alerte sur des paniques bancaires accélérées par l'IA",
+          "summary": "Michael Barr, gouverneur de la Réserve fédérale américaine, a averti lundi 16 novembre que des agents d'IA autonomes pourraient accélérer les retraits massifs de dépôts, jusqu'à des paniques bancaires se déroulant en quelques minutes.",
+          "why": "Les régulateurs commencent à traiter les agents d'IA comme un risque pour la stabilité financière, un sujet qui concerne aussi les banques européennes.",
+          "en": {
+            "title": "Fed: a governor warns of bank runs accelerated by AI",
+            "summary": "Michael Barr, a governor of the US Federal Reserve, warned on Monday 16 November that autonomous AI agents could speed up mass deposit withdrawals, to the point of bank runs unfolding in minutes.",
+            "why": "Regulators are starting to treat AI agents as a risk to financial stability, an issue that also concerns European banks."
+          },
+          "source": "Quartz",
+          "sourceTitle": "A Fed governor warned AI agents could speed up bank runs that unfold in minutes",
+          "sourceDate": "2026-11-16",
+          "url": "https://qz.com/fed-barr-ai-agents-bank-runs-deposits-111626"
+        }
+      ]
+    },
+    {
+      "key": "sciences",
+      "name": "Sciences & santé",
+      "items": [
+        {
+          "title": "Santé : Apple lance une étude sur l'usage de l'IA pour les questions médicales",
+          "summary": "Apple a lancé aux États-Unis une étude de recherche, menée avec la société OpenEvidence, sur la façon dont le public utilise l'IA conversationnelle pour sa santé. Elle est ouverte à 200 000 participants au maximum, âgés d'au moins 21 ans.",
+          "en": {
+            "title": "Health: Apple launches a study on the use of AI for medical questions",
+            "summary": "Apple has launched a research study in the United States, run with the company OpenEvidence, on how the public uses conversational AI for health. It is open to up to 200,000 participants aged 21 and over."
+          },
+          "source": "Apple",
+          "sourceTitle": "Apple launches research study to explore the use of AI for health",
+          "url": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/"
+        }
+      ]
+    },
+    {
+      "key": "climat",
+      "name": "Climat & environnement",
+      "items": [
+        {
+          "title": "COP31 : un premier projet d'accord annonce des négociations difficiles",
+          "summary": "Un premier projet d'accord a été publié lundi 16 novembre à la COP31 d'Antalya, en Turquie. Selon l'Australien Chris Bowen, qui conduit les négociations, il contient des clauses déjà rejetées par certains pays ; il propose aussi deux formulations sur les énergies fossiles. La conférence doit s'achever le 20 novembre.",
+          "why": "Le texte final dira si les États s'engagent plus nettement à sortir des énergies fossiles, principal levier pour limiter le réchauffement.",
+          "en": {
+            "title": "COP31: a first draft deal signals tough negotiations",
+            "summary": "A first draft deal was published on Monday 16 November at COP31 in Antalya, Turkey. According to Australia's Chris Bowen, who is leading the negotiations, it contains clauses already rejected by some countries; it also offers two sets of wording on fossil fuels. The conference is due to end on 20 November.",
+            "why": "The final text will show whether states commit more clearly to moving away from fossil fuels, the main lever for limiting warming."
+          },
+          "source": "Reuters (via Rappler)",
+          "sourceTitle": "First draft of COP31 deal signals tough negotiations to come",
+          "sourceDate": "2026-11-16",
+          "url": "https://www.rappler.com/world/global-affairs/draft-cop31-deal-signals-tough-negotiations-november-16-2026/",
+          "lieu": { "nom": "Antalya, Turquie", "nom_en": "Antalya, Turkey", "lat": 36.9, "lon": 30.7, "echelle": "pays" }
+        },
+        {
+          "title": "COP31 : l'IA, « immense potentiel » et « grand péril » pour le climat",
+          "summary": "À la COP31 d'Antalya, le responsable climat de l'ONU, Simon Stiell, a estimé que l'intelligence artificielle recèle à la fois un « immense potentiel » et un « grand péril » pour le climat.",
+          "en": {
+            "title": "COP31: AI holds \"immense potential\" and \"great peril\" for the climate",
+            "summary": "At COP31 in Antalya, the UN's climate chief, Simon Stiell, said artificial intelligence holds both \"immense potential\" and \"great peril\" for the climate."
+          },
+          "source": "Ouest-France",
+          "sourceTitle": "L’intelligence artificielle recèle à la fois un « immense potentiel » et un « grand péril » pour le climat, selon l’Onu",
+          "url": "https://ouest-france.fr/high-tech/intelligence-artificielle/lintelligence-artificielle-recele-a-la-fois-un-immense-potentiel-et-un-grand-peril-pour-le-climat-selon-lonu-0b61e476-e195-11f1-b029-43a761592972",
+          "lieu": { "nom": "Antalya, Turquie", "nom_en": "Antalya, Turkey", "lat": 36.9, "lon": 30.7, "echelle": "pays" }
+        }
+      ]
+    },
+    {
+      "key": "sport",
+      "name": "Sport",
+      "items": [
+        {
+          "title": "Football : l'Angleterre met fin à l'invincibilité de l'Espagne",
+          "summary": "L'Angleterre s'est imposée 3-2 face à l'Espagne dimanche 15 novembre à Madrid, en Ligue des nations. La Roja restait sur 43 matches sans défaite.",
+          "why": "L'Espagne, référence du football européen, n'avait plus perdu depuis 43 matches.",
+          "en": {
+            "title": "Football: England end Spain's unbeaten run",
+            "summary": "England beat Spain 3-2 on Sunday 15 November in Madrid, in the Nations League. Spain had gone 43 matches without defeat.",
+            "why": "Spain, the benchmark of European football, had not lost in 43 matches."
+          },
+          "source": "Eurosport",
+          "sourceTitle": "Ligue des nations I Elle est tombée : l'Espagne chute devant l'Angleterre après 43 matches sans défaite",
+          "sourceDate": "2026-11-15",
+          "url": "https://www.eurosport.fr/football/ligue-des-nations/2026-2027/ligue-des-nations-i-elle-est-tombee-lespagne-chute-devant-langleterre-apres-43-matches-sans-defaite_sto23355667/story.shtml",
+          "lieu": { "nom": "Madrid, Espagne", "nom_en": "Madrid, Spain", "lat": 40.4, "lon": -3.7 }
+        },
+        {
+          "title": "Rugby : le XV de France remonte sur le podium mondial",
+          "summary": "Après sa victoire face à l'Afrique du Sud, le XV de France grimpe à la troisième place du classement mondial publié lundi 16 novembre.",
+          "en": {
+            "title": "Rugby: France climb back onto the world podium",
+            "summary": "After their win over South Africa, France climb to third place in the world rankings published on Monday 16 November."
+          },
+          "source": "Ouest-France",
+          "sourceTitle": "Rugby. Après sa victoire de prestige face à l’Afrique du Sud, le XV de France grimpe sur le podium du classement mondial",
+          "sourceDate": "2026-11-16",
+          "url": "https://www.ouest-france.fr/sport/rugby/equipe-de-france/rugby-apres-sa-victoire-de-prestige-face-a-lafrique-du-sud-le-xv-de-france-grimpe-sur-le-podium-du-classement-mondial-7fec4d96-e1e9-11f1-b029-43a761592972"
+        },
+        {
+          "title": "Tennis : Alcaraz expéditif pour son entrée au Masters de Turin",
+          "summary": "Carlos Alcaraz a battu l'Américain Frances Tiafoe 6-2, 6-2 lundi 16 novembre pour son premier match au Masters ATP, à Turin.",
+          "en": {
+            "title": "Tennis: Alcaraz makes quick work of his ATP Finals opener in Turin",
+            "summary": "Carlos Alcaraz beat American Frances Tiafoe 6-2, 6-2 on Monday 16 November in his first match at the ATP Finals in Turin."
+          },
+          "source": "France 24 (AFP)",
+          "sourceTitle": "Masters ATP : Alcaraz en mode Superman à Turin",
+          "sourceDate": "2026-11-16",
+          "url": "https://www.france24.com/fr/info-en-continu/20261116-masters-atp-alcaraz-en-mode-superman-%C3%A0-turin",
+          "lieu": { "nom": "Turin, Italie", "nom_en": "Turin, Italy", "lat": 45.1, "lon": 7.7 }
+        },
+        {
+          "title": "Tennis : Mirra Andreeva remporte le Masters WTA sans perdre un set",
+          "summary": "La Russe Mirra Andreeva a battu l'Ukrainienne Elina Svitolina 7-5, 6-3 dimanche 15 novembre en finale du Masters WTA. Elle n'a pas concédé un seul set du tournoi.",
+          "en": {
+            "title": "Tennis: Mirra Andreeva wins the WTA Finals without dropping a set",
+            "summary": "Russia's Mirra Andreeva beat Ukraine's Elina Svitolina 7-5, 6-3 on Sunday 15 November in the final of the WTA Finals. She did not drop a single set in the tournament."
+          },
+          "source": "ESPN",
+          "sourceTitle": "Mirra Andreeva beats Elina Svitolina to win WTA Finals without losing a set",
+          "url": "https://www.espn.com/tennis/story/_/id/50495386/mirra-andreeva-beats-elina-svitolina-win-wta-finals"
+        }
+      ]
+    }
+  ],
+  "note": "Résumé rédigé automatiquement à partir d'articles de presse publiés dans les dernières 24 à 48 heures. Chaque sujet renvoie à l'article d'origine : vérifiez-y les points importants.",
+  "note_en": "Summary written automatically from press articles published in the last 24 to 48 hours. Every story links to the original article: check the key points there."
+}
