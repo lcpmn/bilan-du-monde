@@ -1,0 +1,247 @@
+{
+  "date": "2026-11-18",
+  "updatedAt": "2026-11-18T06:13:05+01:00",
+  "une": { "key": "monde", "index": 0 },
+  "overview": [
+    "L'Ukraine a frappé le pont de Crimée pour le deuxième jour consécutif, tandis que la Russie a visé les deux grands ponts de Kyiv sur le Dniepr.",
+    "Nvidia a publié un chiffre d'affaires trimestriel de 115,8 milliards de dollars, ses premiers résultats sous la direction de sa PDG par intérim, Colette Kress.",
+    "Avant ces résultats, les marchés ont nettement reculé : le CAC 40 a perdu 1,62 % et le Dow Jones 1,64 %.",
+    "En France, la journée de grève de la fonction publique a réuni 146 000 manifestants selon le ministère de l'Intérieur, plus de 500 000 selon la CGT.",
+    "À la COP31 d'Antalya, le projet d'accord final divise les délégations à trois jours de la clôture prévue."
+  ],
+  "overview_en": [
+    "Ukraine struck the Crimean Bridge for a second day running, while Russia targeted Kyiv's two main bridges over the Dnipro.",
+    "Nvidia reported quarterly revenue of $115.8 billion, its first results under interim chief executive Colette Kress.",
+    "Ahead of those results, markets fell sharply: the CAC 40 lost 1.62% and the Dow Jones 1.64%.",
+    "In France, the public-sector strike day drew 146,000 marchers according to the Interior Ministry, and more than 500,000 according to the CGT union.",
+    "At COP31 in Antalya, the draft final agreement is dividing delegations three days before the scheduled close."
+  ],
+  "chiffres": [
+    { "value": "115,8 Md$", "label": "Chiffre d'affaires trimestriel de Nvidia, contre 109,1 milliards attendus", "value_en": "$115.8bn", "label_en": "Nvidia's quarterly revenue, against $109.1 billion expected", "key": "tech" },
+    { "value": "146 000", "label": "Manifestants en France mardi selon le ministère de l'Intérieur (plus de 500 000 selon la CGT)", "value_en": "146,000", "label_en": "Marchers across France on Tuesday according to the Interior Ministry (more than 500,000 according to the CGT)", "key": "france" },
+    { "value": "−1,62 %", "label": "Recul du CAC 40 mardi, à 8 216,78 points", "value_en": "−1.62%", "label_en": "The CAC 40's fall on Tuesday, to 8,216.78 points", "key": "eco" },
+    { "value": "−848 points", "label": "Chute du Dow Jones mardi, soit −1,64 %", "value_en": "−848 points", "label_en": "The Dow Jones's drop on Tuesday, or −1.64%", "key": "eco" }
+  ],
+  "categories": [
+    {
+      "key": "monde",
+      "name": "International",
+      "items": [
+        {
+          "title": "Ukraine : le pont de Crimée de nouveau frappé, les ponts de Kyiv visés",
+          "summary": "L'Ukraine a frappé mardi 17 novembre le pont reliant la Russie à la Crimée, pour le deuxième jour consécutif ; selon l'état-major ukrainien, une partie de la section routière s'est effondrée. Dans la nuit, la Russie a visé les ponts nord et sud de Kyiv sur le Dniepr, fermés à la circulation.",
+          "why": "Les deux camps s'en prennent désormais aux ponts, artères logistiques essentielles, ce qui marque une nouvelle phase de la guerre des infrastructures.",
+          "en": {
+            "title": "Ukraine: Crimean Bridge hit again as Kyiv's bridges are targeted",
+            "summary": "Ukraine struck the bridge linking Russia to Crimea on Tuesday, November 17, for the second day running; according to Ukraine's General Staff, part of the road section collapsed. Overnight, Russia targeted Kyiv's northern and southern bridges over the Dnipro, which were closed to traffic.",
+            "why": "Both sides are now going after bridges, vital logistics arteries, marking a new phase in the war on infrastructure."
+          },
+          "source": "The Moscow Times",
+          "sourceTitle": "Ukraine Strikes Crimean Bridge for Second Day as Russia Pounds Kyiv Bridges",
+          "sourceDate": "2026-11-17",
+          "url": "https://themoscowtimes.com/2026/11/17/ukraine-strikes-crimean-bridge-for-second-day-as-russia-pounds-kyiv-bridges-a94281",
+          "lieu": { "nom": "Détroit de Kertch, Crimée", "nom_en": "Kerch Strait, Crimea", "lat": 45.3, "lon": 36.5, "echelle": "region" }
+        },
+        {
+          "title": "APEC : les dirigeants arrivent à Shenzhen pour le sommet",
+          "summary": "Les dirigeants des économies de l'APEC arrivent à Shenzhen, dans le sud de la Chine, pour le sommet des 18 et 19 novembre. Une rencontre à trois entre Donald Trump, Xi Jinping et Vladimir Poutine est prévue en marge, une première.",
+          "en": {
+            "title": "APEC: leaders arrive in Shenzhen for the summit",
+            "summary": "Leaders of the APEC economies are arriving in Shenzhen, in southern China, for the November 18-19 summit. A three-way meeting between Donald Trump, Xi Jinping and Vladimir Putin is planned on the sidelines, a first."
+          },
+          "source": "TaiwanPlus",
+          "sourceTitle": "APEC 2026: Shenzhen Readies as Global Leaders Arrive",
+          "sourceDate": "2026-11-17",
+          "url": "https://www.taiwanplus.com/news/world-news/asia-pacific/261117007/apec-2026-shenzhen-readies-as-global-leaders-arrive",
+          "lieu": { "nom": "Shenzhen, Chine", "nom_en": "Shenzhen, China", "lat": 22.5, "lon": 114.1 }
+        }
+      ]
+    },
+    {
+      "key": "france",
+      "name": "France",
+      "items": [
+        {
+          "title": "Fonction publique : une mobilisation en recul pour les salaires",
+          "summary": "Mardi 17 novembre, 146 000 personnes ont manifesté en France selon le ministère de l'Intérieur, plus de 500 000 selon la CGT. Les syndicats de la fonction publique réclament des revalorisations salariales.",
+          "why": "Le chiffre officiel est nettement inférieur à celui de la journée du 5 novembre, ce qui pèse sur le rapport de force avec le gouvernement.",
+          "en": {
+            "title": "Public sector: a smaller turnout in the fight over pay",
+            "summary": "On Tuesday, November 17, 146,000 people marched across France according to the Interior Ministry, and more than 500,000 according to the CGT union. Public-sector unions are demanding pay rises.",
+            "why": "The official count is well below that of the November 5 protest day, which weakens the unions' hand against the government."
+          },
+          "source": "Sud Radio",
+          "sourceTitle": "Mobilisation du 17 novembre : plus de 146.000 manifestants",
+          "sourceDate": "2026-11-17",
+          "url": "https://www.sudradio.fr/societe/fonctionnaires-jeunesse-salaries-du-prive-une-colere-qui-converge-malgre-des-corteges-moins-fournis"
+        },
+        {
+          "title": "Narcotrafic : perpétuité pour les assassins du frère d'Amine Kessaci",
+          "summary": "La cour d'assises d'Aix-en-Provence a condamné lundi 16 novembre deux figures du narcobanditisme marseillais à la réclusion criminelle à perpétuité pour un triple assassinat commis en 2020. L'une des victimes était le frère du militant anti-drogue Amine Kessaci.",
+          "why": "Ce verdict est perçu comme un signal fort dans la lutte contre le narcotrafic, qui ensanglante Marseille depuis plusieurs années.",
+          "en": {
+            "title": "Drug trafficking: life sentences for the killers of Amine Kessaci's brother",
+            "summary": "The Aix-en-Provence assize court on Monday, November 16, sentenced two leading figures of Marseille's drug underworld to life imprisonment for a triple murder committed in 2020. One of the victims was the brother of anti-drug activist Amine Kessaci.",
+            "why": "The verdict is seen as a strong signal in the fight against drug trafficking, which has caused bloodshed in Marseille for several years."
+          },
+          "source": "franceinfo",
+          "sourceTitle": "Les assassins du frère d'Amine Kessaci condamnés à la perpétuité : \"Ce message-là, il est à la narcocratie\", lance le militant et adjoint au maire phocéen",
+          "sourceDate": "2026-11-16",
+          "url": "https://www.franceinfo.fr/faits-divers/justice-proces/les-assassins-du-frere-d-amine-kessaci-condamnes-a-la-perpetuite-ce-message-la-il-est-a-la-narcocratie-lance-le-militant-et-adjoint-au-maire-phoceen_8285402.html",
+          "lieu": { "nom": "Aix-en-Provence", "nom_en": "Aix-en-Provence, France", "lat": 43.53, "lon": 5.45 }
+        }
+      ]
+    },
+    {
+      "key": "eco",
+      "name": "Économie & marchés",
+      "items": [
+        {
+          "title": "Bourse de Paris : le CAC 40 chute de 1,62 %, plombé par le luxe",
+          "summary": "Le CAC 40 a clôturé mardi 17 novembre en forte baisse, à 8 216,78 points. Le luxe a pesé, Hermès perdant plus de 5 %, dans un climat de nervosité avant les résultats de Nvidia.",
+          "en": {
+            "title": "Paris stocks: CAC 40 falls 1.62%, dragged down by luxury",
+            "summary": "The CAC 40 closed sharply lower on Tuesday, November 17, at 8,216.78 points. Luxury stocks weighed, with Hermès losing more than 5%, amid nervousness ahead of Nvidia's results."
+          },
+          "source": "BFM Bourse",
+          "sourceTitle": "Cac 40 : Plombé par les inquiétudes autour de Nvidia et le recul du luxe, le CAC 40 clôture en forte baisse",
+          "sourceDate": "2026-11-17",
+          "url": "https://www.tradingsat.com/cac-40-FR0003500008/actualites/cac-40-plombe-par-les-inquietudes-autour-de-nvidia-et-le-recul-du-luxe-le-cac-40-cloture-en-forte-baisse-1173960.html",
+          "lieu": { "nom": "Paris", "nom_en": "Paris, France", "lat": 48.86, "lon": 2.35 }
+        },
+        {
+          "title": "Wall Street : le Dow Jones perd plus de 800 points",
+          "summary": "Le Dow Jones a reculé mardi de 848,75 points (−1,64 %) et le S&P 500 de 1,03 %, à son plus bas niveau de clôture depuis juillet. La chute de Nvidia avant ses résultats a entraîné la tech.",
+          "why": "Le recul des valeurs liées à l'intelligence artificielle se propage aux marchés mondiaux, y compris européens.",
+          "en": {
+            "title": "Wall Street: the Dow Jones loses more than 800 points",
+            "summary": "The Dow Jones fell 848.75 points (−1.64%) on Tuesday and the S&P 500 1.03%, to its lowest close since July. Nvidia's slide ahead of its results dragged tech stocks down.",
+            "why": "The retreat in artificial-intelligence stocks is spreading to markets worldwide, including in Europe."
+          },
+          "source": "CNBC",
+          "sourceTitle": "Dow drops more than 800 points, S&P 500 posts lowest close since July",
+          "url": "https://www.cnbc.com/2026/11/16/stock-market-today-live-updates.html",
+          "lieu": { "nom": "New York, États-Unis", "nom_en": "New York, United States", "lat": 40.71, "lon": -74.01 }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "name": "Tech & IA",
+      "items": [
+        {
+          "title": "Nvidia dépasse les attentes pour ses premiers résultats sans Jensen Huang",
+          "summary": "Nvidia a publié mardi 17 novembre un chiffre d'affaires trimestriel de 115,8 milliards de dollars, contre 109,1 milliards attendus, et prévoit environ 130 milliards pour le trimestre en cours. Ce sont les premiers résultats présentés par Colette Kress, PDG par intérim depuis le départ de Jensen Huang.",
+          "why": "Nvidia est le baromètre de l'investissement mondial dans l'IA : ses chiffres orientent toute la tech, jusqu'aux bourses européennes.",
+          "en": {
+            "title": "Nvidia beats expectations in its first results without Jensen Huang",
+            "summary": "Nvidia reported quarterly revenue of $115.8 billion on Tuesday, November 17, against $109.1 billion expected, and forecasts about $130 billion for the current quarter. These are the first results presented by Colette Kress, interim chief executive since Jensen Huang's departure.",
+            "why": "Nvidia is the barometer of global investment in AI: its figures steer the whole tech sector, all the way to European stock markets."
+          },
+          "source": "CNBC",
+          "sourceTitle": "Nvidia’s Kress tells CNBC's Jim Cramer that 'customers continue to be with us’",
+          "sourceDate": "2026-11-17",
+          "url": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html",
+          "lieu": { "nom": "Santa Clara, États-Unis", "nom_en": "Santa Clara, United States", "lat": 37.35, "lon": -121.96 }
+        },
+        {
+          "title": "Proton lance Lumo, son assistant IA, sur ordinateur",
+          "summary": "La société suisse Proton a lancé mardi une version de bureau de Lumo, son assistant d'IA axé sur la confidentialité, pour Windows, macOS et Linux.",
+          "en": {
+            "title": "Proton brings its Lumo AI assistant to the desktop",
+            "summary": "Swiss company Proton on Tuesday launched a desktop version of Lumo, its privacy-focused AI assistant, for Windows, macOS and Linux."
+          },
+          "source": "TechCrunch",
+          "sourceTitle": "Proton's Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
+          "sourceDate": "2026-11-17",
+          "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/"
+        }
+      ]
+    },
+    {
+      "key": "sciences",
+      "name": "Sciences & santé",
+      "items": []
+    },
+    {
+      "key": "climat",
+      "name": "Climat & environnement",
+      "items": [
+        {
+          "title": "COP31 : le projet d'accord final attise les tensions",
+          "summary": "Le premier projet de décision finale de la COP31, à Antalya, divise les délégations. Le ministre australien Chris Bowen, qui pilote les négociations, a reconnu que le texte contient des éléments qui ne font pas consensus ; la conférence doit s'achever le vendredi 20 novembre.",
+          "why": "Sans consensus, la COP31 risque de ne produire aucun engagement nouveau sur la sortie des énergies fossiles.",
+          "en": {
+            "title": "COP31: the draft final deal stokes tensions",
+            "summary": "The first draft of COP31's final decision, in Antalya, is dividing delegations. Australian minister Chris Bowen, who is steering the negotiations, acknowledged the text contains elements that not all parties agree on; the conference is due to end on Friday, November 20.",
+            "why": "Without consensus, COP31 risks producing no new commitment on moving away from fossil fuels."
+          },
+          "source": "Al Jazeera",
+          "sourceTitle": "Tensions rise over draft climate deal at COP31",
+          "sourceDate": "2026-11-17",
+          "url": "https://www.aljazeera.com/news/2026/11/17/tensions-rise-over-draft-climate-deal-at-cop31",
+          "lieu": { "nom": "Antalya, Turquie", "nom_en": "Antalya, Türkiye", "lat": 36.9, "lon": 30.7 }
+        },
+        {
+          "title": "COP31 : le groupe arabe et la Russie rejettent le texte, l'UE soutient l'électrification",
+          "summary": "Le groupe arabe et la Russie ont rejeté le projet de décision finale, en raison de ses passages sur les énergies fossiles et sur un objectif d'électrification. L'Union européenne a au contraire soutenu cet objectif.",
+          "en": {
+            "title": "COP31: Arab Group and Russia reject the text, EU backs electrification",
+            "summary": "The Arab Group and Russia rejected the draft final decision over its passages on fossil fuels and an electrification goal. The European Union, by contrast, backed that goal."
+          },
+          "source": "Climate Home News",
+          "sourceTitle": "COP31 Bulletin Day 8: EU backs electrification goal, as more TAFF roadmaps promised",
+          "sourceDate": "2026-11-17",
+          "url": "https://www.climatechangenews.com/2026/11/17/cop31-bulletin-day-8-arab-group-russia-reject-cover-text-over-fossil-fuels-and-electrification-goal/",
+          "lieu": { "nom": "Antalya, Turquie", "nom_en": "Antalya, Türkiye", "lat": 36.9, "lon": 30.7 }
+        },
+        {
+          "title": "Climat : la Dominique, la Birmanie et le Honduras les plus touchés en 30 ans",
+          "summary": "Un nouveau classement présenté à la COP31 place la Dominique, la Birmanie et le Honduras en tête des pays les plus frappés par les événements météorologiques extrêmes sur trente ans. La conférence consacrait mardi sa journée aux océans.",
+          "en": {
+            "title": "Climate: Dominica, Myanmar and Honduras hit hardest over 30 years",
+            "summary": "A new ranking presented at COP31 puts Dominica, Myanmar and Honduras at the top of the countries hardest hit by extreme weather over thirty years. The conference devoted Tuesday to the oceans."
+          },
+          "source": "ONU Info",
+          "sourceTitle": "COP31: The push to protect warming oceans reaches the negotiating table",
+          "sourceDate": "2026-11-17",
+          "url": "https://news.un.org/en/story/2026/11/1168824"
+        }
+      ]
+    },
+    {
+      "key": "sport",
+      "name": "Sport",
+      "items": [
+        {
+          "title": "Ligue des nations : Haaland qualifie la Norvège au bout du temps additionnel",
+          "summary": "Menée 2-0 au Danemark, la Norvège s'est imposée 3-2 mardi 17 novembre grâce à un penalty d'Erling Haaland dans le temps additionnel. Elle décroche le dernier billet pour les quarts de finale.",
+          "en": {
+            "title": "Nations League: Haaland sends Norway through deep into stoppage time",
+            "summary": "Trailing 2-0 in Denmark, Norway won 3-2 on Tuesday, November 17, thanks to an Erling Haaland penalty in stoppage time. They take the last quarter-final spot."
+          },
+          "source": "Eurosport",
+          "sourceTitle": "Ligue des nations I La Norvège arrache in extremis le dernier billet pour les quarts avec un penalty de Haaland dans le temps additonnel",
+          "sourceDate": "2026-11-17",
+          "url": "https://www.eurosport.fr/football/ligue-des-nations/2026-2027/ligue-des-nations-i-la-norvege-arrache-in-extremis-le-dernier-billet-pour-les-quarts-avec-un-penalty-de-haaland-dans-le-temps-additonnel_sto23356310/story.shtml",
+          "lieu": { "nom": "Danemark", "nom_en": "Denmark", "lat": 56.0, "lon": 10.0, "echelle": "pays" }
+        },
+        {
+          "title": "Tennis : Arthur Fils signe sa première victoire au Masters de Turin",
+          "summary": "Arthur Fils a battu l'Espagnol Rafael Jodar, gêné physiquement, 4-6, 6-2, 6-2 mardi 17 novembre. Le Français reste en course pour les demi-finales avant d'affronter Alexander Zverev jeudi.",
+          "en": {
+            "title": "Tennis: Arthur Fils claims his first win at the ATP Finals in Turin",
+            "summary": "Arthur Fils beat Spain's Rafael Jodar, who was hampered physically, 4-6, 6-2, 6-2 on Tuesday, November 17. The Frenchman stays in the race for the semi-finals ahead of facing Alexander Zverev on Thursday."
+          },
+          "source": "France 24",
+          "sourceTitle": "Fils edges injury-hit Jodar at ATP Finals",
+          "sourceDate": "2026-11-17",
+          "url": "https://www.france24.com/en/live-news/20261117-fils-edges-injury-hit-jodar-at-atp-finals",
+          "lieu": { "nom": "Turin, Italie", "nom_en": "Turin, Italy", "lat": 45.07, "lon": 7.69 }
+        }
+      ]
+    }
+  ],
+  "note": "Résumé rédigé automatiquement à partir d'articles de presse publiés dans les dernières 24 à 48 heures. Chaque sujet renvoie à l'article d'origine : vérifiez-y les points importants.",
+  "note_en": "Summary written automatically from press articles published in the last 24 to 48 hours. Every story links to the original article: check the key points there."
+}
