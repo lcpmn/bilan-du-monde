@@ -1,0 +1,193 @@
+{
+  "date": "2026-11-19",
+  "updatedAt": "2026-11-19T06:40:00+01:00",
+  "une": { "key": "monde", "index": 0 },
+  "overview": [
+    "L'Iran a visé mercredi une base aérienne américaine au Koweït et des sites à Bahreïn, en riposte à une frappe américaine sur l'île de Qeshm ; le Qatar dénonce une « dangereuse escalade ».",
+    "À Shenzhen, Xi Jinping a accueilli Donald Trump pour le sommet de l'APEC, avant une rencontre à trois avec Vladimir Poutine prévue jeudi.",
+    "À Antalya, les ministres tentent de débloquer les négociations de la COP31 à deux jours de la clôture, sur fond de désaccords sur les énergies fossiles et le financement de l'adaptation.",
+    "À Paris, la Bourse a reculé de 0,85 % malgré les bons résultats de Nvidia, et le gouvernement promet de lister « dans les prochains jours » ses priorités pour un compromis budgétaire."
+  ],
+  "overview_en": [
+    "On Wednesday Iran targeted a US air base in Kuwait and sites in Bahrain in retaliation for a US strike on Qeshm Island; Qatar condemned a \"dangerous escalation\".",
+    "In Shenzhen, Xi Jinping welcomed Donald Trump for the APEC summit, ahead of a three-way meeting with Vladimir Putin scheduled for Thursday.",
+    "In Antalya, ministers are trying to unblock the COP31 negotiations two days before the close, amid disagreements over fossil fuels and adaptation finance.",
+    "In Paris, the stock market fell 0.85% despite strong Nvidia results, and the government promised to list its priorities for a budget compromise \"in the coming days\"."
+  ],
+  "chiffres": [
+    { "value": "−0,85 %", "label": "Le recul du CAC 40 mercredi, à 8 146,83 points", "value_en": "−0.85%", "label_en": "The CAC 40's fall on Wednesday, to 8,146.83 points", "key": "eco" },
+    { "value": "35 %", "label": "La part d'électricité visée dans la consommation mondiale d'ici 2035, objectif porté à la COP31", "value_en": "35%", "label_en": "The share of electricity in global energy use targeted by 2035, a goal promoted at COP31", "key": "climat" },
+    { "value": "60 000", "label": "Le nombre de salariés de Microsoft à qui une offre de départ volontaire a été proposée", "value_en": "60,000", "label_en": "The number of Microsoft employees offered a voluntary buyout", "key": "tech" },
+    { "value": "1,7 million", "label": "Le nombre de femmes suivies dans une étude danoise sur la migraine, le tabac et l'AVC", "value_en": "1.7 million", "label_en": "The number of women followed in a Danish study on migraine, smoking and stroke", "key": "sciences" }
+  ],
+  "categories": [
+    {
+      "key": "monde",
+      "name": "International",
+      "items": [
+        {
+          "title": "Golfe : l'Iran vise une base américaine au Koweït et des sites à Bahreïn",
+          "summary": "Mercredi 18 novembre, l'Iran a visé la base aérienne d'Ali Al-Salem au Koweït et plusieurs sites à Bahreïn, en riposte à une frappe américaine la veille contre un site de lancement de missiles sur l'île de Qeshm. L'armée koweïtienne dit avoir intercepté des drones. Le Qatar, médiateur, dénonce une « dangereuse escalade ».",
+          "why": "Ces échanges de frappes, près de neuf mois après le début de la guerre, font craindre une reprise du conflit ouvert dans une région clé pour l'approvisionnement en pétrole et en gaz.",
+          "en": {
+            "title": "Gulf: Iran targets a US base in Kuwait and sites in Bahrain",
+            "summary": "On Wednesday 18 November, Iran targeted the Ali Al-Salem air base in Kuwait and several sites in Bahrain, in retaliation for a US strike the day before on a missile launch site on Qeshm Island. Kuwait's military said it intercepted drones. Qatar, a mediator, condemned a \"dangerous escalation\".",
+            "why": "These tit-for-tat strikes, nearly nine months into the war, raise fears of a return to all-out conflict in a region crucial to oil and gas supplies."
+          },
+          "source": "Associated Press (KSAT)",
+          "sourceTitle": "Iran widens Gulf attacks by targeting a US air base in Kuwait and sites in Bahrain",
+          "sourceDate": "2026-11-18",
+          "url": "https://www.ksat.com/news/world/2026/11/18/iran-widens-gulf-attacks-firing-on-a-us-air-base-in-kuwait-and-at-targets-in-bahrain/",
+          "lieu": { "nom": "Koweït", "nom_en": "Kuwait", "lat": 29.3, "lon": 47.8, "echelle": "pays" }
+        },
+        {
+          "title": "APEC : Xi Jinping accueille Donald Trump à Shenzhen",
+          "summary": "Donald Trump est arrivé mercredi à Shenzhen pour le sommet de l'APEC, accueilli par Xi Jinping au pied d'Air Force One. Une rencontre inédite à trois avec Vladimir Poutine est prévue jeudi, en marge du sommet.",
+          "why": "Une rencontre entre les dirigeants des États-Unis, de la Chine et de la Russie peut peser sur le commerce mondial comme sur la guerre en Ukraine.",
+          "en": {
+            "title": "APEC: Xi Jinping welcomes Donald Trump in Shenzhen",
+            "summary": "Donald Trump arrived in Shenzhen on Wednesday for the APEC summit and was greeted by Xi Jinping at the foot of Air Force One. An unprecedented three-way meeting with Vladimir Putin is scheduled for Thursday, on the sidelines of the summit.",
+            "why": "A meeting of the leaders of the United States, China and Russia could weigh on world trade as well as on the war in Ukraine."
+          },
+          "source": "CNBC",
+          "sourceTitle": "Trump arrives in China for historic meeting with Xi, Putin",
+          "sourceDate": "2026-11-18",
+          "url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html",
+          "lieu": { "nom": "Shenzhen, Chine", "nom_en": "Shenzhen, China", "lat": 22.54, "lon": 114.06, "echelle": "ville" }
+        }
+      ]
+    },
+    {
+      "key": "france",
+      "name": "France",
+      "items": [
+        {
+          "title": "Budget : Lecornu va lister ses priorités pour un compromis",
+          "summary": "Le ministre des Comptes publics, David Amiel, a annoncé mercredi au Sénat que Sébastien Lecornu présenterait « dans les prochains jours » les thèmes prioritaires de discussion sur le budget. Le gouvernement cherche un compromis avec la droite et la gauche républicaines, alors que le Sénat doit commencer l'examen du texte vendredi.",
+          "why": "Sans majorité à l'Assemblée, le gouvernement doit trouver un accord pour faire adopter le budget 2027 sans s'exposer à la censure.",
+          "en": {
+            "title": "Budget: Lecornu to list his priorities for a compromise",
+            "summary": "Public accounts minister David Amiel told the Senate on Wednesday that Prime Minister Sébastien Lecornu would present the priority topics for budget talks \"in the coming days\". The government is seeking a compromise with the mainstream right and left, as the Senate is due to start examining the bill on Friday.",
+            "why": "Without a majority in the National Assembly, the government needs a deal to pass the 2027 budget without facing a no-confidence vote."
+          },
+          "source": "Europe 1",
+          "sourceTitle": "Budget : Sébastien Lecornu listera «dans les prochains jours» les priorités pour un compromis, dit David Amiel",
+          "sourceDate": "2026-11-18",
+          "url": "https://www.europe1.fr/economie/budget-sebastien-lecornu-listera-dans-les-prochains-jours-les-priorites-pour-un-compromis-dit-david-amiel-1239702",
+          "lieu": { "nom": "Paris", "nom_en": "Paris, France", "lat": 48.86, "lon": 2.35, "echelle": "ville" }
+        }
+      ]
+    },
+    {
+      "key": "eco",
+      "name": "Économie & marchés",
+      "items": [
+        {
+          "title": "Bourse de Paris : le CAC 40 recule de 0,85 % malgré Nvidia",
+          "summary": "Le CAC 40 a terminé mercredi en baisse de 0,85 %, à 8 146,83 points, au lendemain d'une chute de 1,62 %. Les bons résultats de Nvidia n'ont pas suffi à rassurer, les investisseurs restant prudents avant le compte rendu de la Réserve fédérale américaine. Soitec et STMicroelectronics figurent parmi les plus fortes hausses.",
+          "en": {
+            "title": "Paris stock market: CAC 40 falls 0.85% despite Nvidia",
+            "summary": "The CAC 40 closed down 0.85% on Wednesday at 8,146.83 points, a day after a 1.62% drop. Nvidia's strong results were not enough to reassure investors, who stayed cautious ahead of the US Federal Reserve's meeting minutes. Soitec and STMicroelectronics were among the biggest gainers."
+          },
+          "source": "Boursorama",
+          "sourceTitle": "La Bourse de Paris termine dans le rouge",
+          "sourceDate": "2026-11-18",
+          "url": "https://www.boursorama.com/bourse/actualites/la-bourse-de-paris-termine-dans-le-rouge-0692f2cf5b61cac9ed1d93c1f5dd71f0",
+          "lieu": { "nom": "Paris", "nom_en": "Paris, France", "lat": 48.86, "lon": 2.35, "echelle": "ville" }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "name": "Tech & IA",
+      "items": [
+        {
+          "title": "Microsoft : Nadella s'explique sur l'offre de départ à 60 000 salariés",
+          "summary": "Au sommet DealBook à New York mercredi, le patron de Microsoft, Satya Nadella, a expliqué l'offre de départ volontaire proposée en octobre à 60 000 salariés. Selon lui, elle vise à réorganiser le travail autour de l'IA plutôt qu'à remplacer purement et simplement les employés.",
+          "why": "Le cas Microsoft illustre la façon dont les géants de la tech réorganisent leurs effectifs autour de l'IA, avec des effets attendus sur l'emploi qualifié.",
+          "en": {
+            "title": "Microsoft: Nadella explains the buyout offered to 60,000 employees",
+            "summary": "At the DealBook summit in New York on Wednesday, Microsoft chief Satya Nadella explained the voluntary buyout offered in October to 60,000 employees. He said it aims to reorganise work around AI rather than simply replace staff.",
+            "why": "Microsoft's case shows how tech giants are reorganising their workforces around AI, with expected effects on skilled jobs."
+          },
+          "source": "TechCrunch",
+          "sourceTitle": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+          "sourceDate": "2026-11-18",
+          "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+          "lieu": { "nom": "New York, États-Unis", "nom_en": "New York, United States", "lat": 40.71, "lon": -74.01, "echelle": "ville" }
+        },
+        {
+          "title": "Google ajoute des conversations temporaires à son mode IA",
+          "summary": "Google ajoute des « conversations temporaires » au mode IA de son moteur de recherche. Ces échanges ne sont pas enregistrés dans l'historique de recherche et ne servent pas à personnaliser les recommandations.",
+          "en": {
+            "title": "Google adds temporary conversations to its AI Mode",
+            "summary": "Google is adding \"temporary threads\" to the AI Mode of its search engine. These conversations are not saved to search history and are not used to personalise recommendations."
+          },
+          "source": "TechCrunch",
+          "sourceTitle": "Google's AI feature in Search gets its own incognito mode",
+          "sourceDate": "2026-11-18",
+          "url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/"
+        }
+      ]
+    },
+    {
+      "key": "sciences",
+      "name": "Sciences & santé",
+      "items": [
+        {
+          "title": "Migraine et tabac : un risque accru d'AVC précoce",
+          "summary": "Une étude publiée le 18 novembre dans la revue Neurology, fondée sur les registres danois de près de 1,7 million de femmes ayant accouché, montre que la combinaison de la migraine et du tabagisme est associée au risque le plus élevé d'AVC précoce et de décès.",
+          "en": {
+            "title": "Migraine and smoking: a higher risk of early stroke",
+            "summary": "A study published on 18 November in the journal Neurology, based on Danish registry data on nearly 1.7 million women who had given birth, shows that the combination of migraine and smoking is associated with the highest risk of early stroke and death."
+          },
+          "source": "News-Medical",
+          "sourceTitle": "Study reveals the combined effect of migraine and smoking on premature stroke, mortality",
+          "sourceDate": "2026-11-18",
+          "url": "https://www.news-medical.net/news/20261118/Study-reveals-the-combined-effect-of-migraine-and-smoking-on-premature-stroke-mortality.aspx",
+          "lieu": { "nom": "Danemark", "nom_en": "Denmark", "lat": 56.0, "lon": 10.0, "echelle": "pays" }
+        }
+      ]
+    },
+    {
+      "key": "climat",
+      "name": "Climat & environnement",
+      "items": [
+        {
+          "title": "COP31 : les ministres tentent de débloquer les négociations",
+          "summary": "Au dixième jour de la COP31 à Antalya, les désaccords restent nombreux entre délégations. Les ministres cherchent à rapprocher leurs positions avant la clôture prévue vendredi, notamment sur la sortie des énergies fossiles, le financement de l'adaptation et le calendrier des prochains rapports du Giec. Un nouveau projet de décision est attendu jeudi matin.",
+          "why": "L'issue de la COP31 dira si les pays parviennent à s'accorder sur la sortie des énergies fossiles, un enjeu central pour limiter le réchauffement.",
+          "en": {
+            "title": "COP31: ministers try to unblock the negotiations",
+            "summary": "On the tenth day of COP31 in Antalya, disagreements between delegations remain numerous. Ministers are trying to bring positions closer before the scheduled close on Friday, notably on phasing out fossil fuels, adaptation finance and the timetable for the next IPCC reports. A new draft decision is expected on Thursday morning.",
+            "why": "The outcome of COP31 will show whether countries can agree on phasing out fossil fuels, a central issue for limiting warming."
+          },
+          "source": "Radio-Canada",
+          "sourceTitle": "COP31 sur le climat : les ministres tentent de faire débloquer les négociations",
+          "sourceDate": "2026-11-18",
+          "url": "https://ici.radio-canada.ca/article/info/2301555/cop31-climat-antalya-divergences-negociations",
+          "lieu": { "nom": "Antalya, Turquie", "nom_en": "Antalya, Turkey", "lat": 36.9, "lon": 30.7, "echelle": "ville" }
+        },
+        {
+          "title": "COP31 : l'électrification mondiale, un objectif phare mais incertain",
+          "summary": "La présidence turque de la COP31 défend un objectif d'électricité représentant 35 % de la consommation mondiale d'ici 2035. Selon elle, 75 pays et 94 organisations le soutiennent, dont la France, par la voix de la ministre de la Transition écologique, Monique Barbut. Son inscription dans l'accord final reste incertaine.",
+          "en": {
+            "title": "COP31: global electrification, a flagship but uncertain goal",
+            "summary": "The Turkish COP31 presidency is championing a goal for electricity to account for 35% of global energy consumption by 2035. It says 75 countries and 94 organisations back it, including France, through ecological transition minister Monique Barbut. Whether it makes it into the final agreement remains uncertain."
+          },
+          "source": "franceinfo",
+          "sourceTitle": "L'électrification mondiale, un objectif phare mais encore incertain de la COP31",
+          "url": "https://www.franceinfo.fr/environnement/crise-climatique/cop-climat/l-electrification-mondiale-un-objectif-phare-mais-encore-incertain-de-la-cop31_8286284.html",
+          "lieu": { "nom": "Antalya, Turquie", "nom_en": "Antalya, Turkey", "lat": 36.9, "lon": 30.7, "echelle": "ville" }
+        }
+      ]
+    },
+    {
+      "key": "sport",
+      "name": "Sport",
+      "items": []
+    }
+  ],
+  "note": "Résumé rédigé automatiquement à partir d'articles de presse publiés dans les dernières 24 à 48 heures. Chaque sujet renvoie à l'article d'origine : vérifiez-y les points importants.",
+  "note_en": "Summary written automatically from press articles published in the last 24 to 48 hours. Every story links to the original article: check the key points there."
+}
