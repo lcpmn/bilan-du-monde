@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-20",
+  "updatedAt": "2026-11-20T06:10:58+01:00",
+  "une": { "key": "monde", "index": 0 },
+  "overview": [
+    "À Shenzhen, Donald Trump, Xi Jinping et Vladimir Poutine ont publié une « déclaration de paix » qui affirme qu'une guerre nucléaire ne peut être gagnée, sans accord concret sur l'Ukraine ni sur l'Iran.",
+    "Anthropic a terminé sa première séance au Nasdaq à 97,17 dollars, 17 % au-dessus de son prix d'introduction, pendant que la Bourse de Paris reculait de 0,81 %.",
+    "À la COP31 d'Antalya, les négociations entrent dans leurs dernières heures sans accord acquis.",
+    "En France, quatre départements étaient placés jeudi en vigilance orange pluies-inondations."
+  ],
+  "overview_en": [
+    "In Shenzhen, Donald Trump, Xi Jinping and Vladimir Putin issued a \"peace declaration\" stating that a nuclear war cannot be won, with no concrete agreement on Ukraine or Iran.",
+    "Anthropic ended its first session on the Nasdaq at $97.17, 17% above its IPO price, while the Paris stock market fell 0.81%.",
+    "At the COP31 climate summit in Antalya, negotiations are entering their final hours with no deal secured.",
+    "In France, four departments were on orange alert for rain and flooding on Thursday."
+  ],
+  "chiffres": [
+    { "value": "+17 %", "label": "La hausse de l'action Anthropic à la clôture de sa première séance, par rapport au prix d'introduction de 83 dollars", "value_en": "+17%", "label_en": "Anthropic's share gain at the close of its first session, compared with its $83 IPO price", "key": "tech" },
+    { "value": "−0,81 %", "label": "Le recul du CAC 40 jeudi, à 8 080,74 points", "value_en": "−0.81%", "label_en": "The CAC 40's fall on Thursday, to 8,080.74 points", "key": "eco" },
+    { "value": "4,5 Md$", "label": "Le prix, payé en actions, du rachat d'Applied Compute par Palo Alto Networks", "value_en": "$4.5bn", "label_en": "The price, paid in shares, of Palo Alto Networks' purchase of Applied Compute", "key": "tech" },
+    { "value": "4", "label": "Le nombre de départements en vigilance orange pluies-inondations jeudi", "value_en": "4", "label_en": "The number of French departments on orange rain-and-flood alert on Thursday", "key": "france" }
+  ],
+  "categories": [
+    { "key": "monde", "name": "International", "items": [
+      {
+        "title": "À Shenzhen, Trump, Xi et Poutine signent une « déclaration de paix »",
+        "summary": "Réunis jeudi 19 novembre en Chine pour un sommet à trois inédit, les dirigeants américain, chinois et russe ont publié une courte déclaration affirmant qu'une guerre nucléaire ne peut être gagnée. Le texte ne prévoit aucune négociation sur un traité de réduction des armes nucléaires, et aucun accord n'a été conclu sur l'Ukraine ni sur l'Iran. Vladimir Poutine a estimé que l'Ukraine et l'Europe n'étaient pas prêtes à des compromis.",
+        "why": "La rencontre fixe le ton entre les trois puissances nucléaires, mais ne change rien pour l'instant à la guerre en Ukraine, aux portes de l'Europe.",
+        "en": {
+          "title": "In Shenzhen, Trump, Xi and Putin sign a \"peace declaration\"",
+          "summary": "Meeting in China on Thursday, November 19 for an unprecedented three-way summit, the American, Chinese and Russian leaders issued a short declaration stating that a nuclear war cannot be won. The text provides for no talks on a nuclear arms reduction treaty, and no agreement was reached on Ukraine or Iran. Vladimir Putin said Ukraine and Europe were not ready to make compromises.",
+          "why": "The meeting sets the tone between the three nuclear powers, but for now changes nothing about the war in Ukraine, on Europe's doorstep."
+        },
+        "source": "ABC News (Australie)",
+        "sourceTitle": "Trump-Xi-Putin meeting delivers peace declaration but no action on Ukraine",
+        "sourceDate": "2026-11-20",
+        "url": "https://www.abc.net.au/news/2026-11-20/key-takeaways-from-trump-xi-putin-meeting/107407564",
+        "lieu": { "nom": "Shenzhen, Chine", "nom_en": "Shenzhen, China", "lat": 22.54, "lon": 114.06 }
+      }
+    ] },
+    { "key": "france", "name": "France", "items": [
+      {
+        "title": "Quatre départements en vigilance orange pluies-inondations",
+        "summary": "Jeudi 19 novembre, les Landes, la Seine-Maritime, la Somme et le Pas-de-Calais étaient placés en vigilance orange pluies-inondations par Météo-France. Le Pas-de-Calais était aussi en vigilance orange crues.",
+        "en": {
+          "title": "Four departments on orange alert for rain and flooding",
+          "summary": "On Thursday, November 19, the Landes, Seine-Maritime, Somme and Pas-de-Calais departments were placed on orange alert for rain and flooding by the national weather service, Météo-France. Pas-de-Calais was also on orange alert for river flooding."
+        },
+        "source": "franceinfo",
+        "sourceTitle": "Vigilance orange pluies-inondations : cumuls exceptionnels attendus dans 4 départements ce 19 novembre 2026",
+        "sourceDate": "2026-11-19",
+        "url": "https://www.franceinfo.fr/environnement/meteo/alertes-meteo-et-vigilances/vigilance-orange-pluies-inondations-cumuls-exceptionnels-attendus-dans-4-departements-ce-19-novembre-2026_8289473.html"
+      }
+    ] },
+    { "key": "eco", "name": "Économie & marchés", "items": [
+      {
+        "title": "La Bourse de Paris recule, éclipsée par les débuts d'Anthropic",
+        "summary": "Le CAC 40 a perdu 0,81 % jeudi 19 novembre, à 8 080,74 points. Les investisseurs avaient les yeux tournés vers l'introduction en Bourse d'Anthropic à New York, dans un contexte de taux d'intérêt toujours élevés.",
+        "en": {
+          "title": "Paris stocks fall, overshadowed by Anthropic's debut",
+          "summary": "The CAC 40 lost 0.81% on Thursday, November 19, to 8,080.74 points. Investors were focused on Anthropic's stock market listing in New York, against a backdrop of still-high interest rates."
+        },
+        "source": "Boursorama (AFP)",
+        "sourceTitle": "La Bourse de Paris recule, éclipsée par les débuts d'Anthropic",
+        "sourceDate": "2026-11-19",
+        "url": "https://www.boursorama.com/bourse/actualites/la-bourse-de-paris-recule-eclipsee-par-les-debuts-d-anthropic-7ffcec8bc2db62a16f92bde76f525dea",
+        "lieu": { "nom": "Paris", "nom_en": "Paris, France", "lat": 48.86, "lon": 2.35 }
+      }
+    ] },
+    { "key": "tech", "name": "Tech & IA", "items": [
+      {
+        "title": "Anthropic gagne 17 % pour sa première séance au Nasdaq",
+        "summary": "Introduite à 83 dollars, l'action Anthropic (symbole ANT) a ouvert jeudi 19 novembre à 111,50 dollars avant de réduire ses gains et de clôturer à 97,17 dollars. La séance a été volatile, dans un marché technologique en baisse.",
+        "why": "C'est l'une des plus grosses introductions en Bourse de l'histoire, un test de la confiance des investisseurs dans l'intelligence artificielle.",
+        "en": {
+          "title": "Anthropic gains 17% in its first Nasdaq session",
+          "summary": "Priced at $83, Anthropic shares (ticker ANT) opened on Thursday, November 19 at $111.50 before paring their gains to close at $97.17. The session was volatile, in a falling tech market.",
+          "why": "It is one of the largest stock market listings in history, a test of investor confidence in artificial intelligence."
+        },
+        "source": "The National",
+        "sourceTitle": "Anthropic shares close 17% above IPO price after volatile Nasdaq debut",
+        "sourceDate": "2026-11-20",
+        "url": "https://www.thenationalnews.com/business/markets/2026/11/20/anthropic-shares-close-17-above-ipo-price-after-volatile-nasdaq-debut/",
+        "lieu": { "nom": "New York, États-Unis", "nom_en": "New York, United States", "lat": 40.71, "lon": -74.01 }
+      },
+      {
+        "title": "Palo Alto Networks rachète la start-up d'IA Applied Compute",
+        "summary": "Le spécialiste américain de la cybersécurité a annoncé un accord pour acquérir Applied Compute, société non cotée spécialisée dans l'entraînement et l'exploitation de modèles d'IA, pour 4,5 milliards de dollars payés en actions. La finalisation est attendue au troisième trimestre de son exercice 2027, sous réserve des autorisations réglementaires.",
+        "en": {
+          "title": "Palo Alto Networks buys AI start-up Applied Compute",
+          "summary": "The US cybersecurity company announced a deal to acquire Applied Compute, a privately held firm specialising in training and running AI models, for $4.5 billion paid in shares. Completion is expected in the third quarter of its 2027 fiscal year, subject to regulatory clearance."
+        },
+        "source": "Palo Alto Networks (communiqué déposé auprès de la SEC)",
+        "sourceDate": "2026-11-18",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001327567/000132756726000030/ex992pressrelease_november.htm"
+      }
+    ] },
+    { "key": "sciences", "name": "Sciences & santé", "items": [] },
+    { "key": "climat", "name": "Climat & environnement", "items": [
+      {
+        "title": "COP31 : ultimes heures de négociation pour un accord incertain",
+        "summary": "À Antalya, en Turquie, près de 200 pays tentent de conclure la conférence de l'ONU sur le climat, censée s'achever vendredi 20 novembre. Selon l'AFP, le nouveau projet de décision publié jeudi ne mentionne plus le pétrole, le gaz ni le charbon.",
+        "why": "L'issue de la COP31 dira si les pays, dont la France et l'Union européenne, maintiennent l'engagement de s'éloigner des énergies fossiles.",
+        "en": {
+          "title": "COP31: final hours of talks for an uncertain deal",
+          "summary": "In Antalya, Turkey, nearly 200 countries are trying to wrap up the UN climate conference, due to end on Friday, November 20. According to AFP, the new draft decision published on Thursday no longer mentions oil, gas or coal.",
+          "why": "The outcome of COP31 will show whether countries, including France and the European Union, stand by their commitment to move away from fossil fuels."
+        },
+        "source": "La Libre Belgique (AFP)",
+        "sourceTitle": "Climat: à la COP31, ultimes heures pour un accord incertain",
+        "sourceDate": "2026-11-20",
+        "url": "https://www.lalibre.be/dernieres-depeches/2026/11/20/climat-a-la-cop31-ultimes-heures-pour-un-accord-incertain-HILM3ZYKG5FV5PJIMQUJYMAT74/",
+        "lieu": { "nom": "Antalya, Turquie", "nom_en": "Antalya, Turkey", "lat": 36.9, "lon": 30.7 }
+      }
+    ] },
+    { "key": "sport", "name": "Sport", "items": [] }
+  ],
+  "note": "Résumé rédigé automatiquement à partir d'articles de presse publiés dans les dernières 24 à 48 heures. Chaque sujet renvoie à l'article d'origine : vérifiez-y les points importants.",
+  "note_en": "Summary written automatically from press articles published in the last 24 to 48 hours. Every story links to the original article: check the key points there."
+}
