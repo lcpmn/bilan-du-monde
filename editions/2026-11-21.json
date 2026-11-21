@@ -1,0 +1,189 @@
+{
+  "date": "2026-11-21",
+  "updatedAt": "2026-11-21T13:06:34+01:00",
+  "une": { "key": "climat", "index": 0 },
+  "overview": [
+    "À Antalya, la COP31 est entrée en prolongations vendredi soir sans accord, une coalition menée par la France et le Panama exigeant que le texte final mentionne la sortie des énergies fossiles.",
+    "En France, Dominique de Villepin a officialisé vendredi sa candidature à l'élection présidentielle de 2027.",
+    "Les syndicats de la fonction publique appellent à une nouvelle journée de grève le 1er décembre, tandis que des syndicats de sept pays européens appellent à manifester contre la vie chère ce week-end.",
+    "La Bourse de Paris a perdu 5,27 % sur la semaine, et le CAC 40 termine sous les 8 000 points après cinq séances de baisse."
+  ],
+  "overview_en": [
+    "In Antalya, COP31 went into overtime on Friday evening without a deal, as a coalition led by France and Panama demanded that the final text mention moving away from fossil fuels.",
+    "In France, Dominique de Villepin made his candidacy for the 2027 presidential election official on Friday.",
+    "Public-sector unions are calling for a new day of strikes on December 1, while unions from seven European countries are calling for protests against the rising cost of living this weekend.",
+    "The Paris stock exchange lost 5.27% over the week, and the CAC 40 ended below 8,000 points after five sessions of losses."
+  ],
+  "chiffres": [
+    { "value": "−5,27 %", "label": "La baisse du CAC 40 sur la semaine, après cinq séances de recul", "value_en": "−5.27%", "label_en": "The CAC 40's fall over the week, after five sessions of losses", "key": "eco" },
+    { "value": "≈ 3 %", "label": "Les intentions de vote dont est crédité Dominique de Villepin", "value_en": "≈ 3%", "label_en": "Dominique de Villepin's share of voting intentions in polls", "key": "france" },
+    { "value": "×3", "label": "L'objectif de financement de l'adaptation d'ici 2035, réaffirmé par le projet d'accord de la COP31", "value_en": "×3", "label_en": "The goal for adaptation finance by 2035, reaffirmed in the COP31 draft deal", "key": "climat" },
+    { "value": "3-1", "label": "La victoire de Troyes sur Le Havre en Ligue 1", "value_en": "3-1", "label_en": "Troyes' win over Le Havre in Ligue 1", "key": "sport" }
+  ],
+  "categories": [
+    {
+      "key": "monde",
+      "name": "International",
+      "items": [
+        {
+          "title": "Vie chère : des syndicats de sept pays européens appellent à manifester",
+          "summary": "Des syndicats et des associations de sept pays européens appellent à des manifestations coordonnées contre la vie chère, du vendredi 20 au dimanche 22 novembre. Ils réclament notamment des mesures sur le logement, les prix et les salaires.",
+          "en": {
+            "title": "Cost of living: unions in seven European countries call for protests",
+            "summary": "Unions and associations in seven European countries are calling for coordinated protests against the rising cost of living, from Friday, November 20 to Sunday, November 22. Their demands include measures on housing, prices and wages."
+          },
+          "source": "franceinfo",
+          "sourceTitle": "Des syndicats de sept pays européens appellent à des \"manifestations coordonnées\" contre la vie chère vendredi, samedi et dimanche",
+          "url": "https://www.franceinfo.fr/societe/manifestations/des-syndicats-de-sept-pays-europeens-appellent-a-des-manifestations-coordonnees-contre-la-vie-chere-vendredi-samedi-et-dimanche_8292320.html"
+        }
+      ]
+    },
+    {
+      "key": "france",
+      "name": "France",
+      "items": [
+        {
+          "title": "Présidentielle 2027 : Dominique de Villepin officiellement candidat",
+          "summary": "L'ancien Premier ministre a officialisé vendredi 20 novembre sa candidature à l'élection présidentielle de 2027, lors d'une conférence de presse à Paris. Il se présente comme une alternative au Rassemblement national, à La France insoumise et aux macronistes. Crédité d'environ 3 % des intentions de vote, il doit encore réunir les parrainages d'élus nécessaires.",
+          "why": "Son entrée en campagne ajoute un candidat de plus dans un espace politique déjà fragmenté, à moins d'un an et demi du scrutin.",
+          "en": {
+            "title": "2027 presidential race: Dominique de Villepin officially a candidate",
+            "summary": "The former prime minister made his candidacy for the 2027 presidential election official on Friday, November 20, at a press conference in Paris. He presents himself as an alternative to the far-right Rassemblement national, the hard-left La France insoumise and President Macron's camp. Polling at around 3% of voting intentions, he still has to gather the required sponsorships from elected officials.",
+            "why": "His entry adds one more candidate to an already fragmented political landscape, less than a year and a half before the vote."
+          },
+          "source": "LCP",
+          "sourceTitle": "Présidentielle 2027: Dominique de Villepin officiellement candidat à l'Élysée",
+          "sourceDate": "2026-11-20",
+          "url": "https://lcp.fr/actualites/presidentielle-2027-dominique-de-villepin-officiellement-candidat-a-l-elysee-445372",
+          "lieu": { "nom": "Paris", "nom_en": "Paris, France", "lat": 48.86, "lon": 2.35 }
+        },
+        {
+          "title": "Fonction publique : nouvel appel à la grève le 1er décembre",
+          "summary": "L'intersyndicale de la fonction publique appelle à une nouvelle journée de grève et de mobilisation le mardi 1er décembre, la quatrième depuis la rentrée. Les syndicats réclament le dégel du point d'indice, qui sert au calcul des salaires des agents. Ils invitent aussi les salariés du privé à défiler avec ceux du public.",
+          "why": "La mobilisation sur les salaires des fonctionnaires s'installe dans la durée et pèse sur les discussions budgétaires du gouvernement.",
+          "en": {
+            "title": "Public sector: new strike call for December 1",
+            "summary": "The public-sector union coalition is calling for a new day of strikes and protests on Tuesday, December 1, the fourth since the start of the autumn. The unions are demanding that the \"point d'indice\", the base used to calculate civil servants' pay, be unfrozen. They are also inviting private-sector workers to march alongside public-sector staff.",
+            "why": "The mobilisation over civil servants' pay is becoming a long-running dispute and weighs on the government's budget talks."
+          },
+          "source": "franceinfo",
+          "sourceTitle": "Une intersyndicale lance un nouvel appel à la grève et à la mobilisation le 1er décembre, les salariés du privé invités à défiler avec ceux du public",
+          "sourceDate": "2026-11-20",
+          "url": "https://www.franceinfo.fr/societe/manifestations/une-intersyndicale-de-la-fonction-publique-lance-un-nouvel-appel-a-la-greve-et-a-la-mobilisation-le-1er-decembre_8292254.html"
+        },
+        {
+          "title": "Découvert bancaire : de nouvelles règles entrent en vigueur",
+          "summary": "De nouvelles règles sur le découvert autorisé, issues de la réforme du crédit à la consommation, s'appliquent depuis le vendredi 20 novembre. Les découverts déjà accordés avant cette date ne sont pas concernés.",
+          "en": {
+            "title": "Bank overdrafts: new rules come into force",
+            "summary": "New rules on authorised overdrafts, part of the reform of consumer credit, have applied since Friday, November 20. Overdrafts granted before that date are not affected."
+          },
+          "source": "franceinfo",
+          "sourceTitle": "Qui est concerné par les nouvelles règles sur le découvert autorisé, qui entrent en vigueur vendredi ?",
+          "url": "https://www.franceinfo.fr/economie/qui-est-concerne-par-les-nouvelles-regles-sur-le-decouvert-autorise-qui-entrent-en-vigueur-vendredi_8289839.html"
+        }
+      ]
+    },
+    {
+      "key": "eco",
+      "name": "Économie & marchés",
+      "items": [
+        {
+          "title": "Bourse de Paris : le CAC 40 perd 5,27 % sur la semaine",
+          "summary": "Le CAC 40 a reculé pour la cinquième séance d'affilée vendredi 20 novembre et termine la semaine sous les 8 000 points. Sur cinq jours, l'indice parisien perd 5,27 %, sur fond de défiance envers les valeurs liées à l'intelligence artificielle.",
+          "why": "Ce décrochage montre la nervosité des marchés face à la valorisation des entreprises de l'IA, qui pèse aussi sur l'épargne investie en actions.",
+          "en": {
+            "title": "Paris stock market: the CAC 40 loses 5.27% over the week",
+            "summary": "The CAC 40 fell for a fifth straight session on Friday, November 20 and ended the week below 8,000 points. Over five days, the Paris index lost 5.27%, amid distrust of stocks linked to artificial intelligence.",
+            "why": "The slide shows how nervous markets are about the valuations of AI companies, which also weighs on savings invested in shares."
+          },
+          "source": "Economie Matin",
+          "sourceTitle": "CAC 40 : cinq séances de baisse effacent 5,27 % en une semaine",
+          "sourceDate": "2026-11-20",
+          "url": "https://www.economiematin.fr/cac40-cloture-20-novembre-2026-baisse-527-0733",
+          "lieu": { "nom": "Paris", "nom_en": "Paris, France", "lat": 48.86, "lon": 2.35 }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "name": "Tech & IA",
+      "items": [
+        {
+          "title": "La Commission européenne confirme une cyberattaque menée avec l'IA",
+          "summary": "La Commission européenne a confirmé jeudi 19 novembre que des outils d'intelligence artificielle avaient été utilisés dans une cyberattaque détectée le 22 octobre. Des systèmes internes du personnel, dont celui de la paie et celui du remboursement des frais médicaux, ont été perturbés. La Commission n'a pas dit qui était derrière l'attaque.",
+          "why": "C'est la première fois que l'Union européenne reconnaît publiquement une cyberattaque menée à l'aide de l'IA, un signal sur la vulnérabilité des institutions.",
+          "en": {
+            "title": "European Commission confirms an AI-assisted cyberattack",
+            "summary": "The European Commission confirmed on Thursday, November 19 that artificial intelligence tools were used in a cyberattack detected on October 22. Internal staff systems, including payroll and medical-expense reimbursement, were disrupted. The Commission did not say who was behind the attack.",
+            "why": "It is the first time the European Union has publicly acknowledged a cyberattack carried out with the help of AI, a sign of how vulnerable institutions are."
+          },
+          "source": "The Brussels Times",
+          "sourceDate": "2026-11-19",
+          "url": "https://www.brusselstimes.com/2414026/european-commission-confirms-ai-assisted-cyberattack-on-internal-systems-tbtb",
+          "lieu": { "nom": "Bruxelles, Belgique", "nom_en": "Brussels, Belgium", "lat": 50.85, "lon": 4.35 }
+        }
+      ]
+    },
+    {
+      "key": "sciences",
+      "name": "Sciences & santé",
+      "items": []
+    },
+    {
+      "key": "climat",
+      "name": "Climat & environnement",
+      "items": [
+        {
+          "title": "COP31 : pas d'accord, les négociations jouent les prolongations",
+          "summary": "La conférence de l'ONU sur le climat d'Antalya, en Turquie, devait s'achever vendredi 20 novembre, mais aucun accord n'avait été trouvé dans la soirée. Le président turc de la COP31, Murat Kurum, a annoncé une nouvelle proposition de compromis pour samedi. L'Union européenne juge le projet actuel « pas acceptable ».",
+          "why": "L'issue de la COP31 dira si la sortie des énergies fossiles reste un objectif commun aux pays, ce qui conditionne les politiques climatiques européennes et françaises.",
+          "en": {
+            "title": "COP31: no deal as negotiations go into overtime",
+            "summary": "The UN climate conference in Antalya, Turkey, was due to end on Friday, November 20, but no agreement had been reached by the evening. COP31's Turkish president, Murat Kurum, announced a new compromise proposal for Saturday. The European Union considers the current draft \"not acceptable\".",
+            "why": "The outcome of COP31 will show whether moving away from fossil fuels remains a goal shared by all countries, which shapes European and French climate policy."
+          },
+          "source": "Boursorama (AFP)",
+          "sourceTitle": "Climat : la COP31 joue les prolongations, les pays s'opposent toujours",
+          "sourceDate": "2026-11-20",
+          "url": "https://www.boursorama.com/actualite-economique/actualites/climat-la-cop31-joue-les-prolongations-les-pays-s-opposent-toujours-20874ef0ae6eed95d08307fc8fd6ad26",
+          "lieu": { "nom": "Antalya, Turquie", "nom_en": "Antalya, Turkey", "lat": 36.9, "lon": 30.7 }
+        },
+        {
+          "title": "COP31 : la France et le Panama exigent une mention des énergies fossiles",
+          "summary": "Un groupe de pays d'Europe, d'Afrique, d'Amérique latine et du Pacifique, emmené par la France et le Panama, conteste le projet d'accord, qui ne mentionne plus explicitement la sortie des énergies fossiles. Le Panama menace de s'opposer à tout texte qui l'omettrait. Les décisions se prenant par consensus, une seule objection peut bloquer l'accord.",
+          "en": {
+            "title": "COP31: France and Panama demand a reference to fossil fuels",
+            "summary": "A group of countries from Europe, Africa, Latin America and the Pacific, led by France and Panama, is challenging the draft deal, which no longer explicitly mentions moving away from fossil fuels. Panama is threatening to object to any text that leaves it out. Since decisions are taken by consensus, a single objection can block the agreement."
+          },
+          "source": "ONU Info",
+          "sourceTitle": "COP31: Countries demand stronger climate deal as talks in Antalya reach final day",
+          "sourceDate": "2026-11-20",
+          "url": "https://news.un.org/en/story/2026/11/1168845",
+          "lieu": { "nom": "Antalya, Turquie", "nom_en": "Antalya, Turkey", "lat": 36.9, "lon": 30.7 }
+        }
+      ]
+    },
+    {
+      "key": "sport",
+      "name": "Sport",
+      "items": [
+        {
+          "title": "Ligue 1 : Troyes bat Le Havre 3-1",
+          "summary": "Troyes a battu Le Havre 3-1 vendredi 20 novembre au stade de l'Aube, lors de la 11e journée de Ligue 1. Une bonne opération pour le maintien de l'ESTAC, tandis que le HAC, qui disputait son premier match sous la direction de Valérien Ismaël, reste en difficulté.",
+          "en": {
+            "title": "Ligue 1: Troyes beat Le Havre 3-1",
+            "summary": "Troyes beat Le Havre 3-1 on Friday, November 20 at the Stade de l'Aube, in the 11th round of Ligue 1. It was a good result for Troyes in their fight to stay up, while Le Havre, playing their first match under coach Valérien Ismaël, are still struggling."
+          },
+          "source": "Ouest-France",
+          "sourceTitle": "Ligue 1 - Les notes de ESTAC Troyes - Le Havre AC : Troyes fait une bonne opération pour le maintien, Le Havre n'y arrive toujours pas",
+          "sourceDate": "2026-11-20",
+          "url": "https://madeinfoot.ouest-france.fr/infos/article-ligue-1-les-notes-de-estac-troyes-le-havre-ac-troyes-fait-une-bonne-operation-pour-le-maintien-le-havre-n-y-arrive-toujours-pas-546456.html",
+          "lieu": { "nom": "Troyes, Aube", "nom_en": "Troyes, France", "lat": 48.3, "lon": 4.07 }
+        }
+      ]
+    }
+  ],
+  "note": "Résumé rédigé automatiquement à partir d'articles de presse publiés dans les dernières 24 à 48 heures. Chaque sujet renvoie à l'article d'origine : vérifiez-y les points importants.",
+  "note_en": "Summary written automatically from press articles published in the last 24 to 48 hours. Every story links to the original article: check the key points there."
+}
