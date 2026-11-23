@@ -1,0 +1,229 @@
+{
+  "date": "2026-11-23",
+  "updatedAt": "2026-11-23T08:35:00+01:00",
+  "une": {
+    "key": "climat",
+    "index": 0
+  },
+  "overview": [
+    "La COP31 d'Antalya s'est achevée dimanche sans accord, l'Union européenne et d'autres pays ayant rejeté le texte final, jugé trop faible.",
+    "En Ukraine, des frappes russes sur la région de Kyiv ont fait au moins 15 morts, dont au moins 11 dans un immeuble de Dymer.",
+    "En France, le préfet Hugues Moutouh, soupçonné de fuites d'informations vers le RN, a demandé à être relevé de ses fonctions.",
+    "Wall Street sort de sa pire semaine depuis avril 2025, sur fond d'inquiétudes autour de l'IA, tandis que la sonde BepiColombo s'est placée en orbite autour de Mercure."
+  ],
+  "overview_en": [
+    "COP31 in Antalya ended on Sunday without a deal, after the European Union and other countries rejected the final text as too weak.",
+    "In Ukraine, Russian strikes on the Kyiv region killed at least 15 people, including at least 11 in an apartment building in Dymer.",
+    "In France, prefect Hugues Moutouh, suspected of leaking information to the far-right National Rally (RN), asked to be relieved of his duties.",
+    "Wall Street is coming off its worst week since April 2025 amid worries over AI, while the BepiColombo probe entered orbit around Mercury."
+  ],
+  "chiffres": [
+    {
+      "value": "15",
+      "label": "Le nombre de morts dans les frappes russes sur la région de Kyiv, selon un bilan ukrainien",
+      "value_en": "15",
+      "label_en": "The death toll from Russian strikes on the Kyiv region, according to Ukrainian officials",
+      "key": "monde"
+    },
+    {
+      "value": "−8,6 %",
+      "label": "La chute du S&P 500 sur la semaine, sa pire depuis avril 2025",
+      "value_en": "−8.6%",
+      "label_en": "The S&P 500's drop over the week, its worst since April 2025",
+      "key": "eco"
+    },
+    {
+      "value": "7 séances",
+      "label": "La série de baisses du S&P 500, la plus longue depuis février 2020",
+      "value_en": "7 sessions",
+      "label_en": "The S&P 500's losing streak, its longest since February 2020",
+      "key": "tech"
+    },
+    {
+      "value": "37 minutes",
+      "label": "La durée de la poussée qui a placé BepiColombo en orbite autour de Mercure",
+      "value_en": "37 minutes",
+      "label_en": "The length of the engine burn that put BepiColombo into orbit around Mercury",
+      "key": "sciences"
+    }
+  ],
+  "categories": [
+    {
+      "key": "monde",
+      "name": "International",
+      "items": [
+        {
+          "title": "Ukraine : au moins 15 morts dans des frappes russes sur la région de Kyiv",
+          "summary": "Des frappes russes ont touché la région de Kyiv dimanche 22 novembre. À Dymer, à environ 45 km au nord de la capitale, un immeuble de cinq étages a été frappé : au moins 11 personnes ont été tuées, selon un responsable régional. À Vyshneve, une frappe sur un supermarché a tué trois personnes et blessé 15 autres, dont trois enfants.",
+          "why": "C'est l'une des attaques les plus meurtrières de ces dernières semaines autour de la capitale ukrainienne.",
+          "en": {
+            "title": "Ukraine: at least 15 killed in Russian strikes on the Kyiv region",
+            "summary": "Russian strikes hit the Kyiv region on Sunday 22 November. In Dymer, about 45 km north of the capital, a five-storey building was struck: at least 11 people were killed, according to a regional official. In Vyshneve, a strike on a supermarket killed three people and injured 15 others, including three children.",
+            "why": "It is one of the deadliest attacks around the Ukrainian capital in recent weeks."
+          },
+          "source": "RTÉ",
+          "sourceTitle": "15 killed in Russian strikes on Kyiv region, Ukraine says",
+          "sourceDate": "2026-11-23",
+          "url": "https://www.rte.ie/news/2026/1123/1600244-russian-strike-ukraine/",
+          "lieu": {
+            "nom": "Dymer, Ukraine",
+            "nom_en": "Dymer, Ukraine",
+            "lat": 50.8,
+            "lon": 30.3
+          }
+        }
+      ]
+    },
+    {
+      "key": "france",
+      "name": "France",
+      "items": [
+        {
+          "title": "Soupçonné de fuites vers le RN, le préfet Moutouh demande à être relevé",
+          "summary": "Le préfet de la région Centre-Val de Loire et du Loiret, Hugues Moutouh, a demandé à être relevé de ses fonctions. Il est soupçonné d'avoir transmis au Rassemblement national des informations confidentielles sur des enquêtes visant le parti, à l'époque où il était secrétaire général du ministère de l'Intérieur. Il dénonce une « campagne de déstabilisation ».",
+          "why": "L'affaire met en cause la neutralité de la haute administration à quelques mois de la présidentielle.",
+          "en": {
+            "title": "Suspected of leaks to the RN, prefect Moutouh asks to be relieved",
+            "summary": "Hugues Moutouh, prefect of the Centre-Val de Loire region and the Loiret department, has asked to be relieved of his duties. He is suspected of passing confidential information about investigations targeting the far-right National Rally (RN) to the party, when he was secretary general of the Interior Ministry. He denounces a \"destabilisation campaign\".",
+            "why": "The affair raises questions about the neutrality of the senior civil service a few months before the presidential election."
+          },
+          "source": "franceinfo",
+          "sourceTitle": "Soupçonné de fuites vers le RN, le préfet du Loiret Hugues Moutouh demande à être démis de ses fonctions",
+          "url": "https://www.franceinfo.fr/politique/front-national/soupconne-de-fuites-vers-le-rn-le-prefet-du-loiret-hugues-moutouh-demande-a-etre-demis-de-ses-fonctions_8294663.html",
+          "lieu": {
+            "nom": "Orléans, Loiret",
+            "nom_en": "Orléans, France",
+            "lat": 47.9,
+            "lon": 1.9
+          }
+        },
+        {
+          "title": "Marine Le Pen assure n'avoir jamais reçu d'informations du préfet Moutouh",
+          "summary": "Marine Le Pen affirme n'avoir « jamais reçu d'information confidentielle » de Hugues Moutouh, le préfet accusé de fuites vers le RN. L'enquête judiciaire porte sur des soupçons de transmission au parti d'informations sur des procédures le visant.",
+          "en": {
+            "title": "Marine Le Pen says she never received information from prefect Moutouh",
+            "summary": "Marine Le Pen says she \"never received confidential information\" from Hugues Moutouh, the prefect accused of leaks to the RN. The judicial investigation concerns suspicions that information about proceedings targeting the party was passed on to it."
+          },
+          "source": "Ouest-France",
+          "sourceTitle": "Marine Le Pen dit n’avoir « jamais reçu d’information confidentielle » du préfet Moutouh, accusé de fuites vers le RN",
+          "url": "https://www.ouest-france.fr/politique/rassemblement-national/marine-le-pen-dit-navoir-jamais-recu-dinformation-confidentielle-du-prefet-hugues-moutouh-ede7a47c-e675-11f1-bd4e-6f30b8f49e21"
+        }
+      ]
+    },
+    {
+      "key": "eco",
+      "name": "Économie & marchés",
+      "items": [
+        {
+          "title": "Wall Street sort de sa pire semaine depuis avril 2025",
+          "summary": "Le S&P 500 a perdu environ 8,6 % sur la semaine achevée vendredi 20 novembre, sa plus forte baisse hebdomadaire depuis avril 2025. La chute est alimentée par les doutes sur les valorisations du secteur de l'intelligence artificielle.",
+          "why": "Une correction durable à Wall Street pèserait sur les marchés européens et sur l'épargne investie en actions.",
+          "en": {
+            "title": "Wall Street comes off its worst week since April 2025",
+            "summary": "The S&P 500 lost about 8.6% over the week ending Friday 20 November, its steepest weekly decline since April 2025. The fall is driven by doubts over valuations in the artificial intelligence sector.",
+            "why": "A lasting correction on Wall Street would weigh on European markets and on savings invested in equities."
+          },
+          "source": "CNBC",
+          "sourceTitle": "During Wall Street's worst week in over a year, we put money to work. What we're buying",
+          "sourceDate": "2026-11-21",
+          "url": "https://www.cnbc.com/investingclub/2026/11/21/during-wall-streets-worst-week-in-over-a-year-we-put-money-to-work-what-were-buying.html",
+          "lieu": {
+            "nom": "New York, États-Unis",
+            "nom_en": "New York, United States",
+            "lat": 40.7,
+            "lon": -74.0
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "name": "Tech & IA",
+      "items": [
+        {
+          "title": "IA : Nvidia et Anthropic au centre des inquiétudes des marchés",
+          "summary": "Le S&P 500 a enchaîné sept séances de baisse, sa plus longue série depuis février 2020, et les 11 secteurs de l'indice ont fini la semaine dans le rouge. La grande question pour les investisseurs est de savoir si les valeurs de l'IA peuvent se reprendre ; Nvidia et Anthropic, entré en Bourse jeudi, sont les deux titres les plus surveillés.",
+          "en": {
+            "title": "AI: Nvidia and Anthropic at the centre of market worries",
+            "summary": "The S&P 500 has fallen for seven straight sessions, its longest losing streak since February 2020, and all 11 sectors of the index ended the week lower. The big question for investors is whether AI stocks can recover; Nvidia and Anthropic, which listed on Thursday, are the two most closely watched stocks."
+          },
+          "source": "CNBC",
+          "sourceTitle": "3 big things we're watching in the market this Thanksgiving week",
+          "sourceDate": "2026-11-22",
+          "url": "https://www.cnbc.com/investingclub/2026/11/22/3-big-things-were-watching-in-the-market-this-thanksgiving-week.html"
+        }
+      ]
+    },
+    {
+      "key": "sciences",
+      "name": "Sciences & santé",
+      "items": [
+        {
+          "title": "La sonde BepiColombo s'est placée en orbite autour de Mercure",
+          "summary": "La mission européenne et japonaise BepiColombo est entrée en orbite autour de Mercure samedi 21 novembre, après une poussée de 37 minutes. La manœuvre a été plus courte que prévu à cause d'un problème logiciel, mais la sonde est en sécurité, selon l'équipe de la mission. C'est seulement le deuxième engin à orbiter autour de Mercure, après MESSENGER de la NASA.",
+          "why": "L'Europe, qui a conçu la mission avec le Japon, rejoint le cercle très restreint des explorateurs de la planète la plus proche du Soleil.",
+          "en": {
+            "title": "The BepiColombo probe has entered orbit around Mercury",
+            "summary": "The European-Japanese BepiColombo mission entered orbit around Mercury on Saturday 21 November, after a 37-minute engine burn. The manoeuvre was shorter than planned because of a software issue, but the spacecraft is safe, according to the mission team. It is only the second spacecraft to orbit Mercury, after NASA's MESSENGER.",
+            "why": "Europe, which designed the mission with Japan, joins the very small club of explorers of the planet closest to the Sun."
+          },
+          "source": "Space.com",
+          "sourceTitle": "European-Japanese BepiColombo mission becomes 2nd ever to arrive in orbit around Mercury",
+          "url": "https://www.space.com/space-exploration/missions/esa-jaxa-bepicolomobo-mission-mercury-orbit-arrival"
+        }
+      ]
+    },
+    {
+      "key": "climat",
+      "name": "Climat & environnement",
+      "items": [
+        {
+          "title": "La COP31 d'Antalya s'achève sans accord",
+          "summary": "Les négociations climatiques de l'ONU à Antalya, en Turquie, se sont achevées dimanche 22 novembre sans accord. L'Union européenne et d'autres pays ont rejeté le texte final présenté par les présidents de la COP31, la Turquie et l'Australie, jugé trop faible. Près de 200 pays n'ont pas pu s'entendre sur l'abandon des énergies fossiles.",
+          "why": "Sans texte commun, l'élan diplomatique pour sortir du charbon, du pétrole et du gaz recule, ce qui fragilise les engagements européens et français.",
+          "en": {
+            "title": "COP31 in Antalya ends without a deal",
+            "summary": "UN climate talks in Antalya, Turkey, ended on Sunday 22 November without a deal. The European Union and other countries rejected the final text put forward by the COP31 presidents, Turkey and Australia, as too weak. Nearly 200 countries failed to agree on moving away from fossil fuels.",
+            "why": "Without a common text, diplomatic momentum to move away from coal, oil and gas falls back, weakening European and French commitments."
+          },
+          "source": "RTÉ",
+          "sourceTitle": "COP31 climate talks collapse as EU and others reject deal",
+          "sourceDate": "2026-11-22",
+          "url": "https://www.rte.ie/news/world/2026/1122/1600166-cop31-turkey/",
+          "lieu": {
+            "nom": "Antalya, Turquie",
+            "nom_en": "Antalya, Turkey",
+            "lat": 36.9,
+            "lon": 30.7
+          }
+        }
+      ]
+    },
+    {
+      "key": "sport",
+      "name": "Sport",
+      "items": [
+        {
+          "title": "Ligue 1 : l'OM mène 2-0 puis s'incline 2-3 face au Mans",
+          "summary": "L'OM a été battu 3-2 par Le Mans au Vélodrome dimanche 22 novembre, lors de la 11e journée de Ligue 1. Les Marseillais menaient 2-0 à la pause avant de s'effondrer en seconde période. Le but de la victoire mancelle est tombé dans le temps additionnel.",
+          "en": {
+            "title": "Ligue 1: Marseille lead 2-0 then lose 3-2 to Le Mans",
+            "summary": "Marseille were beaten 3-2 by Le Mans at the Vélodrome on Sunday 22 November, on matchday 11 of Ligue 1. Marseille led 2-0 at half-time before collapsing in the second half. Le Mans' winning goal came in stoppage time."
+          },
+          "source": "Foot Mercato",
+          "sourceTitle": "Le Mans se paie l’OM après son exploit retentissant au Vélodrome !",
+          "sourceDate": "2026-11-22",
+          "url": "https://www.footmercato.net/a1192527105093972328-le-mans-se-paie-lom-apres-son-exploit-retentissant-au-velodrome",
+          "lieu": {
+            "nom": "Marseille",
+            "nom_en": "Marseille, France",
+            "lat": 43.3,
+            "lon": 5.4
+          }
+        }
+      ]
+    }
+  ],
+  "note": "Résumé rédigé automatiquement à partir d'articles de presse publiés dans les dernières 24 à 48 heures. Chaque sujet renvoie à l'article d'origine : vérifiez-y les points importants.",
+  "note_en": "Summary written automatically from press articles published in the last 24 to 48 hours. Every story links to the original article: check the key points there."
+}
