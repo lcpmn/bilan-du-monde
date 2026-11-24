@@ -1,0 +1,156 @@
+{
+  "date": "2026-11-24",
+  "updatedAt": "2026-11-24T06:40:07+01:00",
+  "une": { "key": "monde", "index": 0 },
+  "overview": [
+    "L'Iran affirme que trois pétroliers ont heurté des mines dans le détroit d'Ormuz malgré une escorte américaine, tandis que Washington élargit ses sanctions.",
+    "Moscou met en garde l'Ukraine après des attaques contre des navires russes en Libye et en mer Baltique.",
+    "Le conseil d'administration de Nvidia a réintégré Jensen Huang comme PDG ; l'action a bondi de 31 % lundi.",
+    "Après l'échec de la COP31 à Antalya, la question de la suite des négociations climatiques reste ouverte."
+  ],
+  "overview_en": [
+    "Iran says three tankers hit mines in the Strait of Hormuz despite a US escort, as Washington widens its sanctions.",
+    "Moscow has warned Ukraine after attacks on Russian vessels in Libya and the Baltic Sea.",
+    "Nvidia's board has reinstated Jensen Huang as CEO; the stock jumped 31% on Monday.",
+    "After the collapse of COP31 in Antalya, the next steps for climate negotiations remain open."
+  ],
+  "chiffres": [
+    { "value": "3", "label": "pétroliers touchés par des mines dans le détroit d'Ormuz, selon l'Iran", "value_en": "3", "label_en": "tankers hit by mines in the Strait of Hormuz, according to Iran", "key": "monde" },
+    { "value": "+31 %", "label": "hausse de l'action Nvidia lundi après le retour de Jensen Huang", "value_en": "+31%", "label_en": "rise in Nvidia shares on Monday after Jensen Huang's return", "key": "eco" },
+    { "value": "≈ 1 000 Md$", "label": "valeur boursière gagnée par Nvidia en une séance", "value_en": "≈ $1 trillion", "label_en": "market value added by Nvidia in a single session", "key": "eco" },
+    { "value": "1-1", "label": "score du derby breton Lorient-Rennes en Ligue 1", "value_en": "1-1", "label_en": "score of the Brittany derby Lorient vs Rennes in Ligue 1", "key": "sport" }
+  ],
+  "categories": [
+    {
+      "key": "monde",
+      "name": "International",
+      "items": [
+        {
+          "title": "Ormuz : l'Iran dit que trois pétroliers ont heurté des mines",
+          "summary": "Selon l'Iran, trois pétroliers ont heurté des mines dans le détroit d'Ormuz malgré une escorte américaine. Dans le même temps, le Trésor américain élargit ses sanctions contre Téhéran.",
+          "why": "Une grande partie du pétrole mondial transite par Ormuz : chaque incident pèse sur les prix de l'énergie, y compris à la pompe en France.",
+          "en": {
+            "title": "Hormuz: Iran says three tankers hit mines",
+            "summary": "According to Iran, three tankers hit mines in the Strait of Hormuz despite a US escort. Meanwhile, the US Treasury is widening its sanctions against Tehran.",
+            "why": "A large share of the world's oil passes through Hormuz: every incident weighs on energy prices, including at the pump in France."
+          },
+          "source": "CNBC",
+          "sourceTitle": "Iran says three tankers hit mines in Hormuz despite U.S. escort, as Treasury widens sanctions",
+          "sourceDate": "2026-11-24",
+          "url": "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html",
+          "lieu": { "nom": "Détroit d'Ormuz", "nom_en": "Strait of Hormuz", "lat": 26.6, "lon": 56.3, "echelle": "region" }
+        },
+        {
+          "title": "Moscou met en garde Kyiv après des attaques en Libye et en Baltique",
+          "summary": "La Russie a averti l'Ukraine de « conséquences douloureuses » après des attaques de drones contre des navires russes en Libye et en mer Baltique. Moscou y voit une « tendance dangereuse ».",
+          "en": {
+            "title": "Moscow warns Kyiv after attacks in Libya and the Baltic",
+            "summary": "Russia has warned Ukraine of \"painful consequences\" after drone attacks on Russian vessels in Libya and the Baltic Sea. Moscow calls it a \"dangerous trend\"."
+          },
+          "source": "Al Jazeera",
+          "sourceTitle": "Russia warns Ukraine of ‘dangerous trend’ after Libya and Baltic attacks",
+          "sourceDate": "2026-11-23",
+          "url": "https://www.aljazeera.com/news/2026/11/23/russia-warns-ukraine-of-dangerous-trend-after-libya-and-baltic-attacks"
+        }
+      ]
+    },
+    { "key": "france", "name": "France", "items": [] },
+    {
+      "key": "eco",
+      "name": "Économie & marchés",
+      "items": [
+        {
+          "title": "Nvidia bondit de 31 % après le retour de Jensen Huang",
+          "summary": "L'action Nvidia a gagné 31 % lundi 23 novembre, ajoutant près de 1 000 milliards de dollars de valeur boursière, après la réintégration de Jensen Huang comme PDG.",
+          "why": "Nvidia pèse lourd dans les indices mondiaux : ses mouvements entraînent l'ensemble des valeurs technologiques et l'épargne investie en actions.",
+          "en": {
+            "title": "Nvidia jumps 31% after Jensen Huang's return",
+            "summary": "Nvidia shares gained 31% on Monday, November 23, adding nearly $1 trillion in market value, after Jensen Huang was reinstated as CEO.",
+            "why": "Nvidia carries great weight in global indices: its moves drive tech stocks as a whole and savings invested in equities."
+          },
+          "source": "The Motley Fool",
+          "sourceTitle": "Stock Market Today, Nov. 23: Nvidia Surges 31%, Adding Nearly $1 Trillion in Market Value as Jensen Huang Reclaims CEO Role",
+          "sourceDate": "2026-11-23",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-nvidia-surges-31-adding-nearly-usd1-trillion-in-market-value-as-jensen-huang-reclaims-ceo-role/"
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "name": "Tech & IA",
+      "items": [
+        {
+          "title": "Nvidia réintègre Jensen Huang comme PDG",
+          "summary": "Le conseil d'administration de Nvidia a réintégré lundi 23 novembre Jensen Huang comme président, PDG et administrateur, avec effet immédiat. Colette Kress, qui assurait l'intérim, reste directrice financière.",
+          "en": {
+            "title": "Nvidia reinstates Jensen Huang as CEO",
+            "summary": "Nvidia's board reinstated Jensen Huang as president, CEO and board director on Monday, November 23, effective immediately. Colette Kress, who had been interim CEO, remains chief financial officer."
+          },
+          "source": "Nvidia (communiqué)",
+          "sourceTitle": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director",
+          "sourceDate": "2026-11-23",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+          "lieu": { "nom": "Santa Clara, États-Unis", "nom_en": "Santa Clara, United States", "lat": 37.35, "lon": -121.96, "echelle": "ville" }
+        }
+      ]
+    },
+    {
+      "key": "sciences",
+      "name": "Sciences & santé",
+      "items": [
+        {
+          "title": "De nouveaux virus éclairent l'origine des encapsulines",
+          "summary": "Des chercheurs de l'université de Miami décrivent un groupe de virus jusqu'ici inconnu. Selon l'étude, publiée dans Nature Communications, virus et encapsulines, des structures cellulaires, auraient évolué l'un à partir de l'autre à plusieurs reprises.",
+          "en": {
+            "title": "New viruses shed light on the origin of encapsulins",
+            "summary": "Researchers at the University of Miami describe a previously unknown group of viruses. According to the study, published in Nature Communications, viruses and encapsulins, which are cellular structures, may have evolved from each other several times."
+          },
+          "source": "ScienceDaily (Université de Miami)",
+          "sourceTitle": "Mysterious new viruses reveal a missing link in evolution",
+          "sourceDate": "2026-11-23",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261122060334.htm"
+        }
+      ]
+    },
+    {
+      "key": "climat",
+      "name": "Climat & environnement",
+      "items": [
+        {
+          "title": "Après l'échec de la COP31, quelle suite pour le climat ?",
+          "summary": "La conférence de l'ONU sur le climat d'Antalya s'est achevée sans accord sur la sortie des énergies fossiles. Réforme du processus, action individuelle et hausse des températures sont au cœur des débats sur la suite.",
+          "en": {
+            "title": "After COP31's collapse, what next for the climate?",
+            "summary": "The UN climate conference in Antalya ended without an agreement on phasing out fossil fuels. Reform of the process, individual action and rising temperatures are at the heart of the debate on what comes next."
+          },
+          "source": "Daily Herald",
+          "sourceTitle": "Here’s what’s next after climate talks collapse: Reform, individual action, hope and more heat",
+          "sourceDate": "2026-11-23",
+          "url": "https://www.dailyherald.com/2026/11/23/climate-cop31-whats-next/",
+          "lieu": { "nom": "Antalya, Turquie", "nom_en": "Antalya, Türkiye", "lat": 36.9, "lon": 30.7, "echelle": "ville" }
+        }
+      ]
+    },
+    {
+      "key": "sport",
+      "name": "Sport",
+      "items": [
+        {
+          "title": "Ligue 1 : Lorient et Rennes se quittent sur un nul (1-1)",
+          "summary": "Le derby breton de la 11e journée s'est achevé sur un match nul dimanche 22 novembre. Boulaye Dia a ouvert le score pour Rennes avant l'égalisation lorientaise avant la pause.",
+          "en": {
+            "title": "Ligue 1: Lorient and Rennes draw 1-1",
+            "summary": "The Brittany derby of the 11th round ended in a draw on Sunday, November 22. Boulaye Dia opened the scoring for Rennes before Lorient equalised just before half-time."
+          },
+          "source": "Ouest-France",
+          "sourceTitle": "FC Lorient - Stade Rennais. Les notes des Rennais : le mystère Szymanski, Dia continue d’enfiler les buts",
+          "sourceDate": "2026-11-22",
+          "url": "https://www.ouest-france.fr/sport/football/stade-rennais/fc-lorient-stade-rennais-les-notes-des-rennais-le-mystere-szymanski-dia-continue-denfiler-les-buts-0f9f8382-e68a-11f1-afa7-9a0bb82a33d1",
+          "lieu": { "nom": "Lorient, Morbihan", "nom_en": "Lorient, France", "lat": 47.75, "lon": -3.37, "echelle": "ville" }
+        }
+      ]
+    }
+  ],
+  "note": "Résumé rédigé automatiquement à partir d'articles de presse publiés dans les dernières 24 à 48 heures. Chaque sujet renvoie à l'article d'origine : vérifiez-y les points importants.",
+  "note_en": "Summary written automatically from press articles published in the last 24 to 48 hours. Every story links to the original article: check the key points there."
+}
