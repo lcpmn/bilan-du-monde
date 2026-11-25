@@ -1,0 +1,250 @@
+{
+  "date": "2026-11-25",
+  "updatedAt": "2026-11-25T06:11:40+01:00",
+  "une": {
+    "key": "monde",
+    "index": 0
+  },
+  "overview": [
+    "La diplomatie russe accuse l'Estonie d'être « au bord de déclencher une guerre ouverte », après l'annonce par Tallinn de la fermeture de ses points de passage avec la Russie.",
+    "En Indonésie, le bilan de l'incendie d'une usine de confiserie dans la province de Banten atteint 26 morts, selon la police.",
+    "À Wall Street, le Nasdaq a reculé de 1,48 % mardi, Nvidia rendant une partie de ses gains de la veille, tandis que le Dow Jones a progressé.",
+    "La Chine a lancé la mission Shenzhou-24, avec à bord le premier astronaute étranger de son programme habité, le Pakistanais Zeeshan Ali.",
+    "En Ligue des champions, Lens s'est incliné 3-1 à Leipzig et le Real Madrid a battu le PSV Eindhoven 5-1."
+  ],
+  "overview_en": [
+    "Russian diplomacy has accused Estonia of being \"on the verge of triggering open war\", after Tallinn announced it would close its border crossings with Russia.",
+    "In Indonesia, the death toll from a fire at a confectionery factory in Banten province has reached 26, according to police.",
+    "On Wall Street, the Nasdaq fell 1.48% on Tuesday as Nvidia gave back part of the previous day's gains, while the Dow Jones rose.",
+    "China has launched the Shenzhou-24 mission, carrying the first foreign astronaut of its crewed programme, Pakistan's Zeeshan Ali.",
+    "In the Champions League, Lens lost 3-1 in Leipzig and Real Madrid beat PSV Eindhoven 5-1."
+  ],
+  "chiffres": [
+    {
+      "value": "26",
+      "label": "morts dans l'incendie d'une usine de confiserie en Indonésie, selon la police",
+      "value_en": "26",
+      "label_en": "people killed in a confectionery factory fire in Indonesia, according to police",
+      "key": "monde"
+    },
+    {
+      "value": "−1,48 %",
+      "label": "recul du Nasdaq mardi, entraîné par la baisse de Nvidia",
+      "value_en": "−1.48%",
+      "label_en": "fall in the Nasdaq on Tuesday, dragged down by Nvidia",
+      "key": "eco"
+    },
+    {
+      "value": "−6,5 %",
+      "label": "baisse de l'action Anthropic mardi, passée sous son prix d'introduction de 83 dollars",
+      "value_en": "−6.5%",
+      "label_en": "drop in Anthropic shares on Tuesday, taking them below their $83 IPO price",
+      "key": "tech"
+    },
+    {
+      "value": "3-1",
+      "label": "défaite de Lens à Leipzig en Ligue des champions",
+      "value_en": "3-1",
+      "label_en": "Lens's defeat in Leipzig in the Champions League",
+      "key": "sport"
+    }
+  ],
+  "categories": [
+    {
+      "key": "monde",
+      "name": "International",
+      "items": [
+        {
+          "title": "Moscou accuse l'Estonie d'être « au bord » d'une guerre ouverte",
+          "summary": "Le ministère russe des Affaires étrangères a accusé lundi 23 novembre l'Estonie d'actions hostiles qui la placeraient « au bord de déclencher une guerre ouverte ». Ces accusations interviennent après l'annonce par Tallinn de la fermeture de ses points de passage frontaliers avec la Russie. L'Estonie rejette les accusations de Moscou.",
+          "why": "L'Estonie est membre de l'Union européenne et de l'Otan : toute escalade avec la Russie concerne directement la sécurité européenne, et donc la France.",
+          "en": {
+            "title": "Moscow accuses Estonia of being \"on the verge\" of open war",
+            "summary": "Russia's foreign ministry on Monday, November 23, accused Estonia of hostile actions that put it \"on the verge of triggering open war\". The accusations follow Tallinn's announcement that it will close its border crossings with Russia. Estonia rejects Moscow's accusations.",
+            "why": "Estonia is a member of the European Union and NATO: any escalation with Russia directly concerns European security, and therefore France."
+          },
+          "source": "Al Jazeera",
+          "sourceTitle": "Russia threatens ‘hostile’ Estonia with ‘open war’",
+          "sourceDate": "2026-11-23",
+          "url": "https://www.aljazeera.com/news/2026/11/23/russia-threatens-hostile-estonia-with-open-war",
+          "lieu": {
+            "nom": "Tallinn, Estonie",
+            "nom_en": "Tallinn, Estonia",
+            "lat": 59.44,
+            "lon": 24.75,
+            "echelle": "pays"
+          }
+        },
+        {
+          "title": "Indonésie : 26 morts dans l'incendie d'une usine de confiserie",
+          "summary": "Le bilan de l'incendie d'une usine de bonbons à Cikande, dans la province de Banten, à l'ouest de Jakarta, est passé à 26 morts, selon la police. De nombreuses victimes ont été retrouvées près d'un accès à un escalier de secours. Le feu s'était déclaré samedi 21 novembre.",
+          "en": {
+            "title": "Indonesia: 26 dead in confectionery factory fire",
+            "summary": "The death toll from a fire at a candy factory in Cikande, Banten province, west of Jakarta, has risen to 26, according to police. Many victims were found near an access route to an emergency staircase. The fire broke out on Saturday, November 21."
+          },
+          "source": "The Star",
+          "sourceTitle": "Many died trying to reach exit",
+          "sourceDate": "2026-11-25",
+          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/25/many-died-trying-to-reach-exit",
+          "lieu": {
+            "nom": "Cikande, Indonésie",
+            "nom_en": "Cikande, Indonesia",
+            "lat": -6.18,
+            "lon": 106.34,
+            "echelle": "proche"
+          }
+        }
+      ]
+    },
+    {
+      "key": "france",
+      "name": "France",
+      "items": [
+        {
+          "title": "Le 108e Congrès des maires de France s'est ouvert à Paris",
+          "summary": "Le 108e Congrès des maires s'est ouvert mardi 24 novembre à la Porte de Versailles, à Paris, jusqu'au jeudi 26 novembre, sur le thème « Regagnons nos libertés ». La présidence de l'Association des maires de France s'y joue entre le président sortant David Lisnard, maire de Cannes, et Philippe Laurent, maire de Sceaux.",
+          "why": "Les maires y portent leurs revendications face à l'État, à quelques mois de l'élection présidentielle.",
+          "en": {
+            "title": "The 108th Congress of French Mayors opens in Paris",
+            "summary": "The 108th Congress of Mayors opened on Tuesday, November 24, at Porte de Versailles in Paris and runs until Thursday, November 26, under the theme \"Let's regain our freedoms\". The presidency of the Association of French Mayors (AMF) is being contested there between the outgoing president David Lisnard, mayor of Cannes, and Philippe Laurent, mayor of Sceaux.",
+            "why": "Mayors use it to press their demands on the State, a few months before the presidential election."
+          },
+          "source": "Maire-info",
+          "sourceTitle": "Le 108e Congrès des maires de France s'ouvre aujourd'hui",
+          "sourceDate": "2026-11-24",
+          "url": "https://www.maire-info.com/congra-s-de-lamf/le-108e-congra-s-des-maires-de-france-souvre-aujourdhui-art26-31312",
+          "lieu": {
+            "nom": "Paris",
+            "nom_en": "Paris, France",
+            "lat": 48.83,
+            "lon": 2.29,
+            "echelle": "ville"
+          }
+        }
+      ]
+    },
+    {
+      "key": "eco",
+      "name": "Économie & marchés",
+      "items": [
+        {
+          "title": "Wall Street partagée : le Nasdaq recule, le Dow Jones progresse",
+          "summary": "Mardi 24 novembre, le Nasdaq a cédé 1,48 % et le S&P 500 0,49 %, tandis que le Dow Jones a gagné 0,86 %. Nvidia a perdu près de 6 %, rendant une partie de sa forte hausse de la veille.",
+          "why": "Les valeurs de l'intelligence artificielle pèsent lourd dans les indices mondiaux : leurs à-coups se répercutent sur les marchés européens et l'épargne investie en actions.",
+          "en": {
+            "title": "Wall Street split: Nasdaq falls, Dow Jones rises",
+            "summary": "On Tuesday, November 24, the Nasdaq lost 1.48% and the S&P 500 0.49%, while the Dow Jones gained 0.86%. Nvidia fell nearly 6%, giving back part of the previous day's sharp rise.",
+            "why": "Artificial intelligence stocks carry heavy weight in global indices: their swings ripple through European markets and savings invested in equities."
+          },
+          "source": "Investing.com",
+          "sourceTitle": "U.S. stocks mixed at close of trade; Dow Jones Industrial Average up 0.86%",
+          "sourceDate": "2026-11-24",
+          "url": "https://www.investing.com/news/stock-market-news/us-stocks-mixed-at-close-of-trade-dow-jones-industrial-average-up-086-5049102",
+          "lieu": {
+            "nom": "New York, États-Unis",
+            "nom_en": "New York, United States",
+            "lat": 40.71,
+            "lon": -74.01,
+            "echelle": "ville"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "name": "Tech & IA",
+      "items": [
+        {
+          "title": "L'action Anthropic passe sous son prix d'introduction en Bourse",
+          "summary": "L'action d'Anthropic, concepteur de l'IA Claude, a clôturé en baisse de 6,5 % mardi 24 novembre, sous son prix d'introduction de 83 dollars, quatre jours seulement après ses débuts au Nasdaq. Plusieurs analystes, dont Canaccord Genuity et Oppenheimer, ont toutefois entamé leur suivi avec une recommandation positive.",
+          "en": {
+            "title": "Anthropic shares fall below their IPO price",
+            "summary": "Shares in Anthropic, the developer of the Claude AI, closed down 6.5% on Tuesday, November 24, below their $83 IPO price, just four days after their Nasdaq debut. Several analysts, including Canaccord Genuity and Oppenheimer, nonetheless initiated coverage with positive ratings."
+          },
+          "source": "CNBC",
+          "sourceTitle": "Anthropic closes below $83 IPO price, but analysts are still largely positive",
+          "sourceDate": "2026-11-24",
+          "url": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html"
+        }
+      ]
+    },
+    {
+      "key": "sciences",
+      "name": "Sciences & santé",
+      "items": [
+        {
+          "title": "Shenzhou-24 décolle avec le premier astronaute étranger de la Chine",
+          "summary": "La Chine a lancé mercredi 25 novembre, heure de Pékin, la mission habitée Shenzhou-24 depuis le centre de Jiuquan. À bord se trouve le Pakistanais Zeeshan Ali, premier astronaute étranger à voler sur une mission habitée chinoise, à destination de la station spatiale Tiangong.",
+          "why": "En ouvrant sa station à un pays partenaire, Pékin fait de son programme spatial un outil d'influence diplomatique.",
+          "en": {
+            "title": "Shenzhou-24 lifts off with China's first foreign astronaut",
+            "summary": "China launched the crewed Shenzhou-24 mission on Wednesday, November 25, Beijing time, from the Jiuquan centre. On board is Pakistan's Zeeshan Ali, the first foreign astronaut to fly on a Chinese crewed mission, bound for the Tiangong space station.",
+            "why": "By opening its station to a partner country, Beijing is turning its space programme into a tool of diplomatic influence."
+          },
+          "source": "Dawn",
+          "sourceTitle": "China's Shenzhou-24 lifts off with Pakistan's Zeeshan Ali on board",
+          "sourceDate": "2026-11-25",
+          "url": "https://www.dawn.com/news/2046753/chinas-shenzhou-24-lifts-off-with-pakistans-zeeshan-ali-on-board",
+          "lieu": {
+            "nom": "Jiuquan, Chine",
+            "nom_en": "Jiuquan, China",
+            "lat": 40.96,
+            "lon": 100.29,
+            "echelle": "region"
+          }
+        }
+      ]
+    },
+    {
+      "key": "climat",
+      "name": "Climat & environnement",
+      "items": []
+    },
+    {
+      "key": "sport",
+      "name": "Sport",
+      "items": [
+        {
+          "title": "Ligue des champions : Lens battu 3-1 à Leipzig",
+          "summary": "Lens s'est incliné 3-1 sur la pelouse du RB Leipzig mardi 24 novembre, lors de la 5e journée de la phase de ligue. Après cette défaite, la qualification du club artois pour les barrages s'éloigne.",
+          "en": {
+            "title": "Champions League: Lens beaten 3-1 in Leipzig",
+            "summary": "Lens lost 3-1 away to RB Leipzig on Tuesday, November 24, on the fifth matchday of the league phase. After this defeat, the northern French club's hopes of reaching the play-offs are fading."
+          },
+          "source": "Sud Radio",
+          "sourceTitle": "Ligue des champions : Lens tombe à Leipzig et voit les barrages s'éloigner",
+          "sourceDate": "2026-11-24",
+          "url": "https://www.sudradio.fr/sport-rugby/sport/ligue-des-champions-lens-tombe-a-leipzig-et-voit-les-barrages-seloigner",
+          "lieu": {
+            "nom": "Leipzig, Allemagne",
+            "nom_en": "Leipzig, Germany",
+            "lat": 51.35,
+            "lon": 12.35,
+            "echelle": "ville"
+          }
+        },
+        {
+          "title": "Mené à la pause, le Real Madrid écrase le PSV 5-1",
+          "summary": "Mené 1-0 à la mi-temps, le Real Madrid a renversé le PSV Eindhoven pour s'imposer 5-1 mardi 24 novembre en Ligue des champions. Kylian Mbappé a signé un doublé et Jude Bellingham a également marqué.",
+          "en": {
+            "title": "Trailing at half-time, Real Madrid crush PSV 5-1",
+            "summary": "Trailing 1-0 at half-time, Real Madrid turned the game around against PSV Eindhoven to win 5-1 on Tuesday, November 24, in the Champions League. Kylian Mbappé scored twice and Jude Bellingham also found the net."
+          },
+          "source": "Footeo",
+          "sourceTitle": "Real Madrid-PSV (5-1) : mené à la pause, Bellingham et le Real renversent tout, Mbappé signe un doublé",
+          "sourceDate": "2026-11-24",
+          "url": "https://news.footeo.com/2026/11/24/real-madrid-psv-5-1-mene-a-la-pause-bellingham-et-le-real-renversent-tout-mbappe-signe-un-double-18510",
+          "lieu": {
+            "nom": "Madrid, Espagne",
+            "nom_en": "Madrid, Spain",
+            "lat": 40.45,
+            "lon": -3.69,
+            "echelle": "ville"
+          }
+        }
+      ]
+    }
+  ],
+  "note": "Résumé rédigé automatiquement à partir d'articles de presse publiés dans les dernières 24 à 48 heures. Chaque sujet renvoie à l'article d'origine : vérifiez-y les points importants.",
+  "note_en": "Summary written automatically from press articles published in the last 24 to 48 hours. Every story links to the original article: check the key points there."
+}
