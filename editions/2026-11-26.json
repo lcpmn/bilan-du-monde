@@ -1,0 +1,220 @@
+{
+  "date": "2026-11-26",
+  "updatedAt": "2026-11-26T06:07:31+01:00",
+  "une": {
+    "key": "monde",
+    "index": 0
+  },
+  "overview": [
+    "Les Houthis du Yémen affirment avoir frappé mercredi la raffinerie saoudienne de Ras Tanura, la plus grande du royaume ; la coalition menée par Riyad dit avoir abattu quatre drones.",
+    "En France, le décret relevant le Smic de 1,6 % au 1er décembre a été présenté en Conseil des ministres : le salaire minimum net atteint 1 501,94 euros par mois.",
+    "Les doutes sur l'intelligence artificielle ont fait plonger la Bourse de Taïwan de 4,8 %, et le CAC 40 a cédé 0,75 % à 7 980,57 points.",
+    "En Ligue des champions, Lille a battu le Bayern Munich 2-1, tandis que le PSG a concédé le nul 2-2 face à l'AS Rome."
+  ],
+  "overview_en": [
+    "Yemen's Houthis say they struck Saudi Arabia's Ras Tanura refinery, the kingdom's largest, on Wednesday; the Riyadh-led coalition says it downed four drones.",
+    "In France, the decree raising the minimum wage (Smic) by 1.6% on December 1 was presented to the cabinet: the net minimum wage reaches €1,501.94 a month.",
+    "Doubts over artificial intelligence sent Taiwan's stock market down 4.8%, and the CAC 40 lost 0.75% to 7,980.57 points.",
+    "In the Champions League, Lille beat Bayern Munich 2-1, while PSG were held 2-2 by AS Roma."
+  ],
+  "chiffres": [
+    {
+      "value": "1 501,94 €",
+      "label": "Smic net mensuel à partir du 1er décembre, soit 24,01 euros de plus",
+      "value_en": "€1,501.94",
+      "label_en": "Net monthly minimum wage from December 1, up €24.01",
+      "key": "france"
+    },
+    {
+      "value": "−4,8 %",
+      "label": "Recul de l'indice Taiex de Taïwan mercredi, après une chute de plus de 8 % en séance",
+      "value_en": "−4.8%",
+      "label_en": "Fall in Taiwan's Taiex index on Wednesday, after a drop of more than 8% intraday",
+      "key": "tech"
+    },
+    {
+      "value": "7 980,57",
+      "label": "Clôture du CAC 40 mercredi, en baisse de 0,75 %",
+      "value_en": "7,980.57",
+      "label_en": "CAC 40 close on Wednesday, down 0.75%",
+      "key": "eco"
+    },
+    {
+      "value": "12",
+      "label": "Victoires d'affilée du PSG, série interrompue par le nul contre la Roma",
+      "value_en": "12",
+      "label_en": "Straight PSG wins, a run ended by the draw with Roma",
+      "key": "sport"
+    }
+  ],
+  "categories": [
+    {
+      "key": "monde",
+      "name": "International",
+      "items": [
+        {
+          "title": "Les Houthis revendiquent une attaque contre la raffinerie de Ras Tanura",
+          "summary": "Mercredi 25 novembre, les Houthis du Yémen ont affirmé avoir frappé la raffinerie saoudienne de Ras Tanura, la plus grande du royaume, ainsi que le quartier financier de Riyad. La coalition menée par l'Arabie saoudite dit avoir intercepté et détruit quatre drones à Ras Tanura, sans évoquer de dégâts sur la raffinerie. Des images satellites examinées par Reuters montrent une épaisse fumée noire autour du site.",
+          "why": "Ras Tanura est un site majeur de l'industrie pétrolière saoudienne : une escalade entre les Houthis et Riyad menace l'approvisionnement énergétique.",
+          "en": {
+            "title": "Houthis claim attack on Saudi Arabia's Ras Tanura refinery",
+            "summary": "On Wednesday, November 25, Yemen's Houthis said they had struck Saudi Arabia's Ras Tanura refinery, the kingdom's largest, as well as Riyadh's financial district. The Saudi-led coalition says it intercepted and destroyed four drones over Ras Tanura, without mentioning damage to the refinery. Satellite images reviewed by Reuters show thick black smoke around the site.",
+            "why": "Ras Tanura is a major site of Saudi Arabia's oil industry: escalation between the Houthis and Riyadh threatens energy supplies."
+          },
+          "source": "Reuters (US News)",
+          "sourceTitle": "Yemen's Houthis Claim Attack on Saudi Arabia's Largest Refinery",
+          "sourceDate": "2026-11-25",
+          "url": "https://www.usnews.com/news/world/articles/2026-11-25/yemens-houthis-say-they-attacked-saudi-oil-refinery-and-riyadh-financial-district",
+          "lieu": {
+            "nom": "Ras Tanura, Arabie saoudite",
+            "nom_en": "Ras Tanura, Saudi Arabia",
+            "lat": 26.64,
+            "lon": 50.16
+          }
+        }
+      ]
+    },
+    {
+      "key": "france",
+      "name": "France",
+      "items": [
+        {
+          "title": "Le Smic augmente de 1,6 % dès le 1er décembre",
+          "summary": "Le décret relevant le Smic de façon anticipée au 1er décembre a été présenté en Conseil des ministres mercredi 25 novembre. Le salaire minimum net passe à 1 501,94 euros par mois, soit 24,01 euros de plus. Sur l'année 2026, le Smic aura été revalorisé de 5,3 %, selon le gouvernement.",
+          "why": "La hausse s'applique sans attendre janvier aux salariés payés au salaire minimum, et le gouvernement appelle les branches à rouvrir les négociations salariales.",
+          "en": {
+            "title": "France's minimum wage rises 1.6% from December 1",
+            "summary": "The decree bringing forward a rise in the minimum wage (Smic) to December 1 was presented to the cabinet on Wednesday, November 25. The net minimum wage rises to €1,501.94 a month, an increase of €24.01. Over 2026 as a whole, the Smic will have risen by 5.3%, according to the government.",
+            "why": "The rise applies to minimum-wage workers without waiting for January, and the government is urging industry sectors to reopen wage talks."
+          },
+          "source": "Gouvernement (info.gouv.fr)",
+          "sourceTitle": "Compte rendu du Conseil des ministres du 25 novembre 2026",
+          "sourceDate": "2026-11-25",
+          "url": "https://www.info.gouv.fr/conseil-des-ministres/compte-rendu-du-conseil-des-ministres-du-25-11-2026"
+        }
+      ]
+    },
+    {
+      "key": "eco",
+      "name": "Économie & marchés",
+      "items": [
+        {
+          "title": "Le CAC 40 recule de 0,75 %, plombé par les semi-conducteurs",
+          "summary": "Mercredi 25 novembre, le CAC 40 a terminé en baisse de 0,75 %, à 7 980,57 points, dans le sillage de la correction des valeurs technologiques. STMicroelectronics a chuté de 4,69 %, Schneider Electric de 4,18 % et Legrand de 3,27 %. Seules 16 valeurs de l'indice ont progressé.",
+          "en": {
+            "title": "CAC 40 falls 0.75%, dragged down by chipmakers",
+            "summary": "On Wednesday, November 25, the CAC 40 closed 0.75% lower at 7,980.57 points, following a sell-off in technology stocks. STMicroelectronics fell 4.69%, Schneider Electric 4.18% and Legrand 3.27%. Only 16 stocks in the index rose."
+          },
+          "source": "Idéal Investisseur",
+          "sourceTitle": "Le CAC 40 recule en clôture, plombé par les semi-conducteurs et l'électrique",
+          "sourceDate": "2026-11-25",
+          "url": "https://www.ideal-investisseur.fr/bourse-cryptos/le-cac-40-recule-en-cloture-plombe-par-les-semi-conducteurs-et-lelectrique-34079.html",
+          "lieu": {
+            "nom": "Paris",
+            "nom_en": "Paris, France",
+            "lat": 48.86,
+            "lon": 2.35
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "name": "Tech & IA",
+      "items": [
+        {
+          "title": "Les doutes sur l'IA font plonger la Bourse de Taïwan",
+          "summary": "L'indice Taiex de Taïwan a clôturé mercredi 25 novembre en baisse de 4,8 %, après avoir chuté de plus de 8 % en séance ; le Nikkei japonais a perdu 2,8 %. Les valeurs liées à l'intelligence artificielle, dont TSMC, Samsung et SK Hynix, ont subi les plus fortes pertes. Les analystes citent les doutes sur la rentabilité des dépenses en IA et la crainte d'une régulation plus stricte aux États-Unis.",
+          "why": "Le recul des valeurs de l'IA en Asie s'est propagé aux Bourses européennes, dont le CAC 40.",
+          "en": {
+            "title": "AI doubts send Taiwan's stock market tumbling",
+            "summary": "Taiwan's Taiex index closed 4.8% lower on Wednesday, November 25, after falling more than 8% intraday; Japan's Nikkei lost 2.8%. Stocks linked to artificial intelligence, including TSMC, Samsung and SK Hynix, suffered the steepest losses. Analysts cite doubts over whether AI spending will pay off and fears of tighter regulation in the United States.",
+            "why": "The slide in AI stocks in Asia spread to European markets, including the CAC 40."
+          },
+          "source": "Al Jazeera",
+          "sourceTitle": "Asia’s markets dive as return of Nvidia’s Huang fails to quell AI doubts",
+          "sourceDate": "2026-11-25",
+          "url": "https://www.aljazeera.com/news/2026/11/25/asias-stock-markets-dive-as-doubts-to-swirl-over-ai-boom",
+          "lieu": {
+            "nom": "Taipei, Taïwan",
+            "nom_en": "Taipei, Taiwan",
+            "lat": 25.03,
+            "lon": 121.56
+          }
+        }
+      ]
+    },
+    {
+      "key": "sciences",
+      "name": "Sciences & santé",
+      "items": []
+    },
+    {
+      "key": "climat",
+      "name": "Climat & environnement",
+      "items": [
+        {
+          "title": "Épisode méditerranéen : le Var et les Alpes-Maritimes en vigilance orange",
+          "summary": "Le Var et les Alpes-Maritimes ont été placés en vigilance orange pluie-inondation mercredi 25 novembre, lors d'un épisode méditerranéen. L'alerte a été levée dans la soirée : plus aucun département n'est en vigilance orange.",
+          "en": {
+            "title": "Mediterranean storm: Var and Alpes-Maritimes on orange alert",
+            "summary": "The Var and Alpes-Maritimes departments were placed on orange rain-flood alert on Wednesday, November 25, during a Mediterranean storm episode. The alert was lifted in the evening: no department remains on orange alert."
+          },
+          "source": "franceinfo",
+          "sourceTitle": "Intempéries : la vigilance orange est levée pour le Var et les Alpes-Maritimes, plus aucun département n'est en alerte",
+          "sourceDate": "2026-11-25",
+          "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/inondations-et-crues/intemperies-la-vigilance-orange-est-levee-pour-le-var-et-les-alpes-maritimes-plus-aucun-departement-n-est-en-alerte_8300382.html",
+          "lieu": {
+            "nom": "Var et Alpes-Maritimes",
+            "nom_en": "Var and Alpes-Maritimes, France",
+            "lat": 43.5,
+            "lon": 6.6,
+            "echelle": "region"
+          }
+        }
+      ]
+    },
+    {
+      "key": "sport",
+      "name": "Sport",
+      "items": [
+        {
+          "title": "Ligue des champions : Lille renverse le Bayern Munich (2-1)",
+          "summary": "Mené à la pause, Lille a battu le Bayern Munich 2-1 à domicile mercredi 25 novembre, lors de la 5e journée de la phase de ligue. Les Lillois se relancent dans la course à la qualification.",
+          "en": {
+            "title": "Champions League: Lille come from behind to beat Bayern Munich 2-1",
+            "summary": "Trailing at half-time, Lille beat Bayern Munich 2-1 at home on Wednesday, November 25, on matchday five of the league phase. The result puts Lille back in the race for qualification."
+          },
+          "source": "Eurosport",
+          "sourceDate": "2026-11-25",
+          "url": "https://www.eurosport.fr/football/ligue-des-champions/2026-2027/ligue-des-champions-exploit-du-losc-qui-renverse-le-bayern-munich-a-domicile-2-1_sto23358822/story.shtml",
+          "lieu": {
+            "nom": "Villeneuve-d'Ascq, Nord",
+            "nom_en": "Villeneuve-d'Ascq, France",
+            "lat": 50.61,
+            "lon": 3.13
+          }
+        },
+        {
+          "title": "Le PSG tenu en échec par la Roma au Parc des Princes (2-2)",
+          "summary": "Le PSG a concédé le match nul 2-2 face à l'AS Rome mercredi 25 novembre. Après l'ouverture du score de Mario Hermoso, Illia Zabarnyi et Ousmane Dembélé, sur penalty, avaient donné l'avantage aux Parisiens, avant l'égalisation de Donyell Malen sur penalty. Ce nul met fin à une série de 12 victoires d'affilée du PSG, toutes compétitions confondues.",
+          "en": {
+            "title": "PSG held 2-2 by Roma at the Parc des Princes",
+            "summary": "PSG were held to a 2-2 draw by AS Roma on Wednesday, November 25. After Mario Hermoso opened the scoring, Illia Zabarnyi and Ousmane Dembélé, from the penalty spot, put Paris ahead, before Donyell Malen equalised with a penalty. The draw ends PSG's run of 12 straight wins in all competitions."
+          },
+          "source": "ESPN",
+          "sourceDate": "2026-11-25",
+          "url": "https://www.espn.com/soccer/report/_/gameId/401915374",
+          "lieu": {
+            "nom": "Paris",
+            "nom_en": "Paris, France",
+            "lat": 48.84,
+            "lon": 2.25
+          }
+        }
+      ]
+    }
+  ],
+  "note": "Résumé rédigé automatiquement à partir d'articles de presse publiés dans les dernières 24 à 48 heures. Chaque sujet renvoie à l'article d'origine : vérifiez-y les points importants.",
+  "note_en": "Summary written automatically from press articles published in the last 24 to 48 hours. Every story links to the original article: check the key points there."
+}
