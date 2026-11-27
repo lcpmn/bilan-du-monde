@@ -1,0 +1,229 @@
+{
+  "date": "2026-11-27",
+  "updatedAt": "2026-11-27T06:11:34+01:00",
+  "une": { "key": "eco", "index": 0 },
+  "overview": [
+    "Washington propose de nouveaux droits de douane contre 14 partenaires commerciaux, dont l'Union européenne et la Chine, au nom de la lutte contre les surcapacités industrielles.",
+    "Au Caire, l'incendie d'un camion-citerne sur le périphérique a fait 31 morts mercredi ; le chauffeur a été placé en détention.",
+    "La Bourse de Paris a rebondi de 1,61 % jeudi, portée par l'automobile, en l'absence de Wall Street fermé pour Thanksgiving.",
+    "En France, David Lisnard a été largement réélu à la tête de l'Association des maires de France, et l'Agence du médicament met en garde contre les conseils de santé donnés par l'IA.",
+    "En Ligue Europa, l'OM s'est imposé face au Levski Sofia, tandis que Lyon et Rennes ont manqué leur soirée."
+  ],
+  "overview_en": [
+    "Washington has proposed new tariffs on 14 trading partners, including the European Union and China, in the name of fighting industrial overcapacity.",
+    "In Cairo, a fuel tanker fire on the ring road killed 31 people on Wednesday; the driver has been detained.",
+    "The Paris stock exchange rebounded 1.61% on Thursday, led by carmakers, while Wall Street was closed for Thanksgiving.",
+    "In France, David Lisnard was comfortably re-elected head of the Association of French Mayors (AMF), and the medicines agency warned against health advice given by AI.",
+    "In the Europa League, Marseille beat Levski Sofia, while Lyon and Rennes had a disappointing night."
+  ],
+  "chiffres": [
+    { "value": "14", "label": "Partenaires commerciaux visés par les nouveaux droits de douane proposés par les États-Unis", "value_en": "14", "label_en": "Trading partners targeted by the new tariffs proposed by the United States", "key": "eco" },
+    { "value": "31", "label": "Morts dans l'incendie d'un camion-citerne sur le périphérique du Caire", "value_en": "31", "label_en": "People killed in a fuel tanker fire on Cairo's ring road", "key": "monde" },
+    { "value": "+1,61 %", "label": "Hausse du CAC 40 jeudi, revenu au-dessus des 8 000 points", "value_en": "+1.61%", "label_en": "Rise of the CAC 40 on Thursday, back above 8,000 points", "key": "eco" },
+    { "value": "72 %", "label": "Score de David Lisnard, réélu président de l'Association des maires de France", "value_en": "72%", "label_en": "David Lisnard's share of the vote in his re-election as head of the Association of French Mayors", "key": "france" }
+  ],
+  "categories": [
+    {
+      "key": "monde",
+      "name": "International",
+      "items": [
+        {
+          "title": "Au Caire, l'incendie d'un camion-citerne fait 31 morts",
+          "summary": "Un camion-citerne s'est renversé et a pris feu mercredi 25 novembre sur le périphérique du Caire, à hauteur d'Al-Warraq (Gizeh), embrasant les véhicules voisins. Le ministère égyptien de la Santé fait état de 31 morts et 21 blessés. Le parquet a ordonné la détention du chauffeur, âgé de 21 ans.",
+          "en": {
+            "title": "Fuel tanker fire kills 31 in Cairo",
+            "summary": "A fuel tanker overturned and caught fire on Wednesday, November 25, on Cairo's ring road near Al-Warraq (Giza), engulfing nearby vehicles. Egypt's health ministry reported 31 dead and 21 injured. Prosecutors ordered the detention of the 21-year-old driver."
+          },
+          "source": "Al Jazeera",
+          "sourceTitle": "Egypt detains driver over Cairo fuel tanker fire that killed 31",
+          "sourceDate": "2026-11-26",
+          "url": "https://www.aljazeera.com/news/2026/11/26/egypt-detains-driver-over-cairo-fuel-tanker-fire-that-killed-31",
+          "lieu": { "nom": "Le Caire, Égypte", "nom_en": "Cairo, Egypt", "lat": 30.1, "lon": 31.2 }
+        },
+        {
+          "title": "Ukraine : nouvelle salve de missiles et de drones russes, morts à Kharkiv",
+          "summary": "La Russie a lancé dans la nuit des missiles balistiques et 113 drones contre l'Ukraine, dont la défense aérienne dit avoir neutralisé 87 cibles. À Kharkiv, des immeubles d'habitation et un établissement d'enseignement ont été touchés ; au moins trois personnes ont été tuées.",
+          "en": {
+            "title": "Ukraine: new Russian missile and drone barrage, deaths in Kharkiv",
+            "summary": "Russia launched ballistic missiles and 113 drones at Ukraine overnight; Ukraine's air defences say they neutralised 87 targets. In Kharkiv, residential buildings and an educational institution were hit, and at least three people were killed."
+          },
+          "source": "Euronews",
+          "sourceTitle": "Russia launches ballistic missile and drone barrage on Ukraine, killing at least three",
+          "sourceDate": "2026-11-26",
+          "url": "https://www.euronews.com/2026/11/26/russia-launches-ballistic-missile-and-drone-barrage-on-ukraine-killing-at-least-three",
+          "lieu": { "nom": "Kharkiv, Ukraine", "nom_en": "Kharkiv, Ukraine", "lat": 49.99, "lon": 36.23 }
+        }
+      ]
+    },
+    {
+      "key": "france",
+      "name": "France",
+      "items": [
+        {
+          "title": "David Lisnard largement réélu à la tête de l'Association des maires de France",
+          "summary": "Le maire de Cannes, candidat à l'élection présidentielle, a été réélu mercredi 25 novembre président de l'AMF avec 72,06 % des voix (9 505 suffrages), face à Philippe Laurent, maire de Sceaux (27,94 %). Son rival jugeait ses ambitions présidentielles incompatibles avec la présidence de l'association.",
+          "why": "Ce succès conforte le poids de David Lisnard auprès des élus locaux à quelques mois de la présidentielle, alors que sa double casquette était contestée.",
+          "en": {
+            "title": "David Lisnard comfortably re-elected head of the Association of French Mayors",
+            "summary": "The mayor of Cannes, a presidential candidate, was re-elected president of the AMF on Wednesday, November 25, with 72.06% of the vote (9,505 votes), against Philippe Laurent, mayor of Sceaux (27.94%). His rival had argued that his presidential ambitions were incompatible with leading the association.",
+            "why": "The win strengthens David Lisnard's standing among local officials a few months before the presidential election, despite criticism of his dual role."
+          },
+          "source": "Public Sénat",
+          "sourceTitle": "David Lisnard largement réélu à la tête de l’AMF : « J’y vois la mobilisation d’une France du terrain qui ne veut plus se laisser dicter son destin »",
+          "sourceDate": "2026-11-25",
+          "url": "https://www.publicsenat.fr/actualites/politique/david-lisnard-largement-reelu-a-la-tete-de-lassociation-des-maires-de-france",
+          "lieu": { "nom": "Paris", "nom_en": "Paris, France", "lat": 48.86, "lon": 2.35 }
+        },
+        {
+          "title": "Près d'un salarié sur deux travaille malade, selon un baromètre",
+          "summary": "Selon un baromètre national sur la santé et les conditions de travail publié mercredi 25 novembre, 47 % des salariés continuent de travailler alors que leur état de santé justifierait un arrêt, souvent pour des raisons financières. L'enquête a été menée par OpinionWay auprès de 1 000 salariés.",
+          "en": {
+            "title": "Nearly one in two employees works while ill, survey finds",
+            "summary": "According to a national survey on health and working conditions published on Wednesday, November 25, 47% of employees keep working even though their health would justify sick leave, often for financial reasons. The survey was carried out by OpinionWay among 1,000 employees."
+          },
+          "source": "franceinfo",
+          "sourceTitle": "Près d’un salarié sur deux continue de travailler tout en étant malade pour des raisons financières, selon un baromètre",
+          "sourceDate": "2026-11-25",
+          "url": "https://www.franceinfo.fr/economie/emploi/carriere/vie-professionnelle/sante-au-travail/pres-d-un-salarie-sur-deux-continue-de-travailler-tout-en-etant-malade-pour-des-raisons-financieres-selon-un-barometre_8298771.html"
+        }
+      ]
+    },
+    {
+      "key": "eco",
+      "name": "Économie & marchés",
+      "items": [
+        {
+          "title": "Washington propose de nouveaux droits de douane contre 14 partenaires, dont l'UE",
+          "summary": "Le représentant américain au Commerce a proposé mercredi 25 novembre des droits de douane visant 14 économies, dont la Chine, l'Union européenne, l'Inde et le Japon, accusées de surcapacités industrielles. La Chine se voit appliquer le taux proposé le plus élevé, 20 %. Les mesures doivent encore passer par une consultation publique et une audience, ce qui pourrait repousser leur entrée en vigueur à janvier.",
+          "why": "L'Union européenne figure parmi les cibles : ces droits pèseraient sur les exportations françaises vers les États-Unis et relancent les tensions commerciales transatlantiques.",
+          "en": {
+            "title": "Washington proposes new tariffs on 14 partners, including the EU",
+            "summary": "The US Trade Representative on Wednesday, November 25, proposed tariffs on 14 economies, including China, the European Union, India and Japan, accused of industrial overcapacity. China faces the highest proposed rate, 20%. The measures must still go through a public comment period and a hearing, which could push their entry into force to January.",
+            "why": "The European Union is among the targets: the tariffs would weigh on French exports to the United States and revive transatlantic trade tensions."
+          },
+          "source": "CNBC",
+          "sourceTitle": "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
+          "sourceDate": "2026-11-25",
+          "url": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html",
+          "lieu": { "nom": "Washington, États-Unis", "nom_en": "Washington, United States", "lat": 38.9, "lon": -77.04 }
+        },
+        {
+          "title": "Le CAC 40 rebondit de 1,61 %, porté par Stellantis",
+          "summary": "La Bourse de Paris a gagné 1,61 % jeudi 26 novembre et terminé à 8 108,74 points, de retour au-dessus des 8 000 points, en l'absence de Wall Street fermé pour Thanksgiving. Stellantis a signé la plus forte hausse de l'indice (+8,91 %), devant Renault.",
+          "en": {
+            "title": "CAC 40 rebounds 1.61%, led by Stellantis",
+            "summary": "The Paris stock exchange rose 1.61% on Thursday, November 26, closing at 8,108.74 points, back above 8,000, while Wall Street was closed for Thanksgiving. Stellantis posted the index's biggest gain (+8.91%), ahead of Renault."
+          },
+          "source": "Quartz (AFP)",
+          "sourceTitle": "Le CAC 40 gagne 1,61 % et finit au-dessus de 8 000 points",
+          "sourceDate": "2026-11-26",
+          "url": "https://fr.qz.com/cac-40-cloture-hausse-8000-points-stellantis-112726",
+          "lieu": { "nom": "Paris", "nom_en": "Paris, France", "lat": 48.87, "lon": 2.34 }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "name": "Tech & IA",
+      "items": [
+        {
+          "title": "SAP envisagerait jusqu'à 10 000 suppressions de postes pour accélérer sur l'IA",
+          "summary": "Le géant allemand du logiciel SAP envisage de supprimer jusqu'à 10 000 emplois pour accélérer sa transition vers l'intelligence artificielle, selon des informations de presse publiées jeudi 26 novembre. Les équipes commerciales et le développement de produits seraient particulièrement visés ; le chiffre n'est pas définitif et dépendra des négociations avec les représentants du personnel.",
+          "en": {
+            "title": "SAP reportedly weighing up to 10,000 job cuts to speed up AI shift",
+            "summary": "German software giant SAP is considering cutting up to 10,000 jobs to accelerate its transition to artificial intelligence, according to press reports published on Thursday, November 26. Sales teams and product development would be particularly affected; the figure is not final and will depend on negotiations with employee representatives."
+          },
+          "source": "Boursorama",
+          "sourceTitle": "SAP envisage de supprimer jusqu'à 10 000 emplois pour accélérer sa transition vers l'IA",
+          "sourceDate": "2026-11-26",
+          "url": "https://www.boursorama.com/bourse/actualites/sap-envisage-de-supprimer-jusqu-a-10-000-emplois-pour-accelerer-sa-transition-vers-l-ia-df5f1b8714d8770ae35a2247c567d89e",
+          "lieu": { "nom": "Walldorf, Allemagne", "nom_en": "Walldorf, Germany", "lat": 49.31, "lon": 8.64 }
+        }
+      ]
+    },
+    {
+      "key": "sciences",
+      "name": "Sciences & santé",
+      "items": [
+        {
+          "title": "L'Agence du médicament alerte sur les conseils de santé donnés par l'IA",
+          "summary": "L'ANSM a recensé huit cas déclarés en France entre 2024 et 2026 de patients ayant mal pris un médicament après avoir suivi les conseils d'une IA conversationnelle, dont une hospitalisation ; un chiffre probablement sous-estimé selon elle. Il s'agit surtout de surdosages, notamment de paracétamol. L'agence rappelle de ne jamais modifier ou arrêter un traitement sur la seule base d'une réponse d'IA.",
+          "why": "De plus en plus de Français interrogent des IA sur leur santé : l'alerte rappelle que ces outils peuvent donner des informations erronées aux conséquences graves.",
+          "en": {
+            "title": "French medicines agency warns about health advice from AI",
+            "summary": "The ANSM recorded eight cases reported in France between 2024 and 2026 of patients taking medicines incorrectly after following advice from a conversational AI, including one hospitalisation; it says the figure is probably an underestimate. Most were overdoses, notably of paracetamol. The agency stresses that a treatment should never be changed or stopped based solely on an AI's answer.",
+            "why": "More and more people in France ask AI about their health: the warning is a reminder that these tools can give wrong information with serious consequences."
+          },
+          "source": "ANSM",
+          "sourceTitle": "Médicaments et traitements : attention, les conseils d’une IA peuvent être dangereux",
+          "sourceDate": "2026-11-25",
+          "url": "https://ansm.sante.fr/actualites/medicaments-et-traitements-attention-les-conseils-dune-ia-peuvent-etre-dangereux"
+        }
+      ]
+    },
+    {
+      "key": "climat",
+      "name": "Climat & environnement",
+      "items": [
+        {
+          "title": "Froid hivernal : gelées généralisées attendues dans le nord et l'est",
+          "summary": "Météo-France annonce des gelées et un froid hivernal en fin de semaine dans le nord du pays, avec des gelées matinales généralisées et parfois fortes dans le nord et l'est. L'hiver prend un peu d'avance après un début de novembre particulièrement doux.",
+          "en": {
+            "title": "Wintry cold: widespread frosts expected in northern and eastern France",
+            "summary": "Météo-France forecasts frosts and wintry cold at the end of the week in the north of the country, with widespread and sometimes hard morning frosts in the north and east. Winter is arriving a little early after a particularly mild start to November."
+          },
+          "source": "franceinfo",
+          "sourceTitle": "\"Des gelées et un froid hivernal\" prévus en fin de semaine dans le nord du pays, annonce Météo-France",
+          "sourceDate": "2026-11-26",
+          "url": "https://www.franceinfo.fr/environnement/meteo/des-gelees-et-un-froid-hivernal-prevus-en-fin-de-semaine-dans-le-nord-du-pays-annonce-meteo-france_8301090.html"
+        },
+        {
+          "title": "Vigilance jaune grand froid dans dix départements",
+          "summary": "Dix départements du nord et de l'est, dont les Ardennes, la Marne, la Moselle, la Meuse, la Somme et le Pas-de-Calais, ont été placés en vigilance jaune grand froid à partir du jeudi 26 novembre, en raison d'une chute locale des températures.",
+          "en": {
+            "title": "Yellow cold-weather warning in ten departments",
+            "summary": "Ten departments in northern and eastern France, including the Ardennes, Marne, Moselle, Meuse, Somme and Pas-de-Calais, were placed on yellow alert for extreme cold from Thursday, November 26, due to a local drop in temperatures."
+          },
+          "source": "franceinfo",
+          "sourceTitle": "Vigilance jaune grand froid : chute des températures localement dans 10 départements ce 26 novembre 2026",
+          "sourceDate": "2026-11-26",
+          "url": "https://www.franceinfo.fr/environnement/meteo/alertes-meteo-et-vigilances/vigilance-jaune-grand-froid-chute-des-temperatures-localement-dans-10-departements-ce-26-novembre-2026_8300850.html",
+          "lieu": { "nom": "Nord-Est de la France", "nom_en": "North-eastern France", "lat": 49.3, "lon": 4.5, "echelle": "region" }
+        }
+      ]
+    },
+    {
+      "key": "sport",
+      "name": "Sport",
+      "items": [
+        {
+          "title": "Ligue Europa : l'OM se relance en battant le Levski Sofia (1-0)",
+          "summary": "Marseille a battu le Levski Sofia 1-0 jeudi 26 novembre au Vélodrome, grâce à un penalty d'Amine Gouiri (28e), qui en a manqué un second (51e). L'OM remonte provisoirement à la 23e place, dans la zone qualificative, à trois journées de la fin de la phase de ligue.",
+          "en": {
+            "title": "Europa League: Marseille revive hopes by beating Levski Sofia (1-0)",
+            "summary": "Marseille beat Levski Sofia 1-0 on Thursday, November 26, at the Vélodrome, thanks to an Amine Gouiri penalty (28th minute); he missed a second one (51st). Marseille climb provisionally to 23rd place, inside the qualifying zone, with three league-phase matches left."
+          },
+          "source": "franceinfo",
+          "sourceTitle": "L'OM se relance en Ligue Europa grâce à sa victoire sur le Levski Sofia",
+          "sourceDate": "2026-11-26",
+          "url": "https://www.franceinfo.fr/sports/foot/ligue-europa/l-om-se-relance-en-ligue-europa-grace-a-sa-victoire-sur-le-levski-sofia_8302011.html",
+          "lieu": { "nom": "Marseille", "nom_en": "Marseille, France", "lat": 43.27, "lon": 5.4 }
+        },
+        {
+          "title": "Ligue Europa : Lyon accroché par Lillestrøm, Rennes battu à Nimègue",
+          "summary": "Lyon a été tenu en échec 0-0 par Lillestrøm, après l'annulation par la VAR d'un penalty en fin de match. Rennes s'est incliné 3-1 sur la pelouse du NEC Nimègue, sa première défaite dans la compétition. Les deux clubs manquent l'occasion d'entrer dans le top 8, synonyme de qualification directe.",
+          "en": {
+            "title": "Europa League: Lyon held by Lillestrøm, Rennes beaten in Nijmegen",
+            "summary": "Lyon were held to a 0-0 draw by Lillestrøm after VAR overturned a late penalty. Rennes lost 3-1 away to NEC Nijmegen, their first defeat in the competition. Both clubs missed the chance to break into the top eight, which brings direct qualification."
+          },
+          "source": "franceinfo",
+          "sourceTitle": "Mauvaises opérations pour Lyon et Rennes, qui manquent de rejoindre le Top 8 de la Ligue Europa",
+          "sourceDate": "2026-11-26",
+          "url": "https://www.franceinfo.fr/sports/foot/ligue-europa/mauvaises-operations-pour-lyon-et-rennes-qui-manquent-de-rejoindre-le-top-8-de-la-ligue-europa_8302110.html"
+        }
+      ]
+    }
+  ],
+  "note": "Résumé rédigé automatiquement à partir d'articles de presse publiés dans les dernières 24 à 48 heures. Chaque sujet renvoie à l'article d'origine : vérifiez-y les points importants.",
+  "note_en": "Summary written automatically from press articles published in the last 24 to 48 hours. Every story links to the original article: check the key points there."
+}
