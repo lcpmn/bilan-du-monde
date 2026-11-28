@@ -1,0 +1,268 @@
+{
+  "date": "2026-11-28",
+  "updatedAt": "2026-11-28T06:07:09+01:00",
+  "une": { "key": "eco", "index": 0 },
+  "overview": [
+    "L'Insee a révisé à la baisse la croissance du troisième trimestre, à −0,2 %, ce qui fait entrer la France en récession technique.",
+    "Dans la foulée, l'agence S&P a maintenu la note de la France à A+ mais abaissé sa perspective à « négative ».",
+    "L'inflation a nettement ralenti en novembre, à 2,9 % sur un an, selon l'estimation provisoire de l'Insee.",
+    "À Bruxelles, les dirigeants européens se sont séparés sans accord sur le budget 2028-2034, et l'Espagnol Pablo Hernández de Cos a été choisi pour succéder à Christine Lagarde à la BCE.",
+    "Au Koweït, une frappe de drones a tué deux techniciens italiens ; l'Iran, mis en cause par Rome et Koweït, dément toute responsabilité."
+  ],
+  "overview_en": [
+    "France's statistics office Insee revised third-quarter growth down to −0.2%, putting France into a technical recession.",
+    "Shortly afterwards, S&P kept France's rating at A+ but cut its outlook to \"negative\".",
+    "Inflation slowed sharply in November to 2.9% year on year, according to Insee's provisional estimate.",
+    "In Brussels, EU leaders broke up without a deal on the 2028-2034 budget, and Spain's Pablo Hernández de Cos was picked to succeed Christine Lagarde at the ECB.",
+    "In Kuwait, a drone strike killed two Italian technicians; Iran, blamed by Rome and Kuwait, denies any responsibility."
+  ],
+  "chiffres": [
+    { "value": "−0,2 %", "label": "Recul du PIB français au troisième trimestre, après révision par l'Insee", "value_en": "−0.2%", "label_en": "Fall in French GDP in the third quarter, after Insee's revision", "key": "eco" },
+    { "value": "2,9 %", "label": "Hausse des prix sur un an en novembre en France, après 3,4 % en octobre", "value_en": "2.9%", "label_en": "Year-on-year price rise in France in November, after 3.4% in October", "key": "eco" },
+    { "value": "+0,58 %", "label": "Hausse du CAC 40 vendredi, à 8 156,09 points", "value_en": "+0.58%", "label_en": "Rise in the CAC 40 on Friday, to 8,156.09 points", "key": "eco" },
+    { "value": "8", "label": "Migrants retrouvés morts, au moins, sur un bateau au large d'El Hierro", "value_en": "8", "label_en": "Migrants found dead, at least, on a boat off El Hierro", "key": "monde" }
+  ],
+  "categories": [
+    {
+      "key": "monde",
+      "name": "International",
+      "items": [
+        {
+          "title": "Budget européen : les Vingt-Sept se quittent sans accord",
+          "summary": "Le sommet extraordinaire consacré au budget de l'UE pour 2028-2034 s'est achevé jeudi 26 novembre à Bruxelles sans compromis. Les pays « frugaux », qui veulent un budget réduit, et les défenseurs des fonds agricoles et régionaux restent opposés. La pression se reporte sur le sommet prévu avant Noël.",
+          "why": "Sans accord rapide, les fonds européens pour l'agriculture et les régions, dont la France est une grande bénéficiaire, risquent d'arriver en retard à partir de 2028.",
+          "en": {
+            "title": "EU budget: the Twenty-Seven part without a deal",
+            "summary": "The special summit on the EU's 2028-2034 budget ended in Brussels on Thursday 26 November without a compromise. The \"frugal\" countries, which want a smaller budget, and the defenders of farm and regional funds remain at odds. The pressure now shifts to the summit planned before Christmas.",
+            "why": "Without a quick deal, EU money for farming and regions, of which France is a major recipient, could arrive late from 2028."
+          },
+          "source": "EUobserver",
+          "sourceTitle": "EU leaders leave Brussels with no budget deal, piling pressure on Christmas summit",
+          "url": "https://euobserver.com/252027/eu-leaders-leave-brussels-with-no-budget-deal-piling-pressure-on-christmas-summit/",
+          "lieu": { "nom": "Bruxelles, Belgique", "nom_en": "Brussels, Belgium", "lat": 50.85, "lon": 4.35 }
+        },
+        {
+          "title": "Koweït : deux Italiens tués par une frappe de drones, l'Iran dément",
+          "summary": "Deux techniciens italiens ont été tués jeudi 26 novembre par une frappe de drones sur un site au Koweït. Koweït et Rome mettent en cause l'Iran. Téhéran nie toute responsabilité et propose une enquête conjointe.",
+          "why": "Des Européens sont désormais directement touchés par la guerre dans le Golfe, ce qui accroît le risque d'implication de l'Europe.",
+          "en": {
+            "title": "Kuwait: two Italians killed in drone strike, Iran denies role",
+            "summary": "Two Italian technicians were killed on Thursday 26 November by a drone strike on a site in Kuwait. Kuwait and Rome blame Iran. Tehran denies any responsibility and offers a joint investigation.",
+            "why": "Europeans are now directly hit by the war in the Gulf, raising the risk of Europe being drawn in."
+          },
+          "source": "Euronews",
+          "sourceTitle": "Iran denies responsibility for Kuwait drone strike that killed two Italians",
+          "sourceDate": "2026-11-27",
+          "url": "https://www.euronews.com/2026/11/27/iran-denies-responsibility-for-kuwait-drone-strike-that-killed-two-italians",
+          "lieu": { "nom": "Koweït", "nom_en": "Kuwait", "lat": 29.3, "lon": 47.7, "echelle": "pays" }
+        },
+        {
+          "title": "Blocus de l'Iran : l'armée américaine immobilise un cargo",
+          "summary": "L'armée américaine dit avoir neutralisé jeudi 26 novembre la propulsion du cargo Pacific Archer, battant pavillon des Palaos, dans le golfe d'Oman. Selon Washington, le navire, parti du port iranien de Bandar Abbas, tentait de forcer le blocus ; l'équipage n'a pas été blessé.",
+          "en": {
+            "title": "Iran blockade: US military disables a cargo ship",
+            "summary": "The US military says it disabled the propulsion of the Palau-flagged cargo ship Pacific Archer in the Gulf of Oman on Thursday 26 November. According to Washington, the vessel, which had left the Iranian port of Bandar Abbas, was trying to run the blockade; the crew was unharmed."
+          },
+          "source": "Al Jazeera",
+          "sourceTitle": "US military says it disabled merchant ship trying to breach Iran blockade",
+          "sourceDate": "2026-11-27",
+          "url": "https://www.aljazeera.com/news/2026/11/27/us-military-says-it-disabled-merchant-ship-trying-to-breach-iran-blockade",
+          "lieu": { "nom": "Golfe d'Oman", "nom_en": "Gulf of Oman", "lat": 24.5, "lon": 58.5, "echelle": "region" }
+        },
+        {
+          "title": "Serbie : le mouvement étudiant désigne son candidat à la présidentielle",
+          "summary": "Le mouvement étudiant serbe a présenté vendredi 27 novembre Radomir Saičić, professeur de chimie, comme candidat à l'élection présidentielle du 27 décembre. Il promet de renforcer l'État de droit et de lutter contre la corruption.",
+          "en": {
+            "title": "Serbia: student movement names its presidential candidate",
+            "summary": "Serbia's student movement on Friday 27 November put forward Radomir Saičić, a chemistry professor, as its candidate for the 27 December presidential election. He pledges to strengthen the rule of law and fight corruption."
+          },
+          "source": "Al Jazeera",
+          "sourceTitle": "Serbia’s student-led movement nominates chemistry professor for presidency",
+          "sourceDate": "2026-11-27",
+          "url": "https://www.aljazeera.com/news/2026/11/27/serbias-student-led-movement-nominates-chemistry-professor-for-presidency",
+          "lieu": { "nom": "Belgrade, Serbie", "nom_en": "Belgrade, Serbia", "lat": 44.82, "lon": 20.46 }
+        },
+        {
+          "title": "Canaries : au moins huit migrants retrouvés morts près d'El Hierro",
+          "summary": "Au moins huit personnes ont été retrouvées mortes sur une embarcation transportant une centaine de migrants, au sud de l'île d'El Hierro. Six passagers ont été évacués par hélicoptère vers l'hôpital dans un état grave.",
+          "en": {
+            "title": "Canary Islands: at least eight migrants found dead near El Hierro",
+            "summary": "At least eight people were found dead on a boat carrying about 100 migrants south of the island of El Hierro. Six passengers were airlifted to hospital in serious condition."
+          },
+          "source": "Al Jazeera",
+          "sourceTitle": "At least eight found dead on migrant boat off Spain’s Canary Islands",
+          "sourceDate": "2026-11-27",
+          "url": "https://www.aljazeera.com/news/2026/11/27/at-least-eight-found-dead-on-migrant-boat-off-spains-canary-islands",
+          "lieu": { "nom": "El Hierro, Espagne", "nom_en": "El Hierro, Spain", "lat": 27.75, "lon": -18.0, "echelle": "region" }
+        }
+      ]
+    },
+    {
+      "key": "france",
+      "name": "France",
+      "items": [
+        {
+          "title": "Propos antisémites : nouveaux éléments contre Jordan Bardella",
+          "summary": "Le Monde et Mediapart affirment avoir authentifié de nouveaux éléments attribuant au président du RN des messages antisémites datant de 2013. Jordan Bardella conteste en être l'auteur et dénonce, par la voix de son avocat, une volonté de nuire.",
+          "why": "L'affaire pèse sur le Rassemblement national à quelques mois de l'élection présidentielle.",
+          "en": {
+            "title": "Antisemitic remarks: new evidence against Jordan Bardella",
+            "summary": "Le Monde and Mediapart say they have authenticated new evidence attributing antisemitic messages from 2013 to the president of the far-right Rassemblement national (RN). Jordan Bardella denies writing them and, through his lawyer, denounces an attempt to harm him.",
+            "why": "The affair weighs on the Rassemblement national a few months before the presidential election."
+          },
+          "source": "Ouest-France",
+          "sourceTitle": "Jordan Bardella accusé de propos antisémites : Le Monde et Mediapart révèlent de nouveaux éléments attribuant les écrits au président du RN",
+          "sourceDate": "2026-11-26",
+          "url": "https://www.ouest-france.fr/politique/jordan-bardella/jordan-bardella-accuse-de-propos-antisemites-le-monde-et-mediapart-revelent-de-nouveaux-elements-attribuant-les-ecrits-au-president-du-rn-9627c1ca-e960-11f1-86c1-70195b4d2e52"
+        }
+      ]
+    },
+    {
+      "key": "eco",
+      "name": "Économie & marchés",
+      "items": [
+        {
+          "title": "La France entre en récession technique",
+          "summary": "L'Insee a révisé vendredi 27 novembre la croissance du troisième trimestre à −0,2 %, contre −0,1 % en première estimation. Avec un deuxième trimestre déjà en léger recul, la France aligne deux trimestres de baisse du PIB.",
+          "why": "Une récession pèse sur l'emploi et les recettes fiscales, et complique encore la réduction du déficit public.",
+          "en": {
+            "title": "France enters a technical recession",
+            "summary": "On Friday 27 November, Insee revised third-quarter growth to −0.2%, from −0.1% in its first estimate. With the second quarter already slightly negative, France has now recorded two consecutive quarters of falling GDP.",
+            "why": "A recession weighs on jobs and tax revenue, and makes cutting the public deficit even harder."
+          },
+          "source": "franceinfo",
+          "sourceTitle": "La France est officiellement entrée en récession après deux trimestres de recul du PIB",
+          "sourceDate": "2026-11-27",
+          "url": "https://www.franceinfo.fr/economie/croissance/le-pib-recule-de-0-2-en-france-au-troisieme-trimestre-apres-une-revision-a-la-baisse-de-l-insee_8302671.html"
+        },
+        {
+          "title": "S&P maintient la note de la France mais passe sa perspective à négative",
+          "summary": "L'agence S&P a maintenu vendredi soir la note souveraine de la France à A+, mais abaissé sa perspective de « stable » à « négative ». Elle invoque la hausse de la dette, une croissance faible et la fragmentation politique.",
+          "why": "Une perspective négative annonce une possible dégradation, qui renchérirait le coût de la dette française.",
+          "en": {
+            "title": "S&P keeps France's rating but cuts its outlook to negative",
+            "summary": "On Friday evening, S&P kept France's sovereign rating at A+ but lowered its outlook from \"stable\" to \"negative\". It cites rising debt, weak growth and political fragmentation.",
+            "why": "A negative outlook signals a possible downgrade, which would make French borrowing more expensive."
+          },
+          "source": "Quartz",
+          "sourceTitle": "S&P maintient la note A+ de la France, perspective négative",
+          "sourceDate": "2026-11-27",
+          "url": "https://fr.qz.com/sp-maintient-note-france-perspective-negative-112726"
+        },
+        {
+          "title": "L'inflation ralentit à 2,9 % en novembre",
+          "summary": "Selon l'estimation provisoire de l'Insee, les prix à la consommation augmenteraient de 2,9 % sur un an en novembre, après 3,4 % en octobre. Le ralentissement tient surtout à l'énergie ; sur un mois, les prix reculent de 0,7 %.",
+          "en": {
+            "title": "Inflation slows to 2.9% in November",
+            "summary": "According to Insee's provisional estimate, consumer prices rose 2.9% year on year in November, after 3.4% in October. The slowdown is mainly due to energy; month on month, prices fell 0.7%."
+          },
+          "source": "Insee",
+          "sourceTitle": "En novembre 2026, les prix à la consommation augmenteraient de 2,9 % sur un an",
+          "sourceDate": "2026-11-27",
+          "url": "https://www.insee.fr/fr/statistiques/9161375"
+        },
+        {
+          "title": "BCE : l'Espagnol Hernández de Cos choisi pour succéder à Lagarde",
+          "summary": "Les dirigeants de la zone euro ont apporté jeudi 26 novembre leur soutien majoritaire à Pablo Hernández de Cos, ancien gouverneur de la Banque d'Espagne et patron de la Banque des règlements internationaux. Il l'a emporté sur le Néerlandais Klaas Knot.",
+          "en": {
+            "title": "ECB: Spain's Hernández de Cos picked to succeed Lagarde",
+            "summary": "Euro-area leaders on Thursday 26 November gave majority backing to Pablo Hernández de Cos, former governor of the Bank of Spain and head of the Bank for International Settlements. He beat the Dutchman Klaas Knot."
+          },
+          "source": "CNBC",
+          "sourceTitle": "Pablo Hernández de Cos set to succeed Lagarde as ECB president",
+          "sourceDate": "2026-11-26",
+          "url": "https://www.cnbc.com/2026/11/26/pablo-hernandez-de-cos-ecb-president.html"
+        },
+        {
+          "title": "Le CAC 40 termine la semaine en hausse",
+          "summary": "La Bourse de Paris a gagné 0,58 % vendredi, à 8 156,09 points, dans l'attente de la décision de S&P. Sur la semaine, l'indice reprend près de 3 %.",
+          "en": {
+            "title": "The CAC 40 ends the week higher",
+            "summary": "The Paris stock exchange rose 0.58% on Friday to 8,156.09 points, ahead of S&P's decision. Over the week, the index recovered almost 3%."
+          },
+          "source": "BFM Bourse",
+          "sourceTitle": "Cac 40 : En attendant la décision de S&P sur la note de crédit de la France, le CAC 40 termine en hausse ce vendredi et reprend près de 3% sur la semaine",
+          "sourceDate": "2026-11-27",
+          "url": "https://www.tradingsat.com/cac-40-FR0003500008/actualites/cac-40-en-attendant-la-decision-de-sp-sur-la-note-de-credit-de-la-france-le-cac-40-termine-en-hausse-ce-vendredi-et-reprend-pres-de-3-sur-la-semaine-1174568.html"
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "name": "Tech & IA",
+      "items": [
+        {
+          "title": "Les agents d'achat IA se heurtent aux blocages des distributeurs",
+          "summary": "Les assistants d'IA capables de faire des achats en ligne se multiplient, mais plusieurs sites les limitent ou les bloquent, Amazon en tête, ainsi qu'eBay ou United Airlines. D'autres, comme Walmart et Sephora, leur ont ouvert leurs portes.",
+          "en": {
+            "title": "AI shopping agents run into retailer blocks",
+            "summary": "AI assistants that can shop online are multiplying, but several sites restrict or block them, led by Amazon, along with eBay and United Airlines. Others, such as Walmart and Sephora, have opened up to them."
+          },
+          "source": "CNBC",
+          "sourceTitle": "AI shopping agents are having a moment, but Amazon and a growing number of sites threaten to stunt their growth",
+          "sourceDate": "2026-11-27",
+          "url": "https://www.cnbc.com/2026/11/27/ai-shopping-agents-retailer-blocks.html"
+        }
+      ]
+    },
+    {
+      "key": "sciences",
+      "name": "Sciences & santé",
+      "items": [
+        {
+          "title": "Black Friday : des centaines d'annonces de faux médicaments anti-obésité",
+          "summary": "Des centaines d'annonces proposant de faux traitements amaigrissants sont apparues en ligne à l'occasion du Black Friday, selon des laboratoires comme Novo et Lilly. Commander et prendre ces produits sans avis médical est illégal et potentiellement dangereux.",
+          "why": "Ces produits, dont on ignore la composition, exposent les acheteurs à de réels risques pour leur santé.",
+          "en": {
+            "title": "Black Friday: hundreds of listings for fake weight-loss drugs",
+            "summary": "Hundreds of listings offering fake slimming treatments appeared online for Black Friday, according to drugmakers such as Novo and Lilly. Ordering and taking these products without medical advice is illegal and potentially dangerous.",
+            "why": "These products, whose contents are unknown, expose buyers to real health risks."
+          },
+          "source": "franceinfo",
+          "sourceTitle": "INFO RADIO FRANCE. À l'occasion du Black Friday, des centaines d'annonces proposant des faux médicaments anti-obésité fleurissent sur internet",
+          "sourceDate": "2026-11-27",
+          "url": "https://www.franceinfo.fr/sante/medicament/info-radio-france-a-l-occasion-du-black-friday-des-centaines-d-annonces-proposant-des-faux-medicaments-anti-obesite-fleurissent-sur-internet_8302473.html"
+        }
+      ]
+    },
+    {
+      "key": "climat",
+      "name": "Climat & environnement",
+      "items": [
+        {
+          "title": "Neige et verglas : huit départements de l'Est en vigilance jaune",
+          "summary": "Météo-France a placé vendredi 27 novembre huit départements en vigilance jaune neige-verglas, dont le Bas-Rhin, le Haut-Rhin, les Vosges, le Doubs et la Moselle. Les automobilistes sont invités à ralentir et à adapter leur conduite.",
+          "en": {
+            "title": "Snow and ice: eight eastern départements on yellow alert",
+            "summary": "On Friday 27 November, the national weather service Météo-France put eight départements on yellow snow-and-ice alert, including Bas-Rhin, Haut-Rhin, Vosges, Doubs and Moselle. Drivers are urged to slow down and adapt their driving."
+          },
+          "source": "franceinfo",
+          "sourceTitle": "Vigilance jaune neige-verglas : épisode neigeux à surveiller dans 8 départements ce 27 novembre 2026",
+          "sourceDate": "2026-11-27",
+          "url": "https://www.franceinfo.fr/environnement/meteo/alertes-meteo-et-vigilances/vigilance-jaune-neige-verglas-episode-neigeux-a-surveiller-dans-8-departements-ce-27-novembre-2026_8302557.html",
+          "lieu": { "nom": "Est de la France", "nom_en": "Eastern France", "lat": 48.3, "lon": 7.0, "echelle": "region" }
+        }
+      ]
+    },
+    {
+      "key": "sport",
+      "name": "Sport",
+      "items": [
+        {
+          "title": "Ligue 1 : Brest bat le Paris FC (1-0)",
+          "summary": "En ouverture de la 12e journée, vendredi 27 novembre, Brest s'est imposé 1-0 face au Paris FC au stade Francis-Le Blé. Luck Zogbé a marqué le seul but à la 21e minute, et le gardien Egil Selvik a préservé la victoire.",
+          "en": {
+            "title": "Ligue 1: Brest beat Paris FC (1-0)",
+            "summary": "Opening matchday 12 on Friday 27 November, Brest beat Paris FC 1-0 at the Stade Francis-Le Blé. Luck Zogbé scored the only goal in the 21st minute, and goalkeeper Egil Selvik preserved the win."
+          },
+          "source": "Le Quotidien du Sport",
+          "sourceTitle": "Luck Zogbe et Egil Selvik offrent à Brest un succès 1-0 contre le Paris FC",
+          "url": "https://www.lequotidiendusport.fr/luck-zogbe-et-egil-selvik-offrent-a-brest-un-succes-1-0-contre-le-paris-fc/",
+          "lieu": { "nom": "Brest, Finistère", "nom_en": "Brest, France", "lat": 48.39, "lon": -4.49 }
+        }
+      ]
+    }
+  ],
+  "note": "Résumé rédigé automatiquement à partir d'articles de presse publiés dans les dernières 24 à 48 heures. Chaque sujet renvoie à l'article d'origine : vérifiez-y les points importants.",
+  "note_en": "Summary written automatically from press articles published in the last 24 to 48 hours. Every story links to the original article: check the key points there."
+}
